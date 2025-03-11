@@ -11,8 +11,8 @@ const Home = () => {
       <Hero />
       <Tour />
       <SpecialPooja />
-      <WhyChooseUs/>
       <TestimonialsBlog/>
+      <WhyChooseUs/>
       <Footer/>
     </div>
   );
