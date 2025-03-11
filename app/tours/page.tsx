@@ -1,85 +1,124 @@
-"use client"; // Ensure Client Component
+"use client";
 
-import React from "react";
-import Nav from "@/components/Home/Navbar/Nav"; // Import Navbar component
-import Image from "next/image";
+import React, { useState, useEffect } from "react";
+import dynamic from "next/dynamic";
+import Footer from "@/components/Home/Footer/Footer";
+import { destinationCombinations } from "@/constant/constant";
 
-type Destination = {
-  title: string;
-  price: string;
-  imageUrl: string;
-};
+// ✅ Dynamically Import Components
+const TourCard = dynamic(() => import("@/components/Home/Tours/TourCard"), { ssr: false });
+const Nav = dynamic(() => import("@/components/Home/Navbar/Nav"), { ssr: false });
+const MobileNav = dynamic(() => import("@/components/Home/Navbar/MobileNav"), { ssr: false });
 
-// Tour Data
-const destinationCombinations: Destination[] = [
-  { title: "Prayagraj", price: "Starting ₹12,000", imageUrl: "/images/tourImg/varanasi.jpg" },
-  { title: "Varanasi", price: "Starting ₹15,000", imageUrl: "/images/tourImg/varanasi.jpg" },
-  { title: "Vindhyachal", price: "Starting ₹10,500", imageUrl: "/images/tourImg/varanasi.jpg" },
-  { title: "Ayodhya", price: "Starting ₹14,000", imageUrl: "/images/tourImg/varanasi.jpg" },
-  { title: "Prayagraj → Varanasi", price: "Starting ₹18,000", imageUrl: "/images/tourImg/prayagraj-varanasi.jpg" },
-  { title: "Prayagraj → Vindhyachal", price: "Starting ₹17,000", imageUrl: "/images/tourImg/prayagraj-vindhyachal.jpg" },
-  { title: "Prayagraj → Ayodhya", price: "Starting ₹20,000", imageUrl: "/images/tourImg/prayagraj-ayodhya.jpg" },
-  { title: "Varanasi → Vindhyachal", price: "Starting ₹16,000", imageUrl: "/images/tourImg/varanasi-vindhyachal.jpg" },
-  { title: "Varanasi → Ayodhya", price: "Starting ₹19,000", imageUrl: "/images/tourImg/varanasi-ayodhya.jpg" },
-  { title: "Vindhyachal → Ayodhya", price: "Starting ₹17,500", imageUrl: "/images/tourImg/vindhyachal-ayodhya.jpg" },
-  { title: "Prayagraj → Varanasi → Vindhyachal", price: "Starting ₹22,000", imageUrl: "/images/tourImg/prayagraj-varanasi-vindhyachal.jpg" },
-  { title: "Prayagraj → Varanasi → Ayodhya", price: "Starting ₹23,500", imageUrl: "/images/tourImg/prayagraj-varanasi-ayodhya.jpg" },
-  { title: "Prayagraj → Vindhyachal → Ayodhya", price: "Starting ₹21,500", imageUrl: "/images/tourImg/prayagraj-vindhyachal-ayodhya.jpg" },
-  { title: "Varanasi → Vindhyachal → Ayodhya", price: "Starting ₹22,500", imageUrl: "/images/tourImg/varanasi-vindhyachal-ayodhya.jpg" },
-  { title: "Prayagraj → Varanasi → Vindhyachal → Ayodhya", price: "Starting ₹25,000", imageUrl: "/images/tourImg/prayagraj-varanasi-vindhyachal-ayodhya.jpg" },
-  { title: "Varanasi → Prayagraj → Vindhyachal → Ayodhya", price: "Starting ₹25,500", imageUrl: "/images/tourImg/varanasi-prayagraj-vindhyachal-ayodhya.jpg" },
-  { title: "Ayodhya → Prayagraj → Varanasi → Vindhyachal", price: "Starting ₹26,000", imageUrl: "/images/tourImg/ayodhya-prayagraj-varanasi-vindhyachal.jpg" },
-  { title: "Ayodhya → Vindhyachal → Prayagraj → Varanasi", price: "Starting ₹26,500", imageUrl: "/images/tourImg/ayodhya-vindhyachal-prayagraj-varanasi.jpg" },
-  { title: "Vindhyachal → Prayagraj → Varanasi → Ayodhya", price: "Starting ₹27,000", imageUrl: "/images/tourImg/vindhyachal-prayagraj-varanasi-ayodhya.jpg" },
-  { title: "Vindhyachal → Ayodhya → Prayagraj → Varanasi", price: "Starting ₹27,500", imageUrl: "/images/tourImg/vindhyachal-ayodhya-prayagraj-varanasi.jpg" },
-  { title: "Prayagraj → Varanasi → Ayodhya → Vindhyachal", price: "Starting ₹28,000", imageUrl: "/images/tourImg/prayagraj-varanasi-ayodhya-vindhyachal.jpg" },
-  { title: "Varanasi → Prayagraj → Ayodhya → Vindhyachal", price: "Starting ₹28,500", imageUrl: "/images/tourImg/varanasi-prayagraj-ayodhya-vindhyachal.jpg" },
-  { title: "Ayodhya → Varanasi → Prayagraj → Vindhyachal", price: "Starting ₹29,000", imageUrl: "/images/tourImg/ayodhya-varanasi-prayagraj-vindhyachal.jpg" },
-];
+// ✅ Import Swiper Properly
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation } from "swiper/modules";
 
 const AllTours = () => {
+  const [showNav, setShowNav] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [filteredTours, setFilteredTours] = useState(destinationCombinations);
+  const [isSearched, setIsSearched] = useState(false);
+
+  // ✅ Handle Search Functionality
+  const handleSearch = () => {
+    const filtered = destinationCombinations.filter((tour) =>
+      tour.title.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+    setFilteredTours(filtered);
+    setIsSearched(true);
+  };
+
+  // ✅ Trigger search when Enter is pressed
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === "Enter") {
+      handleSearch();
+    }
+  };
+
+  // ✅ Prevent Hydration Errors
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) return null;
+
   return (
-    <div className="min-h-screen bg-gray-100">
-      {/* Navbar */}
-      
+    <div className="min-h-screen bg-gray-50">
+      {/* Navigation */}
+      <Nav openNav={() => setShowNav(true)} />
+      <MobileNav showNav={showNav} closeNav={() => setShowNav(false)} />
 
-      {/* Title (Added pt-[80px] to push below Navbar) */}
+      {/* Page Header */}
       <div className="text-center py-10 pt-[80px]">
-        <h1 className="text-3xl font-bold text-blue-900">Explore Our Tour Packages</h1>
-        <p className="text-lg text-gray-600 mt-2">Find the perfect pilgrimage tour for you</p>
+        <h1 className="text-3xl sm:text-4xl font-bold text-blue-900">Explore Our Tour Packages</h1>
+        <p className="text-md sm:text-lg text-gray-600 mt-2">
+          Find the perfect pilgrimage tour for you
+        </p>
       </div>
 
-      {/* Grid of Tours */}
-      <div className="container mx-auto px-4 md:px-8 lg:px-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          {destinationCombinations.map((combo, index) => (
-            <TourCard key={index} title={combo.title} price={combo.price} imageUrl={combo.imageUrl} />
-          ))}
-        </div>
+      {/* Search Bar */}
+      <div className="max-w-3xl mx-auto px-4 flex flex-col sm:flex-row gap-3 items-center">
+        <input
+          type="text"
+          placeholder="Search for a tour..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          onKeyDown={handleKeyDown}
+          className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 text-lg"
+        />
+        <button
+          onClick={handleSearch}
+          className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold transition-all duration-300 hover:bg-blue-700 shadow-md"
+        >
+          Search
+        </button>
       </div>
+
+      {/* ✅ Mobile Swiper (For Small Screens) */}
+      {!isSearched && (
+        <div className="block md:hidden px-4 mt-10">
+          <Swiper
+            modules={[Navigation]}
+            slidesPerView={1}
+            spaceBetween={15}
+            navigation
+            loop={false}
+            breakpoints={{
+              640: { slidesPerView: 2 },
+            }}
+          >
+            {destinationCombinations.map((tour, index) => (
+              <SwiperSlide key={index}>
+                <TourCard {...tour} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+      )}
+
+      {/* ✅ Grid Layout (For Larger Screens OR when search is active) */}
+      {(isSearched || typeof window !== "undefined" && window.innerWidth >= 768) && (
+        <div className="container mx-auto px-4 md:px-8 lg:px-16 pb-16 mt-6">
+          {filteredTours.length > 0 ? (
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 sm:gap-8">
+              {filteredTours.map((tour, index) => (
+                <TourCard key={index} {...tour} />
+              ))}
+            </div>
+          ) : (
+            isSearched && (
+              <p className="text-center text-xl text-gray-500 mt-8">No tours found.</p>
+            )
+          )}
+        </div>
+      )}
 
       {/* Footer */}
-      <div className="text-center py-6 text-gray-600 text-sm">© 2025 TeerthaYatrix. All Rights Reserved.</div>
-    </div>
-  );
-};
-
-// ✅ Tour Card Component
-const TourCard: React.FC<Destination> = ({ title, price, imageUrl }) => {
-  return (
-    <div className="relative h-[380px] rounded-xl overflow-hidden group transition-all duration-500 hover:scale-105 shadow-lg bg-white">
-      <Image
-        src={imageUrl}
-        alt={title}
-        layout="fill"
-        objectFit="cover"
-        className="transition-transform duration-500 group-hover:scale-110"
-      />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent group-hover:from-black/80 transition-all duration-500" />
-      <div className="absolute bottom-6 left-6 text-white font-semibold">
-        <h2 className="text-lg">{title}</h2>
-        <p className="text-sm opacity-90">{price}</p>
-      </div>
+      <Footer />
     </div>
   );
 };
