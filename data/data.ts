@@ -2,49 +2,41 @@
 export const destinationData = [
   {
     id: 1,
-    image: "/images/d1.jpg",
     country: "France",
     travelers: "150,000",
   },
   {
     id: 2,
-    image: "/images/d2.jpg",
     country: "USA",
     travelers: "250,000",
   },
   {
     id: 3,
-    image: "/images/d3.jpg",
     country: "Italy",
     travelers: "180,000",
   },
   {
     id: 4,
-    image: "/images/d4.jpg",
     country: "Japan",
     travelers: "200,000",
   },
   {
     id: 5,
-    image: "/images/d5.jpg",
     country: "Australia",
     travelers: "120,000",
   },
   {
     id: 6,
-    image: "/images/d6.jpg",
     country: "Canada",
     travelers: "175,000",
   },
   {
     id: 7,
-    image: "/images/d7.jpg",
     country: "Germany",
     travelers: "160,000",
   },
   {
     id: 8,
-    image: "/images/d8.jpg",
     country: "Brazil",
     travelers: "140,000",
   },
@@ -53,7 +45,6 @@ export const destinationData = [
 export const hotelsData = [
   {
     id: 1,
-    image: "/images/h1.jpg",
     name: "The Grand London Resort and Spa",
     location: "Westminster, London",
     rating: 4.6,
@@ -62,7 +53,6 @@ export const hotelsData = [
   },
   {
     id: 2,
-    image: "/images/h2.jpg",
     name: "Barcelona City Suites Deluxe Hotel",
     location: "Ciutat Vella, Barcelona",
     rating: 4.7,
@@ -71,7 +61,6 @@ export const hotelsData = [
   },
   {
     id: 3,
-    image: "/images/h3.jpg",
     name: "Times Square Premium Stay Hotel",
     location: "Manhattan, New York",
     rating: 4.9,
@@ -80,7 +69,6 @@ export const hotelsData = [
   },
   {
     id: 4,
-    image: "/images/h4.jpg",
     name: "Hilton Roma Luxury Hotel Palace",
     location: "Vaticano Prati, Rome",
     rating: 4.5,
@@ -92,7 +80,6 @@ export const hotelsData = [
 export const toursData = [
   {
     id: 1,
-    image: "/images/t1.jpg",
     title: "Historic Wonders of Stonehenge & Oxford Tour",
     location: "Wiltshire, England",
     time: "12+ hours",
@@ -103,7 +90,6 @@ export const toursData = [
   },
   {
     id: 2,
-    image: "/images/t2.jpg",
     title: "Barcelona Gothic Quarter Walking Tour",
     location: "Ciutat Vella, Barcelona",
     time: "3+ hours",
@@ -114,7 +100,6 @@ export const toursData = [
   },
   {
     id: 3,
-    image: "/images/t3.jpg",
     title: "Thames Luxury Boat Cruise with Dinner",
     location: "London, United Kingdom",
     time: "2–3 hours",
@@ -125,7 +110,6 @@ export const toursData = [
   },
   {
     id: 4,
-    image: "/images/t4.jpg",
     title: "Edinburgh Haunted History Walking Tour",
     location: "Edinburgh, Scotland",
     time: "2+ hours",
@@ -139,58 +123,62 @@ export const toursData = [
 export const reviewData = [
   {
     id: 1,
-    name: "John Doe",
+    name: "Ankita, Mumbai",
     review:
-      "The service exceeded my expectations. The team was professional, and I couldn't be happier with the results. Highly recommended to everyone!",
-    image: "/images/u1.jpg",
+      "I came all the way from Mumbai for my spiritual journey, and Teerthayatrik exceeded every expectation. The pay-on-arrival option and personalized itinerary made the entire process stress-free. I couldn’t have asked for a better experience.",
   },
   {
     id: 2,
-    name: "Jane Smith",
+    name: "Surekha, Delhi",
     review:
-      "I am thoroughly impressed with the attention to detail and quality. They truly understand customer needs and deliver outstanding results. Wonderful experience!",
-    image: "/images/u2.jpg",
+      "The 'Pay on Arrival' option gave me peace of mind. I could book without any upfront payment, and everything was arranged perfectly when I arrived at my destination.",
   },
   {
     id: 3,
-    name: "Michael Brown",
+    name: "Vikram, Jodhpur",
     review:
-      "Exceptional quality and fantastic customer service! The project was delivered on time and exactly as I wanted. I will definitely use their services again.",
-    image: "/images/u3.jpg",
+      "Booking my pilgrimage was a breeze—just a few clicks on WhatsApp and I was all set. The process was simple and efficient, making the planning stress-free.",
   },
   {
     id: 4,
-    name: "Emily Davis",
+    name: "Nisha, Kolhapur",
     review:
-      "Outstanding results! The team was efficient, and their professionalism was remarkable. Everything was done perfectly. I highly recommend their expertise to everyone.",
-    image: "/images/u1.jpg",
+      "I traveled with Teerthayatrik on their Varanasi Yatra package and was thoroughly impressed. The guided visit to Kashi Vishwanath and the mesmerizing Ganga Aarti were perfectly organized. It felt like a spiritual family gathering.",
   },
   {
     id: 5,
-    name: "Chris Wilson",
+    name: "Shobha, Meerut",
     review:
-      "Amazing service! They exceeded all expectations and delivered a product that I am extremely happy with. The communication throughout the project was excellent.",
-    image: "/images/u2.jpg",
+      "The travel arrangements were excellent, and the guided tours enriched my spiritual experience. A little more proactive communication would have made it even better, but I'm overall very satisfied.",
   },
   {
     id: 6,
-    name: "Sarah Johnson",
+    name: "Adit, Vadodara",
     review:
-      "Fantastic experience! They listened carefully to my requirements and delivered exactly what I needed. Their attention to detail is truly commendable.",
-    image: "/images/u3.jpg",
+      "The dedicated pooja package was outstanding. My visit to Vindhyachal included special rituals that truly elevated my spiritual experience. Every detail was handled with care.",
   },
   {
     id: 7,
-    name: "David Lee",
+    name: "Shital, Nagpur",
     review:
-      "Absolutely incredible service! The team was supportive and responsive, making sure everything was perfect. I will definitely recommend them to my friends.",
-    image: "/images/u1.jpg",
+      "I opted for a customized yatra and was pleasantly surprised. Teerthayatrik listened to my preferences and added an extra temple visit in Ayodhya, making my pilgrimage uniquely mine.",
   },
   {
     id: 8,
-    name: "Sophia White",
+    name: "Saksham, Kanpur",
     review:
-      "Five-star service from start to finish! The dedication and skill of the team made all the difference. Truly an exceptional experience I won’t forget.",
-    image: "/images/u2.jpg",
+      "I found Teerthayatrik’s service exceptional. They handled everything so smoothly that I could focus entirely on my darshan. Their genuine care made all the difference.",
+  },
+  {
+    id: 9,
+    name: "Sharath, Bengaluru",
+    review:
+      "I appreciate how well-organized the journey was. The entire process was straightforward—from booking to the final darshan. It truly is a hassle-free way to experience a sacred yatra.",
+  },
+  {
+    id: 10,
+    name: "Dipankar, Kolkata",
+    review:
+      "I was truly impressed with how seamlessly everything was organized. My pilgrimage from Prayagraj to Varanasi was stress-free, and every detail was taken care of. Highly recommended for a smooth and spiritual journey.",
   },
 ];

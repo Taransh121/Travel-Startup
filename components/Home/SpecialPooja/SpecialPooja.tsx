@@ -22,7 +22,7 @@ const SpecialPooja = () => {
         <meta property="og:type" content="website" />
       </Head>
 
-      <div id="special-pooja-section" className="relative mt-17 overflow-hidden pt-20 pb-20 px-4">
+      <div id="special-pooja-section" className="relative mt-17 overflow-hidden pt-16 lg:pt-14 pb-20 lg:pb-18 px-4">
         {/* Red Section (Upper Half) */}
         <div className="absolute top-0 left-0 right-0 h-[55%] w-screen bg-red-600"></div>
 
@@ -33,16 +33,18 @@ const SpecialPooja = () => {
         <div className="relative z-10 max-w-7xl mx-auto">
           {/* Heading */}
           <div className="text-center font-[Poppins]">
-            <h2 className="text-5xl sm:text-7xl md:text-8xl font-extrabold text-white tracking-wide">SPECIAL</h2>
-            <h3 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-wide mt-[-10px]">
+            <h2 className="text-5xl sm:text-7xl lg:text-6xl md:text-8xl font-extrabold text-white tracking-wide">
+              SPECIAL
+            </h2>
+            <h3 className="text-4xl sm:text-5xl lg:text-4xl md:text-6xl font-extrabold text-white tracking-wide mt-[-10px]">
               POOJA PACKAGES
             </h3>
-            <p className="text-md sm:text-lg text-white mt-2">Divine rituals for peace, prosperity, and well-being.</p>
+            <p className="text-md sm:text-lg lg:text-base text-white mt-2">Divine rituals for peace, prosperity, and well-being.</p>
           </div>
 
-          {/* Desktop Grid */}
-          <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-20">
-            {poojaPackages.map((pooja, index) => (
+          {/* Desktop Grid (Only 4 Cards) */}
+          <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16 lg:mt-14">
+            {poojaPackages.slice(0, 4).map((pooja, index) => (
               <SpecialPoojaCard key={index} {...pooja} />
             ))}
           </div>
@@ -52,10 +54,10 @@ const SpecialPooja = () => {
             <SpecialPoojaSlider />
           </div>
 
-          {/* View All Button (Visible only on desktop) */}
-          <div className="mt-10 text-center hidden lg:block">
+          {/* View All Button */}
+          <div className="mt-3 lg:mt-6 text-center">
             <Link href="/pooja">
-              <button className="bg-red-600 text-white px-6 py-3 rounded-lg text-lg font-semibold transition-all duration-300 hover:bg-red-700 shadow-md">
+              <button className="bg-red-600 text-white px-6 py-3 lg:px-5 lg:py-2.5 rounded-lg text-lg lg:text-base font-semibold transition-all duration-300 hover:bg-red-700 shadow-md">
                 View All Poojas →
               </button>
             </Link>
@@ -70,13 +72,13 @@ const SpecialPooja = () => {
 const SpecialPoojaCard = ({ title, price, description, imageUrl }: (typeof poojaPackages)[0]) => (
   <div className="relative rounded-xl overflow-hidden shadow-lg bg-white transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
     {/* Image */}
-    <img src={imageUrl} alt={title} className="w-full h-64 object-cover rounded-t-xl" />
+    <img src={imageUrl} alt={title} className="w-full h-64 object-cover rounded-t-xl" loading="lazy" />
 
     {/* Card Content */}
     <div className="p-6 text-center">
-      <h3 className="text-xl sm:text-2xl font-bold text-gray-800">{title}</h3>
-      <p className="text-lg font-semibold text-red-600">{price}</p>
-      <p className="text-gray-600 text-base mt-3">{description}</p>
+      <h3 className="text-xl sm:text-2xl lg:text-lg font-bold text-gray-800">{title}</h3>
+      <p className="text-lg sm:text-xl lg:text-base font-semibold text-red-600">{price}</p>
+      <p className="text-gray-600 text-base lg:text-sm mt-3">{description}</p>
     </div>
   </div>
 );

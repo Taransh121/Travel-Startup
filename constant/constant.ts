@@ -15,33 +15,27 @@ export type Destination = {
 };
 
 export const destinationCombinations: Destination[] = [
-  // ✅ Single Destination Tours
-  { title: "Prayagraj Tour", price: "Starting ₹12,000", imageUrl: "/images/tourImg/varanasi.jpg" },
-  { title: "Varanasi Tour", price: "Starting ₹15,000", imageUrl: "/images/tourImg/varanasi.jpg" },
-  { title: "Vindhyachal Tour", price: "Starting ₹10,500", imageUrl: "/images/tourImg/varanasi.jpg" },
-  { title: "Ayodhya Tour", price: "Starting ₹14,000", imageUrl: "/images/tourImg/varanasi.jpg" },
-
-  // ✅ Two-Destination Tours
-  { title: "Prayagraj → Varanasi", price: "Starting ₹18,000", imageUrl: "/images/tourImg/varanasi.jpg" },
-  { title: "Prayagraj → Ayodhya", price: "Starting ₹20,000", imageUrl: "/images/tourImg/varanasi.jpg" },
-  { title: "Prayagraj → Vindhyachal", price: "Starting ₹16,000", imageUrl: "/images/tourImg/varanasi.jpg" },
-  { title: "Varanasi → Ayodhya", price: "Starting ₹21,000", imageUrl: "/images/tourImg/varanasi.jpg" },
-  { title: "Varanasi → Vindhyachal", price: "Starting ₹17,500", imageUrl: "/images/tourImg/varanasi.jpg" },
-  { title: "Ayodhya → Vindhyachal", price: "Starting ₹18,500", imageUrl: "/images/tourImg/varanasi.jpg" },
+  // ✅ Four-Destination Complete Pilgrimage Tour
+  { title: "Prayagraj → Vindhyachal → Varanasi → Ayodhya", price: "Starting ₹30,000", imageUrl: "/images/tourImg/Prayagraj-Vindhyachal-varanasi-Ayodhya.jpg" },
 
   // ✅ Three-Destination Itineraries
-  { title: "Prayagraj → Varanasi → Ayodhya", price: "Starting ₹25,000", imageUrl: "/images/tourImg/varanasi.jpg" },
-  { title: "Prayagraj → Vindhyachal → Ayodhya", price: "Starting ₹24,500", imageUrl: "/images/tourImg/varanasi.jpg" },
-  { title: "Varanasi → Prayagraj → Ayodhya", price: "Starting ₹26,000", imageUrl: "/images/tourImg/varanasi.jpg" },
-  { title: "Ayodhya → Prayagraj → Varanasi", price: "Starting ₹27,500", imageUrl: "/images/tourImg/varanasi.jpg" },
-  { title: "Vindhyachal → Prayagraj → Varanasi", price: "Starting ₹23,500", imageUrl: "/images/tourImg/varanasi.jpg" },
+  { title: "Prayagraj → Vindhyachal → Varanasi", price: "Starting ₹25,000", imageUrl: "/images/tourImg/Prayagraj-Vindhyachal-Varanasi_.jpg" },
+  { title: "Prayagraj → Vindhyachal → Ayodhya", price: "Starting ₹24,500", imageUrl: "/images/tourImg/Prayagraj-Varanasi-Ayodhya_.jpg" },
 
-  // ✅ Four-Destination Complete Pilgrimage Tour
-  { title: "Prayagraj → Varanasi → Vindhyachal → Ayodhya", price: "Starting ₹30,000", imageUrl: "/images/tourImg/varanasi.jpg" },
+  // ✅ Two-Destination Tours
+  { title: "Prayagraj → Vindhyachal", price: "Starting ₹16,000", imageUrl: "/images/tourImg/Prayagraj-Vindhyachal_.jpg" },
+  { title: "Prayagraj → Varanasi", price: "Starting ₹18,000", imageUrl: "/images/tourImg/Prayagraj-Varanasi_.jpg" },
+  { title: "Prayagraj → Ayodhya", price: "Starting ₹20,000", imageUrl: "/images/tourImg/Prayagraj-Ayodhya_.jpg" },
+
+  // ✅ Single Destination Tours
+  { title: "Prayagraj Tour", price: "Starting ₹12,000", imageUrl: "/images/tourImg/Prayagraj_.jpg" },
+  { title: "Vindhyachal Tour", price: "Starting ₹10,500", imageUrl: "/images/tourImg/Vindhyachal_.jpg" },
+  { title: "Varanasi Tour", price: "Starting ₹15,000", imageUrl: "/images/tourImg/Varanasi.jpg" },
+  { title: "Ayodhya Tour", price: "Starting ₹14,000", imageUrl: "/images/tourImg/ayodhya.jpg" },
 ];
 
 
-//Special Pooja Packages
+
 export type Pooja = {
   title: string;
   price: string;
@@ -49,9 +43,71 @@ export type Pooja = {
   imageUrl: string;
 };
 
-export const poojaPackages: Pooja[]= [
-  { title: "Rudrabhishek Pooja", price: "₹5,500", description: "A powerful Shiva pooja for health, prosperity, and success.", imageUrl: "/images/pooja/pooja.jpg" },
-  { title: "Maha Mrityunjaya Jaap", price: "₹7,000", description: "A sacred pooja for longevity and protection from untimely death.", imageUrl: "/images/pooja/pooja.jpg" },
-  { title: "Navagraha Shanti Pooja", price: "₹6,500", description: "A ritual to reduce the negative effects of planetary positions.", imageUrl: "/images/pooja/pooja.jpg" },
-  { title: "Ram Janmabhoomi Special Pooja", price: "₹8,500", description: "Dedicated to Lord Rama for spiritual growth and blessings.", imageUrl: "/images/pooja/pooja.jpg" },
+export const poojaPackages: Pooja[] = [
+  { 
+    title: "Nau Grah Pooja", 
+    price: "₹5,000", 
+    description: "A special planetary pooja to balance cosmic influences.", 
+    imageUrl: "/images/pooja/pooja.jpg" 
+  },
+  { 
+    title: "Special Devi Pooja at Vindhyachal", 
+    price: "₹7,500", 
+    description: "A sacred offering to Devi Maa for divine blessings.", 
+    imageUrl: "/images/pooja/pooja.jpg" 
+  },
+  { 
+    title: "Devi Shringar at Vindhyachal", 
+    price: "₹6,000", 
+    description: "A divine ritual to adorn the Goddess with sacred offerings.", 
+    imageUrl: "/images/pooja/pooja.jpg" 
+  },
+  { 
+    title: "Rudrabhishek at Kashi Vishwanath", 
+    price: "₹9,000", 
+    description: "A powerful Shiva pooja at the holiest Jyotirlinga.", 
+    imageUrl: "/images/pooja/pooja.jpg" 
+  },
+  { 
+    title: "Kaal Sarp Dosh Nivaran Pooja at Nag Vasuki, Prayagraj", 
+    price: "₹11,000", 
+    description: "A remedial pooja for Kaal Sarp Dosh, ensuring peace and prosperity.", 
+    imageUrl: "/images/pooja/pooja.jpg" 
+  },
+  { 
+    title: "Rudrabhishek at Triveni Sangam", 
+    price: "₹8,500", 
+    description: "A sacred Lord Shiva pooja at the holy confluence of three rivers.", 
+    imageUrl: "/images/pooja/pooja.jpg" 
+  },
+  { 
+    title: "Sat Chandi Pooja at Vindhyachal", 
+    price: "₹12,000", 
+    description: "A grand Chandi path for protection and fulfillment of desires.", 
+    imageUrl: "/images/pooja/pooja.jpg" 
+  },
+  { 
+    title: "Navgrah Shanti Path at Prayagraj/Vindhyachal", 
+    price: "₹6,500", 
+    description: "A pooja to pacify planetary doshas and bring harmony.", 
+    imageUrl: "/images/pooja/pooja.jpg" 
+  },
+  { 
+    title: "10 Mahavidya Pooja at Prayagraj/Vindhyachal", 
+    price: "₹15,000", 
+    description: "A special tantric pooja invoking the ten powerful Mahavidyas.", 
+    imageUrl: "/images/pooja/pooja.jpg" 
+  },
+  { 
+    title: "Maa Vindhyavasini Devi Sahasra Archana at Vindhyachal", 
+    price: "₹10,000", 
+    description: "A thousand-name recitation of Devi Maa for divine grace.", 
+    imageUrl: "/images/pooja/pooja.jpg" 
+  },
+  { 
+    title: "Mahamrityunjay Jaap at Prayagraj", 
+    price: "₹7,000", 
+    description: "A sacred chant for longevity, protection, and spiritual upliftment.", 
+    imageUrl: "/images/pooja/pooja.jpg" 
+  },
 ];

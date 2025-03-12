@@ -38,7 +38,7 @@ const Nav = ({ openNav }: Props) => {
             <TbAirBalloon className="w-5 h-5 text-white" />
           </div>
           <Link href="/" className="text-lg md:text-xl text-white uppercase font-bold">
-            Teerthayatrik
+          Teerthayatrik
           </Link>
         </div>
 
