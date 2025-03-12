@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import Footer from "@/components/Home/Footer/Footer";
-import { destinationCombinations } from "@/constant/constant";
+import { destinationCombinations } from "@/constant/tourPackages";
 
 // ✅ Dynamically Import Components
 const TourCard = dynamic(() => import("@/components/Home/Tours/TourCard"), { ssr: false });
@@ -53,26 +53,26 @@ const AllTours = () => {
       <MobileNav showNav={showNav} closeNav={() => setShowNav(false)} />
 
       {/* Page Header */}
-      <div className="text-center py-10 pt-[80px]">
-        <h1 className="text-3xl sm:text-4xl font-bold text-blue-900">Explore Our Tour Packages</h1>
-        <p className="text-md sm:text-lg text-gray-600 mt-2">
+      <div className="text-center py-8 pt-[60px]">
+        <h1 className="text-3xl font-bold text-blue-700 mt-5">Explore Our Tour Packages</h1>
+        <p className="text-sm text-gray-600 mt-2">
           Find the perfect pilgrimage tour for you
         </p>
       </div>
 
       {/* Search Bar */}
-      <div className="max-w-3xl mx-auto px-4 flex flex-col sm:flex-row gap-3 items-center">
+      <div className="flex justify-center px-4 mb-6">
         <input
           type="text"
           placeholder="Search for a tour..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           onKeyDown={handleKeyDown}
-          className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 text-lg"
+          className="w-full max-w-md px-4 py-2 border border-gray-300 rounded-l-md focus:ring-2 focus:ring-blue-500"
         />
         <button
           onClick={handleSearch}
-          className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold transition-all duration-300 hover:bg-blue-700 shadow-md"
+          className="px-4 py-2 bg-blue-600 text-white rounded-r-md hover:bg-red-700 transition"
         >
           Search
         </button>

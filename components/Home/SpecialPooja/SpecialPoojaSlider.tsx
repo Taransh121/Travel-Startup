@@ -7,7 +7,7 @@ import "swiper/css/autoplay";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import Link from "next/link";
-import { poojaPackages } from "@/constant/constant";
+import { poojaPackages } from "@/constant/poojaPackages";
 
 const SpecialPoojaSlider = () => {
   const [isMounted, setIsMounted] = useState(false);

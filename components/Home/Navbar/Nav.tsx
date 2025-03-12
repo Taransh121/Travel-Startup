@@ -1,6 +1,6 @@
 "use client"; // Ensures this is a client component
 
-import { navLinks } from "@/constant/constant";
+import { navLinks } from "@/constant/navlinks";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
@@ -27,18 +27,18 @@ const Nav = ({ openNav }: Props) => {
 
   return (
     <div
-      className={`fixed w-full z-[1000] h-[6vh] transition-all duration-200 ${
+      className={`fixed w-full z-[1000] h-[8vh] transition-all duration-200 ${
         navBg ? "bg-blue-950" : "bg-transparent"
       }`}
     >
-      <div className="flex items-center justify-between h-full w-[90%] xl:w-[80%] mx-auto">
+      <div className="flex items-center justify-between w-[90%] xl:w-[80%] mx-auto px-4 md:px-6 xl:px-8 py-2 md:py-3">
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 bg-rose-500 rounded-full flex items-center justify-center">
             <TbAirBalloon className="w-5 h-5 text-white" />
           </div>
           <Link href="/" className="text-lg md:text-xl text-white uppercase font-bold">
-          Teerthayatrik
+            Teerthayatrik
           </Link>
         </div>
 

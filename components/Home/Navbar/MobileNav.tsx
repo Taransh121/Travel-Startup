@@ -1,6 +1,6 @@
 "use client"; // Ensures this is a client component
 
-import { navLinks } from "@/constant/constant";
+import { navLinks } from "@/constant/navlinks";
 import Link from "next/link";
 import React, { useEffect } from "react";
 import { CgClose } from "react-icons/cg";
