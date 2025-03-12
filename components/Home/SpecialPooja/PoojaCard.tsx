@@ -13,7 +13,7 @@ interface PoojaCardProps {
 
 const PoojaCard: React.FC<PoojaCardProps> = ({ title, price, description, imageUrl }) => {
   return (
-    <div className="relative rounded-xl overflow-hidden shadow-lg bg-white transition-transform duration-300 hover:scale-105 hover:shadow-2xl mb-10">
+    <div className="relative rounded-xl overflow-hidden shadow-lg bg-white transition-transform duration-300 hover:scale-105 hover:shadow-2xl mb-10 flex flex-col">
       {/* Image */}
       <Image
         src={imageUrl}
@@ -21,14 +21,14 @@ const PoojaCard: React.FC<PoojaCardProps> = ({ title, price, description, imageU
         width={500}
         height={300}
         className="w-full h-64 object-cover rounded-t-xl"
-        priority // Optimized loading
+        priority
       />
 
       {/* Card Content */}
-      <div className="p-6 text-center">
-        <h3 className="text-xl sm:text-2xl font-bold text-gray-800">{title}</h3>
+      <div className="p-6 text-center flex flex-col justify-between flex-grow">
+        <h3 className="text-lg sm:text-xl font-bold text-gray-800 line-clamp-2">{title}</h3>
         <p className="text-lg font-semibold text-red-600">{price}</p>
-        <p className="text-gray-600 text-base mt-3">{description}</p>
+        <p className="text-gray-600 text-base mt-3 line-clamp-2">{description}</p>
       </div>
     </div>
   );

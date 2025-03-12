@@ -16,16 +16,13 @@ const SpecialPoojaSlider = () => {
     setIsMounted(true);
   }, []);
 
-  // Only render the component after mounting to prevent hydration mismatch
-  if (!isMounted) return null;
+  if (!isMounted) return <div className="text-center text-gray-500">Loading...</div>;
 
   return (
     <Swiper
       modules={[Navigation, Autoplay]}
       slidesPerView={1}
       spaceBetween={20}
-      navigation
-      loop={false}
       autoplay={{ delay: 3000, disableOnInteraction: false }}
       breakpoints={{
         640: { slidesPerView: 2 },
@@ -36,19 +33,9 @@ const SpecialPoojaSlider = () => {
     >
       {poojaPackages.map((pooja, index) => (
         <SwiperSlide key={index}>
-          <PoojaCard title={pooja.title} price={pooja.price} description={pooja.description} imageUrl={pooja.imageUrl} />
+          <PoojaCard {...pooja} />
         </SwiperSlide>
       ))}
-
-      <SwiperSlide>
-        <div className="h-[350px] flex flex-col items-center justify-center bg-gray-200 rounded-xl shadow-md">
-          <Link href="/pooja">
-            <button className="bg-red-600 text-white px-6 py-3 rounded-lg text-lg font-semibold transition-all duration-300 hover:bg-red-700 shadow-md">
-              View All Poojas →
-            </button>
-          </Link>
-        </div>
-      </SwiperSlide>
     </Swiper>
   );
 };
@@ -61,6 +48,7 @@ const PoojaCard: React.FC<{ title: string; price: string; description: string; i
         src={imageUrl}
         alt={title}
         className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+        loading="lazy"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent group-hover:from-black/80 transition-all duration-500" />
       

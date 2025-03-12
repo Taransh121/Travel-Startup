@@ -32,9 +32,9 @@ const PoojaPage = () => {
       <Nav openNav={() => setShowNav(true)} />
       <MobileNav showNav={showNav} closeNav={() => setShowNav(false)} />
 
-      <div className="text-center py-10 pt-[80px]">
+      <div className="text-center py-8 pt-[60px]">
         <h1 className="text-3xl font-bold text-red-700">Special Pooja Packages</h1>
-        <p className="text-lg text-gray-600 mt-2">Divine rituals for peace, prosperity, and well-being.</p>
+        <p className="text-sm text-gray-600 mt-2">Divine rituals for peace, prosperity, and well-being.</p>
       </div>
 
       {/* Search Bar */}
@@ -69,9 +69,9 @@ const PoojaPage = () => {
         <Swiper
           spaceBetween={16}
           slidesPerView={1}
-          pagination={{ clickable: true }}
+          pagination={{ clickable: false }}
           modules={[Pagination]}
-          className="pb-10"
+          className="pb-1"
         >
           {filteredPoojas.map((pooja, index) => (
             <SwiperSlide key={index}>
