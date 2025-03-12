@@ -8,7 +8,7 @@ interface TourCardProps {
 
 const TourCard: React.FC<TourCardProps> = ({ title, imageUrl, price }) => {
   return (
-    <div className="flex justify-center items-center w-full"> {/* ✅ Centering Wrapper */}
+    <div className="flex justify-center items-center w-full mb-10"> {/* ✅ Centering Wrapper */}
       <div className="relative rounded-lg overflow-hidden group shadow-lg bg-gray-100 
                       w-full max-w-[280px] sm:max-w-[300px] md:max-w-[320px] lg:max-w-[340px] 
                       h-[280px] sm:h-[300px] md:h-[320px] lg:h-[340px] 

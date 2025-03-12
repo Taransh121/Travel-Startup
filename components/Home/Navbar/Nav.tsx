@@ -5,7 +5,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { HiBars3BottomRight } from "react-icons/hi2";
-import { TbAirBalloon } from "react-icons/tb";
+import Image from "next/image";
 
 type Props = {
   openNav: () => void;
@@ -32,20 +32,33 @@ const Nav = ({ openNav }: Props) => {
       }`}
     >
       <div className="flex items-center justify-between w-[90%] xl:w-[80%] mx-auto px-4 md:px-6 xl:px-8 py-2 md:py-3">
-        {/* Logo */}
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-rose-500 rounded-full flex items-center justify-center">
-            <TbAirBalloon className="w-5 h-5 text-white" />
+          <div className="w-10 h-10 relative">
+            <Image
+              src="/images/logo/logo.jpeg"
+              alt="TeerthaYatrik Logo"
+              width={40} // Explicit width
+              height={40} // Explicit height
+              className="object-cover rounded-full"
+              priority // Ensures the image loads fast without layout shift
+            />
           </div>
-          <Link href="/" className="text-lg md:text-xl text-white uppercase font-bold">
-            Teerthayatrik
+          <Link
+            href="/"
+            className="text-lg md:text-xl text-white uppercase font-bold"
+          >
+            TeerthaYatrik
           </Link>
         </div>
 
         {/* Desktop Navigation */}
         <div className="hidden lg:flex items-center space-x-10">
           {navLinks.map((link) => (
-            <Link href={link.url} key={link.id} className="relative text-white text-sm md:text-base font-medium w-fit block">
+            <Link
+              href={link.url}
+              key={link.id}
+              className="relative text-white text-sm md:text-base font-medium w-fit block"
+            >
               <span className="after:block after:content-[''] after:absolute after:h-[2px] after:bg-yellow-300 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition duration-300 after:origin-right">
                 {link.label}
               </span>
