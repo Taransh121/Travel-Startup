@@ -31,7 +31,7 @@ const Tour = () => {
       </Head>
 
       {/* Tour Section */}
-      <section id="tour-section" className="pt-20 pb-20 px-4 mt-12 bg-gray-50">
+      <section id="tour-section" className="pt-10 pb-20 px-4 bg-gray-50">
         <h2 className="text-4xl font-bold text-center mb-8 font-[Poppins] text-gray-800">
           Trending Yatra&apos;s
         </h2>

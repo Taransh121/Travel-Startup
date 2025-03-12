@@ -3,7 +3,7 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import Head from "next/head";
-import { poojaPackages } from "@/constant/constant";
+import { poojaPackages } from "@/constant/poojaPackages";
 
 // Dynamically import Swiper to prevent hydration errors
 const SpecialPoojaSlider = dynamic(() => import("@/components/Home/SpecialPooja/SpecialPoojaSlider"), { ssr: false });

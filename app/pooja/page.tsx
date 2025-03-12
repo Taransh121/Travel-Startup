@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import Footer from "@/components/Home/Footer/Footer";
-import { poojaPackages } from "@/constant/constant";
+import { poojaPackages } from "@/constant/poojaPackages";
 import PoojaCard from "@/components/Home/SpecialPooja/PoojaCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -33,7 +33,7 @@ const PoojaPage = () => {
       <MobileNav showNav={showNav} closeNav={() => setShowNav(false)} />
 
       <div className="text-center py-8 pt-[60px]">
-        <h1 className="text-3xl font-bold text-red-700">Special Pooja Packages</h1>
+        <h1 className="text-3xl font-bold text-red-700 mt-5">Special Pooja Packages</h1>
         <p className="text-sm text-gray-600 mt-2">Divine rituals for peace, prosperity, and well-being.</p>
       </div>
 
