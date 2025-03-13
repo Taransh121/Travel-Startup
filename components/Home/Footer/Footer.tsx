@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -27,7 +28,7 @@ const Footer = () => {
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div>
 
         <div className="relative max-w-6xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 border-b border-gray-700 pb-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-700 pb-4">
             {/* About Section */}
             <div>
               <h2 className="text-lg font-semibold text-white">Teerthyatrik</h2>
@@ -65,19 +66,36 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
+
+            {/* Contact Us Section */}
+            <div>
+              <h3 className="text-lg font-semibold text-white">Contact Us</h3>
+              <p className="mt-2">📞 Phone: +91 98765 43210</p>
+              <div className="mt-3">
+                <p><strong>Scan to Chat on WhatsApp:</strong></p>
+                <div className="w-24 h-24 relative mt-2">
+                  {/* <Image
+                    src="/images/footer/whatsapp-qr.png"
+                    alt="WhatsApp QR Code"
+                    fill
+                    className="object-contain"
+                  /> */}
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Bottom Section */}
           <div className="flex flex-col md:flex-row items-center justify-between text-xs text-gray-400 mt-4">
             <p>© {new Date().getFullYear()} Ministry of Tourism, Government of India</p>
             <div className="mt-2 md:mt-0 flex space-x-4">
-              <Link href="/terms" className="hover:text-white transition-colors">
+              <Link href="/" className="hover:text-white transition-colors">
                 Terms of Use
               </Link>
-              <Link href="/privacy" className="hover:text-white transition-colors">
+              <Link href="/" className="hover:text-white transition-colors">
                 Privacy Policy
               </Link>
-              <Link href="/contact" className="hover:text-white transition-colors">
+              <Link href="/" className="hover:text-white transition-colors">
                 Contact Us
               </Link>
             </div>
