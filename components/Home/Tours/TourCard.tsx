@@ -1,16 +1,16 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface TourCardProps {
   title: string;
+  slug: string;
   imageUrl: string;
   price: string;
 }
 
-const TourCard: React.FC<TourCardProps> = ({ title, imageUrl, price }) => {
+const TourCard: React.FC<TourCardProps> = ({ title, slug, imageUrl, price }) => {
   return (
-    <div className="flex justify-center items-center w-full mb-10">
-      {" "}
-      {/* ✅ Centering Wrapper */}
+    <Link href={`/tours/${slug}`} className="flex justify-center items-center w-full mb-10">
       <div
         className="relative rounded-lg overflow-hidden group shadow-lg bg-gray-100 
                       w-full max-w-[280px] sm:max-w-[300px] md:max-w-[320px] lg:max-w-[340px] 
@@ -34,9 +34,7 @@ const TourCard: React.FC<TourCardProps> = ({ title, imageUrl, price }) => {
 
         {/* Tour Title at the Top */}
         <div className="absolute top-3 left-3 sm:top-4 sm:left-4 text-white">
-          <h2 className="text-sm sm:text-base md:text-lg font-semibold">
-            {title}
-          </h2>
+          <h2 className="text-sm sm:text-base md:text-lg font-semibold">{title}</h2>
         </div>
 
         {/* Price at the Bottom */}
@@ -45,7 +43,7 @@ const TourCard: React.FC<TourCardProps> = ({ title, imageUrl, price }) => {
           <p className="text-2xl font-bold">₹{price}</p>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

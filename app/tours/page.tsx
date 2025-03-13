@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import Footer from "@/components/Home/Footer/Footer";
 import { destinationCombinations } from "@/constant/tourPackages";
+import { useRouter } from "next/navigation";
 
 // ✅ Dynamically Import Components
 const TourCard = dynamic(() => import("@/components/Home/Tours/TourCard"), { ssr: false });
@@ -22,6 +23,7 @@ const AllTours = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredTours, setFilteredTours] = useState(destinationCombinations);
   const [isSearched, setIsSearched] = useState(false);
+  const router = useRouter(); // ✅ Router for navigation
 
   // ✅ Handle Search Functionality
   const handleSearch = () => {
@@ -93,7 +95,9 @@ const AllTours = () => {
           >
             {destinationCombinations.map((tour, index) => (
               <SwiperSlide key={index}>
-                <TourCard {...tour} />
+                <div onClick={() => router.push(`/tours/${tour.slug}`)} className="cursor-pointer">
+                  <TourCard {...tour} />
+                </div>
               </SwiperSlide>
             ))}
           </Swiper>
@@ -101,12 +105,14 @@ const AllTours = () => {
       )}
 
       {/* ✅ Grid Layout (For Larger Screens OR when search is active) */}
-      {(isSearched || typeof window !== "undefined" && window.innerWidth >= 768) && (
+      {(isSearched || (typeof window !== "undefined" && window.innerWidth >= 768)) && (
         <div className="container mx-auto px-4 md:px-8 lg:px-16 pb-16 mt-6">
           {filteredTours.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 sm:gap-8">
               {filteredTours.map((tour, index) => (
-                <TourCard key={index} {...tour} />
+                <div key={index} onClick={() => router.push(`/tours/${tour.slug}`)} className="cursor-pointer">
+                  <TourCard {...tour} />
+                </div>
               ))}
             </div>
           ) : (
