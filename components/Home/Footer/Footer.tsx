@@ -45,23 +45,43 @@ const Footer = () => {
               <h3 className="text-lg font-semibold text-white">Quick Links</h3>
               <ul className="mt-2 space-y-1">
                 <li>
-                  <Link href="/tours" className="hover:text-white transition-colors">
+                  <Link
+                    href="/tours"
+                    className="hover:text-white transition-colors"
+                  >
                     Tours
                   </Link>
                 </li>
                 <li>
-                  <Link href="/pooja" className="hover:text-white transition-colors">
+                  <Link
+                    href="/pooja"
+                    className="hover:text-white transition-colors"
+                  >
                     Pooja's We Offer
                   </Link>
                 </li>
                 <li>
-                  <Link href="/about" className="hover:text-white transition-colors">
+                  <Link
+                    href="/about"
+                    className="hover:text-white transition-colors"
+                  >
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog" className="hover:text-white transition-colors">
+                  <Link
+                    href="/blog"
+                    className="hover:text-white transition-colors"
+                  >
                     Blog
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/contact"
+                    className="hover:text-white transition-colors"
+                  >
+                    Contact Us
                   </Link>
                 </li>
               </ul>
@@ -70,16 +90,22 @@ const Footer = () => {
             {/* Contact Us Section */}
             <div>
               <h3 className="text-lg font-semibold text-white">Contact Us</h3>
-              <p className="mt-2">📞 <strong>Phone:</strong> +91-9277341677</p>
-              <p className="mt-2">📞 <strong>Email:</strong> tirthayatrik@gmail.com</p>
+              <p className="mt-2">
+                📞 <strong>Phone:</strong> +91-9277341677
+              </p>
+              <p className="mt-2">
+                📞 <strong>Email:</strong> tirthayatrik@gmail.com
+              </p>
               <div className="mt-3">
-                <p><strong>Scan to Chat on WhatsApp:</strong></p>
+                <p>
+                  <strong>Scan to Chat on WhatsApp:</strong>
+                </p>
                 <div className="w-24 h-24 relative mt-2">
                   <Image
                     src="/images/footer/footer-qr.png"
-                    alt="WhatsApp QR Code"
+                    alt="Footer QR Code"
                     fill
-                    className="object-contain"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                 </div>
               </div>
@@ -88,18 +114,10 @@ const Footer = () => {
 
           {/* Bottom Section */}
           <div className="flex flex-col md:flex-row items-center justify-between text-xs text-gray-400 mt-4">
-            <p>© {new Date().getFullYear()} Ministry of Tourism, Government of India</p>
-            <div className="mt-2 md:mt-0 flex space-x-4">
-              <Link href="/" className="hover:text-white transition-colors">
-                Terms of Use
-              </Link>
-              <Link href="/" className="hover:text-white transition-colors">
-                Privacy Policy
-              </Link>
-              <Link href="/" className="hover:text-white transition-colors">
-                Contact Us
-              </Link>
-            </div>
+            <p>
+              © {new Date().getFullYear()} Ministry of Tourism, Government of
+              India
+            </p>
           </div>
         </div>
       </footer>
