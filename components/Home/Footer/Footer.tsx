@@ -70,16 +70,17 @@ const Footer = () => {
             {/* Contact Us Section */}
             <div>
               <h3 className="text-lg font-semibold text-white">Contact Us</h3>
-              <p className="mt-2">📞 Phone: +91 98765 43210</p>
+              <p className="mt-2">📞 <strong>Phone:</strong> +91-9277341677</p>
+              <p className="mt-2">📞 <strong>Email:</strong> tirthayatrik@gmail.com</p>
               <div className="mt-3">
                 <p><strong>Scan to Chat on WhatsApp:</strong></p>
                 <div className="w-24 h-24 relative mt-2">
-                  {/* <Image
-                    src="/images/footer/whatsapp-qr.png"
+                  <Image
+                    src="/images/footer/footer-qr.png"
                     alt="WhatsApp QR Code"
                     fill
                     className="object-contain"
-                  /> */}
+                  />
                 </div>
               </div>
             </div>
