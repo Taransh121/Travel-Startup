@@ -35,7 +35,7 @@ const Nav = ({ openNav }: Props) => {
         <div className="flex items-center space-x-2">
           <div className="w-10 h-10 relative">
             <Image
-              src="/images/logo/logo.jpeg"
+              src="/images/logo/logo.jpg"
               alt="TeerthaYatrik Logo"
               width={40} // Explicit width
               height={40} // Explicit height
