@@ -11,7 +11,7 @@ const TourDetails = () => {
 
   const tour = itineraries[slug as keyof typeof itineraries];
 
-  if (!tour) return notFound(); // ✅ Proper 404 handling
+  if (!tour) return notFound(); 
 
   const handleWhatsAppBooking = () => {
     window.open("https://wa.me/+919118859567", "_blank");
@@ -20,7 +20,7 @@ const TourDetails = () => {
   return (
     <>
       <Head>
-        <title>{tour.title} - TeerthaYatrix</title>
+        <title>{tour.title} - TeerthaYatrik</title>
         <meta
           name="description"
           content={`Explore the ${tour.title} package with itinerary and pricing.`}
