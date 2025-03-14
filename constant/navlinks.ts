@@ -5,5 +5,6 @@ export const navLinks = [
     { id: 3, url: "/pooja", label: "Pooja" },
     { id: 4, url: "/about", label: "About" },
     { id: 5, url: "/blog", label: "Blog" },
+    { id: 6, url: "/contact", label: "Contact Us" },
 ];
   

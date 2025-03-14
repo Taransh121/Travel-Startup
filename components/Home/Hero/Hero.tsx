@@ -42,7 +42,7 @@ const Hero = () => {
 
             <button
               onClick={() =>
-                window.open("https://wa.me/+919118859567", "_blank")
+                window.open("https://wa.me/+919277341677", "_blank")
               }
               className="mt-6 bg-yellow-300 text-black text-base font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-yellow-500 transition-all duration-300 transform hover:scale-105"
             >
