@@ -14,10 +14,7 @@ export const itineraries = {
       "✅ Witness the divine Ganga Aarti at the sacred Dashashwamedh Ghat.",
     ],
     routeOverview: [
-      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
-      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
-      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
-      "🚗 Day 4: Varanasi Darshan & Departure.",
+      
     ],
     highlights: [
       "🚗 Comfortable AC travel with an experienced driver for a hassle-free journey",
@@ -109,10 +106,7 @@ export const itineraries = {
       "✅ No advance payment needed – Pay on arrival and book with confidence",
     ],
     routeOverview: [
-      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
-      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
-      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
-      "🚗 Day 4: Varanasi Darshan & Departure.",
+      
     ],
     highlights: [
       "🚗 Comfortable & stress-free travel – Just sit back, relax, and enjoy the divine vibes!",
@@ -199,10 +193,7 @@ export const itineraries = {
       "✅ Personalized Spiritual Experience – Optional special poojas available.",
     ],
     routeOverview: [
-      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
-      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
-      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
-      "🚗 Day 4: Varanasi Darshan & Departure.",
+      
     ],
     highlights: [
       "🚗 Comfortable & Hassle-Free Travel",
@@ -239,10 +230,7 @@ export const itineraries = {
       "✅ Flexible Itinerary – Free time for shopping and exploring at your own pace",
     ],
     routeOverview: [
-      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
-      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
-      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
-      "🚗 Day 4: Varanasi Darshan & Departure.",
+     
     ],
     highlights: [
       " Comfortable Stay Included – Relax in a well-rated hotel for a hassle-free experience.",
@@ -337,10 +325,7 @@ export const itineraries = {
       "✅ Flexible & Customizable – We can tweak the plan to suit your needs.",
     ],
     routeOverview: [
-      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
-      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
-      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
-      "🚗 Day 4: Varanasi Darshan & Departure.",
+      
     ],
     highlights: [
       "✅ Hassle-free spiritual experience with expert travel assistance",
@@ -430,10 +415,7 @@ export const itineraries = {
       "✅ Customization Available – Personalize your yatra as per your spiritual and travel preferences",
     ],
     routeOverview: [
-      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
-      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
-      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
-      "🚗 Day 4: Varanasi Darshan & Departure.",
+     
     ],
     highlights: [
       "✅ Hassle-free spiritual experience with expert travel assistance",
@@ -522,10 +504,7 @@ export const itineraries = {
       "✅ Personalized Spiritual Experience – Optional special poojas available.",
     ],
     routeOverview: [
-      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
-      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
-      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
-      "🚗 Day 4: Varanasi Darshan & Departure.",
+      
     ],
     highlights: [
       "✅ Hassle-free spiritual experience with expert travel assistance.",
@@ -613,10 +592,7 @@ export const itineraries = {
       "✅ Special Care: We take extra care of families and elderly devotees, ensuring a stress-free journey.      .",
     ],
     routeOverview: [
-      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
-      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
-      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
-      "🚗 Day 4: Varanasi Darshan & Departure.",
+      
     ],
     highlights: [
       "🚗 Comfortable AC travel with an experienced driver who knows the pilgrimage routes",
@@ -802,10 +778,7 @@ export const itineraries = {
       "✅ Personalized Spiritual Experience – Optional special poojas available.",
     ],
     routeOverview: [
-      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
-      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
-      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
-      "🚗 Day 4: Varanasi Darshan & Departure.",
+     
     ],
     highlights: [
       "🚗 Comfortable AC travel with an experienced driver who knows the pilgrimage routes",
@@ -964,10 +937,7 @@ export const itineraries = {
       "✅ Comfortable Travel – AC Sedan (5-seater), SUV (7-seater), Traveller, or AC Bus based on group size.",
     ],
     routeOverview: [
-      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
-      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
-      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
-      "🚗 Day 4: Varanasi Darshan & Departure.",
+     
     ],
     highlights: [
       "🚗 Comfortable AC travel with an experienced driver who knows the pilgrimage routes",
@@ -1114,10 +1084,10 @@ export const itineraries = {
       "✅ Personalized Spiritual Experience – Optional special poojas available.",
     ],
     routeOverview: [
-      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
-      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
-      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
-      "🚗 Day 4: Varanasi Darshan & Departure.",
+      " Day 1: Prayagraj Arrival, Darshan & Stay.",
+      " Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
+      " Day 3: Ayodhya → Varanasi (Night Stay).",
+      " Day 4: Varanasi Darshan & Departure.",
     ],
     highlights: [
       "✅ Optimized Route – No backtracking, smooth transitions between destinations.",
