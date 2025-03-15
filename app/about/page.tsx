@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation"; 
 import Head from "next/head";
+import Footer from "@/components/Home/Footer/Footer";
 
 const About = () => {
   const router = useRouter(); 
@@ -166,6 +167,7 @@ const About = () => {
           View Pilgrimage Packages
         </button>
       </section>
+      {/* <Footer/> */}
     </>
   );
 };

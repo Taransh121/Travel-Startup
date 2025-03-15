@@ -1,21 +1,39 @@
-"use client"; 
+"use client";
 
-import { useParams, notFound } from "next/navigation"; // ✅ Import `notFound`
+import { useParams, useRouter } from "next/navigation";
 import Head from "next/head";
 import Image from "next/image";
 import { itineraries } from "@/constant/itinerary";
+import { useState, useEffect } from "react";
 
 const TourDetails = () => {
   const params = useParams();
-  const { slug } = params as { slug: string };
+  const slug = params?.slug;
+  const router = useRouter();
+
+  if (!slug) return <div className="text-center py-10">Loading...</div>;
 
   const tour = itineraries[slug as keyof typeof itineraries];
 
-  if (!tour) return notFound(); 
+  if (!tour) {
+    router.push("/404"); // ✅ Redirect to a 404 page instead of `notFound()`
+    return null;
+  }
+
+  const [expandedDay, setExpandedDay] = useState<string | null>(null);
 
   const handleWhatsAppBooking = () => {
     window.open("https://wa.me/+919277341677", "_blank");
   };
+
+  // Group itinerary by day
+  const groupedItinerary: Record<string, typeof tour.itinerary[number][]> = {};
+  tour.itinerary.forEach((item) => {
+    if (item.day) {
+      groupedItinerary[item.day] = groupedItinerary[item.day] || [];
+      groupedItinerary[item.day].push(item);
+    }
+  });
 
   return (
     <>
@@ -28,9 +46,7 @@ const TourDetails = () => {
       </Head>
 
       <div className="max-w-5xl mx-auto p-6">
-        {/* Image & Tour Details Section */}
         <div className="flex flex-col md:flex-row gap-6 items-center mt-20">
-          {/* Left: Image */}
           <div className="md:w-1/2">
             <Image
               src={tour.imageUrl}
@@ -38,73 +54,47 @@ const TourDetails = () => {
               width={500}
               height={300}
               className="w-full h-72 object-cover rounded-lg shadow-md"
-              unoptimized={true} // ✅ Fix hydration issues for local images
+              priority
             />
           </div>
-
-          {/* Right: Title, Price, Description */}
           <div className="md:w-1/2">
             <h1 className="text-3xl font-bold text-gray-900">{tour.title}</h1>
-            <p className="mt-2 text-lg font-semibold text-orange-700">
-              Price: {tour.price}
-            </p>
-            <p className="mt-3 text-gray-700 leading-relaxed">
-              {tour.description}
-            </p>
+            <p className="mt-2 text-lg font-semibold text-orange-700">Price: {tour.price}</p>
+            <p className="mt-3 text-gray-700 leading-relaxed">{tour.description}</p>
           </div>
         </div>
 
-        {/* Why Choose This Yatra? */}
-        <div className="mt-8">
-          <h2 className="text-2xl font-semibold">📌 Why Choose This Yatra?</h2>
-          <ul className="mt-3 space-y-2">
-            {tour.highlights.map((point, index) => (
-              <li key={index} className="text-gray-700 flex items-center">
-                ✅ {point}
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        {/* What’s Not Included? */}
-        <div className="mt-8">
-          <h2 className="text-2xl font-semibold text-red-600">🚫 What’s Not Included?</h2>
-          <ul className="mt-3 space-y-2">
-            {tour.notIncluded.map((item, index) => (
-              <li key={index} className="text-gray-700 flex items-center">
-                ✖️ {item}
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        {/* Itinerary Section */}
         <div className="mt-8">
           <h2 className="text-2xl font-semibold">📍 Journey Overview</h2>
-          <ul className="mt-3 space-y-4">
-            {tour.itinerary.map((step, index) => (
-              <li
-                key={index}
-                className="flex items-start gap-3 border-b pb-3 last:border-none"
-              >
-                {step.time && (
-                  <span className="font-bold text-orange-700">{step.time} |</span>
+          <div className="mt-3 space-y-4">
+            {Object.entries(groupedItinerary).map(([day, steps]) => (
+              <div key={`day-${day}`} className="border rounded-lg overflow-hidden shadow">
+                <button
+                  className="w-full bg-orange-200 px-4 py-3 text-left font-semibold text-orange-700 flex justify-between"
+                  onClick={() => setExpandedDay(expandedDay === day ? null : day)}
+                >
+                  🗓️ {day} <span>{expandedDay === day ? "▲" : "▼"}</span>
+                </button>
+                {expandedDay === day && (
+                  <ul className="p-4 bg-white">
+                    {steps.map((step, index) => (
+                      <li
+                        key={`step-${day}-${index}`}
+                        className="border-b pb-3 last:border-none text-gray-700"
+                      >
+                        {step.activity}
+                      </li>
+                    ))}
+                  </ul>
                 )}
-                <span className="text-gray-700">{step.activity}</span>
-              </li>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
 
-        {/* Booking Section */}
         <div className="mt-8 bg-orange-100 p-6 rounded-lg shadow">
-          <h2 className="text-2xl font-semibold text-orange-700">
-            💰 Pricing & Booking
-          </h2>
-          <p className="mt-2 text-gray-700">
-            💵 <strong>Pay on Arrival</strong> – No advance payment needed, book
-            with confidence!
-          </p>
+          <h2 className="text-2xl font-semibold text-orange-700">💰 Pricing & Booking</h2>
+          <p className="mt-2 text-gray-700">💵 <strong>Pay on Arrival</strong> – No advance payment needed, book with confidence!</p>
           <button
             onClick={handleWhatsAppBooking}
             className="mt-4 bg-orange-600 text-white px-6 py-3 rounded-md shadow-md hover:bg-orange-700 transition"
