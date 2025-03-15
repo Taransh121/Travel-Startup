@@ -6,6 +6,19 @@ export const itineraries = {
     price: "₹3,999",
     description:
       "Experience the divine aura of Kashi Vishwanath and the mesmerizing Ganga Aarti.",
+    whyChooseThisYatra: [
+      "✅ Comfortable travel with an experienced driver for a hassle-free journey.",
+      "✅ Special care for elderly devotees, ensuring a smooth darshan experience.",
+      "✅ Itinerary can be customized to suit your needs—just let us know!",
+      "✅ Pay on arrival for a stress-free booking experience",
+      "✅ Witness the divine Ganga Aarti at the sacred Dashashwamedh Ghat.",
+    ],
+    routeOverview: [
+      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
+      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
+      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
+      "🚗 Day 4: Varanasi Darshan & Departure.",
+    ],
     highlights: [
       "🚗 Comfortable AC travel with an experienced driver for a hassle-free journey",
       "👵 Special care for elderly devotees, ensuring a smooth darshan experience",
@@ -88,6 +101,19 @@ export const itineraries = {
     price: "₹4,499",
     description:
       "A soulful journey to the birthplace of Lord Ram, filled with devotion and history.",
+    whyChooseThisYatra: [
+      "✅ Flexible & customizable itinerary – Want to add something special? Just let us know!",
+      "✅ Comfortable & stress-free travel – Just sit back, relax, and soak in the divine vibes!",
+      "✅ Special care for elderly devotees – We ensure they travel with ease and comfort",
+      "✅ Hassle-free darshan – Say goodbye to long queues and experience a smooth darshan.",
+      "✅ No advance payment needed – Pay on arrival and book with confidence",
+    ],
+    routeOverview: [
+      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
+      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
+      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
+      "🚗 Day 4: Varanasi Darshan & Departure.",
+    ],
     highlights: [
       "🚗 Comfortable & stress-free travel – Just sit back, relax, and enjoy the divine vibes!",
       "👵 Special care for elderly devotees – Ensuring ease and comfort during the journey.",
@@ -165,6 +191,19 @@ export const itineraries = {
     price: "₹3,999",
     description:
       "A spiritual journey to the sacred temples of vindhyachal, with complete travel assistance.",
+    whyChooseThisYatra: [
+      "✅ Comfortable & Hassle-Free Travel",
+      "✅ Flexible Itinerary (Customizable as per your preference)",
+      "✅ Travel Assistance for a Smooth Experience.",
+      "✅ Trusted & Well-Planned Pilgrimage.",
+      "✅ Personalized Spiritual Experience – Optional special poojas available.",
+    ],
+    routeOverview: [
+      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
+      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
+      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
+      "🚗 Day 4: Varanasi Darshan & Departure.",
+    ],
     highlights: [
       "🚗 Comfortable & Hassle-Free Travel",
       "🔄 Flexible Itinerary (Customizable as per your preference)",
@@ -191,6 +230,20 @@ export const itineraries = {
     price: "₹3,999",
     description:
       "A soul-soothing spiritual journey with comfortable travel, divine darshans, and a touch of local culture!",
+    whyChooseThisYatra: [
+      "✅ Comfortable Stay Included – Relax in a well-rated hotel for a hassle-free experience.",
+      "✅ Seamless Pickup & Drop-off – From Prayagraj Airport/Railway Station for a stress-free journey.",
+      "✅ Sacred Triveni Snan & Boat Ride – Take a holy dip at the Sangam, the sacred confluence of three rivers.",
+      "✅ AC Travel with an Experienced Driver – Enjoy a smooth and comfortable ride",
+      "✅ Special Assistance for Elderly Devotees – We ensure a smooth and easy darshan experience.",
+      "✅ Flexible Itinerary – Free time for shopping and exploring at your own pace",
+    ],
+    routeOverview: [
+      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
+      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
+      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
+      "🚗 Day 4: Varanasi Darshan & Departure.",
+    ],
     highlights: [
       " Comfortable Stay Included – Relax in a well-rated hotel for a hassle-free experience.",
       " Seamless Pickup & Drop-off – From Prayagraj Airport/Railway Station for a stress-free journey.",
@@ -276,6 +329,19 @@ export const itineraries = {
     price: "₹7,499",
     description:
       "A spiritually enriching 2-day yatra covering the sacred sites of Prayagraj & Varanasi with seamless travel arrangements.",
+    whyChooseThisYatra: [
+      "✅ Comfortable Stay & Smooth Transfers – We ensure a relaxing experience from arrival to departure.",
+      "✅ Holy Dip & Darshan at Sacred Temples – Experience the divine aura of Triveni Sangam & Kashi Vishwanath Jyotirlinga.",
+      "✅ Well-Planned Itinerary – No rush, just a peaceful & fulfilling yatra.",
+      "✅ Elderly-Friendly Arrangements – Special attention for senior citizens.",
+      "✅ Flexible & Customizable – We can tweak the plan to suit your needs.",
+    ],
+    routeOverview: [
+      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
+      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
+      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
+      "🚗 Day 4: Varanasi Darshan & Departure.",
+    ],
     highlights: [
       "✅ Hassle-free spiritual experience with expert travel assistance",
       "✅ Comfortable hotel stay in Prayagraj with complimentary breakfast",
@@ -356,6 +422,19 @@ export const itineraries = {
     price: "₹6,999",
     description:
       "A divine pilgrimage covering the sacred sites of Prayagraj & Ayodhya with seamless travel arrangements.",
+    whyChooseThisYatra: [
+      "✅ Hotel Accommodation Included – Comfortable stay at a well-rated hotel.",
+      "✅ Triveni Snan & Boat Ride – Sacred boat ride to Sangam followed by a holy dip.",
+      "✅ Comfortable AC Travel & Experienced Driver – Hassle-free journey throughout the trip.",
+      "✅ Hassle-Free Darshans – With special care for families and senior citizens.",
+      "✅ Customization Available – Personalize your yatra as per your spiritual and travel preferences",
+    ],
+    routeOverview: [
+      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
+      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
+      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
+      "🚗 Day 4: Varanasi Darshan & Departure.",
+    ],
     highlights: [
       "✅ Hassle-free spiritual experience with expert travel assistance",
       "✅ Comfortable hotel stay in Prayagraj with complimentary breakfast",
@@ -435,8 +514,21 @@ export const itineraries = {
     price: "₹6,999",
     description:
       "An enriching spiritual journey covering the divine sites of Prayagraj & Vindhyanchal with seamless travel support.",
+    whyChooseThisYatra: [
+      "✅ Optimized Route – No backtracking, smooth transitions between destinations.",
+      "✅ Comfortable Travel – AC Sedan (5-seater), SUV (7-seater), Traveller, or AC Bus based on group size.",
+      "✅ Flexible & Hassle-Free – Customizable itinerary, senior citizen-friendly, pay-on-arrival option.",
+      "✅ Handpicked Stays – Well-rated hotels with breakfast.",
+      "✅ Personalized Spiritual Experience – Optional special poojas available.",
+    ],
+    routeOverview: [
+      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
+      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
+      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
+      "🚗 Day 4: Varanasi Darshan & Departure.",
+    ],
     highlights: [
-      "✅ Hassle-free spiritual experience with expert travel assistance",
+      "✅ Hassle-free spiritual experience with expert travel assistance.",
       "✅ Comfortable hotel stay in Prayagraj with complimentary breakfast",
       "✅ Customizable itinerary to suit your needs",
       "✅ Optional pickup & drop-off service from Prayagraj (chargeable)",
@@ -513,6 +605,19 @@ export const itineraries = {
     price: "₹12,999",
     description:
       "A soulful journey through India’s most sacred cities, designed with care, comfort, and flexibility to meet your every need.",
+    whyChooseThisYatra: [
+      "✅ Comfort & Convenience: Enjoy well-rated hotel stays with complimentary breakfast at all locations.",
+      "✅ Travel Booking Assistance - Available From Anywhere in India.",
+      "✅ Seamless Travel: Comfortable AC travel with an experienced driver who knows the pilgrimage routes.",
+      "✅ Personalized Experience: Our itinerary is flexible—customize your yatra as per your preferences.      .",
+      "✅ Special Care: We take extra care of families and elderly devotees, ensuring a stress-free journey.      .",
+    ],
+    routeOverview: [
+      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
+      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
+      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
+      "🚗 Day 4: Varanasi Darshan & Departure.",
+    ],
     highlights: [
       "🚗 Comfortable AC travel with an experienced driver who knows the pilgrimage routes",
       "🛏️ Well-rated hotel stays with complimentary breakfast at all locations",
@@ -689,6 +794,19 @@ export const itineraries = {
     price: "₹11,999",
     description:
       "A soulful journey through India’s sacred cities, designed with comfort, flexibility, and a deep spiritual experience.",
+    whyChooseThisYatra: [
+      "✅ Optimized Route – No backtracking, smooth transitions between destinations.",
+      "✅ Comfortable Travel – AC Sedan (5-seater), SUV (7-seater), Traveller, or AC Bus based on group size.",
+      "✅ Flexible & Hassle-Free – Customizable itinerary, senior citizen-friendly, pay-on-arrival option.",
+      "✅ Handpicked Stays – Well-rated hotels with breakfast.",
+      "✅ Personalized Spiritual Experience – Optional special poojas available.",
+    ],
+    routeOverview: [
+      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
+      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
+      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
+      "🚗 Day 4: Varanasi Darshan & Departure.",
+    ],
     highlights: [
       "🚗 Comfortable AC travel with an experienced driver who knows the pilgrimage routes",
       "🛏️ Well-rated hotel stays with complimentary breakfast at all locations",
@@ -837,6 +955,20 @@ export const itineraries = {
     price: "₹11,999",
     description:
       "A sacred pilgrimage designed for a smooth and enriching experience.",
+    whyChooseThisYatra: [
+      "✅ Comfortable AC travel & well-rated hotels.",
+      "✅ Flexible itinerary—customize as per your preferences.",
+      "✅ Special assistance for senior citizens & families.",
+      "✅ Pay-on-arrival booking with hassle-free arrangements.",
+      "✅ No rush—relaxed darshans & sightseeing.",
+      "✅ Comfortable Travel – AC Sedan (5-seater), SUV (7-seater), Traveller, or AC Bus based on group size.",
+    ],
+    routeOverview: [
+      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
+      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
+      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
+      "🚗 Day 4: Varanasi Darshan & Departure.",
+    ],
     highlights: [
       "🚗 Comfortable AC travel with an experienced driver who knows the pilgrimage routes",
       "🛏️ Well-rated hotel stays with complimentary breakfast at all locations",
@@ -965,6 +1097,72 @@ export const itineraries = {
       "❌ Meals (Lunch & Dinner – Self-paid at recommended restaurants)",
       "❌ Entry Fees or Special Pooja Charges (if applicable)",
       "❌ Personal expenses & shopping",
+    ],
+  },
+  "prayagraj-vindhyachal-ayodhya-varanasi": {
+    title: "Prayagraj – Vindhyanchal – Ayodhya – Varanasi (3 Nights / 4 Days)",
+    slug: "prayagraj-vindhyachal-ayodhya-varanasi",
+    imageUrl: "/images/itinerary/Prayagraj-Vindhyachal-Varanasi-Ayodhya_2.jpg",
+    price: "₹15,999",
+    description:
+      "A seamless pilgrimage covering four sacred cities with spiritual depth, comfort, and flexibility.",
+    whyChooseThisYatra: [
+      "✅ Optimized Route – No backtracking, smooth transitions between destinations.",
+      "✅ Comfortable Travel – AC Sedan (5-seater), SUV (7-seater), Traveller, or AC Bus based on group size.",
+      "✅ Flexible & Hassle-Free – Customizable itinerary, senior citizen-friendly, pay-on-arrival option.",
+      "✅ Handpicked Stays – Well-rated hotels with breakfast.",
+      "✅ Personalized Spiritual Experience – Optional special poojas available.",
+    ],
+    routeOverview: [
+      "🚗 Day 1: Prayagraj Arrival, Darshan & Stay.",
+      "🚗 Day 2: Prayagraj → Vindhyanchal → Ayodhya (Night Stay).",
+      "🚗 Day 3: Ayodhya → Varanasi (Night Stay).",
+      "🚗 Day 4: Varanasi Darshan & Departure.",
+    ],
+    highlights: [
+      "✅ Optimized Route – No backtracking, smooth transitions between destinations.",
+      "✅ Comfortable Travel – AC Sedan, SUV, Traveller, or AC Bus based on group size.",
+      "✅ Flexible & Hassle-Free – Customizable itinerary, senior citizen-friendly.",
+      "✅ Handpicked Stays – Well-rated hotels with breakfast.",
+      "✅ Personalized Spiritual Experience – Optional special poojas available.",
+    ],
+    itinerary: [
+      { day: "Day 1", activity: "🚗 Arrival & Welcome in Prayagraj." },
+      { day: "Day 1", activity: "🚣 Triveni Sangam Snan & Boat Ride." },
+      {
+        day: "Day 1",
+        activity: "🛕 Bade Hanuman Ji & Shankar Viman Mandapam.",
+      },
+      { day: "Day 1", activity: "🛕 Alopi Devi Temple Visit & Shopping." },
+      { day: "Day 2", activity: "🚗 Travel to Vindhyanchal & Darshan." },
+      { day: "Day 2", activity: "🚗 Evening Travel to Ayodhya." },
+      { day: "Day 2", activity: "🏨 Overnight Stay in Ayodhya." },
+      {
+        day: "Day 3",
+        activity: "🌅 Holy Sarayu Snan & Hanuman Garhi Darshan.",
+      },
+      { day: "Day 3", activity: "🛕 Shri Ram Janmabhoomi & Kanak Bhavan." },
+      { day: "Day 3", activity: "🚣 Optional Boat Ride on Sarayu River." },
+      {
+        day: "Day 3",
+        activity: "🪔 Evening Sarayu Aarti & Travel to Varanasi.",
+      },
+      {
+        day: "Day 4",
+        activity: "🚿 Holy Ganga Snan & Kashi Vishwanath Darshan.",
+      },
+      {
+        day: "Day 4",
+        activity: "🚣 Scenic Ganga Boat Ride & Sankat Mochan Temple.",
+      },
+      { day: "Day 4", activity: "🕯️ Ganga Aarti at Dashashwamedh Ghat." },
+      { day: "Day 4", activity: "🏁 Departure & Travel Assistance." },
+    ],
+    notIncluded: [
+      "❌ Meals (Lunch & Dinner) – Self-paid at partner restaurants.",
+      "❌ Entry fees, special pooja charges (if applicable).",
+      "❌ Pickup & drop-off charges (if applicable).",
+      "❌ Personal expenses (shopping, tips, donations, porter charges).",
     ],
   },
 };
