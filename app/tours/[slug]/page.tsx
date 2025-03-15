@@ -4,7 +4,7 @@ import { useParams, useRouter } from "next/navigation";
 import Head from "next/head";
 import Image from "next/image";
 import { itineraries } from "@/constant/itinerary";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const TourDetails = () => {
   const params = useParams();
@@ -59,11 +59,31 @@ const TourDetails = () => {
           </div>
           <div className="md:w-1/2">
             <h1 className="text-3xl font-bold text-gray-900">{tour.title}</h1>
-            <p className="mt-2 text-lg font-semibold text-orange-700">Price: {tour.price}</p>
             <p className="mt-3 text-gray-700 leading-relaxed">{tour.description}</p>
           </div>
         </div>
 
+        {/* 🌟 Why Choose This Yatra? */}
+        <div className="mt-8 bg-gray-100 p-6 rounded-lg shadow">
+          <h2 className="text-2xl font-semibold text-orange-700">🌟 Why Choose This Yatra?</h2>
+          <ul className="mt-3 space-y-2 text-gray-700">
+            {tour.whyChooseThisYatra.map((point, index) => (
+              <li key={`why-${index}`} className="flex items-center">{point}</li>
+            ))}
+          </ul>
+        </div>
+
+        {/* 🚗 Route Overview & Travel Plan */}
+        <div className="mt-8 bg-gray-100 p-6 rounded-lg shadow">
+          <h2 className="text-2xl font-semibold text-orange-700">🚗 Route Overview & Travel Plan</h2>
+          <ul className="mt-3 space-y-2 text-gray-700">
+            {tour.routeOverview.map((route, index) => (
+              <li key={`route-${index}`} className="flex items-center">{route}</li>
+            ))}
+          </ul>
+        </div>
+
+        {/* 📍 Journey Overview */}
         <div className="mt-8">
           <h2 className="text-2xl font-semibold">📍 Journey Overview</h2>
           <div className="mt-3 space-y-4">
@@ -92,6 +112,7 @@ const TourDetails = () => {
           </div>
         </div>
 
+        {/* 💰 Pricing & Booking */}
         <div className="mt-8 bg-orange-100 p-6 rounded-lg shadow">
           <h2 className="text-2xl font-semibold text-orange-700">💰 Pricing & Booking</h2>
           <p className="mt-2 text-gray-700">💵 <strong>Pay on Arrival</strong> – No advance payment needed, book with confidence!</p>

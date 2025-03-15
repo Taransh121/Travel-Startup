@@ -7,7 +7,7 @@ export type Destination = {
   };
   
   export const destinationCombinations: Destination[] = [
-    { title: "Prayagraj → Vindhyachal → Varanasi → Ayodhya", slug: "prayagraj-vindhyachal-varanasi-ayodhya", price: "30,000", imageUrl: "/images/tourImg/Prayagraj-Vindhyachal-Varanasi-Ayodhya_2.jpg" },
+    { title: "Prayagraj → Vindhyachal → Varanasi → Ayodhya", slug: "prayagraj-vindhyachal-ayodhya-varanasi", price: "30,000", imageUrl: "/images/tourImg/Prayagraj-Vindhyachal-Varanasi-Ayodhya_2.jpg" },
     { title: "Prayagraj → Vindhyachal → Varanasi", slug: "prayagraj-vindhyachal-varanasi", price: "25,000", imageUrl: "/images/tourImg/Prayagraj-Vindhyachal-Ayodhya_2.jpg" },
     { title: "Prayagraj → Vindhyachal → Ayodhya", slug: "prayagraj-vindhyachal-ayodhya", price: "24,500", imageUrl: "/images/tourImg/Prayagraj-Varanasi-Ayodhya_2.jpg" },
     { title: "Prayagraj → Vindhyachal", slug: "prayagraj-vindhyachal", price: "16,000", imageUrl: "/images/tourImg/Prayagraj-Vindhyachal_2.jpg" },
