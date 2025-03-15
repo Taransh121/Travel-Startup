@@ -1,4 +1,4 @@
-"use client"; // ✅ Ensures this is a Client Component
+"use client"; 
 
 import { useParams, notFound } from "next/navigation"; // ✅ Import `notFound`
 import Head from "next/head";
@@ -14,7 +14,7 @@ const TourDetails = () => {
   if (!tour) return notFound(); 
 
   const handleWhatsAppBooking = () => {
-    window.open("https://wa.me/+919118859567", "_blank");
+    window.open("https://wa.me/+919277341677", "_blank");
   };
 
   return (

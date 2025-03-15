@@ -5,9 +5,15 @@ import dynamic from "next/dynamic";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-const Nav = dynamic(() => import("@/components/Home/Navbar/Nav"), { ssr: false });
-const MobileNav = dynamic(() => import("@/components/Home/Navbar/MobileNav"), { ssr: false });
-const Footer = dynamic(() => import("@/components/Home/Footer/Footer"), { ssr: false });
+const Nav = dynamic(() => import("@/components/Home/Navbar/Nav"), {
+  ssr: false,
+});
+const MobileNav = dynamic(() => import("@/components/Home/Navbar/MobileNav"), {
+  ssr: false,
+});
+const Footer = dynamic(() => import("@/components/Home/Footer/Footer"), {
+  ssr: false,
+});
 
 const ContactPage = () => {
   const [showNav, setShowNav] = useState(false);
@@ -34,7 +40,7 @@ const ContactPage = () => {
       >
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <h1 className="relative text-4xl md:text-6xl font-bold text-white z-10 text-center">
-          Contact Us 
+          Contact Us
         </h1>
       </div>
 
@@ -64,8 +70,8 @@ const ContactPage = () => {
               <span className="text-red-500 text-3xl">📍</span>
               <p className="text-gray-700 text-lg">
                 Address: <br />
-                Ministry of Tourism, Transport Bhawan, <br />
-                Sansad Marg, New Delhi - 110001
+                Shop no 23, commercial complex, <br />A Block, ADA Colony Naini
+                Prayagraj- 211008
               </p>
             </div>
           </div>
@@ -76,8 +82,10 @@ const ContactPage = () => {
 
         {/* Chat & Book Now Section */}
         <div className="w-full md:w-1/2 flex flex-col items-center justify-center text-center space-y-6">
-          <p className="text-3xl font-semibold text-gray-800">Still have doubts?</p>
-          
+          <p className="text-3xl font-semibold text-gray-800">
+            Still have doubts?
+          </p>
+
           {/* Chat Now Button (WhatsApp) */}
           <Link
             href="https://wa.me/919277341677"
@@ -101,9 +109,10 @@ const ContactPage = () => {
       <div className="my-16 px-6 md:px-12 lg:px-24 w-full">
         <iframe
           className="w-full h-[50vh] md:h-[60vh] rounded-lg shadow-lg"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.8391146811!2d77.0688993!3d28.5275822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd1dfc9cbd5f%3A0x92f31d153b13e36!2sTransport%20Bhawan!5e0!3m2!1sen!2sin!4v1649943290123!5m2!1sen!2sin"
-          allowFullScreen={true}
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.5252091973093!2d81.87567837519005!3d25.387224323978057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39854a633ce2fac1%3A0xe20d74f9bf03821!2sADA%20Colony%2C%20A%20Block%2C%20Naini%2C%20Naini%20Taluka%20Naini%20Dadari%2C%20Prayagraj%2C%20Uttar%20Pradesh%20211105!5e0!3m2!1sen!2sin!4v1741990037520!5m2!1sen!2sin"
+          allowFullScreen
           loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
 
