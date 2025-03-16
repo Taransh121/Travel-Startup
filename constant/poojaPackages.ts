@@ -8,82 +8,11 @@ export type Pooja = {
 
 export const poojaPackages: Pooja[] = [
   {
-    title: "Nav Grah Pooja",
-    slug: "nau-grah-pooja",
+    title: "Nav Grah Shanti Path at Prayagraj",
+    slug: "navgrah-shanti-path-at-prayagraj",
     price: "₹5,000",
     description: "A special planetary pooja to balance cosmic influences.",
-    imageUrl:
-      "/images/pooja/Nav grah Shanti path at prayagraj_Vindhyanchal_.jpg",
-  },
-  {
-    title: "Special Devi Pooja at Vindhyachal",
-    slug: "special-devi-pooja-at-vindhyachal",
-    price: "₹7,500",
-    description: "A sacred offering to Devi Maa for divine blessings.",
-    imageUrl: "/images/pooja/Navratri special Devi Pooja at Vindhyanchal_.jpg",
-  },
-  {
-    title: "Devi Shringar at Vindhyachal",
-    slug: "devi-shrinagar-at-vindhyachal",
-    price: "₹6,000",
-    description: "A divine ritual to adorn the Goddess with sacred offerings.",
-    imageUrl: "/images/pooja/Devi  shringar at Vindhyanchal_.jpg",
-  },
-  {
-    title: "Rudrabhishek at Kashi Vishwanath",
-    slug: "rudrabhishek-at-kashi-vishwanath",
-    price: "₹9,000",
-    description: "A powerful Shiva pooja at the holiest Jyotirlinga.",
-    imageUrl: "/images/pooja/Rudrabhishek at Kashi Vishwanath_.jpg",
-  },
-  {
-    title: "Kaal Sarp Dosh Nivaran Pooja at Nag Vasuki, Prayagraj",
-    slug: "kaal-sarp-dosh-nivaran-pooja-at-nag-vasuki-prayagraj",
-    price: "₹11,000",
-    description:
-      "A remedial pooja for Kaal Sarp Dosh, ensuring peace and prosperity.",
-    imageUrl:
-      "/images/pooja/Kaalsarp dosh nivaran Pooja at Nagvasuki prayagraj_.jpg",
-  },
-  {
-    title: "Rudrabhishek at Triveni Sangam",
-    slug: "rudrabhishek-at-triveni-sangam",
-    price: "₹8,500",
-    description:
-      "A sacred Lord Shiva pooja at the holy confluence of three rivers.",
-    imageUrl: "/images/pooja/Rudrabhishek at Triveni sangam_.jpg",
-  },
-  {
-    title: "Sat Chandi Pooja at Vindhyachal",
-    slug: "sat-chandi-pooja-at-vindhyachal",
-    price: "₹12,000",
-    description:
-      "A grand Chandi path for protection and fulfillment of desires.",
-    imageUrl: "/images/pooja/Sat  chandi Pooja at Vindhyanchal_prayagraj_.jpg",
-  },
-  {
-    title: "Navgrah Shanti Path at Prayagraj/Vindhyachal",
-    slug: "navgrah-shanti-path-at-prayagraj-vindhaychal",
-    price: "₹6,500",
-    description: "A pooja to pacify planetary doshas and bring harmony.",
-    imageUrl:
-      "/images/pooja/Nav grah Shanti path at prayagraj_Vindhyanchal_.jpg",
-  },
-  {
-    title: "10 Mahavidya Pooja at Prayagraj/Vindhyachal",
-    slug: "10-mahavidya-pooja-at-prayagraj-vindhyachal",
-    price: "₹15,000",
-    description:
-      "A special tantric pooja invoking the ten powerful Mahavidyas.",
-    imageUrl: "/images/pooja/10 mahavidya Pooja at Vindhyanchal_prayagraj_.jpg",
-  },
-  {
-    title: "Maa Vindhyavasini Devi Sahasra Archana at Vindhyachal",
-    slug: "maa-vindhyavasini-devi-sahasra-archana-at-vindhyachal",
-    price: "₹10,000",
-    description: "A thousand-name recitation of Devi Maa for divine grace.",
-    imageUrl:
-      "/images/pooja/Maa vindhyawasini Devi sahadtra archan at Vindhyanchal_.jpg",
+    imageUrl: "/images/pooja/nav-grah-shanti-path-prayagraj-vindhyanchal.jpg",
   },
   {
     title: "Mahamrityunjay Jaap at Prayagraj",
@@ -91,6 +20,109 @@ export const poojaPackages: Pooja[] = [
     price: "₹7,000",
     description:
       "A sacred chant for longevity, protection, and spiritual upliftment.",
-    imageUrl: "/images/pooja/Mahamrityunjay at prayagraj_.jpg",
+    imageUrl: "/images/pooja/nav-grah-shanti-path-prayagraj-vindhyanchal.jpg",
+  },
+  {
+    title: "Rudrabhishek at Triveni Sangam",
+    slug: "rudrabhishek-at-triveni-sangam",
+    price: "₹8,500",
+    description:
+      "A sacred Lord Shiva pooja at the holy confluence of three rivers.",
+    imageUrl: "/images/pooja/nav-grah-shanti-path-prayagraj-vindhyanchal.jpg",
+  },
+  {
+    title: "Maa Vindhyavasini Devi Shringar Pooja at Vindhyachal",
+    slug: "maa-vindhyavasini-devi-sahasra-archana-at-vindhyachal",
+    price: "₹10,000",
+    description: "A thousand-name recitation of Devi Maa for divine grace.",
+    imageUrl: "/images/pooja/nav-grah-shanti-path-prayagraj-vindhyanchal.jpg",
+  },
+  {
+    title: "10 Mahavidya Pooja at Prayagraj Vindhyachal",
+    slug: "10-mahavidya-pooja-at-prayagraj-vindhyachal",
+    price: "₹15,000",
+    description:
+      "A special tantric pooja invoking the ten powerful Mahavidyas.",
+    imageUrl: "/images/pooja/nav-grah-shanti-path-prayagraj-vindhyanchal.jpg",
+  },
+  {
+    title: "Sat Chandi Pooja at Vindhyachal",
+    slug: "sat-chandi-pooja-at-vindhyachal",
+    price: "₹12,000",
+    description:
+      "A grand Chandi path for protection and fulfillment of desires.",
+    imageUrl: "/images/pooja/nav-grah-shanti-path-prayagraj-vindhyanchal.jpg",
+  },
+  {
+    title: "Rudri Path Pooja",
+    slug: "rudri-path-pooja",
+    price: "₹7,000",
+    description:
+      "Invoke Lord Shiva's blessings for peace, prosperity, and spiritual protection with a sacred Rudri Path!",
+    imageUrl: "/images/pooja/nav-grah-shanti-path-prayagraj-vindhyanchal.jpg",
+  },
+  {
+    title: "11 Rudri Path Pooja",
+    slug: "11-rudri-path-pooja",
+    price: "₹7,000",
+    description:
+      "Seek Lord Shiva's divine blessings through the powerful recitation of 11 Rudri Paths, performed by expert priests!",
+    imageUrl: "/images/pooja/nav-grah-shanti-path-prayagraj-vindhyanchal.jpg",
+  },
+  {
+    title: "Baglamukhi Mata Jaap",
+    slug: "baglamukhi-mata-jaap",
+    price: "₹7,000",
+    description:
+      "Attain victory over enemies, remove legal troubles, and gain divine protection with the blessings of Maa Baglamukhi!",
+    imageUrl: "/images/pooja/nav-grah-shanti-path-prayagraj-vindhyanchal.jpg",
+  },
+  {
+    title: "Laghu Mritunjay Pooja at Prayagraj",
+    slug: "laghu-mritunjay-pooja-at-prayagraj",
+    price: "₹7,000",
+    description:
+      "Seek divine protection, health, and longevity with the sacred Laghu Mritunjay Pooja!",
+    imageUrl: "/images/pooja/nav-grah-shanti-path-prayagraj-vindhyanchal.jpg",
+  },
+  {
+    title: "Nav Chandi Pooja at Prayagraj",
+    slug: "nav-chandi-pooja-at-prayagraj",
+    price: "₹12,000",
+    description:
+      "Invoke the divine blessings of Maa Durga with the sacred Nav Chandi Yagya at Prayagraj!",
+    imageUrl: "/images/pooja/nav-grah-shanti-path-prayagraj-vindhyanchal.jpg",
+  },
+  {
+    title: "Mundan Sanskar at Vindhyachal",
+    slug: "mundan-sanskar-at-vindhyachal",
+    price: "₹7,000",
+    description:
+      "Perform the sacred Mundan Sanskar at Maa Vindhyavasini Dham for your child’s well-being, prosperity, and protection.",
+    imageUrl: "/images/pooja/nav-grah-shanti-path-prayagraj-vindhyanchal.jpg",
+  },
+  {
+    title: "Satyanarayan Katha Pooja",
+    slug: "satyanarayan-katha-pooja",
+    price: "₹7,000",
+    description:
+      "Invoke the blessings of Lord Vishnu with the sacred Satyanarayan Katha, ensuring prosperity, peace, and happiness in your life!",
+    imageUrl: "/images/pooja/nav-grah-shanti-path-prayagraj-vindhyanchal.jpg",
+  },
+  {
+    title: "Nav Chandi Pooja at Vindhyachal",
+    slug: "nav-chandi-pooja-at-vindhyachal",
+    price: "₹7,000",
+    description:
+      "Invoke the divine blessings of Maa Durga with the highly auspicious Nav Chandi Pooja at the sacred Vindhyachal Dham. ",
+    imageUrl: "/images/pooja/nav-grah-shanti-path-prayagraj-vindhyanchal.jpg",
+  },
+  {
+    title: "Kaal Sarp Dosh Nivaran Pooja at Naag Vasuki Temple, Prayagraj",
+    slug: "kaal-sarp-dosh-nivaran-pooja-at-naag-vasuki-temple-prayagraj",
+    price: "₹7,000",
+    description:
+      "Remove the negative effects of Kaal Sarp Dosh and bring peace, prosperity, and success into your life!",
+    imageUrl: "/images/pooja/nav-grah-shanti-path-prayagraj-vindhyanchal.jpg",
   },
 ];

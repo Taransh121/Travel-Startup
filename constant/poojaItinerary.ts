@@ -1,11 +1,11 @@
 export const poojaItineraries = {
   "navgrah-shanti-path-at-prayagraj": {
-    title: "Nav Grah Shanti Pooja at Prayagraj (1 Day – 10 Purohit)",
+    title: "Nav Grah Shanti Path at Prayagraj",
     slug: "navgrah-shanti-path-at-prayagraj",
     imageUrl: "/images/poojaItinerary/nav_grah_shanti_pooja.jpg",
     price: "Custom Pricing Based on Package",
     description:
-      "Balance planetary energies and remove doshas with the powerful Nav Grah Shanti Pooja!",
+      "Balance planetary energies and remove doshas with the powerful Nav Grah Shanti Pooja!(1 Day – 10 Purohit)",
     highlights: [
       "✅ Neutralizes the negative effects of malefic planets.",
       "✅ Removes hurdles in career, marriage, and financial growth.",
@@ -121,7 +121,7 @@ export const poojaItineraries = {
 
   "mahamrityunjay-jaap-at-prayagraj": {
     title:
-      "Mahamrityunjay Pooja at Prayagraj (In-Person & Virtual Options Available!)",
+      "Mahamrityunjay Jaap at Prayagraj ",
     slug: "mahamrityunjay-jaap-at-prayagraj",
     imageUrl: "/images/poojaItinerary/Rudrabhishek_at_Triveni_Sangam.jpg",
     price: "Custom Pricing Based on Chanting Cycles",
@@ -212,7 +212,7 @@ export const poojaItineraries = {
   },
 
   "rudrabhishek-at-triveni-sangam": {
-    title: "Rudrabhishek Pooja at Triveni Sangam – 1-Day Divine Ritual",
+    title: "Rudrabhishek at Triveni Sangam",
     slug: "rudrabhishek-at-triveni-sangam",
     imageUrl: "/images/poojaItinerary/Rudrabhishek_at_Triveni_Sangam.jpg",
     description:
@@ -365,11 +365,11 @@ export const poojaItineraries = {
   },
 
   "10-mahavidya-pooja-at-prayagraj-vindhyachal": {
-    title: "Das Mahavidya Pooja – 7 Days | 9 Purohits",
+    title: "10 Mahavidya Pooja at Prayagraj Vindhyachal",
     slug: "10-mahavidya-pooja-at-prayagraj-vindhyachal",
     imageUrl: "/images/poojaItinerary/Vindhyavasini_Shringar_Pooja.jpg",
     description:
-      "The Das Mahavidyas are the ten powerful forms of Goddess Shakti, each representing different cosmic forces and blessings. Performing a 7-day Mahavidya Anushthan with Patha (Chanting) and Homas under the guidance of 9 expert purohits ensures immense spiritual and material benefits.",
+      "The Das Mahavidyas are the ten powerful forms of Goddess Shakti, each representing different cosmic forces and blessings. Performing a 7-day Mahavidya Anushthan with Patha (Chanting) and Homas under the guidance of 9 expert purohits ensures immense spiritual and material benefits.(7 Days | 9 Purohits)",
     whyPerform: [
       "Protection from black magic, negative energies, and obstacles",
       "Enhancement of spiritual growth, wealth, and success",
@@ -502,11 +502,11 @@ export const poojaItineraries = {
   },
 
   "sat-chandi-pooja-at-vindhyachal": {
-    title: "Sat Chandi Pooja at Vindhyachal – 7 Days | 11 Purohits",
+    title: "Sat Chandi Pooja at Vindhyachal ",
     slug: "sat-chandi-pooja-at-vindhyachal",
     imgUrl: "/images/sat-chandi-pooja.jpg",
     description:
-      "Experience the divine blessings of Maa Durga with the powerful Sat Chandi Pooja at the sacred Vindhyachal Dham, ensuring protection, prosperity, and spiritual upliftment!",
+      "Experience the divine blessings of Maa Durga with the powerful Sat Chandi Pooja at the sacred Vindhyachal Dham, ensuring protection, prosperity, and spiritual upliftment(7 Days | 11 Purohits)",
     whatIsSatChandiPooja: {
       summary:
         "Sat Chandi Pooja is a highly auspicious and powerful Vedic ritual dedicated to Maa Durga, performed to invoke divine blessings for:",
@@ -643,7 +643,7 @@ export const poojaItineraries = {
     ],
   },
   "rudri-path-pooja": {
-    title: "1 Rudri Path Pooja",
+    title: "Rudri Path Pooja",
     slug:"rudri-path-pooja",
     imgUrl: "/images/sat-chandi-pooja.jpg",
     description:
@@ -763,7 +763,7 @@ export const poojaItineraries = {
   },
   "11-rudri-path-pooja":{
     title: "11 Rudri Path Pooja",
-    slug:"rudri-path-pooja",
+    slug:"11-rudri-path-pooja",
     imgUrl: "/images/sat-chandi-pooja.jpg",
     description: "Seek Lord Shiva's divine blessings through the powerful recitation of 11 Rudri Paths, performed by expert Vedic priests!",
     details: {
@@ -852,28 +852,28 @@ export const poojaItineraries = {
     ],
     faq: [
       {
-        "question": "Who should perform 11 Rudri Path?",
-        "answer": "This pooja is recommended for families, businesses, and individuals seeking Lord Shiva’s blessings for prosperity, health, and protection."
+        question: "Who should perform 11 Rudri Path?",
+        answer: "This pooja is recommended for families, businesses, and individuals seeking Lord Shiva’s blessings for prosperity, health, and protection."
       },
       {
-        "question": "Can I customize the Pooja?",
-        "answer": "Yes! You can add additional havan, special mantras, or more purohits."
+        question: "Can I customize the Pooja?",
+        answer: "Yes! You can add additional havan, special mantras, or more purohits."
       },
       {
-        "question": "How does the Virtual Pooja work?",
-        "answer": "You will receive a private live stream link and can participate in real-time."
+        question: "How does the Virtual Pooja work?",
+        answer: "You will receive a private live stream link and can participate in real-time."
       },
       {
-        "question": "Can I get Prasad after Virtual Pooja?",
-        "answer": "Yes! We can deliver Prasad & a sacred Rudraksha to your home."
+        question: "Can I get Prasad after Virtual Pooja?",
+        answer: "Yes! We can deliver Prasad & a sacred Rudraksha to your home."
       }
     ],
   },  
   "baglamukhi-mata-jaap": {
-    title: "Baglamukhi Mata Jaap – 7 Days | 9 Pandits",
-    slug:"rudri-path-pooja",
+    title: "Baglamukhi Mata Jaap",
+    slug:"baglamukhi-mata-jaap",
     imgUrl: "/images/sat-chandi-pooja.jpg",
-    description: "Attain victory over enemies, remove legal troubles, and gain divine protection with the supreme blessings of Maa Baglamukhi!",
+    description: "Attain victory over enemies, remove legal troubles, and gain divine protection with the supreme blessings of Maa Baglamukhi!7 Days | 9 Pandits)",
     why_perform: {
       introductio: "Maa Baglamukhi is the 8th Mahavidya and the Goddess of stambhan (paralysis of enemies), victory, and protection. She grants powerful defense against legal issues, enemy attacks, black magic, and negative energies.",
       benefits: [
@@ -968,11 +968,11 @@ export const poojaItineraries = {
       "prasad_delivery": "We can arrange Prasad delivery to your home upon request (courier charges will be applicable as per your location)."
     },
   },
-  "laghu-mritunjay-pooja": {
-    title: "Laghu Mritunjay Pooja at Prayagraj (5 Days – 7 Purohits)",
-    slug:"laghu-mritunjay-pooja",
+  "laghu-mritunjay-pooja-at-prayagraj": {
+    title: "Laghu Mritunjay Pooja at Prayagraj",
+    slug:"laghu-mritunjay-pooja-at-prayagraj",
     imgUrl: "/images/sat-chandi-pooja.jpg",
-    description: "Seek divine protection, health, and longevity with the sacred Laghu Mritunjay Pooja!",
+    description: "Seek divine protection, health, and longevity with the sacred Laghu Mritunjay Pooja!(5 Days | 7 Purohits)",
     whyPerform: "Laghu Mritunjay Pooja is a powerful 5-day ritual dedicated to Lord Shiva’s Mahamrityunjaya form. It is performed to overcome serious health issues, ward off negative energies, and bless devotees with longevity and spiritual healing. This pooja includes Maha Mrityunjaya Mantra Jaap & Havan, conducted by 7 expert purohits for maximum divine blessings.",
     benefits: [
       "Protection from Untimely Death & Accidents",
@@ -1010,25 +1010,25 @@ export const poojaItineraries = {
     ],
     packageDetails: {
       inPerson: {
-        "ritualSetup": "Temple/ghat arrangement with 7 purohits",
-        "poojaSamagri": "All necessary sacred items",
-        "accommodation": "Optional – customized as per requirement",
-        "jaapHavan": "Mahamrityunjaya Mantra Jaap & Havan for maximum spiritual benefits",
-        "sankalp": "Personalized Sankalp for devotees & family",
-        "travelAssistance": "Free guidance on the best trains/flights",
-        "optional": "Train/flight ticket booking (advance booking charge applicable)"
+        ritualSetup: "Temple/ghat arrangement with 7 purohits",
+        poojaSamagri: "All necessary sacred items",
+        accommodation: "Optional – customized as per requirement",
+        jaapHavan: "Mahamrityunjaya Mantra Jaap & Havan for maximum spiritual benefits",
+        sankalp: "Personalized Sankalp for devotees & family",
+        travelAssistance: "Free guidance on the best trains/flights",
+        optional: "Train/flight ticket booking (advance booking charge applicable)"
       },
       virtual: {
-        "liveStreaming": "Full HD from Prayagraj",
-        "dedicatedPurohit": "Sankalp (Your name, gotra & health wishes mentioned)",
-        "liveParticipation": "Chanting & Havan via Zoom/WhatsApp",
-        "prasadDelivery": "Optional, can be arranged upon request",
-        "recording": "Available upon request"
+        liveStreaming: "Full HD from Prayagraj",
+        dedicatedPurohit: "Sankalp (Your name, gotra & health wishes mentioned)",
+        liveParticipation: "Chanting & Havan via Zoom/WhatsApp",
+        prasadDelivery: "Optional, can be arranged upon request",
+        recording: "Available upon request"
       }
     },
     travelAssistance: {
-      "freeRecommendations": "Best routes, timings & fares",
-      "booking": "Train/Flight Ticket Booking (booking charge applicable)"
+      freeRecommendations: "Best routes, timings & fares",
+      booking: "Train/Flight Ticket Booking (booking charge applicable)"
     },
     bookingSteps: [
       "Click the 'Book Now on WhatsApp' button.",
@@ -1040,23 +1040,573 @@ export const poojaItineraries = {
     ],
     faq: [
       {
-        "question": "What is the significance of Laghu Mritunjay Pooja?",
-        "answer": "Laghu Mritunjay Pooja is performed to seek divine healing, longevity, and protection from untimely death, accidents, and severe health issues."
+        question: "What is the significance of Laghu Mritunjay Pooja?",
+        answer: "Laghu Mritunjay Pooja is performed to seek divine healing, longevity, and protection from untimely death, accidents, and severe health issues."
       },
       {
-        "question": "Can I customize the Laghu Mritunjay Pooja?",
-        "answer": "Yes! Our purohits will personalize the rituals based on your specific health concerns."
+        question: "Can I customize the Laghu Mritunjay Pooja?",
+        answer: "Yes! Our purohits will personalize the rituals based on your specific health concerns."
       },
       {
-        "question": "How does the Virtual Pooja work?",
-        "answer": "You will receive a private live stream link to join the pooja from anywhere. You can also interact with the purohits during key rituals."
+        question: "How does the Virtual Pooja work?",
+        answer: "You will receive a private live stream link to join the pooja from anywhere. You can also interact with the purohits during key rituals."
       },
       {
-        "question": "What if I want prasad & Rudraksha Mala delivered after the Virtual Pooja?",
-        "answer": "We can arrange prasad & Rudraksha Mala delivery to your home upon request (chargeable as per your location)."
+        question: "What if I want prasad & Rudraksha Mala delivered after the Virtual Pooja?",
+        answer: "We can arrange prasad & Rudraksha Mala delivery to your home upon request (chargeable as per your location)."
       }
     ],
 
   },
-
+  "nav-chandi-pooja-at-prayagraj" : {
+    title: "Nav Chandi Pooja at Prayagraj",
+    slug:"nav-chandi-pooja-at-prayagraj",
+    imgUrl: "/images/sat-chandi-pooja.jpg",
+    description: "Invoke the divine blessings of Maa Durga with the sacred Nav Chandi Yagya at Prayagraj!(9 Days | 108 Path & 11 Purohits)",
+    whyPerform: "Nav Chandi Pooja is a highly auspicious and powerful 9-day ritual dedicated to Maa Durga and her nine divine forms (Nava Durga). This grand yagya includes 108 Path of Durga Saptashati and is conducted by 11 expert purohits to bring divine protection, prosperity, and fulfillment of wishes.",
+    benefits: [
+      "Divine Protection from negative energies and evil forces",
+      "Success & Prosperity in business, career, and personal life",
+      "Removal of Doshas & Karma Obstacles",
+      "Blessings for Health & Wealth for the entire family",
+      "Happiness, Peace & Spiritual Growth"
+    ],
+    poojaOptions: [
+      {
+        type: "In-Person",
+        location: "Prayagraj",
+        details: [
+          "Performed at a sacred temple/ghat in Prayagraj",
+          "9 Days of Grand Rituals with 11 experienced purohits",
+          "108 Path of Durga Saptashati for maximum divine blessings",
+          "Includes all pooja samagri, sacred setup & havan arrangements",
+          "Accommodation & meals can be arranged (as per preference)",
+          "Personalized support for travel & stay"
+        ],
+        bestFor: "Devotees seeking a complete, immersive, and spiritually powerful experience in Prayagraj."
+      },
+      {
+        type: "Virtual",
+        location: "Live from Prayagraj",
+        details: [
+          "Full HD Live Streaming of the complete 9-day pooja",
+          "Dedicated purohit will perform Sankalp (your name, gotra & wishes mentioned)",
+          "Option to participate in live chanting & havan remotely",
+          "Prasad home delivery (can be arranged on request)",
+          "Flexible Timings for international devotees"
+        ],
+        bestFor: "Those who cannot travel but still want to receive divine blessings remotely."
+      }
+    ],
+    packageDetails: {
+      inPerson: {
+        ritualSetup: "Temple/ghat arrangement with 11 purohits",
+        poojaSamagri: "All necessary sacred items",
+        accommodation: "Optional – customized as per requirement",
+        jaapHavan: "108 Path Durga Saptashati & Grand Havan as per Vedic traditions",
+        sankalp: "Personalized Sankalp for devotees & family",
+        travelAssistance: "Free guidance on the best trains/flights",
+        optional: "Train/flight ticket booking (advance booking charge applicable)"
+      },
+      virtual: {
+        liveStreaming: "Full HD from Prayagraj",
+        dedicatedPurohit: "Sankalp (Your name, gotra & wishes mentioned)",
+        liveParticipation: "Chanting & Havan via Zoom/WhatsApp",
+        prasadDelivery: "Optional, can be arranged upon request",
+        recording: "Available upon request",
+        postPoojaConsultation: "Exclusive consultation with purohits for guidance"
+      }
+    },
+    travelAssistance: {
+      freeRecommendations: "Best routes, timings & fares",
+      booking: "Train/Flight Ticket Booking (booking charge applicable)"
+    },
+    bookingSteps: [
+      "Click the 'Book Now on WhatsApp' button.",
+      "Choose between In-Person or Virtual Pooja.",
+      "Share your preferred dates & additional requirements.",
+      "Get a customized pooja plan based on your needs.",
+      "Confirm your booking with 50% advance payment.",
+      "Join the pooja physically in Prayagraj or virtually from home!"
+    ],
+    faq: [
+      {
+        question: "What is the significance of Nav Chandi Pooja?",
+        answer: "Nav Chandi Pooja is performed to invoke the nine divine forms of Maa Durga for protection, success, wealth, and spiritual upliftment."
+      },
+      {
+        question: "Can I customize the Nav Chandi Pooja?",
+        answer: "Yes! Our purohits will personalize the rituals based on your specific needs."
+      },
+      {
+        question: "How does the Virtual Pooja work?",
+        answer: "You will receive a private live stream link to join the pooja from anywhere. You can also interact with the purohits during key rituals."
+      },
+      {
+        question: "What if I want prasad delivered after the Virtual Pooja?",
+        answer: "We can arrange prasad delivery to your home upon request (chargeable as per your location)."
+      }
+    ],
+  },
+  "mundan-sanskar-at-vindhyachal" : {
+    title: "Mundan Sanskar at Vindhyachal",
+    slug:"mundan-sanskar-at-vindhyachal",
+    imgUrl: "/images/sat-chandi-pooja.jpg",
+    description: "Perform the sacred Mundan Sanskar at Maa Vindhyavasini Dham and seek divine blessings for your child’s well-being, prosperity, and protection.",
+    whyPerform: "Mundan Sanskar (Tonsure Ceremony) is a Hindu ritual where a child’s first hair is shaved off as a symbol of purification and new beginnings. It is believed to remove past birth negativities, ensure long life, good health, and intelligence, strengthen spiritual growth, and offer protection from evil energies.",
+    benefits: [
+      "Purifies negative karma from past births",
+      "Promotes physical & mental strength",
+      "Blessings from Maa Vindhyavasini for a healthy future",
+      "Protects from evil eyes & planetary doshas",
+      "Ensures wisdom, prosperity & long life"
+    ],
+    location: "Maa Vindhyavasini Temple, Vindhyachal, Uttar Pradesh",
+    poojaDetails: {
+      duration: "1 Day",
+      suitableAge: "Between 1-3 years (or as per family tradition)",
+      ritualsPerformed: [
+        "Sankalp (Invocation & Intent)",
+        "Mundan (Hair Shaving with Sacred Chants)",
+        "Ganga Jal Abhishek (Purification with Holy Water)",
+        "Maa Vindhyavasini Darshan & Blessings",
+        "Navgrah Shanti Pooja (Optional, for planetary peace)",
+        "Prasad Distribution"
+      ],
+      bestDays: [
+        "Akshaya Tritiya",
+        "Navratri",
+        "Purnima",
+        "Amavasya",
+        "Guru Pushya Nakshatra",
+        "Auspicious Muhurat recommended by your astrologer"
+      ]
+    },
+    poojaOptions: [
+      {
+        type: "In-Person",
+        location: "Vindhyachal",
+        details: [
+          "Performed at Maa Vindhyavasini Temple",
+          "Personalized Sankalp (Child’s Name, Gotra & Family Details)",
+          "Navgrah Shanti Pooja (Optional)",
+          "Prasad Distribution",
+          "Photography & Videography available on request"
+        ],
+        bestFor: "Families who wish to perform the ritual at the divine Shakti Peetha."
+      },
+      {
+        type: "Virtual Assistance",
+        location: "Live from Vindhyachal",
+        details: [
+          "Guidance from experienced purohits for an at-home Mundan Sanskar",
+          "Customized Sankalp for your child & family",
+          "Live video consultation to ensure proper ritual performance",
+          "Sacred items list provided for the ceremony",
+          "Blessings & Prasad delivery (optional)"
+        ],
+        bestFor: "Families who cannot travel but want to conduct the ritual under expert guidance."
+      }
+    ],
+    packageDetails: {
+      inPerson: {
+        ritualSetup: "Temple arrangement with expert purohits",
+        poojaSamagri: "All necessary sacred items",
+        accommodation: "Optional – customized as per requirement",
+        sankalp: "Personalized Sankalp with child's name & family details",
+        additionalPooja: "Optional Navgrah Shanti Pooja for planetary blessings",
+        travelAssistance: "Free guidance on best routes & stays",
+        optional: "Train/flight ticket booking (advance booking charge applicable)"
+      },
+      virtual: {
+        liveGuidance: "Expert purohit consultation via Zoom/WhatsApp",
+        sankalp: "Personalized Sankalp (Child’s name, Gotra, & family details)",
+        ritualGuidance: "Step-by-step instructions for performing the ceremony at home",
+        prasadDelivery: "Optional, can be arranged upon request",
+        recording: "Available upon request"
+      }
+    },
+    travelAssistance: {
+      freeRecommendations: "Best routes, timings & accommodations",
+      booking: "Train/Flight Ticket Booking (booking charge applicable)"
+    },
+    bookingSteps: [
+      "Click the 'Book Now on WhatsApp' button.",
+      "Choose between In-Person or Virtual Assistance.",
+      "Share your preferred dates & additional requirements.",
+      "Receive personalized guidance for the ritual.",
+      "Confirm your booking with 50% advance payment.",
+      "Perform the Mundan Sanskar with divine blessings!"
+    ],
+    faq: [
+      {
+        question: "What is the ideal age for Mundan Sanskar?",
+        answer: "It is traditionally performed when the child is between 1-3 years old, but can also be done as per family tradition."
+      },
+      {
+        question: "Can we choose an auspicious date for the Mundan Sanskar?",
+        answer: "Yes! Our purohits will help you select the best date based on your child’s birth chart."
+      },
+      {
+        question: "Can we customize the Mundan Sanskar rituals?",
+        answer: "Yes, additional poojas like Navgrah Shanti Pooja can be included upon request."
+      },
+      {
+        question: "Is accommodation available for families traveling to Vindhyachal?",
+        answer: "Yes, we can assist in arranging comfortable stays near the temple."
+      },
+      {
+        question: "Can I get prasad delivered if I opt for the Virtual Assistance?",
+        answer: "Yes, we can arrange for Prasad & blessings to be delivered to your home upon request."
+      }
+    ],
+  },
+  "satyanarayan-katha-pooja" : {
+    title: "Satyanarayan Katha Pooja",
+    slug:"satyanarayan-katha-pooja",
+    imgUrl: "/images/sat-chandi-pooja.jpg",
+    description: "Invoke the blessings of Lord Vishnu with the sacred Satyanarayan Katha, ensuring prosperity, peace, and happiness in your life!(1-Day Divine Pooja | 1 Vedic Purohit)",
+    whyPerform: "Satyanarayan Katha is a sacred Hindu ritual dedicated to Lord Vishnu, performed to seek his divine blessings for prosperity, financial stability, family harmony, success, and protection from hardships.",
+    benefits: [
+      "Brings financial stability & business growth",
+      "Eliminates family disputes & ensures harmony",
+      "Removes obstacles & grants divine protection",
+      "Bestows success in career, health, and relationships",
+      "Ensures peace, happiness & fulfillment of desires"
+    ],
+    location: "Your home, temple, or online via live streaming",
+    poojaDetails: {
+      duration: "1 Day",
+      purohit: "1 Experienced Vedic Priest",
+      mainRituals: [
+        "Ganesha Pooja & Sankalp",
+        "Kalash Sthapana & Navagraha Shanti",
+        "Satyanarayan Katha Recitation (5 Chapters)",
+        "Offerings of Panchamrit, Fruits & Prasadam",
+        "Aarti & Prasad Distribution"
+      ],
+      bestDays: [
+        "Purnima (Full Moon)",
+        "Ekadashi",
+        "Special Occasions",
+        "Any Auspicious Day"
+      ]
+    },
+    poojaOptions: [
+      {
+        type: "In-Person Satyanarayan Katha",
+        location: "Your Home or Temple",
+        details: [
+          "Performed at your home or temple",
+          "1 Purohit conducting full Katha & Vishnu Pooja",
+          "Personalized Sankalp (Your Name, Gotra & Wish)",
+          "Offering of Panchamrit, Prasadam & Aarti",
+          "Optional: Havan & additional offerings"
+        ],
+        bestFor: "Those who want a direct, in-person divine experience."
+      },
+      {
+        type: "Online Satyanarayan Katha (Live Pooja)",
+        location: "Live via Zoom/WhatsApp",
+        details: [
+          "Join from anywhere in the world",
+          "Live Streaming via Zoom/WhatsApp",
+          "Dedicated Purohit chanting for you",
+          "Personalized Sankalp & Name in Pooja",
+          "Receive Prasad at home"
+        ],
+        bestFor: "Devotees who want Katha remotely."
+      }
+    ],
+    packageDetails: {
+      inPerson: {
+        ritualSetup: "Full Vishnu Pooja at home or temple",
+        purohit: "1 Vedic Purohit conducting the Katha",
+        poojaSamagri: "All required sacred items included",
+        sankalp: "Personalized Sankalp with your name, Gotra & wish",
+        additionalPooja: "Optional havan & special offerings",
+        prasad: "Offerings of Panchamrit, Fruits & Prasadam"
+      },
+      virtual: {
+        liveGuidance: "Private live streaming from a sacred location",
+        purohit: "Dedicated Purohit for Your Sankalp",
+        ritualGuidance: "Step-by-step guidance during the pooja",
+        recording: "Available upon request",
+        prasadDelivery: "Optional, can be arranged upon request",
+        bonus: "Free consultation with our Purohit after the Pooja"
+      }
+    },
+    bookingSteps: [
+      "Click the 'Book Now on WhatsApp' button.",
+      "Choose between In-Person or Virtual Katha.",
+      "Share your preferred date & additional requirements.",
+      "Receive a customized pooja plan.",
+      "Confirm your booking & receive details.",
+      "Perform the sacred pooja with divine blessings!"
+    ],
+    faq: [
+      {
+        question: "Who should perform Satyanarayan Katha?",
+        answer: "Anyone seeking prosperity, success, family happiness, and divine blessings can perform this pooja."
+      },
+      {
+        question: "Can I customize the Pooja?",
+        answer: "Yes! You can add havan, extra offerings, or additional purohits."
+      },
+      {
+        question: "How does the Virtual Pooja work?",
+        answer: "You will receive a private live stream link and can participate in real-time."
+      },
+      {
+        question: "Can I get Prasad after Virtual Pooja?",
+        answer: "Yes! We can deliver Prasad to your home upon request."
+      }
+    ],
+},
+  "nav-chandi-pooja-at-vindhyachal": {
+    title: "Nav Chandi Pooja at Vindhyachal",
+    slug:"nav-chandi-pooja-at-vindhyachal",
+    imgUrl: "/images/sat-chandi-pooja.jpg",
+    description: "Invoke the divine blessings of Maa Durga with the highly auspicious Nav Chandi Pooja at the sacred Vindhyachal Dham. This powerful ritual removes negativity, grants prosperity, and fulfills all desires!(9 Days | Path of Durga Saptashati)",
+    whyPerform: "Nav Chandi Pooja is an intense and sacred Vedic ritual performed to seek the grace of Maa Durga and her nine forms. It is highly recommended for protection from negative energies, success in all endeavors, financial stability, spiritual growth, and overall well-being.",
+    benefits: [
+      "Removes negativity, evil eye, and doshas",
+      "Ensures divine protection & spiritual upliftment",
+      "Brings prosperity, health, and happiness",
+      "Bestows success in career and business",
+      "Blessings of Maa Durga for victory & power"
+    ],
+    location: "Vindhyachal Dham, Uttar Pradesh (One of the most sacred Shakti Peethas)",
+    poojaDetails: {
+      duration: "9 Days",
+      path: "Recitations of Durga Saptashati",
+      mainRituals: [
+        "Ganesh Pooja & Sankalp (Invocation & Intent)",
+        "Kalash Sthapana & Navgrah Shanti",
+        "Path of Durga Saptashati (Nav Chandi Paath)",
+        "Maha Yagna (Sacred Fire Ritual)",
+        "Devi Mahatmya Recitation & Kumari Poojan",
+        "Aarti & Prasad Distribution"
+      ],
+      bestTime: [
+        "Navratri (Highly Recommended)",
+        "Purnima",
+        "Amavasya",
+        "Any Auspicious Day"
+      ]
+    },
+    poojaOptions: [
+      {
+        type: "In-Person Nav Chandi Pooja",
+        location: "Vindhyachal",
+        details: [
+          "Performed at the sacred Maa Vindhyavasini Temple",
+          "Chandi Path for 9 days",
+          "Grand Yagna & Maha Aarti at the temple",
+          "Accommodation can be arranged on request",
+          "Personalized Sankalp (Your Name, Gotra & Wish)",
+          "Offering of Panchamrit, Fruits & Prasadam",
+          "Optional: Additional Havan & Special Offerings"
+        ],
+        bestFor: "Those who want a direct, divine experience at the Shakti Peetha."
+      },
+      {
+        type: "Online Nav Chandi Pooja (Live Pooja)",
+        location: "Live from Vindhyachal",
+        details: [
+          "Join from anywhere in the world",
+          "Live Streaming from Vindhyachal",
+          "Dedicated Purohit chanting for you",
+          "Personalized Sankalp & Name in Pooja",
+          "Receive Prasad at home"
+        ],
+        bestFor: "Devotees who want Pooja remotely but still experience divine blessings."
+      }
+    ],
+    packageDetails: {
+      inPerson: {
+        ritualSetup: "Temple arrangement with expert purohits",
+        poojaSamagri: "All necessary sacred items",
+        accommodation: "Optional – customized as per requirement",
+        sankalp: "Personalized Sankalp with your name, Gotra & wish",
+        additionalPooja: "Optional Navgrah Shanti Pooja, Rudrabhishek, and Gau Daan",
+        travelAssistance: "Guidance on best routes & stays",
+        optional: "Train/flight ticket booking (advance booking charge applicable)"
+      },
+      virtual: {
+        liveGuidance: "Private live streaming from Vindhyachal",
+        sankalp: "Personalized Sankalp with your name & family details",
+        ritualGuidance: "Step-by-step instructions by expert purohits",
+        prasadDelivery: "Optional, can be arranged upon request",
+        recording: "Available upon request"
+      }
+    },
+    travelAssistance: {
+      freeRecommendations: "Best routes, timings & accommodations",
+      booking: "Train/Flight Ticket Booking (booking charge applicable)"
+    },
+    bookingSteps: [
+      "Click the 'Book Now on WhatsApp' button.",
+      "Choose between In-Person or Virtual Nav Chandi Pooja.",
+      "Share your preferred date & additional requirements.",
+      "Receive a customized pooja plan.",
+      "Confirm your booking & receive details.",
+      "Perform the sacred pooja with divine blessings!"
+    ],
+    faq: [
+      {
+        question: "Who should perform Nav Chandi Pooja?",
+        answer: "Anyone seeking Maa Durga’s blessings for protection, prosperity, and success can perform this pooja."
+      },
+      {
+        question: "Can I customize the Pooja?",
+        answer: "Yes! You can add Navgrah Shanti, Rudrabhishek, or other special rituals."
+      },
+      {
+        question: "How does the Virtual Pooja work?",
+        answer: "You will receive a private live stream link and can participate in real-time."
+      },
+      {
+        question: "Can I get Prasad after Virtual Pooja?",
+        answer: "Yes! We can deliver Prasad to your home upon request."
+      }
+    ],
+    bookingLink: "Book Now on WhatsApp"
+  },
+  "kaal-sarp-dosh-nivaran-pooja-at-naag-vasuki-temple-prayagraj" : {
+    title: "Kaal Sarp Dosh Nivaran Pooja at Naag Vasuki Temple, Prayagraj",
+    slug:"kaal-sarp-dosh-nivaran-pooja-at-naag-vasuki-temple-prayagraj",
+    imgUrl: "/images/sat-chandi-pooja.jpg",
+    description: "Remove the negative effects of Kaal Sarp Dosh and bring peace, prosperity, and success into your life!(1-Day Special Pooja | 10 Vedic Pandits)",
+    whatIsKaalSarpDosh: {
+      definition: "Kaal Sarp Dosh occurs when all planets in a horoscope are trapped between Rahu and Ketu. This planetary alignment causes struggles in career, financial instability, health issues, delayed marriage, and unexpected obstacles.",
+      effects: [
+        "Struggles in career & business",
+        "Financial instability & debts",
+        "Health issues & mental stress",
+        "Delayed marriage & family problems",
+        "Unexpected obstacles in life"
+      ],
+      benefits: [
+        "Neutralizes Rahu-Ketu’s negative effects",
+        "Removes hurdles in career & business",
+        "Improves financial & personal life stability",
+        "Brings peace, success & protection from hidden enemies"
+      ],
+      location: "Naag Vasuki Temple, Prayagraj (One of India’s most powerful temples for Rahu-Ketu dosh removal)"
+    },
+    poojaDetails: {
+      duration: "1 Day",
+      pandits: "10 Vedic Experts",
+      mainRituals: [
+        "Ganapati Puja & Kalash Sthapana",
+        "Navagraha Shanti Pooja",
+        "Rahu-Ketu Jaap (11,000 chants per devotee)",
+        "Kaal Sarp Dosh Nivaran Homa (Havan)",
+        "Naag Vasuki Abhishek with Milk, Ghee & Panchamrit",
+        "Sarpa Shanti Pooja & Tarpan (Offerings to Naag Devta)",
+        "Final Aarti & Sankalp for Blessings"
+      ],
+      bestDays: [
+        "Nag Panchami",
+        "Amavasya",
+        "Panchami Tithi",
+        "Any auspicious day"
+      ]
+    },
+    keyBenefits: [
+      "Relief from career obstacles & financial troubles",
+      "Success in marriage & family harmony",
+      "Protection from accidents, debts & misfortune",
+      "Peace of mind, good health & spiritual growth",
+      "Removes delay in success & prosperity"
+    ],
+    idealFor: [
+      "People facing unexplained challenges",
+      "Job struggles",
+      "Financial losses",
+      "Marriage delays",
+      "Health issues due to Kaal Sarp Dosh"
+    ],
+    poojaOptions: [
+      {
+        type: "In-Person Pooja at Naag Vasuki Temple, Prayagraj",
+        location: "Naag Vasuki Temple, Prayagraj",
+        details: [
+          "Conducted by 10 expert Vedic Pandits",
+          "Personalized Sankalp (Your Name, Gotra & Wish)",
+          "Rahu-Ketu Jaap & Havan at the temple",
+          "Milk & Panchamrit Abhishek of Naag Vasuki Murti",
+          "Naag Prasad & Energized Sarpa Yantra for Protection",
+          "Special Brahmin Bhojan & Donation for Dosha Removal",
+          "Optional: Accommodation & Travel Assistance Available"
+        ],
+        bestFor: "Those who want an immersive spiritual experience in Prayagraj."
+      },
+      {
+        type: "Virtual Kaal Sarp Dosh Pooja (Live from Prayagraj!)",
+        location: "Live via Zoom/WhatsApp",
+        details: [
+          "Join from anywhere in the world",
+          "Live Streaming of the entire Pooja",
+          "Your name & sankalp included in rituals",
+          "Dedicated live feed of Havan & Abhishek",
+          "Option to receive Prasad & Naag Vasuki Yantra at home",
+          "Pooja recording available on request"
+        ],
+        bestFor: "Devotees who want Kaal Sarp Dosha Nivaran remotely."
+      }
+    ],
+    packageDetails: {
+      inPerson: {
+        ritualSetup: "Full Kaal Sarp Dosh Nivaran rituals at Naag Vasuki Temple",
+        pandits: "10 Expert Pandits performing full-day rituals",
+        poojaSamagri: "All required sacred items included",
+        sankalp: "Personalized Sankalp with your name, Gotra & wish",
+        additionalPooja: "Optional kundali analysis and special offerings",
+        prasad: "Milk & Panchamrit Abhishek, Naag Prasad & Sarpa Yantra",
+        optional: "Assistance in booking train/flight tickets to Prayagraj"
+      },
+      virtual: {
+        liveGuidance: "Full HD live streaming from Prayagraj",
+        purohit: "Dedicated Purohit for Your Sankalp",
+        ritualGuidance: "Step-by-step guidance during the pooja",
+        recording: "Available upon request",
+        prasadDelivery: "Optional, can be arranged upon request"
+      }
+    },
+    travelAssistance: {
+      description: "We assist devotees with travel arrangements for a hassle-free experience.",
+      services: [
+        "FREE Travel Recommendations – Best train/flight routes",
+        "Train/Flight Ticket Booking – On request (charges apply)"
+      ]
+    },
+    bookingSteps: [
+      "Click the 'Book Now on WhatsApp' button.",
+      "Choose between In-Person or Virtual Pooja.",
+      "Share your preferred dates & additional requirements.",
+      "Receive a customized pooja plan based on your needs.",
+      "Confirm your booking with 50% advance payment.",
+      "Join the pooja physically in Prayagraj or virtually from home!"
+    ],
+    faq: [
+      {
+        question: "Who should perform this Pooja?",
+        answer: "This pooja is highly beneficial for those facing Kaal Sarp Dosh effects like career struggles, delayed marriage, financial instability, or constant obstacles in life."
+      },
+      {
+        question: "Can I customize the Pooja for my specific needs?",
+        answer: "Yes! Based on your Kundali, we can adjust the Jaap count and special havan rituals."
+      },
+      {
+        question: "How does the Virtual Pooja work?",
+        answer: "You will receive a private live stream link to join the pooja from anywhere. You can also interact with the purohits during key rituals."
+      },
+      {
+        question: "What if I want Prasad after Virtual Pooja?",
+        answer: "We can arrange Prasad delivery to your home upon request."
+      }
+    ],
+  },
 };
