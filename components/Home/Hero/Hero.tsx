@@ -1,8 +1,6 @@
 "use client";
-
 import React from "react";
 import Head from "next/head";
-// import { Video, MessageCircle } from "lucide-react";
 import { Video, MessageCircle } from "lucide-react";
 import { useRouter } from "next/navigation";
 
