@@ -12,31 +12,43 @@ interface LiveDarshanCardProps {
 }
 
 const LiveDarshanCard: React.FC<LiveDarshanCardProps> = ({ title, slug, description, imageUrl }) => {
-  // WhatsApp Redirect URL (change number as needed)
+  // WhatsApp Redirect URL
   const whatsappUrl = `https://wa.me/919277341677?text=I'm%20interested%20in%20Live%20Darshan:%20${encodeURIComponent(title)}`;
 
   return (
-    <Link href={whatsappUrl} target="_blank" className="flex justify-center items-center w-full mb-6 md:mb-0">
-      <div className="relative rounded-xl overflow-hidden shadow-lg bg-white transition-transform duration-300 hover:scale-105 hover:shadow-2xl flex flex-col w-full max-w-xs h-[400px]"> 
-        {/* ✅ Image takes 60% of the card height */}
-        <div className="h-[60%] w-full">
+    <Link href={whatsappUrl} target="_blank" className="flex justify-center items-center w-full">
+      <div className="relative w-[300px] h-[440px] bg-white rounded-md shadow-md overflow-hidden flex flex-col border border-gray-300 hover:shadow-lg transition-transform duration-200 hover:scale-105 mb-4">
+
+        {/* ✅ Image Section (55% height) */}
+        <div className="h-[55%] w-full overflow-hidden">
           <Image
             src={imageUrl}
             alt={title}
             width={500}
             height={300}
-            className="w-full h-full object-cover rounded-t-xl"
+            className="w-full h-full object-cover"
             priority
           />
         </div>
 
-        {/* ✅ Text Content takes remaining 40% */}
-        <div className="p-3 flex flex-col text-center flex-grow">
+        {/* ✅ Text Content Section with a Yellow Background */}
+        <div className="p-4 flex flex-col text-center flex-grow bg-[#F3DFBF]">  
           {/* Title */}
-          <h3 className="text-base sm:text-lg font-bold text-gray-800 line-clamp-2 ">{title}</h3>
+          <h3 className="text-lg font-bold text-gray-900 leading-tight">
+            {title}
+          </h3>
 
-          {/* ✅ Adjusted Description with Dynamic Fit */}
-          <p className="text-gray-600 text-sm mt-1 line-clamp-3 overflow-hidden">{description}</p>
+          {/* Description */}
+          <p className="text-gray-800 text-sm mt-2 leading-snug">
+            {description}
+          </p>
+
+          {/* ✅ Button Section (Same Orange Button) */}
+          <div className="mt-auto pt-3">
+            <button className="bg-white text-black font-bold px-4 py-2 rounded-sm w-full hover:bg-orange-600 transition text-sm">
+              Book Now
+            </button>
+          </div>
         </div>
       </div>
     </Link>
