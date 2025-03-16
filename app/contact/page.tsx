@@ -70,8 +70,8 @@ const ContactPage = () => {
               <span className="text-red-500 text-3xl">📍</span>
               <p className="text-gray-700 text-lg">
                 Address: <br />
-                Shop no 23, commercial complex, <br />A Block, ADA Colony Naini
-                Prayagraj- 211008
+                <strong>Shop no 23, commercial complex, <br />A Block, ADA Colony Naini
+                Prayagraj- 211008</strong>
               </p>
             </div>
           </div>
