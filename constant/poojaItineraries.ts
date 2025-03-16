@@ -1,7 +1,7 @@
 export const poojaItineraries = {
-  navgrahaShantiPath: {
+  "navgrah-shanti-path-at-prayagraj-vindhaychal": {
     title: "Navgraha Shanti Path Pooja at Prayagraj – 1-Day Spiritual Experience ✨",
-    slug: "navgraha-shanti-path",
+    slug: "navgrah-shanti-path-at-prayagraj-vindhaychal",
     imageUrl: "/images/poojaItinerary/nav_grah_shanti_path_prayagraj.jpg",
     price: "Custom Pricing Based on Package",
     description:
@@ -45,9 +45,9 @@ export const poojaItineraries = {
     ],
   },
 
-  mahaMrityunjayaPooja: {
+  "mahamrityunjay-jaap-at-prayagraj": {
     title: "Maha Mrityunjaya Pooja at Prayagraj – 1-Day Spiritual Experience ✨",
-    slug: "maha-mrityunjaya-pooja",
+    slug: "mahamrityunjay-jaap-at-prayagraj",
     imageUrl: "/images/poojaItinerary/Rudrabhishek at Triveni sangam_.jpg",
     price: "Custom Pricing Based on Chanting Cycles",
     description: "A sacred and powerful Vedic ritual dedicated to Lord Shiva, performed for health, longevity, and divine protection.",
@@ -91,9 +91,9 @@ export const poojaItineraries = {
     ],
   },
 
-rudrabhishekPooja: {
+"rudrabhishek-at-triveni-sangam": {
   title: "Rudrabhishek Pooja at Triveni Sangam – 1-Day Spiritual Experience ✨",
-  slug: "rudrabhishek-pooja",
+  slug: "rudrabhishek-at-triveni-sangam",
   imageUrl: "/images/poojaItinerary/Rudrabhishek at Triveni sangam_.jpg",
   price: "Custom Pricing Based on Rituals",
   description: "A sacred ritual dedicated to Lord Shiva, performed at the Triveni Sangam to remove doshas, attract prosperity, and grant spiritual purification.",
