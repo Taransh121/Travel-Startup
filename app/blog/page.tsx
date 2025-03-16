@@ -21,7 +21,7 @@ export default async function BlogPage() {
 
   return (
     <div className="p-6 max-w-6xl mx-auto">
-      <h1 className="text-4xl font-bold mb-6 text-center mt-20 text-gray-700">
+      <h1 className="text-4xl font-bold mb-6 text-center mt-20 text-[#ec8014]">
         Blogs
       </h1>
       {blogs.length > 0 ? (
@@ -31,7 +31,7 @@ export default async function BlogPage() {
               key={blog._id}
               className="bg-white border rounded-lg shadow-md p-4 flex flex-col"
             >
-              <h2 className="text-xl font-semibold mb-2 line-clamp-2">
+              <h2 className="text-xl font-semibold mb-2 line-clamp-2 text-[#03485e]">
                 {blog.title}
               </h2>
               <p className="text-gray-600">{blog.metaDescription}</p>
@@ -40,7 +40,7 @@ export default async function BlogPage() {
               <div className="mt-auto pt-4">
                 <Link
                   href={`/blog/${blog._id}`}
-                  className="text-blue-600 font-medium"
+                  className="text-[#ec8014] font-medium"
                 >
                   Read More →
                 </Link>

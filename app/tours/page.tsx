@@ -56,7 +56,7 @@ const AllTours = () => {
 
       {/* Page Header */}
       <div className="text-center py-8 pt-[60px]">
-        <h1 className="text-3xl font-bold text-blue-700 mt-5">Explore Our Tour Packages</h1>
+        <h1 className="text-3xl font-bold text-[#03485e] mt-5">Explore Our Tour Packages</h1>
         <p className="text-sm text-gray-600 mt-2">
           Find the perfect pilgrimage tour for you
         </p>
@@ -74,7 +74,7 @@ const AllTours = () => {
         />
         <button
           onClick={handleSearch}
-          className="px-4 py-2 bg-blue-600 text-white rounded-r-md hover:bg-red-700 transition"
+          className="px-4 py-2 bg-[#03485e] text-white rounded-r-md hover:bg-red-700 transition"
         >
           Search
         </button>

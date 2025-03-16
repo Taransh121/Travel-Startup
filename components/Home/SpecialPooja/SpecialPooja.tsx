@@ -76,7 +76,7 @@ const SpecialPooja = () => {
           </div>
 
           {/* View All Button */}
-          <div className="mt-3 lg:mt-6 text-center">
+          <div className="mt-3 lg:mt-2 text-center">
             <Link href="/pooja">
               <button className="bg-red-600 text-white px-6 py-3 lg:px-5 lg:py-2.5 rounded-lg text-lg lg:text-base font-semibold transition-all duration-300 hover:bg-red-700 shadow-md">
                 View All Poojas →

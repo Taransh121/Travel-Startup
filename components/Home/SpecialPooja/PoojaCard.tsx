@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Bold } from "lucide-react";
 
 // Define the props for PoojaCard
 interface PoojaCardProps {
@@ -31,7 +32,7 @@ const PoojaCard: React.FC<PoojaCardProps> = ({ title,slug, price, description, i
       {/* Card Content */}
       <div className="p-6 text-center flex flex-col justify-between flex-grow">
         <h3 className="text-lg sm:text-xl font-bold text-gray-800 line-clamp-2">{title}</h3>
-        <p className="text-lg font-semibold text-red-600">{price}</p>
+        <p className="text-lg font-semibold text-red-600">Starting {price}</p>
         <p className="text-gray-600 text-base mt-3 line-clamp-2">{description}</p>
       </div>
     </div>

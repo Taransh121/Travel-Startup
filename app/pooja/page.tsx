@@ -59,7 +59,7 @@ const PoojaPage = () => {
           aria-label="Search Pooja"
         />
         <button
-          className={`px-4 py-2 ${searchTerm ? "bg-red-600 hover:bg-red-700" : "bg-gray-400"} text-white rounded-r-md transition`}
+          className={`px-4 py-2 ${searchTerm ? "bg-red-600 hover:bg-red-700" : "bg-red-700"} text-white rounded-r-md transition`}
           disabled={!searchTerm} // ✅ Prevents unnecessary empty searches
           aria-label="Search Button"
         >
