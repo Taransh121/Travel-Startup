@@ -28,7 +28,7 @@ const Nav = ({ openNav }: Props) => {
   return (
     <div
       className={`fixed w-full z-[1000] h-[8vh] transition-all duration-200`}
-      style={{ backgroundColor: navBg ? "#000000" : "transparent" }}
+      style={{ backgroundColor: navBg ? "#00555A" : "transparent" }}
     >
       <div className="flex items-center justify-between w-[90%] xl:w-[80%] mx-auto px-4 md:px-6 xl:px-8 py-2 md:py-3">
         <div className="flex items-center space-x-2">

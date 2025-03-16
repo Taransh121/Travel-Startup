@@ -30,7 +30,8 @@ const About = () => {
             Embark on a Sacred Journey with tirthayatrik
           </h1>
           <p className="text-base sm:text-lg mt-3 opacity-90">
-            Experience a seamless pilgrimage where faith, culture, and comfort come together.
+            Experience a seamless pilgrimage where faith, culture, and comfort
+            come together.
           </p>
         </div>
       </section>
@@ -42,7 +43,10 @@ const About = () => {
             Who We Are
           </h2>
           <p className="text-sm sm:text-base text-gray-700 max-w-2xl mx-auto">
-            tirthayatrik is committed to making spiritual travel <strong>meaningful, comfortable, and hassle-free</strong>. Our carefully crafted pilgrimage packages ensure you focus on devotion while we handle the logistics.
+            tirthayatrik is committed to making spiritual travel{" "}
+            <strong>meaningful, comfortable, and hassle-free</strong>. Our
+            carefully crafted pilgrimage packages ensure you focus on devotion
+            while we handle the logistics.
           </p>
         </div>
 
@@ -72,7 +76,9 @@ const About = () => {
               <h3 className="text-lg sm:text-xl font-semibold text-[#03485e] mb-2">
                 {feature.icon} {feature.title}
               </h3>
-              <p className="text-sm sm:text-base text-gray-700">{feature.text}</p>
+              <p className="text-sm sm:text-base text-gray-700">
+                {feature.text}
+              </p>
             </div>
           ))}
         </div>
@@ -81,18 +87,26 @@ const About = () => {
       {/* ✅ Mission & Vision */}
       <section className="py-16 px-4 bg-gradient-to-r from-[#de7733] to-[#f58015] text-white">
         <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-2xl sm:text-3xl font-bold">Our Mission & Vision</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold">
+            Our Mission & Vision
+          </h2>
           <div className="mt-8 flex flex-col sm:flex-row gap-8">
             <div className="bg-white text-gray-900 p-6 rounded-lg shadow-md hover:scale-105 transition flex-1 border-l-4 border-[#034a5e]">
-              <h3 className="text-lg sm:text-xl font-semibold mb-2">🎯 Our Mission</h3>
+              <h3 className="text-lg sm:text-xl font-semibold mb-2">
+                🎯 Our Mission
+              </h3>
               <p className="text-sm sm:text-base">
-                We strive to make spiritual travel accessible, enriching, and deeply fulfilling for all devotees.
+                We strive to make spiritual travel accessible, enriching, and
+                deeply fulfilling for all devotees.
               </p>
             </div>
             <div className="bg-[#034a5e] text-white p-6 rounded-lg shadow-md hover:scale-105 transition flex-1">
-              <h3 className="text-lg sm:text-xl font-semibold mb-2">👁️ Our Vision</h3>
+              <h3 className="text-lg sm:text-xl font-semibold mb-2">
+                👁️ Our Vision
+              </h3>
               <p className="text-sm sm:text-base">
-                We envision a world where spiritual seekers can journey with peace of mind, convenience, and deep faith.
+                We envision a world where spiritual seekers can journey with
+                peace of mind, convenience, and deep faith.
               </p>
             </div>
           </div>
@@ -101,7 +115,9 @@ const About = () => {
 
       {/* ✅ Call to Action */}
       <section className="bg-gradient-to-r from-[#de7733] to-[#f58015] text-white py-12 px-4 text-center">
-        <h2 className="text-2xl sm:text-3xl font-bold">Start Your Spiritual Journey Today</h2>
+        <h2 className="text-2xl sm:text-3xl font-bold">
+          Start Your Spiritual Journey Today
+        </h2>
         <p className="text-sm sm:text-base mt-2 max-w-2xl mx-auto opacity-90">
           Let us handle the details while you focus on spiritual fulfillment.
         </p>
@@ -112,6 +128,7 @@ const About = () => {
           View Pilgrimage Packages
         </button>
       </section>
+      {/* <Footer /> */}
     </>
   );
 };

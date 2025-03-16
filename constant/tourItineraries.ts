@@ -325,7 +325,7 @@ export const itineraries = {
       "•  Optional pickup & drop-off service from Prayagraj (chargeable)",
     ],
     itinerary: [
-      { day: "Day 1", activity: "🕘 Morning Arrival & Briefing" },
+      { day: "Day 1", activity: "• Morning Arrival & Briefing" },
       {
         day: "Day 1",
         activity:
@@ -413,7 +413,7 @@ export const itineraries = {
       "•  Optional pickup & drop-off service from Prayagraj (chargeable)",
     ],
     itinerary: [
-      { day: "Day 1", activity: "🕘 Morning Arrival & Briefing" },
+      { day: "Day 1", activity: "• Morning Arrival & Briefing" },
       {
         day: "Day 1",
         activity:
@@ -543,7 +543,7 @@ export const itineraries = {
       },
       {
         day: "Day 2",
-        activity: "🍽️ Lunch Break at a recommended restaurant (Self-Paid).",
+        activity: "• Lunch Break at a recommended restaurant (Self-Paid).",
       },
       { day: "Day 2", activity: "• Afternoon: Journey to Vindhyanchal." },
       { day: "Day 2", activity: "• Kali Khoh Temple Darshan." },
@@ -1023,7 +1023,7 @@ export const itineraries = {
       {
         day: "Day 3",
         activity:
-          "⛵ Scenic Boat Ride on the Ganga – Witness historic ghats & temples.",
+          "• Scenic Boat Ride on the Ganga – Witness historic ghats & temples.",
       },
       { day: "Day 3", activity: "• Lunch Break (Self-Paid)." },
       {
