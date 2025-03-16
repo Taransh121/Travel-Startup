@@ -27,7 +27,8 @@ const TourDetails = () => {
   };
 
   // Group itinerary by day
-  const groupedItinerary: Record<string, typeof tour.itinerary[number][]> = {};
+  const groupedItinerary: Record<string, (typeof tour.itinerary)[number][]> =
+    {};
   tour.itinerary.forEach((item) => {
     if (item.day) {
       groupedItinerary[item.day] = groupedItinerary[item.day] || [];
@@ -38,7 +39,7 @@ const TourDetails = () => {
   return (
     <>
       <Head>
-        <title>{tour.title} - TeerthaYatrik</title>
+        <title>{tour.title} - tirthayatrik</title>
         <meta
           name="description"
           content={`Explore the ${tour.title} package with itinerary and pricing.`}
@@ -59,26 +60,36 @@ const TourDetails = () => {
           </div>
           <div className="md:w-1/2">
             <h1 className="text-3xl font-bold text-gray-900">{tour.title}</h1>
-            <p className="mt-3 text-gray-700 leading-relaxed">{tour.description}</p>
+            <p className="mt-3 text-gray-700 leading-relaxed">
+              {tour.description}
+            </p>
           </div>
         </div>
 
         {/* 🌟 Why Choose This Yatra? */}
         <div className="mt-8 bg-gray-100 p-6 rounded-lg shadow">
-          <h2 className="text-2xl font-semibold text-orange-700">🌟 Why Choose This Yatra?</h2>
+          <h2 className="text-2xl font-semibold text-orange-700">
+            🌟 Why Choose This Yatra?
+          </h2>
           <ul className="mt-3 space-y-2 text-gray-700">
             {tour.whyChooseThisYatra.map((point, index) => (
-              <li key={`why-${index}`} className="flex items-center">{point}</li>
+              <li key={`why-${index}`} className="flex items-center">
+                {point}
+              </li>
             ))}
           </ul>
         </div>
 
         {/* 🚗 Route Overview & Travel Plan */}
         <div className="mt-8 bg-gray-100 p-6 rounded-lg shadow">
-          <h2 className="text-2xl font-semibold text-orange-700">🚗 Route Overview & Travel Plan</h2>
+          <h2 className="text-2xl font-semibold text-orange-700">
+            🚗 Route Overview & Travel Plan
+          </h2>
           <ul className="mt-3 space-y-2 text-gray-700">
             {tour.routeOverview.map((route, index) => (
-              <li key={`route-${index}`} className="flex items-center">{route}</li>
+              <li key={`route-${index}`} className="flex items-center">
+                {route}
+              </li>
             ))}
           </ul>
         </div>
@@ -88,10 +99,15 @@ const TourDetails = () => {
           <h2 className="text-2xl font-semibold">📍 Journey Overview</h2>
           <div className="mt-3 space-y-4">
             {Object.entries(groupedItinerary).map(([day, steps]) => (
-              <div key={`day-${day}`} className="border rounded-lg overflow-hidden shadow">
+              <div
+                key={`day-${day}`}
+                className="border rounded-lg overflow-hidden shadow"
+              >
                 <button
                   className="w-full bg-orange-200 px-4 py-3 text-left font-semibold text-orange-700 flex justify-between"
-                  onClick={() => setExpandedDay(expandedDay === day ? null : day)}
+                  onClick={() =>
+                    setExpandedDay(expandedDay === day ? null : day)
+                  }
                 >
                   🗓️ {day} <span>{expandedDay === day ? "▲" : "▼"}</span>
                 </button>
@@ -114,8 +130,13 @@ const TourDetails = () => {
 
         {/* 💰 Pricing & Booking */}
         <div className="mt-8 bg-orange-100 p-6 rounded-lg shadow">
-          <h2 className="text-2xl font-semibold text-orange-700">💰 Pricing & Booking</h2>
-          <p className="mt-2 text-gray-700">💵 <strong>Pay on Arrival</strong> – No advance payment needed, book with confidence!</p>
+          <h2 className="text-2xl font-semibold text-orange-700">
+            💰 Pricing & Booking
+          </h2>
+          <p className="mt-2 text-gray-700">
+            💵 <strong>Pay on Arrival</strong> – No advance payment needed, book
+            with confidence!
+          </p>
           <button
             onClick={handleWhatsAppBooking}
             className="mt-4 bg-orange-600 text-white px-6 py-3 rounded-md shadow-md hover:bg-orange-700 transition"

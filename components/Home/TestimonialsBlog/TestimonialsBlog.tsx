@@ -30,7 +30,9 @@ const TestimonialsBlog = () => {
               What Our Customers Think About Us?
             </h1>
             <p className="mt-6 text-gray-200">
-              Discover the experiences of our happy travelers. From seamless bookings to spiritual journeys, we take care of everything so you can focus on devotion.
+              Discover the experiences of our happy travelers. From seamless
+              bookings to spiritual journeys, we take care of everything so you
+              can focus on devotion.
             </p>
 
             {/* Ratings */}

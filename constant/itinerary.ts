@@ -13,9 +13,7 @@ export const itineraries = {
       "✅ Pay on arrival for a stress-free booking experience",
       "✅ Witness the divine Ganga Aarti at the sacred Dashashwamedh Ghat.",
     ],
-    routeOverview: [
-      
-    ],
+    routeOverview: [],
     highlights: [
       "🚗 Comfortable AC travel with an experienced driver for a hassle-free journey",
       "👵 Special care for elderly devotees, ensuring a smooth darshan experience",
@@ -105,9 +103,7 @@ export const itineraries = {
       "✅ Hassle-free darshan – Say goodbye to long queues and experience a smooth darshan.",
       "✅ No advance payment needed – Pay on arrival and book with confidence",
     ],
-    routeOverview: [
-      
-    ],
+    routeOverview: [],
     highlights: [
       "🚗 Comfortable & stress-free travel – Just sit back, relax, and enjoy the divine vibes!",
       "👵 Special care for elderly devotees – Ensuring ease and comfort during the journey.",
@@ -192,9 +188,7 @@ export const itineraries = {
       "✅ Trusted & Well-Planned Pilgrimage.",
       "✅ Personalized Spiritual Experience – Optional special poojas available.",
     ],
-    routeOverview: [
-      
-    ],
+    routeOverview: [],
     highlights: [
       "🚗 Comfortable & Hassle-Free Travel",
       "🔄 Flexible Itinerary (Customizable as per your preference)",
@@ -229,9 +223,7 @@ export const itineraries = {
       "✅ Special Assistance for Elderly Devotees – We ensure a smooth and easy darshan experience.",
       "✅ Flexible Itinerary – Free time for shopping and exploring at your own pace",
     ],
-    routeOverview: [
-     
-    ],
+    routeOverview: [],
     highlights: [
       " Comfortable Stay Included – Relax in a well-rated hotel for a hassle-free experience.",
       " Seamless Pickup & Drop-off – From Prayagraj Airport/Railway Station for a stress-free journey.",
@@ -324,9 +316,7 @@ export const itineraries = {
       "✅ Elderly-Friendly Arrangements – Special attention for senior citizens.",
       "✅ Flexible & Customizable – We can tweak the plan to suit your needs.",
     ],
-    routeOverview: [
-      
-    ],
+    routeOverview: [],
     highlights: [
       "✅ Hassle-free spiritual experience with expert travel assistance",
       "✅ Comfortable hotel stay in Prayagraj with complimentary breakfast",
@@ -414,9 +404,7 @@ export const itineraries = {
       "✅ Hassle-Free Darshans – With special care for families and senior citizens.",
       "✅ Customization Available – Personalize your yatra as per your spiritual and travel preferences",
     ],
-    routeOverview: [
-     
-    ],
+    routeOverview: [],
     highlights: [
       "✅ Hassle-free spiritual experience with expert travel assistance",
       "✅ Comfortable hotel stay in Prayagraj with complimentary breakfast",
@@ -503,9 +491,7 @@ export const itineraries = {
       "✅ Handpicked Stays – Well-rated hotels with breakfast.",
       "✅ Personalized Spiritual Experience – Optional special poojas available.",
     ],
-    routeOverview: [
-      
-    ],
+    routeOverview: [],
     highlights: [
       "✅ Hassle-free spiritual experience with expert travel assistance.",
       "✅ Comfortable hotel stay in Prayagraj with complimentary breakfast",
@@ -591,9 +577,7 @@ export const itineraries = {
       "✅ Personalized Experience: Our itinerary is flexible—customize your yatra as per your preferences.      .",
       "✅ Special Care: We take extra care of families and elderly devotees, ensuring a stress-free journey.      .",
     ],
-    routeOverview: [
-      
-    ],
+    routeOverview: [],
     highlights: [
       "🚗 Comfortable AC travel with an experienced driver who knows the pilgrimage routes",
       "🛏️ Well-rated hotel stays with complimentary breakfast at all locations",
@@ -777,9 +761,7 @@ export const itineraries = {
       "✅ Handpicked Stays – Well-rated hotels with breakfast.",
       "✅ Personalized Spiritual Experience – Optional special poojas available.",
     ],
-    routeOverview: [
-     
-    ],
+    routeOverview: [],
     highlights: [
       "🚗 Comfortable AC travel with an experienced driver who knows the pilgrimage routes",
       "🛏️ Well-rated hotel stays with complimentary breakfast at all locations",
@@ -936,9 +918,7 @@ export const itineraries = {
       "✅ No rush—relaxed darshans & sightseeing.",
       "✅ Comfortable Travel – AC Sedan (5-seater), SUV (7-seater), Traveller, or AC Bus based on group size.",
     ],
-    routeOverview: [
-     
-    ],
+    routeOverview: [],
     highlights: [
       "🚗 Comfortable AC travel with an experienced driver who knows the pilgrimage routes",
       "🛏️ Well-rated hotel stays with complimentary breakfast at all locations",

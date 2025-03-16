@@ -1,25 +1,25 @@
-"use client"; 
+"use client";
 
-import { useRouter } from "next/navigation"; 
+import { useRouter } from "next/navigation";
 import Head from "next/head";
 import Footer from "@/components/Home/Footer/Footer";
 
 const About = () => {
-  const router = useRouter(); 
+  const router = useRouter();
 
   return (
     <>
       <Head>
-        <title>About Us - Teerthayatrik</title>
+        <title>About Us - tirthayatrik</title>
         <meta
           name="description"
-          content="Teerthayatrik offers curated pilgrimage experiences, ensuring a smooth, enriching, and spiritually fulfilling journey."
+          content="tirthayatrik offers curated pilgrimage experiences, ensuring a smooth, enriching, and spiritually fulfilling journey."
         />
         <meta
           name="keywords"
-          content="pilgrimage, religious tourism, spiritual travel, holy sites, Teerthayatrik"
+          content="pilgrimage, religious tourism, spiritual travel, holy sites, tirthayatrik"
         />
-        <meta name="author" content="Teerthayatrik" />
+        <meta name="author" content="tirthayatrik" />
       </Head>
 
       {/* ✅ Hero Section */}
@@ -27,10 +27,11 @@ const About = () => {
         <div className="absolute inset-0 bg-black opacity-40 mt-5"></div>
         <div className="relative z-10 max-w-3xl mx-auto mt-10">
           <h1 className="text-3xl sm:text-4xl font-bold leading-tight drop-shadow-lg">
-            Embark on a Sacred Journey with Teerthayatrik
+            Embark on a Sacred Journey with tirthayatrik
           </h1>
           <p className="text-base sm:text-lg mt-3 opacity-90">
-            Experience a seamless pilgrimage where faith, culture, and comfort come together.
+            Experience a seamless pilgrimage where faith, culture, and comfort
+            come together.
           </p>
         </div>
       </section>
@@ -42,7 +43,10 @@ const About = () => {
             Who We Are
           </h2>
           <p className="text-sm sm:text-base text-gray-700 max-w-2xl mx-auto">
-            Teerthayatrik is committed to making spiritual travel <strong>meaningful, comfortable, and hassle-free</strong>. Our carefully crafted pilgrimage packages ensure you focus on devotion while we handle the logistics.
+            tirthayatrik is committed to making spiritual travel{" "}
+            <strong>meaningful, comfortable, and hassle-free</strong>. Our
+            carefully crafted pilgrimage packages ensure you focus on devotion
+            while we handle the logistics.
           </p>
         </div>
 
@@ -93,7 +97,8 @@ const About = () => {
                 🎯 Our Mission
               </h3>
               <p className="text-sm sm:text-base">
-                We strive to make spiritual travel accessible, enriching, and deeply fulfilling for all devotees.
+                We strive to make spiritual travel accessible, enriching, and
+                deeply fulfilling for all devotees.
               </p>
             </div>
 
@@ -103,7 +108,8 @@ const About = () => {
                 👁️ Our Vision
               </h3>
               <p className="text-sm sm:text-base">
-                We envision a world where spiritual seekers can journey with peace of mind, convenience, and deep faith.
+                We envision a world where spiritual seekers can journey with
+                peace of mind, convenience, and deep faith.
               </p>
             </div>
           </div>
@@ -121,19 +127,23 @@ const About = () => {
             {[
               {
                 title: "🙏 Devotion",
-                description: "Faith and spirituality guide our services and experiences.",
+                description:
+                  "Faith and spirituality guide our services and experiences.",
               },
               {
                 title: "✨ Trust",
-                description: "We ensure reliability, safety, and transparency in all our offerings.",
+                description:
+                  "We ensure reliability, safety, and transparency in all our offerings.",
               },
               {
                 title: "🌍 Inclusivity",
-                description: "Welcoming devotees from all backgrounds with open arms.",
+                description:
+                  "Welcoming devotees from all backgrounds with open arms.",
               },
               {
                 title: "🚀 Excellence",
-                description: "Blending traditional pilgrimages with modern-day convenience.",
+                description:
+                  "Blending traditional pilgrimages with modern-day convenience.",
               },
             ].map((value, index) => (
               <div
@@ -161,7 +171,7 @@ const About = () => {
           Let us handle the details while you focus on spiritual fulfillment.
         </p>
         <button
-          onClick={() => router.push("/tours")} 
+          onClick={() => router.push("/tours")}
           className="mt-4 bg-white text-red-600 font-bold px-6 py-2 rounded-lg text-sm sm:text-base shadow-md hover:bg-gray-200 transition"
         >
           View Pilgrimage Packages

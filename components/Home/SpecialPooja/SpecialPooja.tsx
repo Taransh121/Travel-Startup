@@ -7,23 +7,41 @@ import { poojaPackages } from "@/constant/poojaPackages";
 import PoojaCard from "@/components/Home/SpecialPooja/PoojaCard"; // Import the PoojaCard component
 
 // Dynamically import Swiper to prevent hydration errors
-const SpecialPoojaSlider = dynamic(() => import("@/components/Home/SpecialPooja/SpecialPoojaSlider"), { ssr: false });
+const SpecialPoojaSlider = dynamic(
+  () => import("@/components/Home/SpecialPooja/SpecialPoojaSlider"),
+  { ssr: false }
+);
 
 const SpecialPooja = () => {
   return (
     <>
       {/* SEO Meta Tags */}
       <Head>
-        <title>TeerthaYatrik | Special Pooja Packages</title>
-        <meta name="description" content="Explore divine special pooja packages at TeerthaYatrik for spiritual growth and well-being." />
-        <meta name="keywords" content="Special Pooja, Hindu Rituals, Religious Ceremonies, Spiritual Growth, TeerthaYatrik" />
-        <meta name="author" content="TeerthaYatrik" />
-        <meta property="og:title" content="Special Pooja Packages - TeerthaYatrik" />
-        <meta property="og:description" content="Discover powerful pooja packages for health, prosperity, and spiritual peace." />
+        <title>tirthayatrik | Special Pooja Packages</title>
+        <meta
+          name="description"
+          content="Explore divine special pooja packages at tirthayatrik for spiritual growth and well-being."
+        />
+        <meta
+          name="keywords"
+          content="Special Pooja, Hindu Rituals, Religious Ceremonies, Spiritual Growth, tirthayatrik"
+        />
+        <meta name="author" content="tirthayatrik" />
+        <meta
+          property="og:title"
+          content="Special Pooja Packages - tirthayatrik"
+        />
+        <meta
+          property="og:description"
+          content="Discover powerful pooja packages for health, prosperity, and spiritual peace."
+        />
         <meta property="og:type" content="website" />
       </Head>
 
-      <div id="special-pooja-section" className="relative mt-17 overflow-hidden pt-16 lg:pt-14 pb-20 lg:pb-18 px-4">
+      <div
+        id="special-pooja-section"
+        className="relative mt-17 overflow-hidden pt-16 lg:pt-14 pb-20 lg:pb-18 px-4"
+      >
         {/* Red Section (Upper Half) */}
         <div className="absolute top-0 left-0 right-0 h-[55%] w-screen bg-red-600"></div>
 

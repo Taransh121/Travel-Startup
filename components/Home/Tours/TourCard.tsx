@@ -8,9 +8,17 @@ interface TourCardProps {
   price: string;
 }
 
-const TourCard: React.FC<TourCardProps> = ({ title, slug, imageUrl, price }) => {
+const TourCard: React.FC<TourCardProps> = ({
+  title,
+  slug,
+  imageUrl,
+  price,
+}) => {
   return (
-    <Link href={`/tours/${slug}`} className="flex justify-center items-center w-full mb-10">
+    <Link
+      href={`/tours/${slug}`}
+      className="flex justify-center items-center w-full mb-10"
+    >
       <div
         className="relative rounded-lg overflow-hidden group shadow-lg bg-gray-100 
                       w-full max-w-[280px] sm:max-w-[300px] md:max-w-[320px] lg:max-w-[340px] 
@@ -34,12 +42,14 @@ const TourCard: React.FC<TourCardProps> = ({ title, slug, imageUrl, price }) => 
 
         {/* Tour Title at the Top */}
         <div className="absolute top-3 left-3 sm:top-4 sm:left-4 text-white">
-          <h2 className="text-sm sm:text-base md:text-lg font-semibold">{title}</h2>
+          <h2 className="text-sm sm:text-base md:text-lg font-bold">{title}</h2>
         </div>
 
         {/* Price at the Bottom */}
         <div className="absolute bottom-3 left-3 sm:bottom-4 sm:left-4 text-white">
-          <p className="text-xs sm:text-sm md:text-base">Starting from</p>
+          <p className="text-xs sm:text-sm md:text-base font-bold">
+            Starting from
+          </p>
           <p className="text-2xl font-bold">₹{price}</p>
         </div>
       </div>

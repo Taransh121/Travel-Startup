@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div>
 
         <div className="relative max-w-6xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-700 pb-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pb-4">
             {/* About Section */}
             <div>
               <h2 className="text-lg font-semibold text-white">Teerthyatrik</h2>
@@ -110,14 +110,6 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-          </div>
-
-          {/* Bottom Section */}
-          <div className="flex flex-col md:flex-row items-center justify-between text-xs text-gray-400 mt-4">
-            <p>
-              © {new Date().getFullYear()} Ministry of Tourism, Government of
-              India
-            </p>
           </div>
         </div>
       </footer>

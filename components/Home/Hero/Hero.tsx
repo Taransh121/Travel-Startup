@@ -12,16 +12,16 @@ const Hero = () => {
   return (
     <>
       <Head>
-        <title>TeerthaYatrik - Plan Your Sacred Pilgrimage</title>
+        <title>tirthayatrik - Plan Your Sacred Pilgrimage</title>
         <meta
           name="description"
-          content="Teerthayatrik simplifies your pilgrimage journey with seamless travel, personalized poojas, and trusted services. Plan your sacred journey with us!"
+          content="tirthayatrik simplifies your pilgrimage journey with seamless travel, personalized poojas, and trusted services. Plan your sacred journey with us!"
         />
         <meta
           name="keywords"
-          content="Teerthayatrik, pilgrimage tours, spiritual travel, temple visits, holy journey, religious travel, sacred sites, travel packages, pooja booking"
+          content="tirthayatrik, pilgrimage tours, spiritual travel, temple visits, holy journey, religious travel, sacred sites, travel packages, pooja booking"
         />
-        <meta name="author" content="Teerthayatrik Team" />
+        <meta name="author" content="tirthayatrik Team" />
         <meta name="robots" content="index, follow" />
       </Head>
 
@@ -38,7 +38,9 @@ const Hero = () => {
             </h1>
 
             <p className="text-white text-lg sm:text-xl md:text-2xl font-light mt-4 leading-relaxed max-w-3xl">
-            At Teerthayatrik, we simplify pilgrimages with seamless travel, special poojas, and trusted services.            </p>
+              At tirthayatrik, we simplify pilgrimages with seamless travel,
+              special poojas, and trusted services.{" "}
+            </p>
 
             <button
               onClick={() =>

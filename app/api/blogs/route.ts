@@ -10,7 +10,10 @@ export async function GET() {
     const blogs = await Blog.find();
     return NextResponse.json(blogs, { status: 200 });
   } catch (error) {
-    return NextResponse.json({ error: "Failed to fetch blogs" }, { status: 500 });
+    return NextResponse.json(
+      { error: "Failed to fetch blogs" },
+      { status: 500 }
+    );
   }
 }
 
@@ -20,7 +23,10 @@ export async function POST(req: Request) {
     const { title, metaTitle, metaDescription, sections } = await req.json();
     const newBlog = new Blog({ title, metaTitle, metaDescription, sections });
     await newBlog.save();
-    return NextResponse.json({ message: "Blog added successfully!" }, { status: 201 });
+    return NextResponse.json(
+      { message: "Blog added successfully!" },
+      { status: 201 }
+    );
   } catch (error) {
     return NextResponse.json({ error: error }, { status: 500 });
   }

@@ -42,7 +42,6 @@ const TourSwiper = () => {
         spaceBetween={20}
         navigation
         loop={false}
-        autoplay={{ delay: 3000, disableOnInteraction: false }}
         breakpoints={{
           640: { slidesPerView: 2 },
           768: { slidesPerView: 3 },
@@ -54,7 +53,7 @@ const TourSwiper = () => {
           <SwiperSlide key={index}>
             <TourCard
               title={combo.title}
-              slug={combo.slug} 
+              slug={combo.slug}
               price={combo.price}
               imageUrl={combo.imageUrl}
             />

@@ -20,18 +20,27 @@ const ReviewSlider = () => {
         {reviewData.map((data) => (
           <SwiperSlide key={data.id} className="bg-white rounded-3xl">
             <div className="w-[80%] mx-auto mt-10">
-              <p className="text-xs sm:text-sm md:text-base font-semibold">{data.review}</p>
+              <p className="text-xs sm:text-sm md:text-base font-semibold">
+                {data.review}
+              </p>
 
               <div className="flex items-center mt-4">
                 {[...Array(5)].map((_, i) => (
-                  <FaStar key={i} className="md:w-6 md:h-6 w-3 h-3 text-yellow-600" />
+                  <FaStar
+                    key={i}
+                    className="md:w-6 md:h-6 w-3 h-3 text-yellow-600"
+                  />
                 ))}
               </div>
 
               <div className="mt-10 flex items-center space-x-4">
                 <div>
-                  <p className="text-sm sm:text-lg font-semibold">{data.name}</p>
-                  <p className="text-gray-600 text-xs sm:text-base">Verified Customer</p>
+                  <p className="text-sm sm:text-lg font-semibold">
+                    {data.name}
+                  </p>
+                  <p className="text-gray-600 text-xs sm:text-base">
+                    Verified Customer
+                  </p>
                 </div>
               </div>
             </div>
