@@ -28,7 +28,7 @@ const Nav = ({ openNav }: Props) => {
   return (
     <div
       className={`fixed w-full z-[1000] h-[8vh] transition-all duration-200`}
-      style={{ backgroundColor: navBg ? "#00555A" : "transparent" }}
+      style={{ backgroundColor: navBg ? "#024050" : "transparent" }}
     >
       <div className="flex items-center justify-between w-[90%] xl:w-[80%] mx-auto px-4 md:px-6 xl:px-8 py-2 md:py-3">
         <div className="flex items-center space-x-2">
@@ -58,7 +58,7 @@ const Nav = ({ openNav }: Props) => {
               key={link.id}
               className="relative text-white text-sm md:text-base font-medium w-fit block"
             >
-              <span className="after:block after:content-[''] after:absolute after:h-[2px] after:bg-yellow-300 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition duration-300 after:origin-right">
+              <span className="after:block after:content-[''] after:absolute after:h-[2px] after:bg-[#E07B37] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition duration-300 after:origin-right">
                 {link.label}
               </span>
             </Link>

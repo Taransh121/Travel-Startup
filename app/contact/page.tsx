@@ -40,7 +40,7 @@ const ContactPage = () => {
       >
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <h1 className="relative text-4xl md:text-6xl font-bold text-white z-10 text-center">
-          Contact Us
+          CONTACT US
         </h1>
       </div>
 
@@ -90,7 +90,7 @@ const ContactPage = () => {
           <Link
             href="https://wa.me/919277341677"
             target="_blank"
-            className="px-8 py-3 bg-green-600 text-white font-bold rounded-lg shadow-md hover:bg-green-600 transition duration-300 text-lg w-full md:w-auto"
+            className="px-8 py-3 bg-[#035064] text-white font-bold rounded-lg shadow-md hover:bg-[#024050] transition duration-300 text-lg w-full md:w-auto"
           >
             Chat Now
           </Link>
@@ -98,7 +98,7 @@ const ContactPage = () => {
           {/* Book Now Button */}
           <button
             onClick={() => router.push("/tours")}
-            className="px-8 py-3 bg-orange-500 text-white font-bold rounded-lg shadow-md hover:bg-blue-700 transition duration-300 text-lg w-full md:w-auto"
+            className="px-8 py-3 bg-orange-500 text-white font-bold rounded-lg shadow-md hover:bg-orange-700 transition duration-300 text-lg w-full md:w-auto"
           >
             Book Now
           </button>

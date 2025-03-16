@@ -22,7 +22,7 @@ export default async function BlogPage() {
   return (
     <div className="p-6 max-w-6xl mx-auto">
       <h1 className="text-4xl font-bold mb-6 text-center mt-20 text-[#ec8014]">
-        Blogs
+        BLOGS
       </h1>
       {blogs.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
