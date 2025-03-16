@@ -7,9 +7,15 @@ import { destinationCombinations } from "@/constant/tourPackages";
 import { useRouter } from "next/navigation";
 
 // ✅ Dynamically Import Components
-const TourCard = dynamic(() => import("@/components/Home/Tours/TourCard"), { ssr: false });
-const Nav = dynamic(() => import("@/components/Home/Navbar/Nav"), { ssr: false });
-const MobileNav = dynamic(() => import("@/components/Home/Navbar/MobileNav"), { ssr: false });
+const TourCard = dynamic(() => import("@/components/Home/Tours/TourCard"), {
+  ssr: false,
+});
+const Nav = dynamic(() => import("@/components/Home/Navbar/Nav"), {
+  ssr: false,
+});
+const MobileNav = dynamic(() => import("@/components/Home/Navbar/MobileNav"), {
+  ssr: false,
+});
 
 // ✅ Import Swiper Properly
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -56,7 +62,9 @@ const AllTours = () => {
 
       {/* Page Header */}
       <div className="text-center py-8 pt-[60px]">
-        <h1 className="text-3xl font-bold text-[#03485e] mt-5">Explore Our Tour Packages</h1>
+        <h1 className="text-3xl font-bold text-[#03485e] mt-5">
+          EXPLORE OUR TOUR PACKAGES
+        </h1>
         <p className="text-sm text-gray-600 mt-2">
           Find the perfect pilgrimage tour for you
         </p>
@@ -95,7 +103,10 @@ const AllTours = () => {
           >
             {destinationCombinations.map((tour, index) => (
               <SwiperSlide key={index}>
-                <div onClick={() => router.push(`/tours/${tour.slug}`)} className="cursor-pointer">
+                <div
+                  onClick={() => router.push(`/tours/${tour.slug}`)}
+                  className="cursor-pointer"
+                >
                   <TourCard {...tour} />
                 </div>
               </SwiperSlide>
@@ -105,19 +116,26 @@ const AllTours = () => {
       )}
 
       {/* ✅ Grid Layout (For Larger Screens OR when search is active) */}
-      {(isSearched || (typeof window !== "undefined" && window.innerWidth >= 768)) && (
+      {(isSearched ||
+        (typeof window !== "undefined" && window.innerWidth >= 768)) && (
         <div className="container mx-auto px-4 md:px-8 lg:px-16 pb-16 mt-6">
           {filteredTours.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 sm:gap-8">
               {filteredTours.map((tour, index) => (
-                <div key={index} onClick={() => router.push(`/tours/${tour.slug}`)} className="cursor-pointer">
+                <div
+                  key={index}
+                  onClick={() => router.push(`/tours/${tour.slug}`)}
+                  className="cursor-pointer"
+                >
                   <TourCard {...tour} />
                 </div>
               ))}
             </div>
           ) : (
             isSearched && (
-              <p className="text-center text-xl text-gray-500 mt-8">No tours found.</p>
+              <p className="text-center text-xl text-gray-500 mt-8">
+                No tours found.
+              </p>
             )
           )}
         </div>

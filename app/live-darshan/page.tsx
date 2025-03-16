@@ -46,7 +46,7 @@ const LiveDarshanPage = () => {
       <MobileNav showNav={showNav} closeNav={() => setShowNav(false)} />
       {/* Page Header */}
       <div className="text-center py-8 pt-[60px]">
-        <h1 className="text-3xl font-bold text-[#f58015] mt-5">Live Darshan</h1>
+        <h1 className="text-3xl font-bold text-[#E07B37] mt-5">LIVE DARSHAN</h1>
         <p className="text-sm text-[#034a5e] mt-2">
           Experience real-time temple rituals and aarti from anywhere.
         </p>
@@ -64,7 +64,7 @@ const LiveDarshanPage = () => {
         />
         <button
           className={`px-4 py-2 ${
-            searchTerm ? "bg-[#ec8014] hover:bg-[#de7733]" : "bg-[#ec8014]"
+            searchTerm ? "bg-[#E07B37] hover:bg-[#de7733]" : "bg-[#E07B37]"
           } text-white rounded-r-md transition`}
           disabled={!searchTerm}
           aria-label="Search Button"

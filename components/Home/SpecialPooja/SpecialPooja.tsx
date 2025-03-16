@@ -43,7 +43,7 @@ const SpecialPooja = () => {
         className="relative mt-17 overflow-hidden pt-16 lg:pt-14 pb-20 lg:pb-18 px-4"
       >
         {/* Red Section (Upper Half) */}
-        <div className="absolute top-0 left-0 right-0 h-[55%] w-screen bg-red-600"></div>
+        <div className="absolute top-0 left-0 right-0 h-[55%] w-screen bg-[#E07B37]"></div>
 
         {/* White Section (Bottom Half) */}
         <div className="absolute bottom-0 left-0 right-0 h-[55%] w-screen bg-white"></div>

@@ -11,8 +11,12 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
 // ✅ Dynamic imports for hydration issue fixes
-const Nav = dynamic(() => import("@/components/Home/Navbar/Nav"), { ssr: false });
-const MobileNav = dynamic(() => import("@/components/Home/Navbar/MobileNav"), { ssr: false });
+const Nav = dynamic(() => import("@/components/Home/Navbar/Nav"), {
+  ssr: false,
+});
+const MobileNav = dynamic(() => import("@/components/Home/Navbar/MobileNav"), {
+  ssr: false,
+});
 
 const PoojaPage = () => {
   const [showNav, setShowNav] = useState(false);
@@ -41,7 +45,9 @@ const PoojaPage = () => {
 
       {/* Page Header */}
       <div className="text-center py-8 pt-[60px]">
-        <h1 className="text-3xl font-bold text-red-700 mt-5">Special Pooja Packages</h1>
+        <h1 className="text-3xl font-bold text-red-700 mt-5">
+          SPECIAL POOJA PACKAGES
+        </h1>
         <p className="text-sm text-gray-600 mt-2">
           Divine rituals for peace, prosperity, and well-being.
         </p>
@@ -59,7 +65,9 @@ const PoojaPage = () => {
           aria-label="Search Pooja"
         />
         <button
-          className={`px-4 py-2 ${searchTerm ? "bg-red-600 hover:bg-red-700" : "bg-red-700"} text-white rounded-r-md transition`}
+          className={`px-4 py-2 ${
+            searchTerm ? "bg-red-600 hover:bg-red-700" : "bg-red-700"
+          } text-white rounded-r-md transition`}
           disabled={!searchTerm} // ✅ Prevents unnecessary empty searches
           aria-label="Search Button"
         >
@@ -74,7 +82,7 @@ const PoojaPage = () => {
             <PoojaCard
               key={index}
               title={pooja.title}
-              slug={pooja.slug} 
+              slug={pooja.slug}
               imageUrl={pooja.imageUrl}
               description={pooja.description}
               price={pooja.price}
@@ -96,7 +104,7 @@ const PoojaPage = () => {
             <SwiperSlide key={index}>
               <PoojaCard
                 title={pooja.title}
-                slug={pooja.slug} 
+                slug={pooja.slug}
                 imageUrl={pooja.imageUrl}
                 price={pooja.price}
                 description={pooja.description}
