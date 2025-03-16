@@ -9,22 +9,20 @@ const TestimonialsBlog = () => {
     <>
       {/* SEO Tags */}
       <Head>
-        <title>TeerthaYatrix - Customer Reviews & Testimonials</title>
+        <title>TirthaYatrik - Customer Reviews & Testimonials</title>
         <meta
           name="description"
-          content="Read what our customers say about TeerthaYatrix! Discover real testimonials and experiences from travelers who have embarked on sacred journeys with us."
+          content="Read what our customers say about TirthaYatrik! Discover real testimonials and experiences from travelers who have embarked on sacred journeys with us."
         />
         <meta
           name="keywords"
-          content="TeerthaYatrix, customer reviews, pilgrimage experiences, travel testimonials, sacred journey feedback, best pilgrimage tours"
+          content="TirthaYatrik, customer reviews, pilgrimage experiences, travel testimonials, sacred journey feedback, best pilgrimage tours"
         />
-        <meta name="author" content="TeerthaYatrix Team" />
+        <meta name="author" content="TirthaYatrik Team" />
         <meta name="robots" content="index, follow" />
       </Head>
 
-
       <div className="pt-20 pb-20 flex items-center justify-center flex-col bg-[#024050]">
-        
         <div className="w-[80%] mx-auto grid items-center grid-cols-1 lg:grid-cols-2 gap-10">
           {/* Text Content */}
           <div>
@@ -40,10 +38,10 @@ const TestimonialsBlog = () => {
             {/* Ratings */}
             <div className="mt-6 flex items-center space-x-6">
               <div>
-                <p className="text-2xl font-bold text-white">4.8</p>
+                <p className="text-2xl font-bold text-white">4.0</p>
                 <p className="text-white mb-2">Overall Rating</p>
                 <div className="flex items-center">
-                  {[...Array(5)].map((_, i) => (
+                  {[...Array(4)].map((_, i) => (
                     <FaStar key={i} className="text-yellow-400 text-lg" />
                   ))}
                 </div>

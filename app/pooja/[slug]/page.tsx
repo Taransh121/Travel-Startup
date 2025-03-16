@@ -26,7 +26,7 @@ const PoojaDetails = () => {
   return (
     <>
       <Head>
-        <title>{pooja.title} - TeerthaYatrix</title>
+        <title>{pooja.title} - TirthaYatrik</title>
         <meta
           name="description"
           content={`Explore the ${pooja.title} pooja package with rituals and pricing.`}
@@ -65,7 +65,9 @@ const PoojaDetails = () => {
 
         {/* Highlights Section */}
         <div className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900">Highlights ✨</h2>
+          <h2 className="text-2xl font-semibold text-gray-900">
+            Highlights ✨
+          </h2>
           <div className="mt-3 space-y-2 text-gray-700">
             {pooja.highlights.map((highlight, index) => (
               <p key={index}>{highlight}</p>
@@ -80,7 +82,9 @@ const PoojaDetails = () => {
             {pooja.itinerary.map((item, index) => (
               <div key={index} className="p-4 bg-gray-100 rounded-lg shadow-sm">
                 {item.time && (
-                  <p className="text-lg font-bold text-orange-700">{item.time}</p>
+                  <p className="text-lg font-bold text-orange-700">
+                    {item.time}
+                  </p>
                 )}
                 <p className="text-gray-800">{item.activity}</p>
               </div>
@@ -90,7 +94,9 @@ const PoojaDetails = () => {
 
         {/* Inclusions Section */}
         <div className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900">Inclusions ✅</h2>
+          <h2 className="text-2xl font-semibold text-gray-900">
+            Inclusions ✅
+          </h2>
           <div className="mt-3 space-y-2 text-gray-700">
             {pooja.inclusions.map((item, index) => (
               <p key={index}>{item}</p>
@@ -100,7 +106,9 @@ const PoojaDetails = () => {
 
         {/* Exclusions Section */}
         <div className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900">Not Included ❌</h2>
+          <h2 className="text-2xl font-semibold text-gray-900">
+            Not Included ❌
+          </h2>
           <div className="mt-3 space-y-2 text-gray-700">
             {pooja.notIncluded.map((item, index) => (
               <p key={index}>{item}</p>
@@ -110,7 +118,9 @@ const PoojaDetails = () => {
 
         {/* Booking Policy Section */}
         <div className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900">Booking Policy 📌</h2>
+          <h2 className="text-2xl font-semibold text-gray-900">
+            Booking Policy 📌
+          </h2>
           <div className="mt-3 space-y-2 text-gray-700">
             {pooja.bookingPolicy.map((policy, index) => (
               <p key={index}>{policy}</p>

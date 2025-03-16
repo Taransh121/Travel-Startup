@@ -28,7 +28,9 @@ const ReviewSlider = () => {
                 {[...Array(5)].map((_, i) => (
                   <FaStar
                     key={i}
-                    className="md:w-6 md:h-6 w-3 h-3 text-yellow-600"
+                    className={`md:w-6 md:h-6 w-3 h-3 ${
+                      i < data.rating ? "text-yellow-600" : "text-gray-300"
+                    }`}
                   />
                 ))}
               </div>
