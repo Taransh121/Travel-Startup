@@ -3,7 +3,7 @@
 import { useParams, useRouter } from "next/navigation";
 import Head from "next/head";
 import Image from "next/image";
-import { itineraries } from "@/constant/itinerary";
+import { itineraries } from "@/constant/tourItineraries";
 import { useState } from "react";
 
 const TourDetails = () => {

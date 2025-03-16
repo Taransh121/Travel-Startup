@@ -76,6 +76,7 @@ const PoojaPage = () => {
               title={pooja.title}
               slug={pooja.slug} 
               imageUrl={pooja.imageUrl}
+              description={pooja.description}
               price={pooja.price}
             />
           ))}
@@ -95,9 +96,10 @@ const PoojaPage = () => {
             <SwiperSlide key={index}>
               <PoojaCard
                 title={pooja.title}
-                slug={pooja.slug} // ✅ Ensure slug is passed
+                slug={pooja.slug} 
                 imageUrl={pooja.imageUrl}
                 price={pooja.price}
+                description={pooja.description}
               />
             </SwiperSlide>
           ))}

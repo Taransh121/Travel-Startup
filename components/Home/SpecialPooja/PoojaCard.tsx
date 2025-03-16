@@ -2,17 +2,21 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 // Define the props for PoojaCard
 interface PoojaCardProps {
   title: string;
+  slug: string;
   price: string;
   description: string;
   imageUrl: string;
 }
 
-const PoojaCard: React.FC<PoojaCardProps> = ({ title, price, description, imageUrl }) => {
+const PoojaCard: React.FC<PoojaCardProps> = ({ title,slug, price, description, imageUrl }) => {
   return (
+    <Link href={`/pooja/${slug}`} className="flex justify-center items-center w-full mb-10">
+
     <div className="relative rounded-xl overflow-hidden shadow-lg bg-white transition-transform duration-300 hover:scale-105 hover:shadow-2xl mb-10 flex flex-col">
       {/* Image */}
       <Image
@@ -31,6 +35,7 @@ const PoojaCard: React.FC<PoojaCardProps> = ({ title, price, description, imageU
         <p className="text-gray-600 text-base mt-3 line-clamp-2">{description}</p>
       </div>
     </div>
+    </Link>
   );
 };
 
