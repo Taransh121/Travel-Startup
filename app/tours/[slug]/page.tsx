@@ -69,7 +69,7 @@ const TourDetails = () => {
         {/* 🌟 Why Choose This Yatra? */}
         <div className="mt-8 bg-gray-100 p-6 rounded-lg shadow">
           <h2 className="text-2xl font-semibold text-orange-700">
-            🌟 Why Choose This Yatra?
+            Why Choose This Yatra?
           </h2>
           <ul className="mt-3 space-y-2 text-gray-700">
             {tour.whyChooseThisYatra.map((point, index) => (
@@ -80,21 +80,23 @@ const TourDetails = () => {
           </ul>
         </div>
 
-        {/* 🚗 Route Overview & Travel Plan */}
-        <div className="mt-8 bg-gray-100 p-6 rounded-lg shadow">
-          <h2 className="text-2xl font-semibold text-orange-700">
-            🚗 Route Overview & Travel Plan
-          </h2>
-          <ul className="mt-3 space-y-2 text-gray-700">
-            {tour.routeOverview.map((route, index) => (
-              <li key={`route-${index}`} className="flex items-center">
-                {route}
-              </li>
-            ))}
-          </ul>
-        </div>
+        {/* Route Overview & Travel Plan */}
+        {tour.routeOverview && tour.routeOverview.length > 0 && (
+          <div className="mt-8 bg-gray-100 p-6 rounded-lg shadow">
+            <h2 className="text-2xl font-semibold text-orange-700">
+              Route Overview & Travel Plan
+            </h2>
+            <ul className="mt-3 space-y-2 text-gray-700">
+              {tour.routeOverview.map((route, index) => (
+                <li key={`route-${index}`} className="flex items-center">
+                  {route}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
 
-        {/* 📍 Journey Overview */}
+        {/* Journey Overview */}
         <div className="mt-8">
           <h2 className="text-2xl font-semibold">📍 Journey Overview</h2>
           <div className="mt-3 space-y-4">
@@ -131,7 +133,7 @@ const TourDetails = () => {
         {/* 💰 Pricing & Booking */}
         <div className="mt-8 bg-orange-100 p-6 rounded-lg shadow">
           <h2 className="text-2xl font-semibold text-orange-700">
-            💰 Pricing & Booking
+            Pricing & Booking
           </h2>
           <p className="mt-2 text-gray-700">
             💵 <strong>Pay on Arrival</strong> – No advance payment needed, book
@@ -141,7 +143,7 @@ const TourDetails = () => {
             onClick={handleWhatsAppBooking}
             className="mt-4 bg-orange-600 text-white px-6 py-3 rounded-md shadow-md hover:bg-orange-700 transition"
           >
-            📲 Book Now (WhatsApp)
+            Book Now (WhatsApp)
           </button>
         </div>
       </div>

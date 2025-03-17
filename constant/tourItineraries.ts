@@ -317,7 +317,7 @@ export const itineraries = {
       "•  Elderly-Friendly Arrangements – Special attention for senior citizens.",
       "•  Flexible & Customizable – We can tweak the plan to suit your needs.",
     ],
-    routeOverview: [],
+    routeOverview: ["abc-> xyz"],
     highlights: [
       "•  Hassle-free spiritual experience with expert travel assistance",
       "•  Comfortable hotel stay in Prayagraj with complimentary breakfast",
