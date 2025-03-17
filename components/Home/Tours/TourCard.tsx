@@ -1,5 +1,5 @@
+import { useRouter } from "next/navigation";
 import Image from "next/image";
-import Link from "next/link";
 
 interface TourCardProps {
   title: string;
@@ -14,16 +14,22 @@ const TourCard: React.FC<TourCardProps> = ({
   imageUrl,
   price,
 }) => {
+  const router = useRouter();
+
+  const handleClick = () => {
+    router.push(`/tours/${slug}`);
+  };
+
   return (
-    <Link
-      href={`/tours/${slug}`}
-      className="flex justify-center items-center w-full mb-10"
+    <div
+      onClick={handleClick}
+      className="flex justify-center items-center w-full mb-10 cursor-pointer"
     >
       <div
         className="relative rounded-lg overflow-hidden group shadow-lg bg-gray-100 
-                      w-full max-w-[280px] sm:max-w-[300px] md:max-w-[320px] lg:max-w-[340px] 
-                      h-[280px] sm:h-[300px] md:h-[320px] lg:h-[340px] 
-                      transition-all duration-300 hover:scale-[1.03]"
+                    w-full max-w-[280px] sm:max-w-[300px] md:max-w-[320px] lg:max-w-[340px] 
+                    h-[280px] sm:h-[300px] md:h-[320px] lg:h-[340px] 
+                    transition-all duration-300 hover:scale-[1.03]"
       >
         {/* Background Image */}
         <div className="absolute inset-0 rounded-lg">
@@ -53,7 +59,7 @@ const TourCard: React.FC<TourCardProps> = ({
           <p className="text-2xl font-bold">₹{price}</p>
         </div>
       </div>
-    </Link>
+    </div>
   );
 };
 
