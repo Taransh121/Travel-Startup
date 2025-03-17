@@ -31,20 +31,20 @@ export const poojaItineraries : Record<string, Pooja> ={
         content:
           "Balance planetary energies and remove doshas with the powerful Nav Grah Shanti Pooja! (1 Day – 10 Purohit)",
         bulletPoints: [
-          "✅ Neutralizes the negative effects of malefic planets.",
-          "✅ Removes hurdles in career, marriage, and financial growth.",
-          "✅ Balances planetary energies for peace and prosperity.",
-          "✅ Helps overcome health problems and mental stress.",
-          "✅ Enhances success, spiritual growth, and well-being.",
+          "Removes hurdles in career, marriage, and financial growth.",
+          "Balances planetary energies for peace and prosperity.",
+          "Helps overcome health problems and mental stress.",
+          "Neutralizes the negative effects of malefic planets.",
+          "Enhances success, spiritual growth, and well-being.",
         ],
         subsections: [
           {
             title: "Recommended For",
             bulletPoints: [
-              "🔹 People facing repeated failures, delays, or misfortunes.",
-              "🔹 Those experiencing marital, health, or financial troubles.",
-              "🔹 Individuals going through Sade Sati, Rahu-Ketu Dosha, or Manglik Dosha.",
-              "🔹 People starting a new business, career, or important venture.",
+              "People facing repeated failures, delays, or misfortunes.",
+              "Those experiencing marital, health, or financial troubles.",
+              "Individuals going through Sade Sati, Rahu-Ketu Dosha, or Manglik Dosha.",
+              "People starting a new business, career, or important venture.",
             ],
           },
         ],
@@ -70,22 +70,22 @@ export const poojaItineraries : Record<string, Pooja> ={
             title: "In-Person Pooja",
             content: "Attend the Nav Grah Shanti Pooja at a sacred temple/ghat in Prayagraj with 10 expert purohits.",
             bulletPoints: [
-              "✔️ One-day elaborate ritual.",
-              "✔️ Nine separate Homas (Havans) for each planet.",
-              "✔️ Includes all pooja samagri.",
-              "✔️ Personalized Sankalp with your details.",
-              "✔️ Accommodation assistance (Budget to premium stays).",
-              "✔️ Travel Assistance (Train/Flight booking available at an additional charge).",
+              "One-day elaborate ritual.",
+              "Nine separate Homas (Havans) for each planet.",
+              "Includes all pooja samagri.",
+              "Personalized Sankalp with your details.",
+              "Accommodation assistance (Budget to premium stays).",
+              "Travel Assistance (Train/Flight booking available at an additional charge).",
             ],
           },
           {
             title: "Virtual Pooja",
             content: "Join from anywhere in the world with HD Live Streaming of the pooja & havan.",
             bulletPoints: [
-              "✔️ Dedicated purohit performing Sankalp.",
-              "✔️ Option to participate in live chanting & havan remotely.",
-              "✔️ Prasad Home Delivery Available (Courier charges as per location).",
-              "✔️ Recording of Pooja available upon request.",
+              "Dedicated purohit performing Sankalp.",
+              "Option to participate in live chanting & havan remotely.",
+              "Prasad Home Delivery Available (Courier charges as per location).",
+              "Recording of Pooja available upon request.",
             ],
           },
         ],
@@ -94,29 +94,29 @@ export const poojaItineraries : Record<string, Pooja> ={
         title: "Inclusions",
         content: "What is included in the package?",
         bulletPoints: [
-          "✔️ 10 Expert Pandits performing sacred rituals.",
-          "✔️ Nine Separate Havans for Surya, Chandra, Mangal, Budh, Guru, Shukra, Shani, Rahu & Ketu.",
-          "✔️ Pooja Samagri, Flowers, and Sacred Items.",
-          "✔️ Personalized Sankalp.",
-          "✔️ Travel Assistance – Free guidance on the best trains/flights.",
+          "10 Expert Pandits performing sacred rituals.",
+          "Nine Separate Havans for Surya, Chandra, Mangal, Budh, Guru, Shukra, Shani, Rahu & Ketu.",
+          "Pooja Samagri, Flowers, and Sacred Items.",
+          "Personalized Sankalp.",
+          "Travel Assistance – Free guidance on the best trains/flights.",
         ],
       },
       {
         title: "Not Included",
         content: "What is not included in the package?",
         bulletPoints: [
-          "❌ Accommodation (Can be arranged separately on request).",
-          "❌ Personal expenses like food, shopping, or extra donations.",
-          "❌ Additional rituals beyond the booked package.",
+          "Accommodation (Can be arranged separately on request).",
+          "Personal expenses like food, shopping, or extra donations.",
+          "Additional rituals beyond the booked package.",
         ],
       },
       {
         title: "Booking Policy",
         content: "Guidelines for booking the pooja.",
         bulletPoints: [
-          "✔️ 50% Advance Payment at the time of booking.",
-          "✔️ Remaining 50% Payment on Arrival before pooja begins.",
-          "✔️ Optional: Train/Flight ticket booking (advance booking charge applicable).",
+          "50% Advance Payment at the time of booking.",
+          "Remaining 50% Payment on Arrival before pooja begins.",
+          "Optional: Train/Flight ticket booking (advance booking charge applicable).",
         ],
       },
       {
@@ -155,11 +155,11 @@ export const poojaItineraries : Record<string, Pooja> ={
         content: 
           "Experience the divine blessings of Lord Shiva, whether in Prayagraj or from the comfort of your home! Performing this pooja brings divine protection, relief from illnesses, and overall peace and prosperity.",
         bulletPoints: [
-          "✔ Protection from diseases & ailments",
-          "✔ Relief from past karma & doshas",
-          "✔ Spiritual and mental strength",
-          "✔ Removal of planetary obstacles",
-          "✔ Blessings for longevity & prosperity",
+          "Protection from diseases & ailments",
+          "Relief from past karma & doshas",
+          "Spiritual and mental strength",
+          "Removal of planetary obstacles",
+          "Blessings for longevity & prosperity",
         ],
       },
       {
@@ -183,20 +183,20 @@ export const poojaItineraries : Record<string, Pooja> ={
             title: "In-Person Pooja",
             content: "Attend the Mahamrityunjay Jaap at a sacred temple/ghat in Prayagraj.",
             bulletPoints: [
-              "✔ Available in 7-day or 5-day formats.",
-              "✔ Conducted by experienced purohits.",
-              "✔ Includes all pooja samagri, accommodations, & sacred setup.",
-              "✔ Personalized support for your travel & stay.",
+              "Available in 7-day or 5-day formats.",
+              "Conducted by experienced purohits.",
+              "Includes all pooja samagri, accommodations, & sacred setup.",
+              "Personalized support for your travel & stay.",
             ],
           },
           {
             title: "Virtual Pooja",
             content: "Join from anywhere in the world with HD Live Streaming of the pooja.",
             bulletPoints: [
-              "✔ Live streaming of the entire pooja (all days).",
-              "✔ Option to participate virtually in chanting & rituals.",
-              "✔ Personalized Sankalp (dedication) by purohits in your name.",
-              "✔ Receive prasad & pooja samagri at your doorstep (optional).",
+              "Live streaming of the entire pooja (all days).",
+              "Option to participate virtually in chanting & rituals.",
+              "Personalized Sankalp (dedication) by purohits in your name.",
+              "Receive prasad & pooja samagri at your doorstep (optional).",
             ],
           },
         ],
@@ -208,21 +208,21 @@ export const poojaItineraries : Record<string, Pooja> ={
           {
             title: "For In-Person Pooja",
             bulletPoints: [
-              "✔ Pooja Samagri – All required items for the ritual.",
-              "✔ Accommodations (Optional) – Stay can be arranged as per customer preference.",
-              "✔ Expert Purohits – Conducted as per Vedic traditions.",
-              "✔ Sacred Ritual Setup – Holy environment at a temple/ghat.",
-              "✔ Travel Assistance – Free guidance on the best trains/flights.",
+              "Pooja Samagri – All required items for the ritual.",
+              "Accommodations (Optional) – Stay can be arranged as per customer preference.",
+              "Expert Purohits – Conducted as per Vedic traditions.",
+              "Sacred Ritual Setup – Holy environment at a temple/ghat.",
+              "Travel Assistance – Free guidance on the best trains/flights.",
             ],
           },
           {
             title: "For Virtual Pooja",
             bulletPoints: [
-              "✔ Full HD Live Stream of the pooja from Prayagraj.",
-              "✔ Dedicated Purohit for Sankalp (name, gotra, and wishes will be mentioned).",
-              "✔ Participation in Live Chanting via Zoom/WhatsApp.",
-              "✔ Prasad & Pooja Samagri Delivery (optional, delivered to your home).",
-              "✔ Flexible Timings for international devotees.",
+              "Full HD Live Stream of the pooja from Prayagraj.",
+              "Dedicated Purohit for Sankalp (name, gotra, and wishes will be mentioned).",
+              "Participation in Live Chanting via Zoom/WhatsApp.",
+              "Prasad & Pooja Samagri Delivery (optional, delivered to your home).",
+              "Flexible Timings for international devotees.",
             ],
           },
         ],
@@ -231,18 +231,18 @@ export const poojaItineraries : Record<string, Pooja> ={
         title: "Not Included",
         content: "What is not included in the package?",
         bulletPoints: [
-          "❌ Personal expenses like food, shopping, or extra donations.",
-          "❌ Additional rituals beyond the booked package.",
-          "❌ International shipping charges for prasad (if applicable).",
+          "Personal expenses like food, shopping, or extra donations.",
+          "Additional rituals beyond the booked package.",
+          "International shipping charges for prasad (if applicable).",
         ],
       },
       {
         title: "Booking Policy",
         content: "Guidelines for booking the pooja.",
         bulletPoints: [
-          "✔️ 50% Advance Payment at the time of booking.",
-          "✔️ Remaining 50% Payment on Arrival before pooja begins.",
-          "✔️ Optional: Train/Flight ticket booking (advance booking charge applicable).",
+          "50% Advance Payment at the time of booking.",
+          "Remaining 50% Payment on Arrival before pooja begins.",
+          "Optional: Train/Flight ticket booking (advance booking charge applicable).",
         ],
       },
       {
@@ -267,8 +267,8 @@ export const poojaItineraries : Record<string, Pooja> ={
         title: "Travel Assistance",
         content: "We offer travel support for your convenience.",
         bulletPoints: [
-          "✔ FREE Travel Recommendations – Best routes, timings & fares.",
-          "✔ Train/Flight Ticket Booking – If required, we can book tickets (advance booking charge applicable).",
+          "FREE Travel Recommendations – Best routes, timings & fares.",
+          "Train/Flight Ticket Booking – If required, we can book tickets (advance booking charge applicable).",
         ],
       },
     ],
@@ -287,10 +287,10 @@ export const poojaItineraries : Record<string, Pooja> ={
           content:
             "Rudrabhishek Pooja is a sacred Vedic ritual dedicated to Lord Shiva, performed with holy offerings and powerful mantras. Conducting this pooja at Triveni Sangam—the divine confluence of Ganga, Yamuna, and Saraswati—enhances its spiritual significance.",
           bulletPoints: [
-            "✔ Removes Negative Energies & Doshas – Effective for Graha Dosha & past karmic issues.",
-            "✔ Brings Health, Wealth & Prosperity – Lord Shiva’s blessings for well-being and success.",
-            "✔ Eliminates Obstacles & Evil Influences – Protection from negative forces and hurdles in life.",
-            "✔ Ensures Spiritual Growth & Inner Peace – Leads to a fulfilling and peaceful life."
+            "Removes Negative Energies & Doshas – Effective for Graha Dosha & past karmic issues.",
+            "Brings Health, Wealth & Prosperity – Lord Shiva’s blessings for well-being and success.",
+            "Eliminates Obstacles & Evil Influences – Protection from negative forces and hurdles in life.",
+            "Ensures Spiritual Growth & Inner Peace – Leads to a fulfilling and peaceful life."
           ],
         },
         {
@@ -300,20 +300,20 @@ export const poojaItineraries : Record<string, Pooja> ={
               title: "In-Person Pooja",
               content: "The in-person pooja is conducted at Triveni Sangam, Prayagraj, with expert Vedic priests and a fully immersive experience.",
               bulletPoints: [
-                "✔ Conducted by highly experienced Vedic priests",
-                "✔ Rituals: Sankalp, Abhishek with Panchamrit, Rudra Path, Maha Aarti",
-                "✔ Pooja Samagri included",
-                "✔ Accommodation: Not included but can be arranged separately on request (additional cost)."
+                "Conducted by highly experienced Vedic priests",
+                "Rituals: Sankalp, Abhishek with Panchamrit, Rudra Path, Maha Aarti",
+                "Pooja Samagri included",
+                "Accommodation: Not included but can be arranged separately on request (additional cost)."
               ],
             },
             {
               title: "Virtual Pooja",
               content: "For those who cannot travel, the virtual pooja offers an interactive experience from Triveni Sangam, with live streaming.",
               bulletPoints: [
-                "✔ High-quality live streaming",
-                "✔ Interactive participation via live video",
-                "✔ Personalized Sankalp (name & wishes included)",
-                "✔ Prasad & Pooja Items: Not included but can be arranged upon request (additional courier charges apply)."
+                "High-quality live streaming",
+                "Interactive participation via live video",
+                "Personalized Sankalp (name & wishes included)",
+                "Prasad & Pooja Items: Not included but can be arranged upon request (additional courier charges apply)."
               ],
             },
           ],
@@ -325,21 +325,21 @@ export const poojaItineraries : Record<string, Pooja> ={
               title: "In-Person Pooja Inclusions",
               content: "When you book the in-person pooja, you will be provided with everything needed for the ritual, as well as travel assistance.",
               bulletPoints: [
-                "✔ Pooja Samagri – All required items for the ritual",
-                "✔ Expert Purohits – Conducted as per Vedic traditions",
-                "✔ Sacred Ritual Setup – Holy environment at a temple/ghat",
-                "✔ Travel Assistance – Free guidance on the best trains/flights",
-                "📌 Accommodation is NOT included but can be arranged upon request at an additional cost."
+                "Pooja Samagri – All required items for the ritual",
+                "Expert Purohits – Conducted as per Vedic traditions",
+                "Sacred Ritual Setup – Holy environment at a temple/ghat",
+                "Travel Assistance – Free guidance on the best trains/flights",
+                "Accommodatn is NOT included but can be arranged upon request at an additional cost."
               ],
             },
             {
               title: "Virtual Pooja Inclusions",
               content: "The virtual pooja package provides a full HD live stream, along with participation opportunities via Zoom/WhatsApp.",
               bulletPoints: [
-                "✔ Full HD Live Stream of the pooja from Prayagraj",
-                "✔ Dedicated Purohit for Sankalp (name, gotra, and wishes will be mentioned)",
-                "✔ Participation in Live Chanting via Zoom/WhatsApp",
-                "📌 Prasad & Pooja Items Home Delivery: NOT included in the package. Can be arranged upon request with additional courier charges based on location."
+                "Full HD Live Stream of the pooja from Prayagraj",
+                "Dedicated Purohit for Sankalp (name, gotra, and wishes will be mentioned)",
+                "Participation in Live Chanting via Zoom/WhatsApp",
+                "Prasad & Pooja Items Home Delivery: NOT included in the package. Can be arranged upon request with additional courier charges based on location."
               ],
             },
           ],
@@ -348,8 +348,8 @@ export const poojaItineraries : Record<string, Pooja> ={
           title: "Travel Assistance",
           content: "For your convenience, we offer travel assistance to help you plan your journey to Triveni Sangam.",
           bulletPoints: [
-            "✔ FREE Travel Recommendations – Best routes, timings & fares",
-            "✔ Train/Flight Ticket Booking – If required, we can book tickets (advance booking charge applicable)",
+            "FREE Travel Recommendations – Best routes, timings & fares",
+            "Train/Flight Ticket Booking – If required, we can book tickets (advance booking charge applicable)",
           ],
         },
         {
@@ -359,18 +359,13 @@ export const poojaItineraries : Record<string, Pooja> ={
               title: "Steps to Book",
               content: "Follow these simple steps to book your Rudrabhishek Pooja.",
               bulletPoints: [
-                "🎯 Step 1: Click the 'Book Now on WhatsApp' button.",
-                "🎯 Step 2: Choose between In-Person or Virtual Pooja.",
-                "🎯 Step 3: Share your requirements (dates, preferences, and additional services).",
-                "🎯 Step 4: Get a customized pooja plan.",
-                "🎯 Step 5: Confirm your booking with 50% advance payment.",
-                "🎯 Step 6: Join the pooja either physically in Prayagraj or virtually from home."
+                "Step 1: Click the 'Book Now on WhatsApp' button.",
+                "Step 2: Choose between In-Person or Virtual Pooja.",
+                "Step 3: Share your requirements (dates, preferences, and additional services).",
+                "Step 4: Get a customized pooja plan.",
+                "Step 5: Confirm your booking with 50% advance payment.",
+                "Step 6: Join the pooja either physically in Prayagraj or virtually from home."
               ],
-            },
-            {
-              title: "Contact",
-              content: "To begin your booking, reach out via WhatsApp.",
-              bulletPoints: ["📩 Click Below to Book Now! 👉 Book Now on WhatsApp"],
             },
           ],
         },
@@ -411,32 +406,32 @@ export const poojaItineraries : Record<string, Pooja> ={
           content:
             "Adorn Maa Vindhyavasini with sacred offerings of shringar items and seek her divine blessings for prosperity, health, and protection. The pooja is performed at the holy Vindhyachal Dham, Uttar Pradesh, during auspicious times to maximize blessings.",
           bulletPoints: [
-            "✔ Brings prosperity, wealth & success",
-            "✔ Blessings for marital harmony & happiness",
-            "✔ Protection from negative energies & obstacles",
-            "✔ Enhances beauty, charm, and self-confidence",
-            "✔ Spiritual upliftment & divine grace",
+            "Brings prosperity, wealth & success",
+            "Blessings for marital harmony & happiness",
+            "Protection from negative energies & obstacles",
+            "Enhances beauty, charm, and self-confidence",
+            "Spiritual upliftment & divine grace",
           ],
         },
         {
           title: "Rituals",
           content: "The following rituals are performed during the Shringar Pooja to honor Maa Vindhyavasini and seek her blessings.",
           bulletPoints: [
-            "✔ Sankalp (Invocation & Intent)",
-            "✔ Offering of Traditional Shringar Items",
-            "✔ Divine Floral & Jewelry Adornment",
-            "✔ Prasad Distribution",
+            "Sankalp (Invocation & Intent)",
+            "Offering of Traditional Shringar Items",
+            "Divine Floral & Jewelry Adornment",
+            "Prasad Distribution",
           ],
         },
         {
           title: "Best Times for Pooja",
           content: "Certain days are considered especially auspicious for performing the Shringar Pooja, enhancing the potency of the blessings.",
           bulletPoints: [
-            "✔ Navratri",
-            "✔ Fridays",
-            "✔ Ashtami",
-            "✔ Purnima",
-            "✔ Any Auspicious Day",
+            "Navratri",
+            "Fridays",
+            "Ashtami",
+            "Purnima",
+            "Any Auspicious Day",
           ],
         },
         {
@@ -447,9 +442,9 @@ export const poojaItineraries : Record<string, Pooja> ={
               content:
                 "Experience the divine presence of Maa Vindhyavasini in person with a personalized Shringar Pooja performed at the Maa Vindhyavasini Temple in Vindhyachal.",
               bulletPoints: [
-                "✔ Personalized Sankalp (Your Name, Gotra & Wish)",
-                "✔ Shringar items offered in your name",
-                "✔ Optional: Additional Navgrah Shanti Pooja & Durga Saptashati Path",
+                "Personalized Sankalp (Your Name, Gotra & Wish)",
+                "Shringar items offered in your name",
+                "Optional: Additional Navgrah Shanti Pooja & Durga Saptashati Path",
               ],
             },
             {
@@ -457,10 +452,10 @@ export const poojaItineraries : Record<string, Pooja> ={
               content:
                 "For those unable to travel, the online Shringar Pooja allows you to receive blessings remotely while experiencing the rituals performed live from Vindhyachal.",
               bulletPoints: [
-                "✔ Live Streaming from Vindhyachal",
-                "✔ Dedicated Purohit performing the Shringar Pooja for you",
-                "✔ Personalized Sankalp & Name in Pooja",
-                "✔ Receive Prasad & Sindoor from Maa Vindhyavasini at home",
+                "Live Streaming from Vindhyachal",
+                "Dedicated Purohit performing the Shringar Pooja for you",
+                "Personalized Sankalp & Name in Pooja",
+                "Receive Prasad & Sindoor from Maa Vindhyavasini at home",
               ],
             },
           ],
@@ -469,7 +464,7 @@ export const poojaItineraries : Record<string, Pooja> ={
           title: "Booking Information",
           content: "Book your Maa Vindhyavasini Shringar Pooja today, either in-person at Vindhyachal or online. Contact us for personalized bookings.",
           bulletPoints: [
-            "📞 Book Your Maa Vindhyavasini Shringar Pooja at Vindhyachal Today! 🔗 Contact us for more details & personalized bookings",
+            " Book Your Maa Vindhyavasini Shringar Pooja at Vindhyachal Today! Contact us for more details & personalized bookings",
           ],
         },
         {
@@ -518,10 +513,10 @@ export const poojaItineraries : Record<string, Pooja> ={
           content:
             "The Das Mahavidyas are ten powerful forms of Goddess Shakti, each representing different cosmic forces. Performing a 7-day Mahavidya Anushthan with chanting and homas under the guidance of 9 expert purohits brings immense spiritual and material benefits.",
           bulletPoints: [
-            "✔ Protection from black magic, negative energies, and obstacles",
-            "✔ Enhancement of spiritual growth, wealth, and success",
-            "✔ Blessings of divine wisdom, prosperity, and fearlessness",
-            "✔ Fulfillment of desires, removal of doshas, and divine grace",
+            "Protection from black magic, negative energies, and obstacles",
+            "Enhancement of spiritual growth, wealth, and success",
+            "Blessings of divine wisdom, prosperity, and fearlessness",
+            "Fulfillment of desires, removal of doshas, and divine grace",
           ],
         },
         {
@@ -573,24 +568,24 @@ export const poojaItineraries : Record<string, Pooja> ={
           title: "Pooja Details",
           content: "The Das Mahavidya Pooja is a 7-day ritual performed by 9 experienced Vedic scholars. It includes chanting, havan, and personalized Sankalp for the devotees.",
           bulletPoints: [
-            "✔ Duration: 7 Days",
-            "✔ Chanting: Path of Das Mahavidya Mantras",
-            "✔ Havan: Special Das Mahavidya Homa each day",
-            "✔ Purohits: 9 experienced Vedic scholars",
-            "✔ Location: Prayagraj (In-Person or Virtual)",
+            "Duration: 7 Days",
+            "Chanting: Path of Das Mahavidya Mantras",
+            "Havan: Special Das Mahavidya Homa each day",
+            "Purohits: 9 experienced Vedic scholars",
+            "Location: Prayagraj (In-Person or Virtual)",
           ],
         },
         {
           title: "Key Benefits",
-          content: "Performing the Das Mahavidya Pooja brings immense blessings, protection, and spiritual growth.",
+          content: "Performing the DaMahavidya Pooja brings immense blessings, protection, and spiritual growth.",
           bulletPoints: [
-            "✔ Removes negative energies, black magic & evil forces",
-            "✔ Grants wealth, prosperity & financial stability",
-            "✔ Ensures success in business, career & politics",
-            "✔ Helps in spiritual growth & inner transformation",
-            "✔ Provides protection from enemies & obstacles",
-            "✔ Enhances intelligence, wisdom & knowledge",
-            "✔ Eliminates past karmic issues & planetary doshas",
+            "Removes negative energies, black magic & evil forces",
+            "Grants wealth, prosperity & financial stability",
+            "Ensures success in business, career & politics",
+            "Helps in spiritual growth & inner transformation",
+            "Provides protection from enemies & obstacles",
+            "Enhances intelligence, wisdom & knowledge",
+            "Eliminates past karmic issues & planetary doshas",
           ],
         },
         {
@@ -601,12 +596,12 @@ export const poojaItineraries : Record<string, Pooja> ={
               content:
                 "For those who want to experience the spiritual benefits in person, the In-Person Das Mahavidya Pooja is held in Prayagraj over seven days, with chanting and havan rituals.",
               bulletPoints: [
-                "✔ 9 Pandits chanting for 7 days",
-                "✔ Pathas of Das Mahavidya Stotras & Mantras",
-                "✔ Grand Havan for each Mahavidya over 7 days",
-                "✔ Yantra Energization & Prasad Distribution",
-                "✔ Special personalized Sankalp (Your Name, Gotra & Wishes)",
-                "✔ Accommodation & Travel Assistance Available",
+                "9 Pandits chanting for 7 days",
+                "Pathas of Das Mahavidya Stotras & Mantras",
+                "Grand Havan for each Mahavidya over 7 days",
+                "Yantra Energization & Prasad Distribution",
+                "Special personalized Sankalp (Your Name, Gotra & Wishes)",
+                "Accommodation & Travel Assistance Available",
               ],
               bestFor:
                 "Those who want an immersive spiritual experience in Prayagraj.",
@@ -616,11 +611,11 @@ export const poojaItineraries : Record<string, Pooja> ={
               content:
                 "The Virtual Das Mahavidya Pooja allows you to participate remotely, experiencing the pooja live from Prayagraj. The final Havan and chanting are broadcasted in full HD.",
               bulletPoints: [
-                "✔ Full HD Live Streaming of all 7 days of pooja",
-                "✔ Your name & sankalp included in chanting",
-                "✔ Dedicated live feed of the final Das Mahavidya Havan",
-                "✔ Option to receive Prasad & Mahavidya Yantra at home",
-                "✔ Pooja recording available on request",
+                "Full HD Live Streaming of all 7 days of pooja",
+                "Your name & sankalp included in chanting",
+                "Dedicated live feed of the final Das Mahavidya Havan",
+                "Option to ceive Prasad & Mahavidya Yantra at home",
+                "Pooja recording available on request",
               ],
               bestFor:
                 "Devotees who want to experience the benefits of Das Mahavidya Pooja remotely.",
@@ -635,10 +630,10 @@ export const poojaItineraries : Record<string, Pooja> ={
               content:
                 "This package includes all necessary aspects for a complete spiritual experience at Prayagraj, with expert purohits, daily havans, and yantra energization.",
               bulletPoints: [
-                "✔ 9 Expert Pandits performing Das Mahavidya Anushthan",
-                "✔ Pathas of sacred mantras & stotras",
-                "✔ Daily Havan with powerful offerings",
-                "✔ Personalized Sankalp",
+                "9 Expert Pandits performing Das Mahavidya Anushthan",
+                "Pathas of sacred mantras & stotras",
+                "Daily Havan with powerful offerings",
+                "Personalized Sankalp",
               ],
               optional: "Assistance in booking train/flight tickets",
             },
@@ -647,11 +642,11 @@ export const poojaItineraries : Record<string, Pooja> ={
               content:
                 "The virtual pooja package includes live streaming of the entire pooja, with options for participating in chanting and receiving prasad at home.",
               bulletPoints: [
-                "✔ Live Streaming in Full HD from Prayagraj",
-                "✔ Dedicated Purohit for Your Sankalp",
-                "✔ Live Participation in Chanting & Havan via Zoom/WhatsApp",
-                "✔ Prasad home delivery (optional)",
-                "✔ Recording of Pooja available on request",
+                "Live Streaming in Full HD from Prayagraj",
+                "Dedicated Purohit for Your Sankalp",
+                "Live Participation in Chanting & Havan via Zoom/WhatsApp",
+                "Prasad home delivery (optional)",
+                "Recording of Pooja available on request",
               ],
             },
           ],
@@ -661,8 +656,8 @@ export const poojaItineraries : Record<string, Pooja> ={
           content:
             "We offer travel assistance for yatris to help them choose the best routes and book their tickets to Prayagraj. This includes free travel recommendations and assistance with booking tickets.",
           bulletPoints: [
-            "✔ FREE Travel Recommendations – Best routes, timings & fares",
-            "✔ Train/Flight Ticket Booking – If required, we can book tickets (booking charge applicable)",
+            "FREE Travel Recommendations – Best routes, timings & fares",
+            "Train/Flight Ticket Booking – If required, we can book tickets (booking charge applicable)",
           ],
         },
         {
