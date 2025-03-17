@@ -3,7 +3,7 @@
 import { useParams, useRouter } from "next/navigation";
 import Head from "next/head";
 import Image from "next/image";
-import { poojaItineraries } from "@/constant/poojaItineraries";
+import { poojaItineraries } from "@/constant/poojaItinerary"; // Assuming poojaItineraries is exported from here
 
 const PoojaDetails = () => {
   const params = useParams();
@@ -63,70 +63,50 @@ const PoojaDetails = () => {
           </div>
         </div>
 
-        {/* Highlights Section */}
-        <div className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900">
-            Highlights ✨
-          </h2>
-          <div className="mt-3 space-y-2 text-gray-700">
-            {pooja.highlights.map((highlight, index) => (
-              <p key={index}>{highlight}</p>
-            ))}
-          </div>
-        </div>
+        {/* Sections Rendering */}
+        {pooja.sections.map((section, sectionIndex) => (
+          <div key={sectionIndex} className="mt-10">
+            <h2 className="text-2xl font-semibold text-gray-900">{section.title}</h2>
+            <div className="mt-3 text-gray-700">
+              <p>{section.content}</p>
 
-        {/* Itinerary Section */}
-        <div className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900">Itinerary 📜</h2>
-          <div className="mt-3 space-y-3">
-            {pooja.itinerary.map((item, index) => (
-              <div key={index} className="p-4 bg-gray-100 rounded-lg shadow-sm">
-                {item.time && (
-                  <p className="text-lg font-bold text-orange-700">
-                    {item.time}
-                  </p>
-                )}
-                <p className="text-gray-800">{item.activity}</p>
-              </div>
-            ))}
-          </div>
-        </div>
+              {section.bulletPoints && (
+                <ul className="mt-3 space-y-2 list-disc pl-6">
+                  {section.bulletPoints.map((point, index) => (
+                    <li key={index}>{point}</li>
+                  ))}
+                </ul>
+              )}
 
-        {/* Inclusions Section */}
-        <div className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900">
-            Inclusions ✅
-          </h2>
-          <div className="mt-3 space-y-2 text-gray-700">
-            {pooja.inclusions.map((item, index) => (
-              <p key={index}>{item}</p>
-            ))}
+              {section.subsections && (
+                <div className="mt-5 space-y-5">
+                  {section.subsections.map((subsection, index) => (
+                    <div key={index}>
+                      <h3 className="text-xl font-semibold text-gray-900">
+                        {subsection.title}
+                      </h3>
+                      <p>{subsection.content}</p>
+                      {subsection.bulletPoints && (
+                        <ul className="mt-3 space-y-2 list-disc pl-6">
+                          {subsection.bulletPoints.map((point, index) => (
+                            <li key={index}>{point}</li>
+                          ))}
+                        </ul>
+                      )}
+                      {subsection.bulletPoints2 && (
+                        <ul className="mt-3 space-y-2 list-disc pl-6">
+                          {subsection.bulletPoints2.map((point, index) => (
+                            <li key={index}>{point}</li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
-        </div>
-
-        {/* Exclusions Section */}
-        <div className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900">
-            Not Included ❌
-          </h2>
-          <div className="mt-3 space-y-2 text-gray-700">
-            {pooja.notIncluded.map((item, index) => (
-              <p key={index}>{item}</p>
-            ))}
-          </div>
-        </div>
-
-        {/* Booking Policy Section */}
-        <div className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900">
-            Booking Policy 📌
-          </h2>
-          <div className="mt-3 space-y-2 text-gray-700">
-            {pooja.bookingPolicy.map((policy, index) => (
-              <p key={index}>{policy}</p>
-            ))}
-          </div>
-        </div>
+        ))}
       </div>
     </>
   );
