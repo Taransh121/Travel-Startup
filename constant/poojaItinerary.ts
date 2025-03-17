@@ -1,4 +1,25 @@
-export const poojaItineraries = {
+export type Pooja = {
+  title: string;
+  slug: string;
+  imageUrl: string;
+  price: string;
+  description?: string; 
+  sections?: {
+    title: string;
+    content?: string;
+    bulletPoints?: string[];
+    subsections?: {
+      title: string;
+      content?: string;
+      bulletPoints?: string[];
+      bulletPoints2?: string[];
+      bestFor?: string; 
+      optional?: string; 
+    }[];
+  }[];
+};
+
+export const poojaItineraries : Record<string, Pooja> ={
   "navgrah-shanti-path-at-prayagraj": {
     title: "Nav Grah Shanti Path at Prayagraj",
     slug: "navgrah-shanti-path-at-prayagraj",

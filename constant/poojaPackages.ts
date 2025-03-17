@@ -110,14 +110,6 @@ export const poojaPackages: Pooja[] = [
     imageUrl: "/images/pooja/pooja.jpg",
   },
   {
-    title: "Nav Chandi Pooja at Vindhyachal",
-    slug: "nav-chandi-pooja-at-vindhyachal",
-    price: "₹7,000",
-    description:
-      "Invoke the divine blessings of Maa Durga with the highly auspicious Nav Chandi Pooja at the sacred Vindhyachal Dham. ",
-    imageUrl: "/images/pooja/pooja.jpg",
-  },
-  {
     title: "Kaal Sarp Dosh Nivaran Pooja at Naag Vasuki Temple, Prayagraj",
     slug: "kaal-sarp-dosh-nivaran-pooja-at-naag-vasuki-temple-prayagraj",
     price: "₹7,000",
