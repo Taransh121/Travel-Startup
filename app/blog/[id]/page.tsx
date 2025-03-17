@@ -65,7 +65,7 @@ export default async function BlogDetails({
   return (
     <div className="p-6 max-w-6xl mx-auto">
       {/* Blog Title */}
-      <h1 className="text-4xl font-bold text-blue-600 mt-20">{blog.title}</h1>
+      <h1 className="text-4xl font-bold text-[#ec8014] mt-20">{blog.title}</h1>
       <p className="mt-2 text-gray-600 text-lg">{blog.metaDescription}</p>
 
       {/* Blog Sections */}

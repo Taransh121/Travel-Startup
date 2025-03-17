@@ -57,12 +57,14 @@ const PoojaDetails = () => {
               </p>
             )}
             {pooja?.description && (
-              <p className="text-gray-700 leading-relaxed">{pooja.description}</p>
+              <p className="text-gray-700 leading-relaxed">
+                {pooja.description}
+              </p>
             )}
 
             <button
               onClick={handleWhatsAppBooking}
-              className="bg-green-500 text-white px-6 py-2 rounded-lg mt-4 hover:bg-green-600 transition shadow-md"
+              className="bg-[#035064] text-white px-6 py-2 rounded-lg mt-4 hover:bg-[#024050] font-semibold transition shadow-md"
             >
               Book via WhatsApp
             </button>
@@ -103,7 +105,9 @@ const PoojaDetails = () => {
                       </h3>
 
                       {subsection?.content && (
-                        <p className="mt-2 text-gray-700">{subsection.content}</p>
+                        <p className="mt-2 text-gray-700">
+                          {subsection.content}
+                        </p>
                       )}
 
                       {subsection?.bulletPoints && (
