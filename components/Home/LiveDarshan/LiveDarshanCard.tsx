@@ -2,7 +2,6 @@
 
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 interface LiveDarshanCardProps {
   title: string;
@@ -12,11 +11,14 @@ interface LiveDarshanCardProps {
 }
 
 const LiveDarshanCard: React.FC<LiveDarshanCardProps> = ({ title, slug, description, imageUrl }) => {
-  // WhatsApp Redirect URL
-  const whatsappUrl = `https://wa.me/919277341677?text=I'm%20interested%20in%20Live%20Darshan:%20${encodeURIComponent(title)}`;
+  // Handle WhatsApp redirection only when the button is clicked
+  const handleWhatsAppBooking = () => {
+    const whatsappUrl = `https://wa.me/919277341677?text=I'm%20interested%20in%20Live%20Darshan:%20${encodeURIComponent(title)}`;
+    window.open(whatsappUrl, "_blank");
+  };
 
   return (
-    <Link href={whatsappUrl} target="_blank" className="flex justify-center items-center w-full">
+    <div className="flex justify-center items-center w-full">
       <div className="relative w-[300px] h-[440px] bg-white rounded-md shadow-md overflow-hidden flex flex-col border border-gray-300 hover:shadow-lg transition-transform duration-200 hover:scale-105 mb-4">
 
         {/* ✅ Image Section (55% height) */}
@@ -43,15 +45,18 @@ const LiveDarshanCard: React.FC<LiveDarshanCardProps> = ({ title, slug, descript
             {description}
           </p>
 
-          {/* ✅ Button Section (Same Orange Button) */}
+          {/* ✅ Button Section (Triggers WhatsApp on Click) */}
           <div className="mt-auto pt-3">
-            <button className="bg-white text-black font-bold px-4 py-2 rounded-sm w-full hover:bg-orange-600 transition text-sm">
+            <button
+              onClick={handleWhatsAppBooking}
+              className="bg-white text-black font-bold px-4 py-2 rounded-sm w-full hover:bg-orange-600 transition text-sm"
+            >
               Book Now
             </button>
           </div>
         </div>
       </div>
-    </Link>
+    </div>
   );
 };
 
