@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { poojaPackages } from "@/constant/poojaPackages";
 
 const SpecialPoojaSlider = () => {
@@ -40,10 +40,20 @@ const SpecialPoojaSlider = () => {
   );
 };
 
-// Pooja Card Component
-const PoojaCard: React.FC<{ title: string; price: string; description: string; imageUrl: string }> = ({ title, price, description, imageUrl }) => {
+// Pooja Card Component (With Navigation Fix)
+const PoojaCard: React.FC<{ title: string; slug: string; price: string; description: string; imageUrl: string }> = ({ title, slug, price, description, imageUrl }) => {
+  const router = useRouter();
+
+  const handleClick = () => {
+    console.log(`Navigating to: /pooja/${slug}`);
+    router.push(`/pooja/${slug}`);
+  };
+
   return (
-    <div className="relative h-[350px] w-full rounded-xl overflow-hidden shadow-lg bg-white transition-all duration-500 group hover:scale-105 -mt-12 md:-mt-0">
+    <div
+      className="relative h-[350px] w-full rounded-xl overflow-hidden shadow-lg bg-white transition-all duration-500 group hover:scale-105 -mt-12 md:-mt-0 cursor-pointer"
+      onClick={handleClick} 
+    >
       <img
         src={imageUrl}
         alt={title}

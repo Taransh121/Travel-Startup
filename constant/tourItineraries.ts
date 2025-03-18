@@ -1,8 +1,12 @@
 export const itineraries = {
   varanasi: {
-    title: "Varanasi 1-Day Yatra Package",
+    title: "Varanasi 1-Day Yatra",
     slug: "varanasi",
-    imageUrl: "/images/itinerary/Varanasi_2.jpg",
+    images: [
+      "/images/tourItinerary/Varanasi/v3.jpg", 
+      "/images/tourItinerary/Varanasi/v5.jpg",
+      "/images/tourItinerary/Varanasi/v1.jpg",
+    ],
     price: "₹3,999",
     description:
       "Experience the divine aura of Kashi Vishwanath and the mesmerizing Ganga Aarti.",
@@ -92,7 +96,11 @@ export const itineraries = {
   ayodhya: {
     title: "Ayodhya 1-Day Yatra",
     slug: "ayodhya",
-    imageUrl: "/images/itinerary/Ayodhya_2.jpg",
+    images: [
+      "/images/tourItinerary/Ayodhya/a4.jpg", 
+      "/images/tourItinerary/Ayodhya/a5.jpg",
+      "/images/tourItinerary/Ayodhya/a1.jpg",
+    ],
     price: "₹4,499",
     description:
       "A soulful journey to the birthplace of Lord Ram, filled with devotion and history.",
@@ -175,9 +183,13 @@ export const itineraries = {
   },
 
   vindhyachal: {
-    title: "1-Day Vindhyachal Yatra from Prayagraj",
+    title: "Vindhyachal 1-Day Yatra",
     slug: "vindhyachal",
-    imageUrl: "/images/itinerary/Vindhyachal_2.jpg",
+    images: [
+      "/images/tourItinerary/Vindhyachal/vi1.jpg", 
+      "/images/tourItinerary/Vindhyachal/vi2.jpg",
+      "/images/tourItinerary/Vindhyachal/vi3.jpg",
+    ],
     price: "₹3,999",
     description:
       "A spiritual journey to the sacred temples of Vindhyachal, with complete travel assistance.",
@@ -211,7 +223,11 @@ export const itineraries = {
   prayagraj: {
     title: "Prayagraj 1-Day Yatra",
     slug: "prayagraj",
-    imageUrl: "/images/itinerary/Prayagraj_2.jpg",
+    images: [
+      "/images/tourItinerary/Prayagraj/p1.jpg", 
+      "/images/tourItinerary/Prayagraj/p2.jpg",
+      "/images/tourItinerary/Prayagraj/p3.jpg",
+    ],
     price: "₹3,999",
     description:
       "A soul-soothing spiritual journey with comfortable travel, divine darshans, and a touch of local culture!",
@@ -306,7 +322,11 @@ export const itineraries = {
   "prayagraj-varanasi": {
     title: "2-Day Prayagraj & Varanasi Yatra",
     slug: "prayagraj-varanasi",
-    imageUrl: "/images/itinerary/Prayagraj-Varanasi_.jpg",
+    images: [
+      "/images/tourItinerary/Prayagraj-Varanasi/pv6.jpg", 
+      "/images/tourItinerary/Prayagraj-Varanasi/pv7.jpg",
+      "/images/tourItinerary/Prayagraj-Varanasi/pv2.jpg",
+    ],
     price: "₹7,499",
     description:
       "A spiritually enriching 2-day yatra covering the sacred sites of Prayagraj & Varanasi with seamless travel arrangements.",
@@ -394,7 +414,11 @@ export const itineraries = {
   "prayagraj-ayodhya": {
     title: "2-Day Prayagraj & Ayodhya Yatra",
     slug: "prayagraj-ayodhya",
-    imageUrl: "/images/itinerary/Prayagraj-Ayodhya_2.jpg",
+    images: [
+      "/images/tourItinerary/Prayagraj-Ayodhya/pa1.jpg", 
+      "/images/tourItinerary/Prayagraj-Ayodhya/pa2.jpg",
+      "/images/tourItinerary/Prayagraj-Ayodhya/pa3.jpg",
+    ],
     price: "₹6,999",
     description:
       "A divine pilgrimage covering the sacred sites of Prayagraj & Ayodhya with seamless travel arrangements.",
@@ -481,7 +505,11 @@ export const itineraries = {
   "prayagraj-vindhyachal": {
     title: "2-Day Prayagraj & Vindhyanchal Yatra",
     slug: "prayagraj-vindhyachal",
-    imageUrl: "/images/itinerary/Prayagraj-Vindhyachal_2.jpg",
+    images: [
+      "/images/tourItinerary/Prayagraj-Vindhyachal/pv3.jpg", 
+      "/images/tourItinerary/Prayagraj-Vindhyachal/pv1.jpg",
+      "/images/tourItinerary/Prayagraj-Vindhyachal/pv2.jpg",
+    ],
     price: "₹6,999",
     description:
       "An enriching spiritual journey covering the divine sites of Prayagraj & Vindhyanchal with seamless travel support.",
@@ -567,7 +595,11 @@ export const itineraries = {
   "prayagraj-ayodhya-varanasi": {
     title: "Prayagraj, Ayodhya, and Varanasi 3-Day Yatra",
     slug: "prayagraj-ayodhya-varanasi",
-    imageUrl: "/images/itinerary/Prayagraj-Varanasi-Ayodhya_2.jpg",
+    images: [
+      "/images/tourItinerary/Prayagraj-Varanasi-Ayodhya/pav1.jpg", 
+      "/images/tourItinerary/Prayagraj-Varanasi-Ayodhya/pav2.jpg",
+      "/images/tourItinerary/Prayagraj-Varanasi-Ayodhya/pav3.jpg",
+    ],
     price: "₹12,999",
     description:
       "A soulful journey through India’s most sacred cities, designed with care, comfort, and flexibility to meet your every need.",
@@ -751,7 +783,11 @@ export const itineraries = {
   "prayagraj-vindhyachal-ayodhya": {
     title: "Prayagraj, Vindhyanchal, and Ayodhya 3-Day Yatra",
     slug: "prayagraj-vindhyachal-ayodhya",
-    imageUrl: "/images/itinerary/Prayagraj-Vindhyachal-Ayodhya_2.jpg",
+    images: [
+      "/images/tourItinerary/Prayagraj-Vindhyachal-Ayodhya/pva2.jpg", 
+      "/images/tourItinerary/Prayagraj-Vindhyachal-Ayodhya/pva5.jpg",
+      "/images/tourItinerary/Prayagraj-Vindhyachal-Ayodhya/pva4.jpg",
+    ],
     price: "₹11,999",
     description:
       "A soulful journey through India’s sacred cities, designed with comfort, flexibility, and a deep spiritual experience.",
@@ -906,7 +942,11 @@ export const itineraries = {
   "prayagraj-vindhyachal-varanasi": {
     title: "Prayagraj, Vindhyanchal, and Kashi Yatra (2 Nights / 3 Days)",
     slug: "prayagraj-vindhyachal-varanasi",
-    imageUrl: "/images/itinerary/Prayagraj-Vindhyachal-Varanasi_2.jpg",
+    images: [
+      "/images/tourItinerary/Prayagraj-Vindhyachal-Varanasi/pvv8.jpg", 
+      "/images/tourItinerary/Prayagraj-Vindhyachal-Varanasi/pvv2.jpg",
+      "/images/tourItinerary/Prayagraj-Vindhyachal-Varanasi/pvv3.jpg",
+    ],
     price: "₹11,999",
     description:
       "A sacred pilgrimage designed for a smooth and enriching experience.",
@@ -1052,7 +1092,11 @@ export const itineraries = {
   "prayagraj-vindhyachal-ayodhya-varanasi": {
     title: "Prayagraj – Vindhyanchal – Ayodhya – Varanasi (3 Nights / 4 Days)",
     slug: "prayagraj-vindhyachal-ayodhya-varanasi",
-    imageUrl: "/images/itinerary/Prayagraj-Vindhyachal-Varanasi-Ayodhya_2.jpg",
+    images: [
+      "/images/tourItinerary/Prayagraj-Vindhyachal-Varanasi-Ayodhya/pvva4.jpg", 
+      "/images/tourItinerary/Prayagraj-Vindhyachal-Varanasi-Ayodhya/pvva3.jpg",
+      "/images/tourItinerary/Prayagraj-Vindhyachal-Varanasi-Ayodhya/pvva6.jpg",
+    ],
     price: "₹15,999",
     description:
       "A seamless pilgrimage covering four sacred cities with spiritual depth, comfort, and flexibility.",

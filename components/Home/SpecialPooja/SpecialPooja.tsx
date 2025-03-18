@@ -2,7 +2,6 @@
 
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import Head from "next/head";
 import { poojaPackages } from "@/constant/poojaPackages";
 import PoojaCard from "@/components/Home/SpecialPooja/PoojaCard"; // Import the PoojaCard component
 
@@ -15,36 +14,12 @@ const SpecialPoojaSlider = dynamic(
 const SpecialPooja = () => {
   return (
     <>
-      {/* SEO Meta Tags */}
-      <Head>
-        <title>tirthayatrik | Special Pooja Packages</title>
-        <meta
-          name="description"
-          content="Explore divine special pooja packages at tirthayatrik for spiritual growth and well-being."
-        />
-        <meta
-          name="keywords"
-          content="Special Pooja, Hindu Rituals, Religious Ceremonies, Spiritual Growth, tirthayatrik"
-        />
-        <meta name="author" content="tirthayatrik" />
-        <meta
-          property="og:title"
-          content="Special Pooja Packages - tirthayatrik"
-        />
-        <meta
-          property="og:description"
-          content="Discover powerful pooja packages for health, prosperity, and spiritual peace."
-        />
-        <meta property="og:type" content="website" />
-      </Head>
-
       <div
         id="special-pooja-section"
         className="relative mt-17 overflow-hidden pt-16 lg:pt-14 pb-20 lg:pb-18 px-4"
       >
         {/* Red Section (Upper Half) */}
         <div className="absolute top-0 left-0 right-0 h-[55%] w-screen bg-red-600"></div>
-        {/* <div className="absolute top-0 left-0 right-0 h-[55%] w-screen bg-[#E07B37]"></div> */}
 
         {/* White Section (Bottom Half) */}
         <div className="absolute bottom-0 left-0 right-0 h-[55%] w-screen bg-white"></div>

@@ -1,7 +1,6 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import Head from "next/head";
 import Footer from "@/components/Home/Footer/Footer";
 
 const About = () => {
@@ -9,19 +8,6 @@ const About = () => {
 
   return (
     <>
-      <Head>
-        <title>About Us - tirthayatrik</title>
-        <meta
-          name="description"
-          content="tirthayatrik offers curated pilgrimage experiences, ensuring a smooth, enriching, and spiritually fulfilling journey."
-        />
-        <meta
-          name="keywords"
-          content="pilgrimage, religious tourism, spiritual travel, holy sites, tirthayatrik"
-        />
-        <meta name="author" content="tirthayatrik" />
-      </Head>
-
       {/* ✅ Hero Section */}
       <section className="relative bg-gradient-to-r from-[#034a5e] to-[#004e67] text-white text-center py-20 px-4">
         <div className="absolute inset-0 bg-black opacity-40"></div>
@@ -128,6 +114,7 @@ const About = () => {
           View Pilgrimage Packages
         </button>
       </section>
+      
       {/* <Footer /> */}
     </>
   );

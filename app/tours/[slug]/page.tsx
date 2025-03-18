@@ -4,31 +4,37 @@ import { useParams, useRouter } from "next/navigation";
 import Head from "next/head";
 import Image from "next/image";
 import { itineraries } from "@/constant/tourItineraries";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const TourDetails = () => {
   const params = useParams();
-  const slug = params?.slug;
   const router = useRouter();
-
-  if (!slug) return <div className="text-center py-10">Loading...</div>;
-
-  const tour = itineraries[slug as keyof typeof itineraries];
-
-  if (!tour) {
-    router.push("/404"); // ✅ Redirect to a 404 page instead of `notFound()`
-    return null;
-  }
-
+  const [slug, setSlug] = useState<string | null>(null);
+  const [tour, setTour] = useState<typeof itineraries[keyof typeof itineraries] | null>(null);
   const [expandedDay, setExpandedDay] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (params?.slug) {
+      setSlug(params.slug as string);
+      const selectedTour = itineraries[params.slug as keyof typeof itineraries] || null;
+      setTour(selectedTour);
+
+      if (!selectedTour) {
+        router.replace("/404");
+      }
+    }
+  }, [params, router]);
+
+  if (!slug || !tour) {
+    return <div className="text-center py-10 text-lg">Loading...</div>;
+  }
 
   const handleWhatsAppBooking = () => {
     window.open("https://wa.me/+919277341677", "_blank");
   };
 
   // Group itinerary by day
-  const groupedItinerary: Record<string, (typeof tour.itinerary)[number][]> =
-    {};
+  const groupedItinerary: Record<string, (typeof tour.itinerary)[number][]> = {};
   tour.itinerary.forEach((item) => {
     if (item.day) {
       groupedItinerary[item.day] = groupedItinerary[item.day] || [];
@@ -39,58 +45,73 @@ const TourDetails = () => {
   return (
     <>
       <Head>
-        <title>{tour.title} - tirthayatrik</title>
+        <title>{tour.title} - TeerthaYatrix</title>
         <meta
           name="description"
           content={`Explore the ${tour.title} package with itinerary and pricing.`}
         />
       </Head>
 
-      <div className="max-w-5xl mx-auto p-6">
-        <div className="flex flex-col md:flex-row gap-6 items-center mt-20">
-          <div className="md:w-1/2">
-            <Image
-              src={tour.imageUrl}
-              alt={tour.title}
-              width={500}
-              height={300}
-              className="w-full h-72 object-cover rounded-lg shadow-md"
-              priority
-            />
-          </div>
-          <div className="md:w-1/2">
-            <h1 className="text-3xl font-bold text-gray-900">{tour.title}</h1>
-            <p className="mt-3 text-gray-700 leading-relaxed">
-              {tour.description}
-            </p>
-          </div>
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+        {/* Tour Header Section */}
+        <div className="flex flex-col md:flex-row gap-6 items-center mt-10">
+          
+          {Array.isArray(tour.images) && (
+            <div className="md:w-2/3">
+              <Image
+                src={tour.images[0]}
+                alt={tour.title}
+                width={800}
+                height={500}
+                className="w-full h-[350px] sm:h-[400px] md:h-[500px] object-cover rounded-lg shadow-lg"
+              />
+            </div>
+          )}
+
+          {Array.isArray(tour.images) && tour.images.length > 1 && (
+            <div className="md:w-1/3 flex flex-row md:flex-col gap-3">
+              {tour.images.slice(1, 3).map((img: string, index: number) => (
+                <div key={index} className="w-1/2 md:w-full">
+                  <Image
+                    src={img}
+                    alt={`${tour.title} - Image ${index + 1}`}
+                    width={400}
+                    height={300}
+                    className="w-full h-[175px] sm:h-[200px] md:h-[240px] object-cover rounded-lg shadow-md"
+                  />
+                </div>
+              ))}
+            </div>
+          )}
         </div>
 
-        {/* 🌟 Why Choose This Yatra? */}
-        <div className="mt-8 bg-gray-100 p-6 rounded-lg shadow">
-          <h2 className="text-2xl font-semibold text-orange-700">
-            Why Choose This Yatra?
-          </h2>
-          <ul className="mt-3 space-y-2 text-gray-700">
-            {tour.whyChooseThisYatra.map((point, index) => (
-              <li key={`why-${index}`} className="flex items-center">
-                {point}
-              </li>
-            ))}
-          </ul>
+        {/* Tour Details */}
+        <div className="mt-8">
+          <h1 className="text-3xl font-bold text-gray-900">{tour.title}</h1>
+          <p className="text-gray-700 text-lg leading-relaxed mt-4">{tour.description}</p>
         </div>
+
+        {/* Why Choose This Yatra? */}
+        {tour.whyChooseThisYatra && (
+          <div className="mt-8 bg-gray-100 p-6 rounded-lg shadow-md">
+            <h2 className="text-2xl font-semibold text-orange-700">Why Choose This Yatra?</h2>
+            <ul className="mt-3 space-y-2 text-gray-700 list-disc list-inside">
+              {tour.whyChooseThisYatra.map((point, index) => (
+                <li key={`why-${index}`}>{point}</li>
+              ))}
+            </ul>
+          </div>
+        )}
 
         {/* Route Overview & Travel Plan */}
-        {tour.routeOverview && tour.routeOverview.length > 0 && (
-          <div className="mt-8 bg-gray-100 p-6 rounded-lg shadow">
+        {tour.routeOverview?.length > 0 && (
+          <div className="mt-8 bg-gray-100 p-6 rounded-lg shadow-md">
             <h2 className="text-2xl font-semibold text-orange-700">
               Route Overview & Travel Plan
             </h2>
-            <ul className="mt-3 space-y-2 text-gray-700">
+            <ul className="mt-3 space-y-2 text-gray-700 list-disc list-inside">
               {tour.routeOverview.map((route, index) => (
-                <li key={`route-${index}`} className="flex items-center">
-                  {route}
-                </li>
+                <li key={`route-${index}`}>{route}</li>
               ))}
             </ul>
           </div>
@@ -99,22 +120,17 @@ const TourDetails = () => {
         {/* Journey Overview */}
         <div className="mt-8">
           <h2 className="text-2xl font-semibold">📍 Journey Overview</h2>
-          <div className="mt-3 space-y-4">
+          <div className="mt-4 space-y-4">
             {Object.entries(groupedItinerary).map(([day, steps]) => (
-              <div
-                key={`day-${day}`}
-                className="border rounded-lg overflow-hidden shadow"
-              >
+              <div key={`day-${day}`} className="border rounded-lg overflow-hidden shadow">
                 <button
                   className="w-full bg-orange-200 px-4 py-3 text-left font-semibold text-orange-700 flex justify-between"
-                  onClick={() =>
-                    setExpandedDay(expandedDay === day ? null : day)
-                  }
+                  onClick={() => setExpandedDay(expandedDay === day ? null : day)}
                 >
                   🗓️ {day} <span>{expandedDay === day ? "▲" : "▼"}</span>
                 </button>
                 {expandedDay === day && (
-                  <ul className="p-4 bg-white">
+                  <ul className="p-4 bg-white space-y-2">
                     {steps.map((step, index) => (
                       <li
                         key={`step-${day}-${index}`}
@@ -130,14 +146,11 @@ const TourDetails = () => {
           </div>
         </div>
 
-        {/* 💰 Pricing & Booking */}
-        <div className="mt-8 bg-orange-100 p-6 rounded-lg shadow">
-          <h2 className="text-2xl font-semibold text-orange-700">
-            Pricing & Booking
-          </h2>
-          <p className="mt-2 text-gray-700">
-            💵 <strong>Pay on Arrival</strong> – No advance payment needed, book
-            with confidence!
+        {/* Pricing & Booking */}
+        <div className="mt-8 bg-orange-100 p-6 rounded-lg shadow-md">
+          <h2 className="text-2xl font-semibold text-orange-700">Pricing & Booking</h2>
+          <p className="mt-2 text-gray-700 text-lg">
+            💵 <strong>Pay on Arrival</strong> – No advance payment needed, book with confidence!
           </p>
           <button
             onClick={handleWhatsAppBooking}

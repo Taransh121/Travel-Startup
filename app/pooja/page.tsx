@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useMemo, useEffect } from "react";
-import dynamic from "next/dynamic";
 import Footer from "@/components/Home/Footer/Footer";
 import { poojaPackages } from "@/constant/poojaPackages";
 import PoojaCard from "@/components/Home/SpecialPooja/PoojaCard";
@@ -10,16 +9,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
-// ✅ Dynamic imports for hydration issue fixes
-const Nav = dynamic(() => import("@/components/Home/Navbar/Nav"), {
-  ssr: false,
-});
-const MobileNav = dynamic(() => import("@/components/Home/Navbar/MobileNav"), {
-  ssr: false,
-});
-
 const PoojaPage = () => {
-  const [showNav, setShowNav] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
   const [isMounted, setIsMounted] = useState(false);
 
@@ -39,10 +29,6 @@ const PoojaPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      {/* Navigation */}
-      <Nav openNav={() => setShowNav(true)} />
-      <MobileNav showNav={showNav} closeNav={() => setShowNav(false)} />
-
       {/* Page Header */}
       <div className="text-center py-8 pt-[60px]">
         <h1 className="text-3xl font-bold text-red-700 mt-5">
@@ -58,7 +44,7 @@ const PoojaPage = () => {
         <input
           type="text"
           placeholder="Search Pooja..."
-          value={searchTerm}
+          defaultValue={searchTerm} // ✅ Prevents mismatch issues before hydration
           onChange={(e) => setSearchTerm(e.target.value)}
           className="w-full max-w-md px-4 py-2 border border-gray-300 rounded-l-md focus:ring-2 focus:ring-red-500"
           autoComplete="off"

@@ -5,18 +5,11 @@ import dynamic from "next/dynamic";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-const Nav = dynamic(() => import("@/components/Home/Navbar/Nav"), {
-  ssr: false,
-});
-const MobileNav = dynamic(() => import("@/components/Home/Navbar/MobileNav"), {
-  ssr: false,
-});
 const Footer = dynamic(() => import("@/components/Home/Footer/Footer"), {
   ssr: false,
 });
 
 const ContactPage = () => {
-  const [showNav, setShowNav] = useState(false);
   const router = useRouter();
   const [isMounted, setIsMounted] = useState(false);
 
@@ -29,10 +22,6 @@ const ContactPage = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Navbar */}
-      <Nav openNav={() => setShowNav(true)} />
-      <MobileNav showNav={showNav} closeNav={() => setShowNav(false)} />
-
       {/* Hero Section */}
       <div
         className="relative flex items-center justify-center h-[60vh] md:h-[70vh] bg-cover bg-center"
