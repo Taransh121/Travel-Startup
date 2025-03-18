@@ -44,7 +44,7 @@ export const livedarshan = [
     {
       title: "Sarva Darshan",
       slug: "sarva-darshan",
-      imageUrl: "/images/livedarshan/Kali kho_.jpg",
+      imageUrl: "/images/livedarshan/sarva_darshan.jpeg",
       description: "Daily live darshans from all temples—your divine connection, anytime, anywhere.",
     },
   ];

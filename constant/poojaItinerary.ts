@@ -2471,10 +2471,10 @@ export const poojaItineraries: Record<string, Pooja> = {
       },
     ],
   },
-  "sahastra-archan-at-vindhyachal": {
+  "shastra-archan-at-vindhyachal": {
     title: "Sahastra Archan at Vindhyachal",
-    slug: "sahastra-archan-at-vindhyachal",
-    imageUrl: "/images/poojaItinerary/Satya Narayan Katha at prayagraj_.jpg",
+    slug: "shastra-archan-at-vindhyachal",
+    imageUrl: "/images/poojaItinerary/Sahastra archan at Vindhyanchal_.jpg",
     price: "Custom Pricing Based on Chanting Cycles",
     description:
       "Experience the divine blessings of Maa Vindhyavasini through the powerful Sahastra Archan ritual. (1-Day Special Pooja | 10 Vedic Pandits)",
@@ -2482,105 +2482,60 @@ export const poojaItineraries: Record<string, Pooja> = {
       {
         title: "What is Sahastra Archan?",
         content:
-          "Sahastra Archan is a sacred Vedic ritual where a thousand names of the deity are chanted with devotion. This pooja enhances spiritual growth, removes obstacles, and brings prosperity and peace.",
+          "Shastra Archana is a powerful Vedic ritual where the divine weapons (Shastra) of Maa Vindhyavasini are worshipped through offering specific flowers, each symbolizing unique blessings:",
         subsections: [
           {
-            title: "Effects of Sahastra Archan",
+            title: "Flower Offerings & Their Significance",
             bulletPoints: [
-              "Brings spiritual upliftment & inner peace",
-              "Attracts prosperity & positive energy",
-              "Removes negative influences & obstacles",
-              "Enhances success in career & personal life",
-              "Strengthens mental & physical well-being",
+              "Hibiscus (Japa) – Strength & Power",
+              "Marigold (Genda) – Protection from Negativity",
+              "Rose (Gulab) – Love & Devotion",
+              "Aparajita (Neelkanth) – Victory & Divine Protection"
             ],
           },
           {
-            title: "Benefits of Sahastra Archan at Vindhyachal",
+            title: "Key Benefits of Shastra Archana with Flower Offerings",
             bulletPoints: [
-              "Invokes the divine grace of Maa Vindhyavasini",
-              "Purifies the soul & brings good fortune",
-              "Removes financial and personal hurdles",
-              "Boosts confidence, clarity & spiritual power",
+              "Removes obstacles & grants success",
+          "Protection from negative energies",
+          "Blessings for health, wealth & prosperity",
+          "Spiritual upliftment & divine grace"
             ],
           },
-        ],
-      },
-      {
-        title: "Pooja Details",
-        content:
-          "The Sahastra Archan Pooja is a 1-day special ritual conducted by 10 Vedic Pandits at the sacred Vindhyachal Temple.",
-        subsections: [
-          {
-            title: "Main Rituals",
-            bulletPoints: [
-              "Ganapati Puja & Kalash Sthapana",
-              "Navagraha Shanti Pooja",
-              "Sahasranama Archana with 1000 chants",
-              "Homa (Havan) with Vedic Mantras",
-              "Maa Vindhyavasini Abhishek with Milk & Panchamrit",
-              "Special Aarti & Sankalp for Blessings",
-            ],
-          },
-          {
-            title: "Best Days for Pooja",
-            bulletPoints: [
-              "Navratri",
-              "Purnima",
-              "Amavasya",
-              "Any auspicious day",
-            ],
-          },
-        ],
-      },
-      {
-        title: "Key Benefits of the Pooja",
-        bulletPoints: [
-          "Enhances spiritual well-being & mental clarity",
-          "Attracts success, prosperity & positive energies",
-          "Removes obstacles & negative karmic influences",
-          "Brings divine protection & family harmony",
         ],
       },
       {
         title: "Ideal For",
         bulletPoints: [
-          "Those seeking divine blessings & success",
-          "People facing life challenges & obstacles",
-          "Individuals seeking peace & prosperity",
-          "Devotees of Maa Vindhyavasini",
-        ],
+          "Individuals seeking divine protection",
+          "Those desiring peace, success, and fulfillment of wishes",
+          "Spiritual seekers looking for Maa Vindhyavasini’s blessings"
+        ]
       },
       {
         title: "Pooja Options",
         subsections: [
           {
-            title: "In-Person Pooja at Vindhyachal Temple",
-            content:
-              "Join us at Vindhyachal for a sacred ritual performed by 10 expert Vedic Pandits.",
+            title: "In-Person Shastra Archana at Vindhyachal",
+            content: "Join us at Maa Vindhyavasini Temple for an immersive Shastra Archana experience.",
             bulletPoints: [
-              "Conducted by experienced Vedic Pandits",
+              "Performed at Maa Vindhyavasini Temple",
               "Personalized Sankalp (Your Name, Gotra & Wish)",
-              "Sahasranama Archana & Havan at the temple",
-              "Milk & Panchamrit Abhishek of Maa Vindhyavasini",
-              "Blessed Prasad & Yantra for protection",
-              "Special Brahmin Bhojan & Donation for merit",
-              "Optional: Accommodation & Travel Assistance Available",
-            ],
+              "Flower offerings according to your wishes",
+              "Optional: Additional Navgrah Shanti Pooja & Rudra Abhishek"
+            ]
           },
           {
-            title: "Virtual Sahastra Archan Pooja (Live from Vindhyachal!)",
-            content:
-              "Join the pooja remotely from anywhere in the world via live streaming.",
+            title: "Online Shastra Archana (Live Pooja)",
+            content: "Join the pooja remotely from anywhere in the world via live streaming.",
             bulletPoints: [
-              "Join from anywhere in the world",
+              "Dedicated Purohit performing the Archana for you",
+              "Personalized Sankalp & Name in Pooja",
               "Live Streaming of the entire Pooja",
-              "Your name & sankalp included in rituals",
-              "Dedicated live feed of Havan & Abhishek",
-              "Option to receive Prasad & Yantra at home",
-              "Pooja recording available on request",
-            ],
-          },
-        ],
+              "Receive Prasad at home"
+            ]
+          }
+        ]
       },
       {
         title: "Package Details",
@@ -2609,20 +2564,6 @@ export const poojaItineraries: Record<string, Pooja> = {
         ],
       },
       {
-        title: "Travel Assistance",
-        content:
-          "We assist devotees with travel arrangements for a hassle-free experience.",
-        subsections: [
-          {
-            title: "Travel Services",
-            bulletPoints: [
-              "FREE Travel Recommendations – Best train/flight routes",
-              "Train/Flight Ticket Booking – On request (charges apply)",
-            ],
-          },
-        ],
-      },
-      {
         title: "Booking Steps",
         bulletPoints: [
           "Click the 'Book Now on WhatsApp' button.",
@@ -2630,8 +2571,8 @@ export const poojaItineraries: Record<string, Pooja> = {
           "Share your preferred dates & additional requirements.",
           "Receive a customized pooja plan based on your needs.",
           "Confirm your booking with 50% advance payment.",
-          "Join the pooja physically in Vindhyachal or virtually from home!",
-        ],
+          "Join the pooja physically in Vindhyachal or virtually from home!"
+        ]
       },
       {
         title: "Frequently Asked Questions",
@@ -2639,12 +2580,12 @@ export const poojaItineraries: Record<string, Pooja> = {
           {
             title: "Who should perform this Pooja?",
             content:
-              "This pooja is highly beneficial for those seeking divine blessings, success, and removal of obstacles in life.",
+              "This pooja is ideal for those seeking protection, success, and divine blessings from Maa Vindhyavasini.",
           },
           {
             title: "Can I customize the Pooja for my specific needs?",
             content:
-              "Yes! Based on your Kundali, we can adjust the chanting cycles and special rituals.",
+              "Yes! Based on your requirements, we can adjust the flower offerings and additional rituals.",
           },
           {
             title: "How does the Virtual Pooja work?",
@@ -2663,7 +2604,7 @@ export const poojaItineraries: Record<string, Pooja> = {
   "rudrabhishek-at-nagvasuki-temple" : {
     "title": "Rudrabhishek Pooja at Nagvasuki Temple",
     "slug": "rudrabhishek-pooja-at-nagvasuki-temple",
-    "imageUrl": "/images/poojaItinerary/Satya Narayan Katha at prayagraj_.jpg",
+    "imageUrl": "/images/poojaItinerary/Rudrabhishek at  Nagvasuki prayagraj_.jpg",
     "price": "Custom Pricing Based on Ritual Type",
     "description": "Experience the divine blessings of Lord Shiva through the sacred Rudrabhishek Pooja at Nagvasuki Temple, Prayagraj. (1-Day Special Ritual)",
     "sections": [
@@ -2830,7 +2771,7 @@ export const poojaItineraries: Record<string, Pooja> = {
   "rudrabhishek-at-shultankeshwar-temple": {
     "title": "Rudrabhishek Pooja at Shultankeshwar Temple",
     "slug": "rudrabhishek-pooja-at-shultankeshwar-temple",
-    "imageUrl": "/images/poojaItinerary/Satya Narayan Katha at prayagraj_.jpg",
+    "imageUrl": "/images/poojaItinerary/Rudrabhishek at shooltankeshwar mahadev prayagraj_.jpg",
     "price": "Custom Pricing Based on Ritual Type",
     "description": "Experience the divine blessings of Lord Shiva through the sacred Rudrabhishek Pooja at Shultankeshwar Mahadev Temple, Prayagraj. (1-Day Special Ritual)",
     "sections": [
