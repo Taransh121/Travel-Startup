@@ -38,7 +38,7 @@ async function connectDB(): Promise<mongoose.Connection> {
       console.log("Database connected");
       return mongoose.connection;
     }).catch((error) => {
-      console.error("Database connection error:", error.red.bold);
+      console.error("Database connection error:", error);
       throw error;
     });
   }

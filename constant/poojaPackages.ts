@@ -127,12 +127,12 @@ export const poojaPackages: Pooja[] = [
     imageUrl: "/images/pooja/Kaalsarp dosh nivaran Pooja at Nagvasuki prayagraj_.jpg",
   },
   {
-    title: "Sahastra Archan at Vindhyachal",
-    slug: "sahastra-archan-at-vindhyachal",
+    title: "Shastra Archan at Vindhyachal",
+    slug: "shastra-archan-at-vindhyachal",
     price: "₹7,000",
     description:
       "Experience the divine blessings of Maa Vindhyavasini through the powerful Sahastra Archan ritual!",
-    imageUrl: "/images/pooja/Satya Narayan Katha at prayagraj_.jpg",
+    imageUrl: "/images/pooja/Sahastra archan at Vindhyanchal_.jpg",
   },
   {
     title: "Rudrabhishek Pooja at Nagvasuki Temple",
@@ -140,7 +140,7 @@ export const poojaPackages: Pooja[] = [
     price: "₹7,000",
     description:
       "Experience the divine blessings of Lord Shiva through the sacred Rudrabhishek Pooja at Nagvasuki Temple, Prayagraj!",
-    imageUrl: "/images/pooja/Satya Narayan Katha at prayagraj_.jpg",
+    imageUrl: "/images/pooja/Rudrabhishek at  Nagvasuki prayagraj_.jpg",
   },
   {
     title: "Rudrabhishek Pooja at Shultankeshwar Temple",
@@ -148,6 +148,6 @@ export const poojaPackages: Pooja[] = [
     price: "₹7,000",
     description:
       "Experience the divine blessings of Lord Shiva through the sacred Rudrabhishek Pooja at Shultankeshwar Mahadev Temple, Prayagraj.!",
-    imageUrl: "/images/pooja/Satya Narayan Katha at prayagraj_.jpg",
+    imageUrl: "/images/pooja/Rudrabhishek at shooltankeshwar mahadev prayagraj_.jpg",
   },
 ];
