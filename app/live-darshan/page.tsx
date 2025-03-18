@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useMemo, useEffect } from "react";
-import dynamic from "next/dynamic";
 import Footer from "@/components/Home/Footer/Footer";
 import { livedarshan } from "@/constant/livedarshan";
 import LiveDarshanCard from "@/components/Home/LiveDarshan/LiveDarshanCard";
@@ -10,16 +9,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
-// ✅ Dynamic imports for hydration fix
-const Nav = dynamic(() => import("@/components/Home/Navbar/Nav"), {
-  ssr: false,
-});
-const MobileNav = dynamic(() => import("@/components/Home/Navbar/MobileNav"), {
-  ssr: false,
-});
-
 const LiveDarshanPage = () => {
-  const [showNav, setShowNav] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
   const [isMounted, setIsMounted] = useState(false);
 
@@ -35,15 +25,8 @@ const LiveDarshanPage = () => {
     setIsMounted(true);
   }, []);
 
-  if (!isMounted) return null;
-
   return (
     <div className="min-h-screen bg-[#fef9f5]">
-      {" "}
-      {/* Light Orange Background */}
-      {/* Navigation */}
-      <Nav openNav={() => setShowNav(true)} />
-      <MobileNav showNav={showNav} closeNav={() => setShowNav(false)} />
       {/* Page Header */}
       <div className="text-center py-8 pt-[60px]">
         <h1 className="text-3xl font-bold text-[#E07B37] mt-5">LIVE DARSHAN</h1>

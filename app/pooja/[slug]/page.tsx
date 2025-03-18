@@ -1,14 +1,22 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Head from "next/head";
 import Image from "next/image";
-import { poojaItineraries, Pooja } from "@/constant/poojaItinerary"; // Ensure type is imported
+import { poojaItineraries, Pooja } from "@/constant/poojaItinerary"; 
 
 const PoojaDetails = () => {
+  const [isMounted, setIsMounted] = useState(false);
   const params = useParams();
   const slug = params?.slug as string;
   const router = useRouter();
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) return <div className="text-center py-10 text-lg">Loading...</div>;
 
   if (!slug) return <div className="text-center py-10 text-lg">Loading...</div>;
 
@@ -43,7 +51,7 @@ const PoojaDetails = () => {
                 alt={pooja.title}
                 width={500}
                 height={300}
-                className="w-full h-72 object-cover rounded-lg shadow-lg"
+                className="w-full h-72 object-contain rounded-lg shadow-lg"
                 priority
               />
             </div>

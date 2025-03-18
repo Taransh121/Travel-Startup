@@ -5,32 +5,32 @@ const features = [
   {
     title: "Dedicated Pooja Packages",
     description: "Authentic rituals with verified temples and purohits.",
-    icon: <FaPrayingHands />,
+    icon: FaPrayingHands,
   },
   {
     title: "Hassle-Free Yatra",
     description: "Seamless travel with expert local guidance.",
-    icon: <FaRoute />,
+    icon: FaRoute,
   },
   {
     title: "Customized Travel",
     description: "Tailored itineraries for a personal pilgrimage.",
-    icon: <FaPassport />,
+    icon: FaPassport,
   },
   {
     title: "Pay on Arrival",
     description: "No upfront payment, pay when you reach.",
-    icon: <FaMoneyBillWave />,
+    icon: FaMoneyBillWave,
   },
   {
     title: "Trusted Services",
     description: "Verified hotels, transport, and local experts.",
-    icon: <FaHotel />,
+    icon: FaHotel,
   },
   {
     title: "24/7 Support",
     description: "Round-the-clock assistance for a smooth journey.",
-    icon: <FaHeadset />,
+    icon: FaHeadset,
   },
 ];
 
@@ -44,21 +44,21 @@ const WhyChooseUs: FC = () => {
 
         {/* Features Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {features.map((feature, index) => (
-            <div 
-              key={index} 
-              className="flex flex-col items-center text-center"
-            >
-              {/* Icon (Stacked on Mobile, Grid for Larger Screens) */}
-              <div className="text-5xl text-blue-600 mb-4">
-                {feature.icon}
+          {features.map((feature, index) => {
+            const Icon = feature.icon; // Dynamically render the icon component
+            return (
+              <div key={index} className="flex flex-col items-center text-center">
+                {/* Icon (Stacked on Mobile, Grid for Larger Screens) */}
+                <div className="text-5xl text-blue-600 mb-4">
+                  <Icon />
+                </div>
+                {/* Title */}
+                <h3 className="text-xl font-semibold text-gray-800">{feature.title}</h3>
+                {/* Description */}
+                <p className="text-gray-600 mt-2">{feature.description}</p>
               </div>
-              {/* Title */}
-              <h3 className="text-xl font-semibold text-gray-800">{feature.title}</h3>
-              {/* Description */}
-              <p className="text-gray-600 mt-2">{feature.description}</p>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

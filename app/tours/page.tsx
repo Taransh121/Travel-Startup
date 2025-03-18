@@ -29,7 +29,8 @@ const AllTours = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredTours, setFilteredTours] = useState(destinationCombinations);
   const [isSearched, setIsSearched] = useState(false);
-  const router = useRouter(); // ✅ Router for navigation
+  const [windowWidth, setWindowWidth] = useState<number | null>(null);
+  const router = useRouter();
 
   // ✅ Handle Search Functionality
   const handleSearch = () => {
@@ -47,12 +48,18 @@ const AllTours = () => {
     }
   };
 
-  // ✅ Prevent Hydration Errors
+  // ✅ Prevent Hydration Errors & Track Window Width
   useEffect(() => {
     setIsMounted(true);
+    setWindowWidth(window.innerWidth);
+
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  if (!isMounted) return null;
+  if (!isMounted) return <div className="min-h-screen bg-gray-50"></div>;
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -89,7 +96,7 @@ const AllTours = () => {
       </div>
 
       {/* ✅ Mobile Swiper (For Small Screens) */}
-      {!isSearched && (
+      {!isSearched && windowWidth !== null && windowWidth < 768 && (
         <div className="block md:hidden px-4 mt-10">
           <Swiper
             modules={[Navigation]}
@@ -116,8 +123,7 @@ const AllTours = () => {
       )}
 
       {/* ✅ Grid Layout (For Larger Screens OR when search is active) */}
-      {(isSearched ||
-        (typeof window !== "undefined" && window.innerWidth >= 768)) && (
+      {(isSearched || (windowWidth !== null && windowWidth >= 768)) && (
         <div className="container mx-auto px-4 md:px-8 lg:px-16 pb-16 mt-6">
           {filteredTours.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 sm:gap-8">

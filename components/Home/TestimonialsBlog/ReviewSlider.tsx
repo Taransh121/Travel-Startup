@@ -1,14 +1,21 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-cards";
 import { EffectCards } from "swiper/modules";
-import Image from "next/image";
 import { FaStar } from "react-icons/fa";
-import { reviewData } from "@/constant/reviewData"; // ✅ Import from data.ts
+import { reviewData } from "@/constant/reviewData";
 
 const ReviewSlider = () => {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) return <div className="text-center text-gray-500">Loading...</div>;
+
   return (
     <div className="flex justify-center">
       <Swiper
@@ -37,9 +44,7 @@ const ReviewSlider = () => {
 
               <div className="mt-10 flex items-center space-x-4">
                 <div>
-                  <p className="text-sm sm:text-lg font-semibold">
-                    {data.name}
-                  </p>
+                  <p className="text-sm sm:text-lg font-semibold">{data.name}</p>
                   <p className="text-gray-600 text-xs sm:text-base">
                     Verified Customer
                   </p>
