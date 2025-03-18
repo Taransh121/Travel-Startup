@@ -140,7 +140,7 @@ export const poojaPackages: Pooja[] = [
     price: "₹7,000",
     description:
       "Experience the divine blessings of Lord Shiva through the sacred Rudrabhishek Pooja at Nagvasuki Temple, Prayagraj!",
-    imageUrl: "/images/pooja/Rudrabhishek at  Nagvasuki prayagraj_.jpg",
+    imageUrl: "/images/pooja/Rudrabhishek at  Nagvasuki prayagraj_.png",
   },
   {
     title: "Rudrabhishek Pooja at Shultankeshwar Temple",
