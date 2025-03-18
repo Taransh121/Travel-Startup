@@ -2604,7 +2604,7 @@ export const poojaItineraries: Record<string, Pooja> = {
   "rudrabhishek-at-nagvasuki-temple" : {
     "title": "Rudrabhishek Pooja at Nagvasuki Temple",
     "slug": "rudrabhishek-pooja-at-nagvasuki-temple",
-    "imageUrl": "/images/poojaItinerary/Rudrabhishek at  Nagvasuki prayagraj_.jpg",
+    "imageUrl": "/images/poojaItinerary/Rudrabhishek at  Nagvasuki prayagraj_.png",
     "price": "Custom Pricing Based on Ritual Type",
     "description": "Experience the divine blessings of Lord Shiva through the sacred Rudrabhishek Pooja at Nagvasuki Temple, Prayagraj. (1-Day Special Ritual)",
     "sections": [
