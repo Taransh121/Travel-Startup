@@ -50,14 +50,14 @@ const Hero = () => {
             <div className="mt-4 flex flex-col sm:flex-row gap-4">
               <button
                 onClick={() => router.push("/live-darshan")}
-                className="bg-white text-black text-sm font-medium px-5 py-2 flex items-center gap-2 rounded-md shadow-md hover:bg-gray-100 transition-all duration-300 transform hover:scale-105"
+                className="bg-yellow-100 text-black text-sm font-medium px-5 py-2 flex items-center gap-2 rounded-md shadow-md hover:bg-gray-100 transition-all duration-300 transform hover:scale-105"
               >
                 <Video size={16} /> Live Darshan
               </button>
 
               <button
                 onClick={handlePanditjiRedirect}
-                className="bg-white text-black text-sm font-medium px-5 py-2 flex items-center gap-2 rounded-md shadow-md hover:bg-gray-100 transition-all duration-300 transform hover:scale-105"
+                className="bg-yellow-100 text-black text-sm font-medium px-5 py-2 flex items-center gap-2 rounded-md shadow-md hover:bg-gray-100 transition-all duration-300 transform hover:scale-105"
               >
                 <MessageCircle size={16} /> Ask Panditji
               </button>
