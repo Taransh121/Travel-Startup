@@ -5,13 +5,11 @@ import dynamic from "next/dynamic";
 import Footer from "@/components/Home/Footer/Footer";
 import { destinationCombinations } from "@/constant/tourPackages";
 import { useRouter } from "next/navigation";
-import { toursMetadata } from "./metadata"; 
+import { toursMetadata } from "./metadata";
 import Head from "next/head";
 
 // ✅ Dynamically Import Components
-const TourCard = dynamic(() => import("@/components/Home/Tours/TourCard"), {
-  ssr: false,
-});
+const TourCard = dynamic(() => import("@/components/Home/Tours/TourCard"));
 
 // ✅ Import Swiper Properly
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -24,7 +22,7 @@ const AllTours = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredTours, setFilteredTours] = useState(destinationCombinations);
   const [isSearched, setIsSearched] = useState(false);
-  const [windowWidth, setWindowWidth] = useState<number | null>(null);
+  const [windowWidth, setWindowWidth] = useState<number | null>(null); // ✅ Fix hydration issue
   const router = useRouter();
 
   // ✅ Handle Search Functionality
@@ -46,12 +44,20 @@ const AllTours = () => {
   // ✅ Prevent Hydration Errors & Track Window Width
   useEffect(() => {
     setIsMounted(true);
-    setWindowWidth(window.innerWidth);
 
-    const handleResize = () => setWindowWidth(window.innerWidth);
-    window.addEventListener("resize", handleResize);
+    // ✅ Ensure window is accessed only on the client
+    const updateWidth = () => setWindowWidth(window.innerWidth);
 
-    return () => window.removeEventListener("resize", handleResize);
+    if (typeof window !== "undefined") {
+      setWindowWidth(window.innerWidth); // ✅ Set width after mounting
+      window.addEventListener("resize", updateWidth);
+    }
+
+    return () => {
+      if (typeof window !== "undefined") {
+        window.removeEventListener("resize", updateWidth);
+      }
+    };
   }, []);
 
   if (!isMounted) return <div className="min-h-screen bg-gray-50"></div>;
@@ -140,7 +146,7 @@ const AllTours = () => {
                     onClick={() => router.push(`/tours/${tour.slug}`)}
                     className="cursor-pointer"
                   >
-                    <TourCard {...tour} />
+                    <TourCard {...tour} isFirst={index === 0} />{" "}
                   </div>
                 ))}
               </div>
