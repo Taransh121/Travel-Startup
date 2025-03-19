@@ -63,7 +63,7 @@ export const destinationCombinations: Destination[] = [
   {
     title: "Varanasi Tour",
     slug: "varanasi",
-    images: ["/images/tourCard/varanasi.jpg"],
+    images: ["/images/tourCard/v1.jpg"],
     price: "2,499",
   },
   {

@@ -83,7 +83,7 @@ export const poojaPackages: Pooja[] = [
     price: "₹2,40,500",
     description:
       "A special tantric pooja invoking the ten powerful Mahavidyas.",
-    imageUrl: "/images/pooja/10 mahavidya Pooja at Vindhyanchal_prayagraj_.jpg",
+    imageUrl: "/images/pooja/10 mahavidya Pooja at Vindhyanchal_prayagraj_.png",
   },
   {
     title: "Sat Chandi Pooja at Prayagraj",

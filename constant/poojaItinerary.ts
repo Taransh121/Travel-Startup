@@ -779,7 +779,7 @@ export const poojaItineraries: Record<string, Pooja> = {
   "10-mahavidya-pooja-at-vindhyachal": {
     title: "10 Mahavidya Pooja at Vindhyachal",
     slug: "10-mahavidya-pooja-at-vindhyachal",
-    imageUrl: "/images/poojaItinerary/10 mahavidya Pooja at Vindhyanchal_prayagraj_.jpg",
+    imageUrl: "/images/poojaItinerary/10 mahavidya Pooja at Vindhyanchal_prayagraj_.png",
     price: "₹2,40,500",
     description:
       "The Das Mahavidyas are the ten powerful forms of Goddess Shakti, each representing different cosmic forces and blessings. Performing a 7-day Mahavidya Anushthan with Patha (Chanting) and Homas under the guidance of 9 expert purohits ensures immense spiritual and material benefits.(7 Days | 9 Purohits)",

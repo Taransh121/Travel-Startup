@@ -1,4 +1,4 @@
-export const metadata = {
+export const aboutMetadata = {
     title: "About Us - Tirthayatrik | Spiritual Pilgrimage Tours",
     description:
       "Discover Tirthayatrik – your trusted partner in spiritual journeys. We offer carefully curated pilgrimage packages for a seamless travel experience.",
@@ -16,14 +16,6 @@ export const metadata = {
         "Tirthayatrik makes spiritual travel meaningful and hassle-free. Explore our pilgrimage packages and embark on a sacred journey.",
       type: "website",
       url: "https://tirthayatrik.com/about",
-      images: [
-        {
-          url: "https://tirthayatrik.com/images/about-banner.jpg",
-          width: 1200,
-          height: 630,
-          alt: "Tirthayatrik Pilgrimage Journey",
-        },
-      ],
     },
   };
   

@@ -7,8 +7,9 @@ import LiveDarshanCard from "@/components/Home/LiveDarshan/LiveDarshanCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import Head from "next/head";
 import { Pagination } from "swiper/modules";
-import { metadata } from "./metadata"; 
+import { livedarshanMetadata } from "./metadata"; 
 
 const LiveDarshanPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -27,6 +28,21 @@ const LiveDarshanPage = () => {
   }, []);
 
   return (
+    <>
+    <Head>
+        <title>{livedarshanMetadata.title}</title>
+        <meta name="description" content={livedarshanMetadata.description} />
+        <meta name="keywords" content={livedarshanMetadata.keywords.join(", ")} />
+
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content={livedarshanMetadata.openGraph.title} />
+        <meta
+          property="og:description"
+          content={livedarshanMetadata.openGraph.description}
+        />
+        <meta property="og:url" content={livedarshanMetadata.openGraph.url} />
+        <meta property="og:type" content={livedarshanMetadata.openGraph.type} />
+      </Head>
     <div className="min-h-screen bg-[#fef9f5]">
       {/* Page Header */}
       <div className="text-center py-8 pt-[60px]">
@@ -97,6 +113,7 @@ const LiveDarshanPage = () => {
       {/* Footer */}
       <Footer />
     </div>
+    </>
   );
 };
 
