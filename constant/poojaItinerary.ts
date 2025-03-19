@@ -466,7 +466,7 @@ export const poojaItineraries: Record<string, Pooja> = {
   "maa-vindhyavasini-devi-sahasra-archana-at-vindhyachal": {
     title: "Maa Vindhyavasini Devi Shringar Pooja at Vindhyachal",
     slug: "maa-vindhyavasini-devi-sahasra-archana-at-vindhyachal",
-    imageUrl: "/images/poojaItinerary/Maa vindhyawasini Devi sahadtra archan at Vindhyanchal_.jpg",
+    imageUrl: "/images/poojaItinerary/Devi  shringar at Vindhyanchal_.jpg",
     price: "₹19,500",
     description:
       "Adorn Maa Vindhyavasini with sacred offerings of shringar items and seek her divine blessings for prosperity, health, and protection.",
@@ -574,9 +574,9 @@ export const poojaItineraries: Record<string, Pooja> = {
     ],
   },
 
-  "10-mahavidya-pooja-at-prayagraj-vindhyachal": {
-    title: "10 Mahavidya Pooja at Prayagraj Vindhyachal",
-    slug: "10-mahavidya-pooja-at-prayagraj-vindhyachal",
+  "10-mahavidya-pooja-at-prayagraj": {
+    title: "10 Mahavidya Pooja at Prayagraj",
+    slug: "10-mahavidya-pooja-at-prayagraj",
     imageUrl: "/images/poojaItinerary/10 mahavidya Pooja at Vindhyanchal_prayagraj_.jpg",
     price: "₹2,27,500",
     description:

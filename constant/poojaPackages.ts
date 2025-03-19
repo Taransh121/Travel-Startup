@@ -52,7 +52,7 @@ export const poojaPackages: Pooja[] = [
     slug: "maa-vindhyavasini-devi-sahasra-archana-at-vindhyachal",
     price: "₹19,500",
     description: "A thousand-name recitation of Devi Maa for divine grace.",
-    imageUrl: "/images/pooja/Maa vindhyawasini Devi sahadtra archan at Vindhyanchal_.jpg",
+    imageUrl: "/images/pooja/Devi  shringar at Vindhyanchal_.jpg",
   },
   {
     title: "Rudrabhishek at Triveni Sangam",
@@ -63,8 +63,8 @@ export const poojaPackages: Pooja[] = [
     imageUrl: "/images/pooja/Rudrabhishek at Triveni sangam_.jpg",
   },
   {
-    title: "10 Mahavidya Pooja at Prayagraj Vindhyachal",
-    slug: "10-mahavidya-pooja-at-prayagraj-vindhyachal",
+    title: "10 Mahavidya Pooja at Prayagraj",
+    slug: "10-mahavidya-pooja-at-prayagraj",
     price: "₹2,27,500",
     description:
       "A special tantric pooja invoking the ten powerful Mahavidyas.",
