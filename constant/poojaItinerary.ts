@@ -176,8 +176,7 @@ export const poojaItineraries: Record<string, Pooja> = {
   "mahamrityunjay-jaap-at-prayagraj": {
     title: "Mahamrityunjay Jaap at Prayagraj",
     slug: "mahamrityunjay-jaap-at-prayagraj",
-    imageUrl:
-      "/images/poojaItinerary/Mahamrityunjay at prayagraj_.jpg",
+    imageUrl: "/images/poojaItinerary/Mahamrityunjay at prayagraj_.jpg",
     price: "₹1,95,000",
     sections: [
       {
@@ -779,7 +778,8 @@ export const poojaItineraries: Record<string, Pooja> = {
   "10-mahavidya-pooja-at-vindhyachal": {
     title: "10 Mahavidya Pooja at Vindhyachal",
     slug: "10-mahavidya-pooja-at-vindhyachal",
-    imageUrl: "/images/poojaItinerary/10 mahavidya Pooja at Vindhyanchal_prayagraj_.jpg",
+    imageUrl:
+      "/images/poojaItinerary/10 mahavidya Pooja at Vindhyanchal_prayagraj_.png",
     price: "₹2,40,500",
     description:
       "The Das Mahavidyas are the ten powerful forms of Goddess Shakti, each representing different cosmic forces and blessings. Performing a 7-day Mahavidya Anushthan with Patha (Chanting) and Homas under the guidance of 9 expert purohits ensures immense spiritual and material benefits.(7 Days | 9 Purohits)",
@@ -2280,7 +2280,8 @@ export const poojaItineraries: Record<string, Pooja> = {
   "kaal-sarp-dosh-nivaran-pooja-at-naag-vasuki-temple-prayagraj": {
     title: "Kaal Sarp Dosh Nivaran Pooja at Naag Vasuki Temple, Prayagraj",
     slug: "kaal-sarp-dosh-nivaran-pooja-at-naag-vasuki-temple-prayagraj",
-    imageUrl: "/images/poojaItinerary/Kaalsarp dosh nivaran Pooja at Nagvasuki prayagraj_.jpg",
+    imageUrl:
+      "/images/poojaItinerary/Kaalsarp dosh nivaran Pooja at Nagvasuki prayagraj_.jpg",
     price: "₹58,500",
     description:
       "Remove the negative effects of Kaal Sarp Dosh and bring peace, prosperity, and success into your life!(1-Day Special Pooja | 10 Vedic Pandits)",
@@ -2490,16 +2491,16 @@ export const poojaItineraries: Record<string, Pooja> = {
               "Hibiscus (Japa) – Strength & Power",
               "Marigold (Genda) – Protection from Negativity",
               "Rose (Gulab) – Love & Devotion",
-              "Aparajita (Neelkanth) – Victory & Divine Protection"
+              "Aparajita (Neelkanth) – Victory & Divine Protection",
             ],
           },
           {
             title: "Key Benefits of Shastra Archana with Flower Offerings",
             bulletPoints: [
               "Removes obstacles & grants success",
-          "Protection from negative energies",
-          "Blessings for health, wealth & prosperity",
-          "Spiritual upliftment & divine grace"
+              "Protection from negative energies",
+              "Blessings for health, wealth & prosperity",
+              "Spiritual upliftment & divine grace",
             ],
           },
         ],
@@ -2509,33 +2510,35 @@ export const poojaItineraries: Record<string, Pooja> = {
         bulletPoints: [
           "Individuals seeking divine protection",
           "Those desiring peace, success, and fulfillment of wishes",
-          "Spiritual seekers looking for Maa Vindhyavasini’s blessings"
-        ]
+          "Spiritual seekers looking for Maa Vindhyavasini’s blessings",
+        ],
       },
       {
         title: "Pooja Options",
         subsections: [
           {
             title: "In-Person Shastra Archana at Vindhyachal",
-            content: "Join us at Maa Vindhyavasini Temple for an immersive Shastra Archana experience.",
+            content:
+              "Join us at Maa Vindhyavasini Temple for an immersive Shastra Archana experience.",
             bulletPoints: [
               "Performed at Maa Vindhyavasini Temple",
               "Personalized Sankalp (Your Name, Gotra & Wish)",
               "Flower offerings according to your wishes",
-              "Optional: Additional Navgrah Shanti Pooja & Rudra Abhishek"
-            ]
+              "Optional: Additional Navgrah Shanti Pooja & Rudra Abhishek",
+            ],
           },
           {
             title: "Online Shastra Archana (Live Pooja)",
-            content: "Join the pooja remotely from anywhere in the world via live streaming.",
+            content:
+              "Join the pooja remotely from anywhere in the world via live streaming.",
             bulletPoints: [
               "Dedicated Purohit performing the Archana for you",
               "Personalized Sankalp & Name in Pooja",
               "Live Streaming of the entire Pooja",
-              "Receive Prasad at home"
-            ]
-          }
-        ]
+              "Receive Prasad at home",
+            ],
+          },
+        ],
       },
       {
         title: "Package Details",
@@ -2571,8 +2574,8 @@ export const poojaItineraries: Record<string, Pooja> = {
           "Share your preferred dates & additional requirements.",
           "Receive a customized pooja plan based on your needs.",
           "Confirm your booking with 50% advance payment.",
-          "Join the pooja physically in Vindhyachal or virtually from home!"
-        ]
+          "Join the pooja physically in Vindhyachal or virtually from home!",
+        ],
       },
       {
         title: "Frequently Asked Questions",
@@ -2601,319 +2604,342 @@ export const poojaItineraries: Record<string, Pooja> = {
       },
     ],
   },
-  "rudrabhishek-at-nagvasuki-temple" : {
-    "title": "Rudrabhishek Pooja at Nagvasuki Temple",
-    "slug": "rudrabhishek-pooja-at-nagvasuki-temple",
-    "imageUrl": "/images/poojaItinerary/Rudrabhishek at  Nagvasuki prayagraj_.png",
-    "price": "₹7,800",
-    "description": "Experience the divine blessings of Lord Shiva through the sacred Rudrabhishek Pooja at Nagvasuki Temple, Prayagraj. (1-Day Special Ritual)",
-    "sections": [
+  "rudrabhishek-at-nagvasuki-temple": {
+    title: "Rudrabhishek Pooja at Nagvasuki Temple",
+    slug: "rudrabhishek-pooja-at-nagvasuki-temple",
+    imageUrl:
+      "/images/poojaItinerary/Rudrabhishek at  Nagvasuki prayagraj_.png",
+    price: "₹7,800",
+    description:
+      "Experience the divine blessings of Lord Shiva through the sacred Rudrabhishek Pooja at Nagvasuki Temple, Prayagraj. (1-Day Special Ritual)",
+    sections: [
       {
-        "title": "What is Rudrabhishek Pooja?",
-        "content": "Rudrabhishek is a powerful Vedic ritual dedicated to Lord Shiva, performed with sacred offerings and Vedic mantras to invoke divine blessings.",
-        "subsections": [
+        title: "What is Rudrabhishek Pooja?",
+        content:
+          "Rudrabhishek is a powerful Vedic ritual dedicated to Lord Shiva, performed with sacred offerings and Vedic mantras to invoke divine blessings.",
+        subsections: [
           {
-            "title": "Effects of Rudrabhishek Pooja",
-            "bulletPoints": [
+            title: "Effects of Rudrabhishek Pooja",
+            bulletPoints: [
               "Removes negative energies & doshas",
               "Brings health, wealth & prosperity",
               "Eliminates obstacles & evil influences",
               "Ensures spiritual growth & inner peace",
-              "Enhances mental clarity and emotional strength"
-            ]
+              "Enhances mental clarity and emotional strength",
+            ],
           },
           {
-            "title": "Benefits of Rudrabhishek at Nagvasuki Temple",
-            "bulletPoints": [
+            title: "Benefits of Rudrabhishek at Nagvasuki Temple",
+            bulletPoints: [
               "Purifies the soul & bestows divine grace",
               "Removes Graha Dosha & Kaal Sarp Dosha",
               "Attracts prosperity & positive energy",
-              "Strengthens mental & physical well-being"
-            ]
-          }
-        ]
+              "Strengthens mental & physical well-being",
+            ],
+          },
+        ],
       },
       {
-        "title": "Pooja Details",
-        "content": "The Rudrabhishek Pooja is a 1-day special ritual conducted by experienced Vedic priests at the sacred Nagvasuki Temple.",
-        "subsections": [
+        title: "Pooja Details",
+        content:
+          "The Rudrabhishek Pooja is a 1-day special ritual conducted by experienced Vedic priests at the sacred Nagvasuki Temple.",
+        subsections: [
           {
-            "title": "Main Rituals",
-            "bulletPoints": [
+            title: "Main Rituals",
+            bulletPoints: [
               "Sankalp & Ganapati Puja",
               "Abhishek with Panchamrit (Milk, Honey, Ghee, Curd, Sugar)",
               "Rudra Path & Maha Aarti",
               "Shiva Lingam Puja with Holy Ganga Water",
-              "Special prayers for protection & prosperity"
-            ]
-          }
-        ]
+              "Special prayers for protection & prosperity",
+            ],
+          },
+        ],
       },
       {
-        "title": "Key Benefits of the Pooja",
-        "bulletPoints": [
+        title: "Key Benefits of the Pooja",
+        bulletPoints: [
           "Removes negative karmic influences",
           "Provides spiritual upliftment & peace",
           "Ensures protection from malefic planetary effects",
           "Boosts financial stability & success",
-          "Promotes overall well-being & family harmony"
-        ]
+          "Promotes overall well-being & family harmony",
+        ],
       },
       {
-        "title": "Ideal For",
-        "bulletPoints": [
+        title: "Ideal For",
+        bulletPoints: [
           "Those facing career & financial obstacles",
           "People seeking spiritual growth & inner peace",
           "Individuals suffering from health & karmic issues",
-          "Devotees of Lord Shiva & those seeking divine grace"
-        ]
+          "Devotees of Lord Shiva & those seeking divine grace",
+        ],
       },
       {
-        "title": "Pooja Options",
-        "subsections": [
+        title: "Pooja Options",
+        subsections: [
           {
-            "title": "In-Person Pooja at Nagvasuki Temple",
-            "content": "Join us at Nagvasuki Temple for a sacred ritual performed by expert Vedic priests.",
-            "bulletPoints": [
+            title: "In-Person Pooja at Nagvasuki Temple",
+            content:
+              "Join us at Nagvasuki Temple for a sacred ritual performed by expert Vedic priests.",
+            bulletPoints: [
               "Highly experienced Vedic priests",
               "Personalized Sankalp (Your Name, Gotra & Wish)",
               "Complete Rudrabhishek Ritual with Abhishek & Aarti",
               "Blessed Prasad & Shiva Yantra for protection",
-              "Optional: Accommodation & Travel Assistance Available"
-            ]
+              "Optional: Accommodation & Travel Assistance Available",
+            ],
           },
           {
-            "title": "Virtual Rudrabhishek Pooja (Live from Nagvasuki!)",
-            "content": "Join the pooja remotely from anywhere in the world via live streaming.",
-            "bulletPoints": [
+            title: "Virtual Rudrabhishek Pooja (Live from Nagvasuki!)",
+            content:
+              "Join the pooja remotely from anywhere in the world via live streaming.",
+            bulletPoints: [
               "Join from anywhere in the world",
               "Full HD Live Streaming of the Pooja",
               "Your name & sankalp included in rituals",
               "Dedicated live feed of Rudra Path & Abhishek",
-              "Option to receive Prasad at home (additional cost)"
-            ]
-          }
-        ]
+              "Option to receive Prasad at home (additional cost)",
+            ],
+          },
+        ],
       },
       {
-        "title": "Package Details",
-        "subsections": [
+        title: "Package Details",
+        subsections: [
           {
-            "title": "In-Person Pooja Package",
-            "content": "Complete Rudrabhishek rituals at Nagvasuki Temple.",
-            "bulletPoints": [
+            title: "In-Person Pooja Package",
+            content: "Complete Rudrabhishek rituals at Nagvasuki Temple.",
+            bulletPoints: [
               "Full Rudrabhishek with expert priests",
               "Personalized Sankalp with your name & Gotra",
               "Sacred Shiva Lingam Abhishek & Maha Aarti",
-              "Optional kundali analysis & special offerings"
-            ]
+              "Optional kundali analysis & special offerings",
+            ],
           },
           {
-            "title": "Virtual Pooja Package",
-            "content": "Experience the pooja from the comfort of your home.",
-            "bulletPoints": [
+            title: "Virtual Pooja Package",
+            content: "Experience the pooja from the comfort of your home.",
+            bulletPoints: [
               "Full HD live streaming from Nagvasuki Temple",
               "Dedicated Purohit for Your Sankalp",
               "Step-by-step guidance during the pooja",
               "Recording available upon request",
-              "Optional Prasad & Yantra delivery"
-            ]
-          }
-        ]
+              "Optional Prasad & Yantra delivery",
+            ],
+          },
+        ],
       },
       {
-        "title": "Travel Assistance",
-        "content": "We assist devotees with travel arrangements for a hassle-free experience.",
-        "subsections": [
+        title: "Travel Assistance",
+        content:
+          "We assist devotees with travel arrangements for a hassle-free experience.",
+        subsections: [
           {
-            "title": "Travel Services",
-            "bulletPoints": [
+            title: "Travel Services",
+            bulletPoints: [
               "FREE Travel Recommendations – Best train/flight routes",
-              "Train/Flight Ticket Booking – On request (charges apply)"
-            ]
-          }
-        ]
+              "Train/Flight Ticket Booking – On request (charges apply)",
+            ],
+          },
+        ],
       },
       {
-        "title": "Booking Steps",
-        "bulletPoints": [
+        title: "Booking Steps",
+        bulletPoints: [
           "Click the 'Book Now on WhatsApp' button.",
           "Choose between In-Person or Virtual Pooja.",
           "Share your preferred dates & additional requirements.",
           "Receive a customized pooja plan based on your needs.",
           "Confirm your booking with 50% advance payment.",
-          "Join the pooja physically in Prayagraj or virtually from home!"
-        ]
+          "Join the pooja physically in Prayagraj or virtually from home!",
+        ],
       },
       {
-        "title": "Frequently Asked Questions",
-        "subsections": [
+        title: "Frequently Asked Questions",
+        subsections: [
           {
-            "title": "Can I customize the pooja?",
-            "content": "Yes! Our purohits will ensure the rituals are personalized as per your needs."
+            title: "Can I customize the pooja?",
+            content:
+              "Yes! Our purohits will ensure the rituals are personalized as per your needs.",
           },
           {
-            "title": "How does the Virtual Pooja work?",
-            "content": "You will receive a private live stream link to join the pooja from anywhere. You can also interact with the purohits during key moments."
+            title: "How does the Virtual Pooja work?",
+            content:
+              "You will receive a private live stream link to join the pooja from anywhere. You can also interact with the purohits during key moments.",
           },
           {
-            "title": "What if I want Prasad after Virtual Pooja?",
-            "content": "We can arrange Prasad delivery to your home upon request (additional charges apply)."
+            title: "What if I want Prasad after Virtual Pooja?",
+            content:
+              "We can arrange Prasad delivery to your home upon request (additional charges apply).",
           },
           {
-            "title": "Is accommodation included in the package?",
-            "content": "No, accommodation is not included, but it can be arranged separately at an additional cost."
-          }
-        ]
-      }
-    ]
+            title: "Is accommodation included in the package?",
+            content:
+              "No, accommodation is not included, but it can be arranged separately at an additional cost.",
+          },
+        ],
+      },
+    ],
   },
   "rudrabhishek-at-shultankeshwar-temple": {
-    "title": "Rudrabhishek Pooja at Shultankeshwar Temple",
-    "slug": "rudrabhishek-pooja-at-shultankeshwar-temple",
-    "imageUrl": "/images/poojaItinerary/Rudrabhishek at shooltankeshwar mahadev prayagraj_.jpg",
-    "price": "₹7,800",
-    "description": "Experience the divine blessings of Lord Shiva through the sacred Rudrabhishek Pooja at Shultankeshwar Mahadev Temple, Prayagraj. (1-Day Special Ritual)",
-    "sections": [
+    title: "Rudrabhishek Pooja at Shultankeshwar Temple",
+    slug: "rudrabhishek-pooja-at-shultankeshwar-temple",
+    imageUrl:
+      "/images/poojaItinerary/Rudrabhishek at shooltankeshwar mahadev prayagraj_.jpg",
+    price: "₹7,800",
+    description:
+      "Experience the divine blessings of Lord Shiva through the sacred Rudrabhishek Pooja at Shultankeshwar Mahadev Temple, Prayagraj. (1-Day Special Ritual)",
+    sections: [
       {
-        "title": "What is Rudrabhishek Pooja?",
-        "content": "Rudrabhishek is a powerful Vedic ritual dedicated to Lord Shiva, performed with sacred offerings and Vedic mantras to invoke divine blessings.",
-        "subsections": [
+        title: "What is Rudrabhishek Pooja?",
+        content:
+          "Rudrabhishek is a powerful Vedic ritual dedicated to Lord Shiva, performed with sacred offerings and Vedic mantras to invoke divine blessings.",
+        subsections: [
           {
-            "title": "Effects of Rudrabhishek Pooja",
-            "bulletPoints": [
+            title: "Effects of Rudrabhishek Pooja",
+            bulletPoints: [
               "Heals chronic diseases & ailments",
               "Removes negative energies & doshas",
               "Brings health, wealth & prosperity",
               "Eliminates obstacles & evil influences",
-              "Ensures spiritual growth & inner peace"
-            ]
+              "Ensures spiritual growth & inner peace",
+            ],
           },
           {
-            "title": "Benefits of Rudrabhishek at Shultankeshwar Mahadev Temple",
-            "bulletPoints": [
+            title: "Benefits of Rudrabhishek at Shultankeshwar Mahadev Temple",
+            bulletPoints: [
               "Purifies the soul & bestows divine grace",
               "Removes Graha Dosha & Kaal Sarp Dosha",
               "Attracts prosperity & positive energy",
-              "Strengthens mental & physical well-being"
-            ]
-          }
-        ]
+              "Strengthens mental & physical well-being",
+            ],
+          },
+        ],
       },
       {
-        "title": "Pooja Details",
-        "content": "The Rudrabhishek Pooja is a 1-day special ritual conducted by experienced Vedic priests at the sacred Shultankeshwar Mahadev Temple.",
-        "subsections": [
+        title: "Pooja Details",
+        content:
+          "The Rudrabhishek Pooja is a 1-day special ritual conducted by experienced Vedic priests at the sacred Shultankeshwar Mahadev Temple.",
+        subsections: [
           {
-            "title": "Main Rituals",
-            "bulletPoints": [
+            title: "Main Rituals",
+            bulletPoints: [
               "Sankalp & Ganapati Puja",
               "Abhishek with Panchamrit (Milk, Honey, Ghee, Curd, Sugar)",
               "Rudra Path & Maha Aarti",
               "Shiva Lingam Puja with Holy Ganga Water",
-              "Special prayers for protection & prosperity"
-            ]
-          }
-        ]
+              "Special prayers for protection & prosperity",
+            ],
+          },
+        ],
       },
       {
-        "title": "Pooja Options",
-        "subsections": [
+        title: "Pooja Options",
+        subsections: [
           {
-            "title": "In-Person Pooja at Shultankeshwar Mahadev Temple",
-            "content": "Join us at Shultankeshwar Mahadev Temple for a sacred ritual performed by expert Vedic priests.",
-            "bulletPoints": [
+            title: "In-Person Pooja at Shultankeshwar Mahadev Temple",
+            content:
+              "Join us at Shultankeshwar Mahadev Temple for a sacred ritual performed by expert Vedic priests.",
+            bulletPoints: [
               "Highly experienced Vedic priests",
               "Personalized Sankalp (Your Name, Gotra & Wish)",
               "Complete Rudrabhishek Ritual with Abhishek & Aarti",
               "Blessed Prasad & Shiva Yantra for protection",
-              "Optional: Accommodation & Travel Assistance Available"
-            ]
+              "Optional: Accommodation & Travel Assistance Available",
+            ],
           },
           {
-            "title": "Virtual Rudrabhishek Pooja (Live from Shultankeshwar!)",
-            "content": "Join the pooja remotely from anywhere in the world via live streaming.",
-            "bulletPoints": [
+            title: "Virtual Rudrabhishek Pooja (Live from Shultankeshwar!)",
+            content:
+              "Join the pooja remotely from anywhere in the world via live streaming.",
+            bulletPoints: [
               "Join from anywhere in the world",
               "Full HD Live Streaming of the Pooja",
               "Your name & sankalp included in rituals",
               "Dedicated live feed of Rudra Path & Abhishek",
-              "Option to receive Prasad at home (additional cost)"
-            ]
-          }
-        ]
+              "Option to receive Prasad at home (additional cost)",
+            ],
+          },
+        ],
       },
       {
-        "title": "Package Details",
-        "subsections": [
+        title: "Package Details",
+        subsections: [
           {
-            "title": "In-Person Pooja Package",
-            "content": "Complete Rudrabhishek rituals at Shultankeshwar Mahadev Temple.",
-            "bulletPoints": [
+            title: "In-Person Pooja Package",
+            content:
+              "Complete Rudrabhishek rituals at Shultankeshwar Mahadev Temple.",
+            bulletPoints: [
               "Full Rudrabhishek with expert priests",
               "Personalized Sankalp with your name & Gotra",
               "Sacred Shiva Lingam Abhishek & Maha Aarti",
-              "Optional kundali analysis & special offerings"
-            ]
+              "Optional kundali analysis & special offerings",
+            ],
           },
           {
-            "title": "Virtual Pooja Package",
-            "content": "Experience the pooja from the comfort of your home.",
-            "bulletPoints": [
+            title: "Virtual Pooja Package",
+            content: "Experience the pooja from the comfort of your home.",
+            bulletPoints: [
               "Full HD live streaming from Shultankeshwar Mahadev Temple",
               "Dedicated Purohit for Your Sankalp",
               "Step-by-step guidance during the pooja",
               "Recording available upon request",
-              "Optional Prasad & Yantra delivery"
-            ]
-          }
-        ]
+              "Optional Prasad & Yantra delivery",
+            ],
+          },
+        ],
       },
       {
-        "title": "Travel Assistance",
-        "content": "We assist devotees with travel arrangements for a hassle-free experience.",
-        "subsections": [
+        title: "Travel Assistance",
+        content:
+          "We assist devotees with travel arrangements for a hassle-free experience.",
+        subsections: [
           {
-            "title": "Travel Services",
-            "bulletPoints": [
+            title: "Travel Services",
+            bulletPoints: [
               "FREE Travel Recommendations – Best train/flight routes",
-              "Train/Flight Ticket Booking – On request (charges apply)"
-            ]
-          }
-        ]
+              "Train/Flight Ticket Booking – On request (charges apply)",
+            ],
+          },
+        ],
       },
       {
-        "title": "Booking Steps",
-        "bulletPoints": [
+        title: "Booking Steps",
+        bulletPoints: [
           "Click the 'Book Now on WhatsApp' button.",
           "Choose between In-Person or Virtual Pooja.",
           "Share your preferred dates & additional requirements.",
           "Receive a customized pooja plan based on your needs.",
           "Confirm your booking with 50% advance payment.",
-          "Join the pooja physically in Prayagraj or virtually from home!"
-        ]
+          "Join the pooja physically in Prayagraj or virtually from home!",
+        ],
       },
       {
-        "title": "Frequently Asked Questions",
-        "subsections": [
+        title: "Frequently Asked Questions",
+        subsections: [
           {
-            "title": "Can I customize the pooja?",
-            "content": "Yes! Our purohits will ensure the rituals are personalized as per your needs."
+            title: "Can I customize the pooja?",
+            content:
+              "Yes! Our purohits will ensure the rituals are personalized as per your needs.",
           },
           {
-            "title": "How does the Virtual Pooja work?",
-            "content": "You will receive a private live stream link to join the pooja from anywhere. You can also interact with the purohits during key moments."
+            title: "How does the Virtual Pooja work?",
+            content:
+              "You will receive a private live stream link to join the pooja from anywhere. You can also interact with the purohits during key moments.",
           },
           {
-            "title": "What if I want Prasad after Virtual Pooja?",
-            "content": "We can arrange Prasad delivery to your home upon request (additional charges apply)."
+            title: "What if I want Prasad after Virtual Pooja?",
+            content:
+              "We can arrange Prasad delivery to your home upon request (additional charges apply).",
           },
           {
-            "title": "Is accommodation included in the package?",
-            "content": "No, accommodation is not included, but it can be arranged separately at an additional cost."
-          }
-        ]
-      }
-    ]
+            title: "Is accommodation included in the package?",
+            content:
+              "No, accommodation is not included, but it can be arranged separately at an additional cost.",
+          },
+        ],
+      },
+    ],
   },
 };

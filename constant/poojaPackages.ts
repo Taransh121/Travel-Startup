@@ -12,7 +12,7 @@ export const poojaPackages: Pooja[] = [
     slug: "mahamrityunjay-jaap-at-prayagraj",
     price: "₹1,95,000",
     description:
-    "A sacred chant for longevity, protection, and spiritual upliftment.",
+      "A sacred chant for longevity, protection, and spiritual upliftment.",
     imageUrl: "/images/pooja/Mahamrityunjay at prayagraj_.jpg",
   },
   {
@@ -20,7 +20,7 @@ export const poojaPackages: Pooja[] = [
     slug: "baglamukhi-mata-jaap-at-vindhyachal",
     price: "₹2,40,500",
     description:
-    "Attain victory over enemies, remove legal troubles, and gain divine protection with the blessings of Maa Baglamukhi!",
+      "Attain victory over enemies, remove legal troubles, and gain divine protection with the blessings of Maa Baglamukhi!",
     imageUrl: "/images/pooja/Baglamukhi Jaap at Vindhyanchal_.jpg",
   },
   {
@@ -28,7 +28,7 @@ export const poojaPackages: Pooja[] = [
     slug: "sat-chandi-pooja-at-vindhyachal",
     price: "₹2,08,000",
     description:
-    "A grand Chandi path for protection and fulfillment of desires.",
+      "A grand Chandi path for protection and fulfillment of desires.",
     imageUrl: "/images/pooja/Sat chandi at Vindhyanchal_.jpg",
   },
   {
@@ -59,7 +59,7 @@ export const poojaPackages: Pooja[] = [
     slug: "rudrabhishek-at-triveni-sangam",
     price: "₹7,800",
     description:
-    "A sacred Lord Shiva pooja at the holy confluence of three rivers.",
+      "A sacred Lord Shiva pooja at the holy confluence of three rivers.",
     imageUrl: "/images/pooja/Rudrabhishek at Triveni sangam_.jpg",
   },
   {
@@ -75,7 +75,8 @@ export const poojaPackages: Pooja[] = [
     slug: "navgrah-shanti-path-at-prayagraj",
     price: "₹58,500",
     description: "A special planetary pooja to balance cosmic influences.",
-    imageUrl: "/images/pooja/Nav grah Shanti path at prayagraj_Vindhyanchal_.jpg",
+    imageUrl:
+      "/images/pooja/Nav grah Shanti path at prayagraj_Vindhyanchal_.jpg",
   },
   {
     title: "10 Mahavidya Pooja at Vindhyachal",
@@ -83,7 +84,7 @@ export const poojaPackages: Pooja[] = [
     price: "₹2,40,500",
     description:
       "A special tantric pooja invoking the ten powerful Mahavidyas.",
-    imageUrl: "/images/pooja/10 mahavidya Pooja at Vindhyanchal_prayagraj_.jpg",
+    imageUrl: "/images/pooja/10 mahavidya Pooja at Vindhyanchal_prayagraj_.png",
   },
   {
     title: "Sat Chandi Pooja at Prayagraj",
@@ -93,7 +94,7 @@ export const poojaPackages: Pooja[] = [
       "A grand Chandi path for protection and fulfillment of desires.",
     imageUrl: "/images/pooja/Sat chandi Pooja at prayagraj_.jpg",
   },
-  
+
   {
     title: "Baglamukhi Mata Jaap at Prayagraj",
     slug: "baglamukhi-mata-jaap-at-prayagraj",
@@ -124,7 +125,8 @@ export const poojaPackages: Pooja[] = [
     price: "₹58,500",
     description:
       "Remove the negative effects of Kaal Sarp Dosh and bring peace, prosperity, and success into your life!",
-    imageUrl: "/images/pooja/Kaalsarp dosh nivaran Pooja at Nagvasuki prayagraj_.jpg",
+    imageUrl:
+      "/images/pooja/Kaalsarp dosh nivaran Pooja at Nagvasuki prayagraj_.jpg",
   },
   {
     title: "Shastra Archan at Vindhyachal",
@@ -148,6 +150,7 @@ export const poojaPackages: Pooja[] = [
     price: "₹7,800",
     description:
       "Experience the divine blessings of Lord Shiva through the sacred Rudrabhishek Pooja at Shultankeshwar Mahadev Temple, Prayagraj.!",
-    imageUrl: "/images/pooja/Rudrabhishek at shooltankeshwar mahadev prayagraj_.jpg",
+    imageUrl:
+      "/images/pooja/Rudrabhishek at shooltankeshwar mahadev prayagraj_.jpg",
   },
 ];
