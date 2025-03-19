@@ -3,7 +3,9 @@ import mongoose from "mongoose";
 const MONGO_DB_PASSWORD = process.env.MONGO_DB_PASSWORD;
 
 if (!MONGO_DB_PASSWORD) {
-  throw new Error("Please define the MONGO_DB_PASSWORD environment variable in .env.local");
+  throw new Error(
+    "Please define the MONGO_DB_PASSWORD environment variable in .env.local"
+  );
 }
 
 mongoose.set("strictQuery", false);
@@ -31,16 +33,16 @@ async function connectDB(): Promise<mongoose.Connection> {
   }
 
   if (!global.mongooseCache.promise) {
-    global.mongooseCache.promise = mongoose.connect(mongoURL, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    } as mongoose.ConnectOptions).then((mongoose) => {
-      console.log("Database connected");
-      return mongoose.connection;
-    }).catch((error) => {
-      console.error("Database connection error:", error);
-      throw error;
-    });
+    global.mongooseCache.promise = mongoose
+      .connect(mongoURL, {} as mongoose.ConnectOptions)
+      .then((mongoose) => {
+        console.log("Database connected");
+        return mongoose.connection;
+      })
+      .catch((error) => {
+        console.error("Database connection error:", error);
+        throw error;
+      });
   }
 
   global.mongooseCache.conn = await global.mongooseCache.promise;
