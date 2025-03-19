@@ -13,7 +13,7 @@ const TestimonialsBlog = () => {
   if (!isMounted) return <div className="text-center text-gray-500">Loading...</div>;
 
   return (
-    <div className="pt-20 pb-20 flex items-center justify-center flex-col bg-[#024050]">
+    <div className="pt-20 pb-20 flex items-center justify-center flex-col bg-[#c2410c]">
       <div className="w-[80%] mx-auto grid items-center grid-cols-1 lg:grid-cols-2 gap-10">
         {/* Text Content */}
         <div>

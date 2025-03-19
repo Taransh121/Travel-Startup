@@ -19,7 +19,7 @@ const LiveDarshanCard: React.FC<LiveDarshanCardProps> = ({ title, slug, descript
 
   return (
     <div className="flex justify-center items-center w-full">
-      <div className="relative w-[300px] h-[460px] bg-white rounded-md shadow-md overflow-hidden flex flex-col border border-gray-300 hover:shadow-lg transition-transform duration-200 hover:scale-105 mb-4">
+      <div className="relative w-[300px] h-[460px] bg-white rounded-md shadow-md overflow-hidden flex flex-col border border-gray-300 hover:shadow-lg transition-transform duration-200 hover:scale-105 mb-8">
         
         {/* ✅ Image Section (55% height) */}
         <div className="h-[55%] w-full overflow-hidden">
