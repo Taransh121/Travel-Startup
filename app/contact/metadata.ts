@@ -1,4 +1,4 @@
-export const metadata = {
+export const contactMetadata = {
     title: "Contact Us - Tirthayatrik | Spiritual Pilgrimage Tours",
     description:
       "Get in touch with Tirthayatrik for inquiries about pilgrimage tours. Contact us via phone, email, or WhatsApp for seamless travel assistance.",
