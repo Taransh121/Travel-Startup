@@ -116,7 +116,7 @@ export const poojaPackages: Pooja[] = [
     price: "₹14,300",
     description:
       "Perform the sacred Mundan Sanskar at Maa Vindhyavasini Dham for your child’s well-being, prosperity, and protection.",
-    imageUrl: "/images/pooja/Nav chandi at Vindhyanchal_.jpg",
+    imageUrl: "/images/pooja/Mundan sanskar_.jpg",
   },
   {
     title: "Kaal Sarp Dosh Nivaran Pooja at Naag Vasuki Temple, Prayagraj",
