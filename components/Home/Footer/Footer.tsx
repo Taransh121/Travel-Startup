@@ -82,15 +82,18 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-white">Contact Us</h3>
             <p className="mt-2">
-              📞 <strong>Phone:</strong> +91-9277341677
+               <strong>Phone:</strong> +91-9277341677
             </p>
             <p className="mt-2">
-              📞 <strong>Email:</strong> tirthayatrik@gmail.com
+               <strong>Email:</strong> tirthayatrik@gmail.com
+            </p>
+            <p className="mt-2">
+               <strong>Instagram:</strong> @tirthayatrik
             </p>
             <div className="mt-3">
-              <p>
+              {/* <p>
                 <strong>Scan to Chat on WhatsApp:</strong>
-              </p>
+              </p> */}
               <div className="w-24 h-24 relative mt-2">
                 <Image
                   src="/images/footer/footer-qr.png"
