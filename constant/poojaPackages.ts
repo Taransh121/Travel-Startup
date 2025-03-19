@@ -68,7 +68,7 @@ export const poojaPackages: Pooja[] = [
     price: "₹2,27,500",
     description:
       "A special tantric pooja invoking the ten powerful Mahavidyas.",
-    imageUrl: "/images/pooja/10 mahavidya Pooja at Vindhyanchal_prayagraj_.jpg",
+    imageUrl: "/images/pooja/10 maha vidya at prayagraj_.jpg",
   },
   {
     title: "Nav Grah Shanti Path at Prayagraj",
@@ -83,7 +83,7 @@ export const poojaPackages: Pooja[] = [
     price: "₹2,40,500",
     description:
       "A special tantric pooja invoking the ten powerful Mahavidyas.",
-    imageUrl: "/images/pooja/10 maha vidya at prayagraj_.jpg",
+    imageUrl: "/images/pooja/10 mahavidya Pooja at Vindhyanchal_prayagraj_.jpg",
   },
   {
     title: "Sat Chandi Pooja at Prayagraj",

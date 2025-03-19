@@ -1,36 +1,26 @@
 "use client";
 
 import { useParams, useRouter } from "next/navigation";
-import Head from "next/head";
 import Image from "next/image";
 import { itineraries } from "@/constant/tourItineraries";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const TourDetails = () => {
   const params = useParams();
   const router = useRouter();
-  const [slug, setSlug] = useState<string | null>(null);
-  const [tour, setTour] = useState<typeof itineraries[keyof typeof itineraries] | null>(null);
+  const slug = params?.slug as string | undefined;
+  const tour = slug ? itineraries[slug as keyof typeof itineraries] || null : null;
   const [expandedDay, setExpandedDay] = useState<string | null>(null);
 
-  useEffect(() => {
-    if (params?.slug) {
-      setSlug(params.slug as string);
-      const selectedTour = itineraries[params.slug as keyof typeof itineraries] || null;
-      setTour(selectedTour);
-
-      if (!selectedTour) {
-        router.replace("/404");
-      }
-    }
-  }, [params, router]);
-
-  if (!slug || !tour) {
+  if (!tour) {
+    router.replace("/404");
     return <div className="text-center py-10 text-lg">Loading...</div>;
   }
 
   const handleWhatsAppBooking = () => {
-    window.open("https://wa.me/+919277341677", "_blank");
+    if (typeof window !== "undefined") {
+      window.open("https://wa.me/+919277341677", "_blank");
+    }
   };
 
   // Group itinerary by day
@@ -44,22 +34,14 @@ const TourDetails = () => {
 
   return (
     <>
-      <Head>
-        <title>{tour.title} - TeerthaYatrix</title>
-        <meta
-          name="description"
-          content={`Explore the ${tour.title} package with itinerary and pricing.`}
-        />
-      </Head>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
         {/* Tour Header Section */}
         <div className="flex flex-col md:flex-row gap-6 items-center mt-10">
-          
-          {Array.isArray(tour.images) && (
+          {Array.isArray(tour.images) && tour.images.length > 0 && (
             <div className="md:w-2/3">
               <Image
-                src={tour.images[0]}
+                src={tour.images[0] } 
                 alt={tour.title}
                 width={800}
                 height={500}
@@ -106,9 +88,7 @@ const TourDetails = () => {
         {/* Route Overview & Travel Plan */}
         {tour.routeOverview?.length > 0 && (
           <div className="mt-8 bg-gray-100 p-6 rounded-lg shadow-md">
-            <h2 className="text-2xl font-semibold text-orange-700">
-              Route Overview & Travel Plan
-            </h2>
+            <h2 className="text-2xl font-semibold text-orange-700">Route Overview & Travel Plan</h2>
             <ul className="mt-3 space-y-2 text-gray-700 list-disc list-inside">
               {tour.routeOverview.map((route, index) => (
                 <li key={`route-${index}`}>{route}</li>

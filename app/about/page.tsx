@@ -1,7 +1,7 @@
 "use client";
 
+import { metadata } from "./metadata"; 
 import { useRouter } from "next/navigation";
-import Footer from "@/components/Home/Footer/Footer";
 
 const About = () => {
   const router = useRouter();
@@ -115,7 +115,6 @@ const About = () => {
         </button>
       </section>
       
-      {/* <Footer /> */}
     </>
   );
 };
