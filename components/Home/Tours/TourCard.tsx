@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 
 import { useRouter } from "next/navigation";
 import Image from "next/image";
@@ -6,11 +6,12 @@ import Image from "next/image";
 interface TourCardProps {
   title: string;
   slug: string;
-  imageUrl?: string;
+  // imageUrl?: string;
+  images?: string[];
   price: string;
 }
 
-const TourCard: React.FC<TourCardProps> = ({ title, slug, imageUrl, price }) => {
+const TourCard: React.FC<TourCardProps> = ({ title, slug, images, price }) => {
   const router = useRouter();
 
   return (
@@ -23,7 +24,7 @@ const TourCard: React.FC<TourCardProps> = ({ title, slug, imageUrl, price }) => 
                    w-full max-w-[340px] h-[340px] transition-transform duration-300 hover:scale-105"
       >
         <Image
-          src={imageUrl || "/images/tourCard/default.jpg"}
+          src={images?.[0] || "/images/tourCard/default.jpg"}
           alt={title}
           fill
           sizes="(max-width: 1024px) 50vw, 320px"

@@ -19,7 +19,7 @@ const SpecialPooja = () => {
         className="relative mt-17 overflow-hidden pt-16 lg:pt-14 pb-20 lg:pb-18 px-4"
       >
         {/* Red Section (Upper Half) */}
-        <div className="absolute top-0 left-0 right-0 h-[55%] w-screen bg-red-600"></div>
+        <div className="absolute top-0 left-0 right-0 h-[55%] w-screen bg-[#ec8014]"></div>
 
         {/* White Section (Bottom Half) */}
         <div className="absolute bottom-0 left-0 right-0 h-[55%] w-screen bg-white"></div>
@@ -54,7 +54,7 @@ const SpecialPooja = () => {
           {/* View All Button */}
           <div className="mt-3 lg:mt-2 text-center">
             <Link href="/pooja">
-              <button className="bg-red-600 text-white px-6 py-3 lg:px-5 lg:py-2.5 rounded-lg text-lg lg:text-base font-semibold transition-all duration-300 hover:bg-red-700 shadow-md">
+              <button className="bg-[#ec8014] text-white px-6 py-3 lg:px-5 lg:py-2.5 rounded-lg text-lg lg:text-base font-semibold transition-all duration-300 hover:bg-[#c76f12] shadow-md">
                 View All Poojas →
               </button>
             </Link>

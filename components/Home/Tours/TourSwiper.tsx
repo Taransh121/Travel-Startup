@@ -11,7 +11,9 @@ import Image from "next/image";
 import { destinationCombinations } from "@/constant/tourPackages";
 
 // Dynamically Import TourCard (Avoids SSR issues)
-const TourCard = dynamic(() => import("@/components/Home/Tours/TourCard"), { ssr: false });
+const TourCard = dynamic(() => import("@/components/Home/Tours/TourCard"), {
+  ssr: false,
+});
 
 const TourSwiper = () => {
   return (
@@ -34,7 +36,7 @@ const TourSwiper = () => {
             title={combo.title}
             slug={combo.slug}
             price={combo.price}
-            imageUrl={combo.images?.[0] || "/images/tourCard/default.jpg"}
+            images={combo.images}
           />
         </SwiperSlide>
       ))}
@@ -50,7 +52,10 @@ const TourSwiper = () => {
           >
             {/* Background Image */}
             <Image
-              src={destinationCombinations?.[0]?.images?.[0] || "/images/tourCard/default.jpg"}
+              src={
+                destinationCombinations?.[0]?.images?.[0] ||
+                "/images/tourCard/default.jpg"
+              }
               alt="Tour Background"
               fill
               className="object-cover object-center"

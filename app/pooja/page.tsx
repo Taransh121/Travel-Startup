@@ -31,7 +31,7 @@ const PoojaPage = () => {
     <div className="min-h-screen bg-gray-100">
       {/* Page Header */}
       <div className="text-center py-8 pt-[60px]">
-        <h1 className="text-3xl font-bold text-red-700 mt-5">
+        <h1 className="text-3xl font-bold text-[#ec8014] mt-5">
           SPECIAL POOJA PACKAGES
         </h1>
         <p className="text-sm text-gray-600 mt-2">
@@ -52,7 +52,7 @@ const PoojaPage = () => {
         />
         <button
           className={`px-4 py-2 ${
-            searchTerm ? "bg-red-600 hover:bg-red-700" : "bg-red-700"
+            searchTerm ? "bg-[#ec8014] hover:bg-[#c76f12]" : "bg-[#ec8014]"
           } text-white rounded-r-md transition`}
           disabled={!searchTerm} // ✅ Prevents unnecessary empty searches
           aria-label="Search Button"
