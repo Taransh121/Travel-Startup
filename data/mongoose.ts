@@ -32,8 +32,6 @@ async function connectDB(): Promise<mongoose.Connection> {
 
   if (!global.mongooseCache.promise) {
     global.mongooseCache.promise = mongoose.connect(mongoURL, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
     } as mongoose.ConnectOptions).then((mongoose) => {
       console.log("Database connected");
       return mongoose.connection;
