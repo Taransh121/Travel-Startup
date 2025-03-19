@@ -8,9 +8,10 @@ interface LiveDarshanCardProps {
   slug: string;
   description: string;
   imageUrl: string;
+  price: string; 
 }
 
-const LiveDarshanCard: React.FC<LiveDarshanCardProps> = ({ title, slug, description, imageUrl }) => {
+const LiveDarshanCard: React.FC<LiveDarshanCardProps> = ({ title, slug, description, imageUrl, price }) => {
   const handleWhatsAppBooking = () => {
     const whatsappUrl = `https://wa.me/919277341677?text=I'm%20interested%20in%20Live%20Darshan:%20${encodeURIComponent(title)}`;
     window.open(whatsappUrl, "_blank");
@@ -18,13 +19,13 @@ const LiveDarshanCard: React.FC<LiveDarshanCardProps> = ({ title, slug, descript
 
   return (
     <div className="flex justify-center items-center w-full">
-      <div className="relative w-[300px] h-[440px] bg-white rounded-md shadow-md overflow-hidden flex flex-col border border-gray-300 hover:shadow-lg transition-transform duration-200 hover:scale-105 mb-4">
+      <div className="relative w-[300px] h-[460px] bg-white rounded-md shadow-md overflow-hidden flex flex-col border border-gray-300 hover:shadow-lg transition-transform duration-200 hover:scale-105 mb-4">
         
         {/* ✅ Image Section (55% height) */}
         <div className="h-[55%] w-full overflow-hidden">
           <Image
             src={imageUrl}
-            alt={`Live Darshan: ${title}`} // Improved alt text for better accessibility
+            alt={`Live Darshan: ${title}`} 
             width={500}
             height={300}
             className="w-full h-full object-cover"
@@ -39,6 +40,11 @@ const LiveDarshanCard: React.FC<LiveDarshanCardProps> = ({ title, slug, descript
 
           <p className="text-gray-800 text-sm mt-2 leading-snug">
             {description}
+          </p>
+
+          {/* ✅ Price Section */}
+          <p className="text-lg font-semibold text-[#E07B37] mt-3">
+            {price} /per month
           </p>
 
           {/* ✅ Button Section */}
