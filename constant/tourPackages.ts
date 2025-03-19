@@ -33,13 +33,13 @@ export const destinationCombinations: Destination[] = [
   {
     title: "Prayagraj → Vindhyachal",
     slug: "prayagraj-vindhyachal",
-    images: ["/images/tourCard/prayagraj_vindhyachal.jpg"],
+    images: ["/images/tourCard/pv4.jpg"],
     price: "4,799",
   },
   {
     title: "Prayagraj → Varanasi",
     slug: "prayagraj-varanasi",
-    images: ["/images/tourCard/prayagraj_varanasi_card.jpg"],
+    images: ["/images/tourCard/pv6.jpg"],
     price: "4,499",
   },
   {

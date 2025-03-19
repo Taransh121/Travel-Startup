@@ -45,13 +45,13 @@ const PoojaDetails = () => {
         {/* Pooja Header Section */}
         <div className="flex flex-col md:flex-row gap-8 items-center mt-10">
           {pooja.imageUrl && (
-            <div className="md:w-1/2">
+            <div className="md:w-1/4">
               <Image
                 src={pooja.imageUrl}
                 alt={pooja.title}
                 width={500}
                 height={300}
-                className="w-full h-72 object-contain rounded-lg shadow-lg"
+                className="w-full h-68 object-contain rounded-lg shadow-lg"
                 priority
               />
             </div>

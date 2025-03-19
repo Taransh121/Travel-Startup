@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
-import { Video, MessageCircle } from "lucide-react";
+import { Video } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
+
 import { useRouter } from "next/navigation";
 
 const Hero = () => {
@@ -59,7 +61,7 @@ const Hero = () => {
                 onClick={handlePanditjiRedirect}
                 className="bg-yellow-100 text-black text-sm font-medium px-5 py-2 flex items-center gap-2 rounded-md shadow-md hover:bg-gray-100 transition-all duration-300 transform hover:scale-105"
               >
-                <MessageCircle size={16} /> Ask Panditji
+                <FaWhatsapp size={16} className="text-green-500" /> Ask Panditji
               </button>
             </div>
           </div>

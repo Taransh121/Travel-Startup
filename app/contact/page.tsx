@@ -18,7 +18,7 @@ const ContactPage = () => {
     setIsMounted(true);
   }, []);
 
-  if (!isMounted) return null; // Prevent hydration errors
+  if (!isMounted) return null; 
 
   return (
     <div className="min-h-screen">
