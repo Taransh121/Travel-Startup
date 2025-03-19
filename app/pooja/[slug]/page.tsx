@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
-import Head from "next/head";
 import Image from "next/image";
 import { poojaItineraries, Pooja } from "@/constant/poojaItinerary"; 
 
@@ -33,13 +32,6 @@ const PoojaDetails = () => {
 
   return (
     <>
-      <Head>
-        <title>{pooja.title} - TeerthaYatrix</title>
-        <meta
-          name="description"
-          content={`Explore the ${pooja.title} pooja package with rituals and pricing.`}
-        />
-      </Head>
 
       <div className="max-w-5xl mx-auto px-6 py-12">
         {/* Pooja Header Section */}

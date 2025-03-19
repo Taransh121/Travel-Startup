@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import Footer from "@/components/Home/Footer/Footer";
 import { destinationCombinations } from "@/constant/tourPackages";
 import { useRouter } from "next/navigation";
+import { metadata } from "./metadata"; 
 
 // ✅ Dynamically Import Components
 const TourCard = dynamic(() => import("@/components/Home/Tours/TourCard"), {
