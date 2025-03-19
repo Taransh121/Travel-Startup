@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { metadata } from "./metadata"; 
 
 const Footer = dynamic(() => import("@/components/Home/Footer/Footer"), {
   ssr: false,
