@@ -4,6 +4,8 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { poojaPackages } from "@/constant/poojaPackages";
 import PoojaCard from "@/components/Home/SpecialPooja/PoojaCard"; // Import the PoojaCard component
+import Head from "next/head";
+import specialPoojaMetadata from "./metadata";
 
 // Dynamically import Swiper to prevent hydration errors
 const SpecialPoojaSlider = dynamic(
@@ -14,6 +16,23 @@ const SpecialPoojaSlider = dynamic(
 const SpecialPooja = () => {
   return (
     <>
+      <Head>
+        <title>{specialPoojaMetadata.title}</title>
+        <meta name="description" content={specialPoojaMetadata.description} />
+        <meta
+          name="keywords"
+          content={specialPoojaMetadata.keywords.join(", ")}
+        />
+
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content={specialPoojaMetadata.og.title} />
+        <meta
+          property="og:description"
+          content={specialPoojaMetadata.og.description}
+        />
+        <meta property="og:url" content={specialPoojaMetadata.og.url} />
+        <meta property="og:type" content={specialPoojaMetadata.og.type} />
+      </Head>
       <div
         id="special-pooja-section"
         className="relative mt-17 overflow-hidden pt-16 lg:pt-14 pb-20 lg:pb-18 px-4"

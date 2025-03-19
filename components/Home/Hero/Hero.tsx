@@ -2,9 +2,9 @@
 import React from "react";
 import { Video } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
-
 import { useRouter } from "next/navigation";
-
+import Head from "next/head";
+import heroMetadata from "./metadata";
 const Hero = () => {
   const router = useRouter();
 
@@ -25,6 +25,17 @@ const Hero = () => {
 
   return (
     <>
+      <Head>
+        <title>{heroMetadata.title}</title>
+        <meta name="description" content={heroMetadata.description} />
+        <meta name="keywords" content={heroMetadata.keywords.join(", ")} />
+
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content={heroMetadata.og.title} />
+        <meta property="og:description" content={heroMetadata.og.description} />
+        <meta property="og:url" content={heroMetadata.og.url} />
+        <meta property="og:type" content={heroMetadata.og.type} />
+      </Head>
       <div
         className="relative w-full h-[102vh] sm:h-[100vh] bg-cover bg-center"
         style={{ backgroundImage: "url('/images/hero/hero_bg.jpg')" }}
