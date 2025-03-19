@@ -56,38 +56,38 @@ const LiveDarshanPage = () => {
         </button>
       </div>
       {/* Grid Layout for Desktop */}
-      <div className="hidden md:block container mx-auto px-4 md:px-8 lg:px-16 pb-20">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
-          {filteredDarshan.map((darshan, index) => (
-            <LiveDarshanCard
-              key={index}
-              title={darshan.title}
-              slug={darshan.slug}
-              imageUrl={darshan.imageUrl}
-              description={darshan.description}
-            />
-          ))}
-        </div>
-      </div>
-      {/* Swiper Slider for Mobile */}
-      <div className="md:hidden px-4">
-        <Swiper
-          spaceBetween={16}
-          slidesPerView={1}
-          className="pb-6" // Ensuring spacing below the cards
-        >
-          {filteredDarshan.map((darshan, index) => (
-            <SwiperSlide key={index}>
-              <LiveDarshanCard
-                title={darshan.title}
-                slug={darshan.slug}
-                imageUrl={darshan.imageUrl}
-                description={darshan.description}
-              />
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
+<div className="hidden md:block container mx-auto px-4 md:px-8 lg:px-16 pb-20">
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
+    {filteredDarshan.map((darshan, index) => (
+      <LiveDarshanCard
+        key={index}
+        title={darshan.title}
+        slug={darshan.slug}
+        imageUrl={darshan.imageUrl}
+        description={darshan.description}
+        price={darshan.price} // ✅ Added price prop
+      />
+    ))}
+  </div>
+</div>
+
+{/* Swiper Slider for Mobile */}
+<div className="md:hidden px-4">
+  <Swiper spaceBetween={16} slidesPerView={1} className="pb-6">
+    {filteredDarshan.map((darshan, index) => (
+      <SwiperSlide key={index}>
+        <LiveDarshanCard
+          title={darshan.title}
+          slug={darshan.slug}
+          imageUrl={darshan.imageUrl}
+          description={darshan.description}
+          price={darshan.price} // ✅ Added price prop
+        />
+      </SwiperSlide>
+    ))}
+  </Swiper>
+</div>
+
       {/* Footer */}
       <Footer />
     </div>
