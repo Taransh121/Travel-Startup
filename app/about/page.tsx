@@ -20,9 +20,6 @@ const About = () => {
       <meta property="og:type" content={aboutMetadata.openGraph.type} />
     </Head>
 
-export default aboutMetadata;
-
-
       {/* ✅ Hero Section */}
       <section className="relative bg-gradient-to-r from-[#034a5e] to-[#004e67] text-white text-center py-20 px-4">
         <div className="absolute inset-0 bg-black opacity-40"></div>

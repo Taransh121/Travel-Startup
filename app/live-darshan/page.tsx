@@ -81,7 +81,6 @@ const LiveDarshanPage = () => {
               <LiveDarshanCard
                 key={index}
                 title={darshan.title}
-                slug={darshan.slug}
                 imageUrl={darshan.imageUrl}
                 description={darshan.description}
                 price={darshan.price} // ✅ Added price prop
@@ -99,7 +98,6 @@ const LiveDarshanPage = () => {
               <SwiperSlide key={index}>
                 <LiveDarshanCard
                   title={darshan.title}
-                  slug={darshan.slug}
                   imageUrl={darshan.imageUrl}
                   description={darshan.description}
                   price={darshan.price} 

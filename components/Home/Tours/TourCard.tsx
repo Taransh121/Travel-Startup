@@ -11,7 +11,13 @@ interface TourCardProps {
   isFirst?: boolean;
 }
 
-const TourCard: React.FC<TourCardProps> = ({ title, slug, images, price,isFirst }) => {
+const TourCard: React.FC<TourCardProps> = ({
+  title,
+  slug,
+  images,
+  price,
+  isFirst,
+}) => {
   const router = useRouter();
 
   return (
@@ -23,15 +29,14 @@ const TourCard: React.FC<TourCardProps> = ({ title, slug, images, price,isFirst 
         className="relative rounded-lg overflow-hidden group shadow-lg bg-gray-100 
                    w-full max-w-[340px] h-[340px] transition-transform duration-300 hover:scale-105"
       >
-       <Image
-  src={images?.[0] || "/images/tourCard/default.jpg"}
-  alt={title}
-  fill
-  sizes="(max-width: 1024px) 50vw, 320px"
-  className="object-cover object-center transition-transform duration-500 group-hover:scale-110 rounded-lg"
-  priority={isFirst} 
-/>
-
+        <Image
+          src={images?.[0] || "/images/tourCard/default.jpg"}
+          alt={title}
+          fill
+          sizes="(max-width: 1024px) 50vw, 320px"
+          className="object-cover object-center transition-transform duration-500 group-hover:scale-110 rounded-lg"
+          priority={isFirst}
+        />
 
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-transparent rounded-lg" />
