@@ -38,12 +38,13 @@ export default async function BlogPage() {
 
               {/* Read More Button */}
               <div className="mt-auto pt-4">
-                <Link
+                {/* <Link
                   href={`/blog/${blog._id}`}
                   className="text-[#ec8014] font-medium"
                 >
                   Read More →
-                </Link>
+                </Link> */}
+                Read More →
               </div>
             </div>
           ))}
