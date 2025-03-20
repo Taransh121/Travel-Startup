@@ -13,20 +13,20 @@ mongoose.set("strictQuery", false);
 // MongoDB Connection URL
 const mongoURL: string = `mongodb+srv://dbUser:${MONGO_DB_PASSWORD}@admin.ktgct.mongodb.net/?retryWrites=true&w=majority&appName=admin`;
 
-// Maintain a cached connection to avoid re-connecting on every API call
+// Extend global type for TypeScript
 interface MongooseCache {
-  conn: mongoose.Connection | null;
-  promise: Promise<mongoose.Connection> | null;
+  conn: mongoose.Mongoose | null;
+  promise: Promise<mongoose.Mongoose> | null;
 }
 
 declare global {
   var mongooseCache: MongooseCache;
 }
 
-// Use a global cache to avoid multiple connections in development
+// Initialize global cache if it doesn’t exist
 global.mongooseCache = global.mongooseCache || { conn: null, promise: null };
 
-async function connectDB(): Promise<mongoose.Connection> {
+async function connectDB(): Promise<mongoose.Mongoose> {
   if (global.mongooseCache.conn) {
     console.log("Using existing MongoDB connection");
     return global.mongooseCache.conn;
@@ -35,9 +35,9 @@ async function connectDB(): Promise<mongoose.Connection> {
   if (!global.mongooseCache.promise) {
     global.mongooseCache.promise = mongoose
       .connect(mongoURL, {} as mongoose.ConnectOptions)
-      .then((mongoose) => {
+      .then((mongooseInstance) => {
         console.log("Database connected");
-        return mongoose.connection;
+        return mongooseInstance;
       })
       .catch((error) => {
         console.error("Database connection error:", error);
