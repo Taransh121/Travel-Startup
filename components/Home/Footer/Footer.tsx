@@ -61,7 +61,7 @@ const Footer = () => {
                     href="/pooja"
                     className="hover:text-white transition-colors"
                   >
-                    Pooja's We Offer
+                    Pooja&apos;s We Offer
                   </Link>
                 </li>
                 <li>

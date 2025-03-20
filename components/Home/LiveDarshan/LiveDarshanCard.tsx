@@ -7,7 +7,6 @@ import liveDarshanMetadata from "./metadata";
 
 interface LiveDarshanCardProps {
   title: string;
-  slug: string;
   description: string;
   imageUrl: string;
   price: string;
@@ -15,7 +14,6 @@ interface LiveDarshanCardProps {
 
 const LiveDarshanCard: React.FC<LiveDarshanCardProps> = ({
   title,
-  slug,
   description,
   imageUrl,
   price,

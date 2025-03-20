@@ -46,9 +46,8 @@ const TourSwiper = () => {
         <div className="flex justify-center items-center w-full">
           <div
             className="relative rounded-lg overflow-hidden group shadow-lg bg-gray-100 
-                 w-full max-w-[280px] sm:max-w-[300px] md:max-w-[320px] lg:max-w-[340px] 
-                 h-[280px] sm:h-[300px] md:h-[320px] lg:h-[340px] 
-                 transition-all duration-300 hover:scale-[1.03] flex justify-center items-center"
+      w-full max-w-[340px] h-[340px] transition-transform duration-300 hover:scale-105
+      flex justify-center items-center" // Center content inside
           >
             {/* Background Image */}
             <Image
