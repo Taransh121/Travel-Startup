@@ -3,10 +3,10 @@ import connectDB from "@/data/mongoose";
 import Blog from "@/data/blogModel";
 import mongoose from "mongoose";
 
-export async function GET(req: NextRequest, context: { params: { id: string } }) {
+export async function GET(req: NextRequest,{ params }: { params: Record<string, string> }) {
   try {
     await connectDB();
-    const params = await context.params;
+    // const params = await context.params;
 
     const id = params.id;
 
