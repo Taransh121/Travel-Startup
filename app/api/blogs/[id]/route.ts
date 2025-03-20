@@ -1,9 +1,9 @@
-import { NextResponse } from "next/server";
+import { NextRequest,NextResponse } from "next/server";
 import connectDB from "@/data/mongoose";
 import Blog from "@/data/blogModel";
 import mongoose from "mongoose";
 
-export async function GET(req: Request, context: { params: { id: string } }) {
+export async function GET(req: NextRequest, context: { params: { id: string } }) {
   try {
     await connectDB();
     const params = await context.params;
