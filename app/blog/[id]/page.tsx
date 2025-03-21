@@ -52,10 +52,12 @@ export async function generateStaticParams() {
     return [];
   }
 }
-export default async function BlogDetails({ params }: { params: { id: string } }) 
+export default async function BlogDetails(props: {
+  params: Promise<{ id: string }>;
+ }) 
  {
-  const { id } = await params;
-  const blog = await fetchBlog(id);
+  const params = await props.params;
+  const blog = await fetchBlog(params.id);
 
   if (!blog) return notFound();
 
