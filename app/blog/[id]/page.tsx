@@ -58,7 +58,7 @@ export default async function BlogDetails({
 }: {
   params: { id: string };
 }) {
-  const { id } = await params;
+  const { id } = params;
   const blog = await fetchBlog(id);
 
   if (!blog) return notFound();
