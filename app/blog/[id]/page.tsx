@@ -45,7 +45,7 @@ export async function generateStaticParams() {
     const blogs: { _id: string }[] = await res.json();
 
     return blogs.map((blog) => ({
-      id: blog._id,
+      id: blog._id.toString(),
     }));
   } catch (error) {
     console.error("Error generating static paths:", error);
@@ -58,7 +58,7 @@ export default async function BlogDetails({
 }: {
   params: { id: string };
 }) {
-  const { id } = params;
+  const { id } = await params;
   const blog = await fetchBlog(id);
 
   if (!blog) return notFound();
