@@ -35,8 +35,6 @@ const PoojaPage = () => {
         <title>{poojaMetadata.title}</title>
         <meta name="description" content={poojaMetadata.description} />
         <meta name="keywords" content={poojaMetadata.keywords.join(", ")} />
-
-        {/* Open Graph Meta Tags */}
         <meta property="og:title" content={poojaMetadata.openGraph.title} />
         <meta
           property="og:description"
@@ -116,8 +114,6 @@ const PoojaPage = () => {
           ))}
         </Swiper>
       </div>
-
-      {/* Footer */}
       <Footer />
     </div>
     </>

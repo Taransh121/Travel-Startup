@@ -6,18 +6,12 @@ import mongoose from "mongoose";
 export async function GET(req: NextRequest) {
   try {
     await connectDB();
-
-    // Extract the blog ID from the URL
     const url = new URL(req.nextUrl);
-    const id = url.pathname.split("/").pop(); // Get the last segment as the ID
-
-    // Validate MongoDB ObjectId
+    const id = url.pathname.split("/").pop(); 
     if (!id || !mongoose.Types.ObjectId.isValid(id)) {
       return NextResponse.json({ error: "Invalid blog ID" }, { status: 400 });
     }
-
     const blog = await Blog.findById(id).select("-__v");
-
     if (!blog) {
       return NextResponse.json({ error: "Blog not found" }, { status: 404 });
     }
@@ -31,11 +25,4 @@ export async function GET(req: NextRequest) {
     );
   }
 }
-
-
-// import { NextResponse } from "next/server";
-
-// export async function GET() {
-//   return NextResponse.json({ message: "Hello, World!" }, { status: 200 });
-// }
 

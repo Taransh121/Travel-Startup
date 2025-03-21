@@ -17,7 +17,7 @@ const homeMetadata = {
         title: "Trending Yatras - tirthyatrik",
         description:
           "Discover the trending yatras and pilgrimage tours offered by tirthyatrik. Embark on a journey to sacred destinations across India.",
-        url: "https://www.tirthyatrik.com/tours",
+        url: "https://www.tirthyatrik.com/",
         type: "website",
       },
   };

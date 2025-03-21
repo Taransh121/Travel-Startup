@@ -26,7 +26,7 @@ async function fetchBlog(id: string): Promise<Blog | null> {
     const res = await fetch(
       `${process.env.NEXT_PUBLIC_BASE_URL}/api/blogs/${id}`,
       {
-        next: { revalidate: 10 }, // Revalidate every 10 seconds
+        next: { revalidate: 10 },
       }
     );
 
@@ -120,10 +120,3 @@ export default async function BlogDetails(props: {
     </div>
   );
 }
-// export default function BlogDetails() {
-//   return (
-//     <div className="p-6 max-w-6xl mx-auto">
-//       <h1 className="text-4xl font-bold text-[#ec8014] mt-20">Blog Details</h1>
-//     </div>
-//   );
-// }

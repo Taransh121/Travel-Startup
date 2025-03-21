@@ -12,8 +12,6 @@ const About = () => {
       <title>{aboutMetadata.title}</title>
       <meta name="description" content={aboutMetadata.description} />
       <meta name="keywords" content={aboutMetadata.keywords.join(", ")} />
-
-      {/* Open Graph Meta Tags */}
       <meta property="og:title" content={aboutMetadata.openGraph.title} />
       <meta property="og:description" content={aboutMetadata.openGraph.description} />
       <meta property="og:url" content={aboutMetadata.openGraph.url} />

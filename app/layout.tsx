@@ -14,13 +14,13 @@ export const metadata: Metadata = {
   title: "Tirtha Yatra - Experience Divine Journeys",
   description:
     "Seamless pilgrimage experiences with VIP Darshan, comfortable travel, and personalized services. Explore our Prayagraj, Varanasi, and Ayodhya packages.",
-  authors: [{ name: "TirthaYatra.com", url: "https://tirthayatra.com" }],
-  metadataBase: new URL("https://tirthayatra.com"),
+  authors: [{ name: "tirthayatrik.com", url: "https://tirthayatrik.com" }],
+  metadataBase: new URL("https://tirthayatrik.com"),
   openGraph: {
     title: "Tirtha Yatra - Experience Divine Journeys",
     description:
       "Book your seamless pilgrimage with VIP Darshan, experienced guides, and premium accommodations.",
-    url: "https://tirthayatra.com",
+    url: "https://tirthayatrik.com",
     type: "website",
   },
   twitter: {
@@ -38,12 +38,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        {/* ✅ Correctly defining keywords inside meta */}
         <meta
           name="keywords"
           content="Tirtha Yatra, Pilgrimage Tours, VIP Darshan, Prayagraj, Varanasi, Ayodhya, Religious Travel, Hindu Pilgrimage, Holy Dip, Spiritual Journey"
         />
-        <meta name="author" content="TirthaYatra.com" />
+        <meta name="author" content="tirthayatrik.com" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={String(metadata.openGraph?.url)} />
         <meta name="twitter:title" content={String(metadata.twitter?.title)} />
@@ -51,7 +50,7 @@ export default function RootLayout({
           name="twitter:description"
           content={metadata.twitter?.description}
         />
-        <link rel="canonical" href="https://tirthayatra.com" />
+        <link rel="canonical" href="https://tirthayatrik.com" />
       </Head>
       <body className={`${font.className} antialiased`}>
         <ResponsiveNav />

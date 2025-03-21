@@ -15,8 +15,6 @@ const Home = () => {
         <title>{homeMetadata.title}</title>
         <meta name="description" content={homeMetadata.description} />
         <meta name="keywords" content={homeMetadata.keywords.join(", ")} />
-
-        {/* Open Graph Meta Tags */}
         <meta property="og:title" content={homeMetadata.openGraph.title} />
         <meta
           property="og:description"

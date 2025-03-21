@@ -33,8 +33,6 @@ const LiveDarshanPage = () => {
         <title>{livedarshanMetadata.title}</title>
         <meta name="description" content={livedarshanMetadata.description} />
         <meta name="keywords" content={livedarshanMetadata.keywords.join(", ")} />
-
-        {/* Open Graph Meta Tags */}
         <meta property="og:title" content={livedarshanMetadata.openGraph.title} />
         <meta
           property="og:description"
@@ -107,8 +105,6 @@ const LiveDarshanPage = () => {
           </Swiper>
         </div>
       )}
-
-      {/* Footer */}
       <Footer />
     </div>
     </>
