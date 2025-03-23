@@ -57,8 +57,8 @@ export default function RootLayout({
   
   <link rel="canonical" href="https://tirthayatrik.com" />
   {/* Favicon */}
-  <link rel="icon" href="/favicon.ico" sizes="any" />
-  <link rel="apple-touch-icon" href="/favicon.ico" />
+  <link rel="icon" href="https://www.tirthayatrik.com/images/logo/logo.jpg" sizes="any" />
+  <link rel="apple-touch-icon" href="https://www.tirthayatrik.com/images/logo/logo.jpg" />
 </Head>
 
       <body className={`${font.className} antialiased`}>
