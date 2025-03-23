@@ -24,8 +24,6 @@ const AllTours = () => {
   const [isSearched, setIsSearched] = useState(false);
   const [windowWidth, setWindowWidth] = useState<number | null>(null); // ✅ Fix hydration issue
   const router = useRouter();
-
-  // ✅ Handle Search Functionality
   const handleSearch = () => {
     const filtered = destinationCombinations.filter((tour) =>
       tour.title.toLowerCase().includes(searchQuery.toLowerCase())
@@ -49,7 +47,7 @@ const AllTours = () => {
     const updateWidth = () => setWindowWidth(window.innerWidth);
 
     if (typeof window !== "undefined") {
-      setWindowWidth(window.innerWidth); // ✅ Set width after mounting
+      setWindowWidth(window.innerWidth); 
       window.addEventListener("resize", updateWidth);
     }
 
@@ -68,8 +66,6 @@ const AllTours = () => {
         <title>{toursMetadata.title}</title>
         <meta name="description" content={toursMetadata.description} />
         <meta name="keywords" content={toursMetadata.keywords.join(", ")} />
-
-        {/* Open Graph Meta Tags */}
         <meta property="og:title" content={toursMetadata.openGraph.title} />
         <meta
           property="og:description"
@@ -159,8 +155,6 @@ const AllTours = () => {
             )}
           </div>
         )}
-
-        {/* Footer */}
         <Footer />
       </div>
     </>

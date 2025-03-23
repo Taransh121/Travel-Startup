@@ -28,8 +28,6 @@ const ContactPage = () => {
         <title>{contactMetadata.title}</title>
         <meta name="description" content={contactMetadata.description} />
         <meta name="keywords" content={contactMetadata.keywords.join(", ")} />
-
-        {/* Open Graph Meta Tags */}
         <meta property="og:title" content={contactMetadata.openGraph.title} />
         <meta
           property="og:description"

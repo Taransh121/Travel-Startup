@@ -10,7 +10,7 @@ interface BlogSection {
   title?: string;
   content?: string;
   bulletPoints?: string[];
-  subsections?: BlogSubSection[]; // Added subsections field
+  subsections?: BlogSubSection[];
 }
 
 export interface IBlog extends Document {
@@ -36,7 +36,7 @@ const BlogSchema = new Schema<IBlog>(
             content: { type: String },
             bulletPoints: { type: [String] },
           },
-        ], // Added subsections schema
+        ],
       },
     ],
   },

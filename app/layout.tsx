@@ -12,13 +12,17 @@ const font = Poppins({
 export const metadata: Metadata = {
   title: "Tirthayatrik - Your Trusted Pilgrimage Partner",
   description:
+
     "Embark on a divine journey with Tirthayatrik. Experience VIP Darshan, guided spiritual tours, and seamless travel arrangements to India's holiest destinations.",
   authors: [{ name: "Tirthayatrik", url: "https://tirthayatrik.com" }],
+
   metadataBase: new URL("https://tirthayatrik.com"),
   openGraph: {
     title: "Tirthayatrik - Your Trusted Pilgrimage Partner",
     description:
+
       "Plan your spiritual journey with Tirthayatrik. Book VIP Darshan, guided tours, and comfortable travel for a divine experience.",
+
     url: "https://tirthayatrik.com",
     type: "website",
   },
@@ -41,6 +45,7 @@ export default function RootLayout({
           name="keywords"
           content="Tirthayatrik, Pilgrimage Tours, VIP Darshan, Religious Travel, Spiritual Journeys, Hindu Temples, Holy Travel, Varanasi, Ayodhya, Prayagraj"
         />
+
         <meta name="author" content="Tirthayatrik" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://tirthayatrik.com" />
@@ -51,6 +56,7 @@ export default function RootLayout({
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/favicon.ico" />
+
       </Head>
       <body className={`${font.className} antialiased`}>
         <ResponsiveNav />
