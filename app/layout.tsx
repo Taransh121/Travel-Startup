@@ -10,24 +10,24 @@ const font = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Tirthayatrik - Your Trusted Pilgrimage Partner",
+  title: "Tirthayatrik - Your trusted pilgrimage partner",
   description:
 
     "Embark on a divine journey with Tirthayatrik. Experience VIP Darshan, guided spiritual tours, and seamless travel arrangements to India's holiest destinations.",
-  authors: [{ name: "Tirthayatrik", url: "https://Tirthayatrik.com" }],
+  authors: [{ name: "Tirthayatrik", url: "https://tirthayatrik.com" }],
 
-  metadataBase: new URL("https://Tirthayatrik.com"),
+  metadataBase: new URL("https://tirthayatrik.com"),
   openGraph: {
     title: "Tirthayatrik - Your Trusted Pilgrimage Partner",
     description:
 
-      "Plan your spiritual journey with Tirthayatrik. Book VIP Darshan, guided tours, and comfortable travel for a divine experience.",
+      "Plan your spiritual journey with Tirthayatrik. Book VIP darshan, guided tours, and comfortable travel for a divine experience.",
 
-    url: "https://Tirthayatrik.com",
+    url: "https://tirthayatrik.com",
     type: "website",
   },
   twitter: {
-    title: "Tirthayatrik - Your Trusted Pilgrimage Partner",
+    title: "Tirthayatrik - Your trusted pilgrimage partner",
     description:
       "Join our sacred pilgrimage tours with VIP access and experienced guides.",
   },
@@ -48,10 +48,10 @@ export default function RootLayout({
 
         <meta name="author" content="Tirthayatrik" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://Tirthayatrik.com" />
+        <meta property="og:url" content="https://tirthayatrik.com" />
         <meta name="twitter:title" content="Tirthayatrik - Your Trusted Pilgrimage Partner" />
         <meta name="twitter:description" content="Join our sacred pilgrimage tours with VIP access and experienced guides." />
-        <link rel="canonical" href="https://Tirthayatrik.com" />
+        <link rel="canonical" href="https://tirthayatrik.com" />
         
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
