@@ -10,7 +10,7 @@ const font = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Tirthayatrik - Your Trusted Pilgrimage Partner",
+  title: "Tirthayatrik - Your trusted pilgrimage partner",
   description:
 
     "Embark on a divine journey with Tirthayatrik. Experience VIP Darshan, guided spiritual tours, and seamless travel arrangements to India's holiest destinations.",
@@ -21,13 +21,13 @@ export const metadata: Metadata = {
     title: "Tirthayatrik - Your Trusted Pilgrimage Partner",
     description:
 
-      "Plan your spiritual journey with Tirthayatrik. Book VIP Darshan, guided tours, and comfortable travel for a divine experience.",
+      "Plan your spiritual journey with Tirthayatrik. Book VIP darshan, guided tours, and comfortable travel for a divine experience.",
 
     url: "https://tirthayatrik.com",
     type: "website",
   },
   twitter: {
-    title: "Tirthayatrik - Your Trusted Pilgrimage Partner",
+    title: "Tirthayatrik - Your trusted pilgrimage partner",
     description:
       "Join our sacred pilgrimage tours with VIP access and experienced guides.",
   },
