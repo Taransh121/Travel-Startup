@@ -10,24 +10,24 @@ const font = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Tirtha yatrik - Your Trusted Pilgrimage Partner",
+  title: "Tirthayatrik - Your Trusted Pilgrimage Partner",
   description:
 
-    "Embark on a divine journey with Tirtha yatrik. Experience VIP Darshan, guided spiritual tours, and seamless travel arrangements to India's holiest destinations.",
-  authors: [{ name: "Tirtha yatrik", url: "https://Tirtha yatrik.com" }],
+    "Embark on a divine journey with Tirthayatrik. Experience VIP Darshan, guided spiritual tours, and seamless travel arrangements to India's holiest destinations.",
+  authors: [{ name: "Tirthayatrik", url: "https://Tirthayatrik.com" }],
 
-  metadataBase: new URL("https://Tirtha yatrik.com"),
+  metadataBase: new URL("https://Tirthayatrik.com"),
   openGraph: {
-    title: "Tirtha yatrik - Your Trusted Pilgrimage Partner",
+    title: "Tirthayatrik - Your Trusted Pilgrimage Partner",
     description:
 
-      "Plan your spiritual journey with Tirtha yatrik. Book VIP Darshan, guided tours, and comfortable travel for a divine experience.",
+      "Plan your spiritual journey with Tirthayatrik. Book VIP Darshan, guided tours, and comfortable travel for a divine experience.",
 
-    url: "https://Tirtha yatrik.com",
+    url: "https://Tirthayatrik.com",
     type: "website",
   },
   twitter: {
-    title: "Tirtha yatrik - Your Trusted Pilgrimage Partner",
+    title: "Tirthayatrik - Your Trusted Pilgrimage Partner",
     description:
       "Join our sacred pilgrimage tours with VIP access and experienced guides.",
   },
@@ -43,15 +43,15 @@ export default function RootLayout({
       <Head>
         <meta
           name="keywords"
-          content="Tirtha yatrik, Pilgrimage Tours, VIP Darshan, Religious Travel, Spiritual Journeys, Hindu Temples, Holy Travel, Varanasi, Ayodhya, Prayagraj"
+          content="Tirthayatrik, Pilgrimage Tours, VIP Darshan, Religious Travel, Spiritual Journeys, Hindu Temples, Holy Travel, Varanasi, Ayodhya, Prayagraj"
         />
 
-        <meta name="author" content="Tirtha yatrik" />
+        <meta name="author" content="Tirthayatrik" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://Tirtha yatrik.com" />
-        <meta name="twitter:title" content="Tirtha yatrik - Your Trusted Pilgrimage Partner" />
+        <meta property="og:url" content="https://Tirthayatrik.com" />
+        <meta name="twitter:title" content="Tirthayatrik - Your Trusted Pilgrimage Partner" />
         <meta name="twitter:description" content="Join our sacred pilgrimage tours with VIP access and experienced guides." />
-        <link rel="canonical" href="https://Tirtha yatrik.com" />
+        <link rel="canonical" href="https://Tirthayatrik.com" />
         
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
