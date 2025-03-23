@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import Head from "next/head"; // Import Head for SEO & Metadata
+import Head from "next/head";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 
 const font = Poppins({
@@ -9,24 +9,23 @@ const font = Poppins({
   subsets: ["latin"],
 });
 
-// Metadata Object for SEO
 export const metadata: Metadata = {
-  title: "Tirtha Yatra - Experience Divine Journeys",
+  title: "Tirthayatrik - Your Trusted Pilgrimage Partner",
   description:
-    "Seamless pilgrimage experiences with VIP Darshan, comfortable travel, and personalized services. Explore our Prayagraj, Varanasi, and Ayodhya packages.",
-  authors: [{ name: "TirthaYatra.com", url: "https://tirthayatra.com" }],
-  metadataBase: new URL("https://tirthayatra.com"),
+    "Embark on a divine journey with Tirthayatrik. Experience VIP Darshan, guided spiritual tours, and seamless travel arrangements to India's holiest destinations.",
+  authors: [{ name: "Tirthayatrik", url: "https://tirthayatrik.com" }],
+  metadataBase: new URL("https://tirthayatrik.com"),
   openGraph: {
-    title: "Tirtha Yatra - Experience Divine Journeys",
+    title: "Tirthayatrik - Your Trusted Pilgrimage Partner",
     description:
-      "Book your seamless pilgrimage with VIP Darshan, experienced guides, and premium accommodations.",
-    url: "https://tirthayatra.com",
+      "Plan your spiritual journey with Tirthayatrik. Book VIP Darshan, guided tours, and comfortable travel for a divine experience.",
+    url: "https://tirthayatrik.com",
     type: "website",
   },
   twitter: {
-    title: "Tirtha Yatra - Experience Divine Journeys",
+    title: "Tirthayatrik - Your Trusted Pilgrimage Partner",
     description:
-      "Join us for a sacred pilgrimage with VIP Darshan, guided tours, and luxurious stays.",
+      "Join our sacred pilgrimage tours with VIP access and experienced guides.",
   },
 };
 
@@ -38,20 +37,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        {/* ✅ Correctly defining keywords inside meta */}
         <meta
           name="keywords"
-          content="Tirtha Yatra, Pilgrimage Tours, VIP Darshan, Prayagraj, Varanasi, Ayodhya, Religious Travel, Hindu Pilgrimage, Holy Dip, Spiritual Journey"
+          content="Tirthayatrik, Pilgrimage Tours, VIP Darshan, Religious Travel, Spiritual Journeys, Hindu Temples, Holy Travel, Varanasi, Ayodhya, Prayagraj"
         />
-        <meta name="author" content="TirthaYatra.com" />
+        <meta name="author" content="Tirthayatrik" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={String(metadata.openGraph?.url)} />
-        <meta name="twitter:title" content={String(metadata.twitter?.title)} />
-        <meta
-          name="twitter:description"
-          content={metadata.twitter?.description}
-        />
-        <link rel="canonical" href="https://tirthayatra.com" />
+        <meta property="og:url" content="https://tirthayatrik.com" />
+        <meta name="twitter:title" content="Tirthayatrik - Your Trusted Pilgrimage Partner" />
+        <meta name="twitter:description" content="Join our sacred pilgrimage tours with VIP access and experienced guides." />
+        <link rel="canonical" href="https://tirthayatrik.com" />
+        
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
       </Head>
       <body className={`${font.className} antialiased`}>
         <ResponsiveNav />
