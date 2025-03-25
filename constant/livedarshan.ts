@@ -4,7 +4,7 @@ export const livedarshan = [
     slug: "vindhyachal-temple",
     imageUrl: "/images/livedarshan/Maa vindhyawasini Vindhyanchal_.jpg",
     description:
-      "A sacred Shaktipeeth of Maa Vindhyavasini, known for wish fulfillment and divine blessings.",
+      "Experience daily Live Darshan of Vindhyachal Temple right from your phone.",
     price: "₹199",
   },
   {
@@ -12,7 +12,7 @@ export const livedarshan = [
     slug: "bade-hanuman-prayagraj",
     imageUrl: "/images/livedarshan/Bade Hanuman_.jpg",
     description:
-      "Unique reclining Hanuman idol, bringing courage and divine protection.",
+      "Experience daily Live Darshan of Bade Hanuman Ji right from your phone.",
     price: "₹199",
   },
   {
@@ -20,7 +20,7 @@ export const livedarshan = [
     slug: "ganga-aarti-prayagraj",
     imageUrl: "/images/livedarshan/Prayagraj Ganga arti.jpg",
     description:
-      "A soul-stirring ritual on the Ganges, believed to cleanse sins and uplift the spirit.",
+      "Experience daily Live Darshan of Ganga Aarti Prayagraj right from your phone.",
     price: "₹99",
   },
   {
@@ -28,14 +28,14 @@ export const livedarshan = [
     slug: "someshwar-mahadev-prayagraj",
     imageUrl: "/images/livedarshan/Someshwar mahadev.jpg",
     description:
-      "Ancient Shiva temple, blessing devotees with peace and prosperity.",
+      "Experience daily Live Darshan of Someshwar Mahadev (Prayagraj) right from your phone",
     price: "₹99",
   },
   {
     title: "Sooltankeshwar Mahadev (Prayagraj)",
     slug: "sooltankeshwar-mahadev-prayagraj",
     imageUrl: "/images/livedarshan/Shooltankeshwar mahadev_.jpg",
-    description: "A revered temple granting wishes and spiritual power.",
+    description: "Experience daily Live Darshan of Sooltankeshwar Mahadev (Prayagraj) right from your phone.",
     price: "₹99",
   },
   {
@@ -43,7 +43,7 @@ export const livedarshan = [
     slug: "ganga-aarti-varanasi",
     imageUrl: "/images/livedarshan/Varanasi ganga arti.jpg",
     description:
-      "A soul-stirring ritual on the Ganges, believed to cleanse sins and uplift the spirit.",
+      "Experience daily Live Darshan of Ganga Aarti Varanasi right from your phone.",
     price: "₹199",
   },
   {
@@ -51,7 +51,7 @@ export const livedarshan = [
     slug: "kali-kho-temple",
     imageUrl: "/images/livedarshan/Kali kho_.jpg",
     description:
-      "A revered Siddhpeeth of Maa Kali, radiating immense divine energy and offering protection and strength.",
+      "Experience daily Live Darshan of Kali Kho Temple right from your phone.",
     price: "₹99",
   },
   {
@@ -59,7 +59,7 @@ export const livedarshan = [
     slug: "sarva-darshan",
     imageUrl: "/images/livedarshan/sarva_darshan.jpeg",
     description:
-      "Daily live darshans from all temples—your divine connection, anytime, anywhere.",
+      "Experience daily Live Darshan of Sarva Darshan right from your phone.",
     price: "₹999",
   },
 ];

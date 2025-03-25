@@ -1548,10 +1548,8 @@ export const poojaItineraries: Record<string, Pooja> = {
             content:
               "The pooja lasts for 7 days and involves chanting 1,25,000 Baglamukhi Beej Mantras, followed by a grand Havan on the final day.",
             bulletPoints: [
-              "Duration: 7 Days",
               "Jaap: 1,25,000 Baglamukhi Beej Mantras",
               "Havan: Baglamukhi Maha Homa on Final Day",
-              "Purohits: 9 Experienced Vedic Scholars",
               "Location: Prayagraj (In-Person or Virtual)",
             ],
           },
