@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 
 const font = Poppins({
@@ -10,7 +9,7 @@ const font = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Tirthayatrik - Your trusted pilgrimage partner",
+  title: "Tirthayatrik - Your Trusted Pilgrimage Partner",
   description:
     "Embark on a divine journey with Tirthayatrik. Experience VIP Darshan, guided spiritual tours, and seamless travel arrangements to India's holiest destinations.",
   authors: [{ name: "Tirthayatrik", url: "https://tirthayatrik.com" }],
@@ -21,6 +20,7 @@ export const metadata: Metadata = {
       "Plan your spiritual journey with Tirthayatrik. Book VIP darshan, guided tours, and comfortable travel for a divine experience.",
     url: "https://tirthayatrik.com",
     type: "website",
+    siteName: "Tirthayatrik",
     images: [
       {
         url: "https://www.tirthayatrik.com/images/logo/logo.jpg",
@@ -30,8 +30,21 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Tirthayatrik - Your Trusted Pilgrimage Partner",
+    description:
+      "Join our sacred pilgrimage tours with VIP access and experienced guides.",
+    images: ["https://www.tirthayatrik.com/images/logo/logo.jpg"],
+  },
+  alternates: {
+    canonical: "https://tirthayatrik.com",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
-
 
 export default function RootLayout({
   children,
@@ -40,27 +53,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-  <meta
-    name="keywords"
-    content="Tirthayatrik, Pilgrimage Tours, VIP Darshan, Religious Travel, Spiritual Journeys, Hindu Temples, Holy Travel, Varanasi, Ayodhya, Prayagraj"
-  />
-  <meta name="author" content="Tirthayatrik" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://tirthayatrik.com" />
-  <meta property="og:image" content="https://www.tirthayatrik.com/images/logo/logo.jpg" />
-  <meta property="og:site_name" content="Tirthayatrik" />  {/* 👈 Add This */}
-  
-  <meta name="twitter:title" content="Tirthayatrik - Your Trusted Pilgrimage Partner" />
-  <meta name="twitter:description" content="Join our sacred pilgrimage tours with VIP access and experienced guides." />
-  <meta name="twitter:image" content="https://www.tirthayatrik.com/images/logo/logo.jpg" />
-  
-  <link rel="canonical" href="https://tirthayatrik.com" />
-  {/* Favicon */}
-  <link rel="icon" href="https://www.tirthayatrik.com/images/logo/logo.jpg" sizes="any" />
-  <link rel="apple-touch-icon" href="https://www.tirthayatrik.com/images/logo/logo.jpg" />
-</Head>
-
       <body className={`${font.className} antialiased`}>
         <ResponsiveNav />
         {children}
