@@ -186,9 +186,9 @@ export const itineraries = {
     title: "Vindhyachal Yatra (1-Day)",
     slug: "vindhyachal",
     images: [
-      "/images/touritinerary/Vindhyachal/vi1.jpg",
-      "/images/touritinerary/Vindhyachal/vi2.jpg",
       "/images/touritinerary/Vindhyachal/vi3.jpg",
+      "/images/touritinerary/Vindhyachal/vi2.jpg",
+      "/images/touritinerary/Vindhyachal/vi1.jpg",
     ],
     price: "₹1,799",
     description:
@@ -506,9 +506,9 @@ export const itineraries = {
     title: "2-Day Prayagraj & Vindhyanchal Yatra",
     slug: "prayagraj-vindhyachal",
     images: [
-      "/images/touritinerary/Prayagraj-Vindhyachal/pv3.jpg",
-      "/images/touritinerary/Prayagraj-Vindhyachal/pv1.jpg",
-      "/images/touritinerary/Prayagraj-Vindhyachal/pv2.jpg",
+      "/images/touritinerary/Prayagraj-Vindhyachal/pv6.jpg",
+      "/images/touritinerary/Prayagraj-Vindhyachal/pv7.jpg",
+      "/images/touritinerary/Prayagraj-Vindhyachal/pv5.jpg",
     ],
     price: "₹4,499",
     description:
@@ -596,9 +596,9 @@ export const itineraries = {
     title: "Prayagraj, Ayodhya, and Varanasi 3-Day Yatra",
     slug: "prayagraj-ayodhya-varanasi",
     images: [
+      "/images/touritinerary/Prayagraj-Varanasi-Ayodhya/pav7.jpg",
       "/images/touritinerary/Prayagraj-Varanasi-Ayodhya/pav1.jpg",
       "/images/touritinerary/Prayagraj-Varanasi-Ayodhya/pav2.jpg",
-      "/images/touritinerary/Prayagraj-Varanasi-Ayodhya/pav3.jpg",
     ],
     price: "₹8,499",
     description:
@@ -789,7 +789,7 @@ export const itineraries = {
     slug: "prayagraj-vindhyachal-ayodhya",
     images: [
       "/images/touritinerary/Prayagraj-Vindhyachal-Ayodhya/pva2.jpg",
-      "/images/touritinerary/Prayagraj-Vindhyachal-Ayodhya/pva5.jpg",
+      "/images/touritinerary/Prayagraj-Vindhyachal-Ayodhya/pva3.jpg",
       "/images/touritinerary/Prayagraj-Vindhyachal-Ayodhya/pva4.jpg",
     ],
     price: "₹6,499",
