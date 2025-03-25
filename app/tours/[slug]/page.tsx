@@ -78,9 +78,8 @@ const TourDetails = () => {
             {tour.description}
           </p>
           <p className="text-gray-700 text-lg font-semibold mt-4">
-  Starting at: {tour.price}
-</p>
-
+            Starting at: {tour.price}
+          </p>
         </div>
 
         {/* Why Choose This Yatra? */}
@@ -162,7 +161,7 @@ const TourDetails = () => {
           </button>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };

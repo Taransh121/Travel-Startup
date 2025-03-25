@@ -4,7 +4,7 @@ import { aboutMetadata } from "./metadata";
 import { useRouter } from "next/navigation";
 import Head from "next/head";
 import Footer from "@/components/Home/Footer/Footer";
-import { Italic } from "lucide-react";
+
 const About = () => {
   const router = useRouter();
 
