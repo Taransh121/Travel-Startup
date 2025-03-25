@@ -59,7 +59,7 @@ const PoojaPage = () => {
         <input
           type="text"
           placeholder="Search Pooja..."
-          defaultValue={searchTerm} // ✅ Prevents mismatch issues before hydration
+          defaultValue={searchTerm} 
           onChange={(e) => setSearchTerm(e.target.value)}
           className="w-full max-w-md px-4 py-2 border border-gray-300 rounded-l-md focus:ring-2 focus:ring-red-500"
           autoComplete="off"
@@ -69,7 +69,7 @@ const PoojaPage = () => {
           className={`px-4 py-2 ${
             searchTerm ? "bg-[#ec8014] hover:bg-[#c76f12]" : "bg-[#ec8014]"
           } text-white rounded-r-md transition`}
-          disabled={!searchTerm} // ✅ Prevents unnecessary empty searches
+          disabled={!searchTerm} 
           aria-label="Search Button"
           >
           Search

@@ -33,6 +33,12 @@ const PoojaDetails = () => {
     window.open("https://wa.me/+919277341677", "_blank");
   };
 
+  const excludedSlugs = [
+    "mundan-sanskar-at-vindhyachal",
+    "sahastra-archan-at-vindhyachal",
+    "maa-vindhyavasini-devi-sahasra-archana-at-vindhyachal",
+  ];
+
   return (
     <>
       <div className="max-w-5xl mx-auto px-6 py-12">
@@ -63,7 +69,10 @@ const PoojaDetails = () => {
                 {pooja.description}
               </p>
             )}
-            <p>E-Pooja/Mandir Pooja available</p>
+
+            {!excludedSlugs.includes(slug) && (
+              <p>E-Pooja/Mandir Pooja available</p>
+            )}
 
             <button
               onClick={handleWhatsAppBooking}
@@ -140,7 +149,7 @@ const PoojaDetails = () => {
           </div>
         ))}
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
