@@ -110,14 +110,14 @@ const Footer = () => {
               </p>
               <p className="mt-2">
                 <strong>Instagram:</strong>{" "}
-                <a
+                <Link
                   href="https://www.instagram.com/tirthayatrik"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white hover:underline"
                 >
                   @tirthayatrik
-                </a>
+                </Link>
               </p>
 
               <div className="mt-3">
