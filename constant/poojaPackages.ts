@@ -129,8 +129,8 @@ export const poojaPackages: Pooja[] = [
       "/images/pooja/Kaalsarp dosh nivaran Pooja at Nagvasuki prayagraj_.jpg",
   },
   {
-    title: "Shastra Archan at Vindhyachal",
-    slug: "shastra-archan-at-vindhyachal",
+    title: "Sahastra Archan at Vindhyachal",
+    slug: "sahastra-archan-at-vindhyachal",
     price: "₹66,300",
     description:
       "Experience the divine blessings of Maa Vindhyavasini through the powerful Sahastra Archan ritual!",

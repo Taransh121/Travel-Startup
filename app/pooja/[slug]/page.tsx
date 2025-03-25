@@ -3,7 +3,9 @@
 import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Image from "next/image";
-import { poojaItineraries, Pooja } from "@/constant/poojaItinerary"; 
+import { poojaItineraries, Pooja } from "@/constant/poojaItinerary";
+import { FaWhatsapp } from "react-icons/fa";
+import Footer from "@/components/Home/Footer/Footer";
 
 const PoojaDetails = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -15,7 +17,8 @@ const PoojaDetails = () => {
     setIsMounted(true);
   }, []);
 
-  if (!isMounted) return <div className="text-center py-10 text-lg">Loading...</div>;
+  if (!isMounted)
+    return <div className="text-center py-10 text-lg">Loading...</div>;
 
   if (!slug) return <div className="text-center py-10 text-lg">Loading...</div>;
 
@@ -32,7 +35,6 @@ const PoojaDetails = () => {
 
   return (
     <>
-
       <div className="max-w-5xl mx-auto px-6 py-12">
         {/* Pooja Header Section */}
         <div className="flex flex-col md:flex-row gap-8 items-center mt-10">
@@ -53,7 +55,7 @@ const PoojaDetails = () => {
             <h1 className="text-3xl font-bold text-gray-900">{pooja.title}</h1>
             {pooja.price && (
               <p className="text-xl font-semibold text-orange-700">
-                Price: {pooja.price}
+                Starting at: {pooja.price}
               </p>
             )}
             {pooja?.description && (
@@ -64,9 +66,9 @@ const PoojaDetails = () => {
 
             <button
               onClick={handleWhatsAppBooking}
-              className="bg-[#035064] text-white px-6 py-2 rounded-lg mt-4 hover:bg-[#024050] font-semibold transition shadow-md"
+              className="bg-[#035064] text-white px-6 py-2 rounded-lg mt-4 hover:bg-[#024050] font-semibold transition shadow-md flex items-center justify-center gap-2"
             >
-              Book via WhatsApp
+              Book Now <FaWhatsapp size={18} className="text-green-300" />
             </button>
           </div>
         </div>
@@ -137,6 +139,7 @@ const PoojaDetails = () => {
           </div>
         ))}
       </div>
+      <Footer/>
     </>
   );
 };

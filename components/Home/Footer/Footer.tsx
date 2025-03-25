@@ -53,7 +53,7 @@ const Footer = () => {
                     href="/tours"
                     className="hover:text-white transition-colors"
                   >
-                    Tours
+                    Yatra
                   </Link>
                 </li>
                 <li>
@@ -109,8 +109,17 @@ const Footer = () => {
                 <strong>Email:</strong> tirthayatrik@gmail.com
               </p>
               <p className="mt-2">
-                <strong>Instagram:</strong> @tirthayatrik
+                <strong>Instagram:</strong>{" "}
+                <a
+                  href="https://www.instagram.com/tirthayatrik"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:underline"
+                >
+                  @tirthayatrik
+                </a>
               </p>
+
               <div className="mt-3">
                 {/* <p>
                 <strong>Scan to Chat on WhatsApp:</strong>

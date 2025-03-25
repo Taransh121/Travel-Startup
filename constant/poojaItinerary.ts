@@ -423,7 +423,7 @@ export const poojaItineraries: Record<string, Pooja> = {
             content:
               "Follow these simple steps to book your Rudrabhishek Pooja.",
             bulletPoints: [
-              "Step 1: Click the 'Book Now on WhatsApp' button.",
+              "Step 1: Click the 'Book Now' button.",
               "Step 2: Choose between In-Person or Virtual Pooja.",
               "Step 3: Share your requirements (dates, preferences, and additional services).",
               "Step 4: Get a customized pooja plan.",
@@ -740,7 +740,7 @@ export const poojaItineraries: Record<string, Pooja> = {
         content:
           "To book your Das Mahavidya Pooja, follow the simple step-by-step process to finalize your experience, either in-person or virtual.",
         bulletPoints: [
-          "Step 1: Click the 'Book Now on WhatsApp' button.",
+          "Step 1: Click the 'Book Now' button.",
           "Step 2: Choose between In-Person or Virtual Pooja.",
           "Step 3: Share your preferred dates & additional requirements.",
           "Step 4: Get a customized pooja plan based on your needs.",
@@ -943,7 +943,7 @@ export const poojaItineraries: Record<string, Pooja> = {
         content:
           "To book your Das Mahavidya Pooja, follow the simple step-by-step process to finalize your experience, either in-person or virtual.",
         bulletPoints: [
-          "Step 1: Click the 'Book Now on WhatsApp' button.",
+          "Step 1: Click the 'Book Now' button.",
           "Step 2: Choose between In-Person or Virtual Pooja.",
           "Step 3: Share your preferred dates & additional requirements.",
           "Step 4: Get a customized pooja plan based on your needs.",
@@ -1127,7 +1127,7 @@ export const poojaItineraries: Record<string, Pooja> = {
         title: "Booking Process",
         content: "Follow these steps to book your Sat Chandi Pooja.",
         bulletPoints: [
-          "Step 1: Click the 'Book Now on WhatsApp' button.",
+          "Step 1: Click the 'Book Now' button.",
           "Step 2: Choose In-Person or Virtual Sat Chandi Pooja.",
           "Step 3: Share your preferred date & additional requirements.",
           "Step 4: Get a customized pooja plan.",
@@ -1308,7 +1308,7 @@ export const poojaItineraries: Record<string, Pooja> = {
         title: "Booking Process",
         content: "Follow these steps to book your Sat Chandi Pooja.",
         bulletPoints: [
-          "Step 1: Click the 'Book Now on WhatsApp' button.",
+          "Step 1: Click the 'Book Now' button.",
           "Step 2: Choose In-Person or Virtual Sat Chandi Pooja.",
           "Step 3: Share your preferred date & additional requirements.",
           "Step 4: Get a customized pooja plan.",
@@ -1348,7 +1348,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     imageUrl: "/images/poojaItinerary/Baglamukhi Jaap at prayagraj_.jpg",
     price: "₹2,27,500",
     description:
-      "Attain victory over enemies, remove legal troubles, and gain divine protection with the supreme blessings of Maa Baglamukhi!7 Days | 9 Pandits)",
+      "Attain victory over enemies, remove legal troubles, and gain divine protection with the supreme blessings of Maa Baglamukhi!",
     sections: [
       {
         title: "Why Perform the Baglamukhi Mata Jaap?",
@@ -1473,7 +1473,7 @@ export const poojaItineraries: Record<string, Pooja> = {
           {
             title: "How to Book",
             bulletPoints: [
-              "Click the 'Book Now on WhatsApp' button.",
+              "Click the 'Book Now' button.",
               "Choose between In-Person or Virtual Pooja.",
               "Share your preferred dates & additional requirements.",
               "Get a customized pooja plan based on your needs.",
@@ -1516,7 +1516,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     imageUrl: "/images/poojaItinerary/Baglamukhi Jaap at Vindhyanchal_.jpg",
     price: "₹2,40,500",
     description:
-      "Attain victory over enemies, remove legal troubles, and gain divine protection with the supreme blessings of Maa Baglamukhi!7 Days | 9 Pandits)",
+      "Attain victory over enemies, remove legal troubles, and gain divine protection with the supreme blessings of Maa Baglamukhi!",
     sections: [
       {
         title: "Why Perform the Baglamukhi Mata Jaap?",
@@ -1641,7 +1641,7 @@ export const poojaItineraries: Record<string, Pooja> = {
           {
             title: "How to Book",
             bulletPoints: [
-              "Click the 'Book Now on WhatsApp' button.",
+              "Click the 'Book Now' button.",
               "Choose between In-Person or Virtual Pooja.",
               "Share your preferred dates & additional requirements.",
               "Get a customized pooja plan based on your needs.",
@@ -1786,7 +1786,7 @@ export const poojaItineraries: Record<string, Pooja> = {
       {
         title: "Booking Steps",
         bulletPoints: [
-          "Click the 'Book Now on WhatsApp' button.",
+          "Click the 'Book Now' button.",
           "Choose between In-Person or Virtual Pooja.",
           "Share your preferred dates & additional requirements.",
           "Get a customized pooja plan based on your needs.",
@@ -1931,7 +1931,7 @@ export const poojaItineraries: Record<string, Pooja> = {
       {
         title: "Booking Steps",
         bulletPoints: [
-          "Click the 'Book Now on WhatsApp' button.",
+          "Click the 'Book Now' button.",
           "Choose between In-Person or Virtual Pooja.",
           "Share your preferred dates & additional requirements.",
           "Get a customized pooja plan based on your needs.",
@@ -2088,7 +2088,7 @@ export const poojaItineraries: Record<string, Pooja> = {
       {
         title: "Booking Steps",
         bulletPoints: [
-          "Click the 'Book Now on WhatsApp' button.",
+          "Click the 'Book Now' button.",
           "Choose between In-Person or Virtual Assistance.",
           "Share your preferred dates & additional requirements.",
           "Receive personalized guidance for the ritual.",
@@ -2242,7 +2242,7 @@ export const poojaItineraries: Record<string, Pooja> = {
         content:
           "Follow these easy steps to book your Satyanarayan Katha Pooja.",
         bulletPoints: [
-          "Click the 'Book Now on WhatsApp' button.",
+          "Click the 'Book Now' button.",
           "Choose between In-Person or Virtual Katha.",
           "Share your preferred date & additional requirements.",
           "Receive a customized pooja plan.",
@@ -2437,7 +2437,7 @@ export const poojaItineraries: Record<string, Pooja> = {
       {
         title: "Booking Steps",
         bulletPoints: [
-          "Click the 'Book Now on WhatsApp' button.",
+          "Click the 'Book Now' button.",
           "Choose between In-Person or Virtual Pooja.",
           "Share your preferred dates & additional requirements.",
           "Receive a customized pooja plan based on your needs.",
@@ -2472,13 +2472,13 @@ export const poojaItineraries: Record<string, Pooja> = {
       },
     ],
   },
-  "shastra-archan-at-vindhyachal": {
+  "sahastra-archan-at-vindhyachal": {
     title: "Sahastra Archan at Vindhyachal",
-    slug: "shastra-archan-at-vindhyachal",
+    slug: "sahastra-archan-at-vindhyachal",
     imageUrl: "/images/poojaItinerary/Sahastra archan at Vindhyanchal_.jpg",
     price: "₹66,300",
     description:
-      "Experience the divine blessings of Maa Vindhyavasini through the powerful Sahastra Archan ritual. (1-Day Special Pooja | 10 Vedic Pandits)",
+      "Experience the divine blessings of Maa Vindhyavasini through the powerful Sahastra Archan ritual.",
     sections: [
       {
         title: "What is Sahastra Archan?",
@@ -2526,18 +2526,7 @@ export const poojaItineraries: Record<string, Pooja> = {
               "Flower offerings according to your wishes",
               "Optional: Additional Navgrah Shanti Pooja & Rudra Abhishek",
             ],
-          },
-          {
-            title: "Online Shastra Archana (Live Pooja)",
-            content:
-              "Join the pooja remotely from anywhere in the world via live streaming.",
-            bulletPoints: [
-              "Dedicated Purohit performing the Archana for you",
-              "Personalized Sankalp & Name in Pooja",
-              "Live Streaming of the entire Pooja",
-              "Receive Prasad at home",
-            ],
-          },
+          }
         ],
       },
       {
@@ -2552,29 +2541,17 @@ export const poojaItineraries: Record<string, Pooja> = {
               "Milk & Panchamrit Abhishek, Prasad & Yantra",
               "Optional kundali analysis & special offerings",
             ],
-          },
-          {
-            title: "Virtual Pooja Package",
-            content: "Experience the pooja from the comfort of your home.",
-            bulletPoints: [
-              "Full HD live streaming from Vindhyachal",
-              "Dedicated Purohit for Your Sankalp",
-              "Step-by-step guidance during the pooja",
-              "Recording available upon request",
-              "Optional prasad delivery",
-            ],
-          },
+          }
         ],
       },
       {
         title: "Booking Steps",
         bulletPoints: [
-          "Click the 'Book Now on WhatsApp' button.",
-          "Choose between In-Person or Virtual Pooja.",
+          "Click the 'Book Now' button.",
           "Share your preferred dates & additional requirements.",
           "Receive a customized pooja plan based on your needs.",
           "Confirm your booking with 50% advance payment.",
-          "Join the pooja physically in Vindhyachal or virtually from home!",
+          "Join the pooja physically in Vindhyachal.",
         ],
       },
       {
@@ -2589,17 +2566,7 @@ export const poojaItineraries: Record<string, Pooja> = {
             title: "Can I customize the Pooja for my specific needs?",
             content:
               "Yes! Based on your requirements, we can adjust the flower offerings and additional rituals.",
-          },
-          {
-            title: "How does the Virtual Pooja work?",
-            content:
-              "You will receive a private live stream link to join the pooja from anywhere. You can also interact with the purohits during key rituals.",
-          },
-          {
-            title: "What if I want Prasad after Virtual Pooja?",
-            content:
-              "We can arrange Prasad delivery to your home upon request.",
-          },
+          }
         ],
       },
     ],
@@ -2747,7 +2714,7 @@ export const poojaItineraries: Record<string, Pooja> = {
       {
         title: "Booking Steps",
         bulletPoints: [
-          "Click the 'Book Now on WhatsApp' button.",
+          "Click the 'Book Now' button.",
           "Choose between In-Person or Virtual Pooja.",
           "Share your preferred dates & additional requirements.",
           "Receive a customized pooja plan based on your needs.",
@@ -2907,7 +2874,7 @@ export const poojaItineraries: Record<string, Pooja> = {
       {
         title: "Booking Steps",
         bulletPoints: [
-          "Click the 'Book Now on WhatsApp' button.",
+          "Click the 'Book Now' button.",
           "Choose between In-Person or Virtual Pooja.",
           "Share your preferred dates & additional requirements.",
           "Receive a customized pooja plan based on your needs.",

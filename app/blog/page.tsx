@@ -21,7 +21,7 @@ export default async function BlogPage() {
 
   return (
     <div className="p-6 max-w-6xl mx-auto">
-      <h1 className="text-4xl font-bold mb-6 text-center mt-20 text-[#ec8014]">
+      <h1 className="text-3xl font-bold mb-6 text-center mt-14 text-[#03485e]">
         BLOGS
       </h1>
       {blogs.length > 0 ? (

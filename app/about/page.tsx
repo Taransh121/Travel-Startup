@@ -1,29 +1,34 @@
 "use client";
 
-import { aboutMetadata } from "./metadata"; 
+import { aboutMetadata } from "./metadata";
 import { useRouter } from "next/navigation";
 import Head from "next/head";
+import Footer from "@/components/Home/Footer/Footer";
+import { Italic } from "lucide-react";
 const About = () => {
   const router = useRouter();
 
   return (
     <>
-    <Head>
-      <title>{aboutMetadata.title}</title>
-      <meta name="description" content={aboutMetadata.description} />
-      <meta name="keywords" content={aboutMetadata.keywords.join(", ")} />
-      <meta property="og:title" content={aboutMetadata.openGraph.title} />
-      <meta property="og:description" content={aboutMetadata.openGraph.description} />
-      <meta property="og:url" content={aboutMetadata.openGraph.url} />
-      <meta property="og:type" content={aboutMetadata.openGraph.type} />
-    </Head>
+      <Head>
+        <title>{aboutMetadata.title}</title>
+        <meta name="description" content={aboutMetadata.description} />
+        <meta name="keywords" content={aboutMetadata.keywords.join(", ")} />
+        <meta property="og:title" content={aboutMetadata.openGraph.title} />
+        <meta
+          property="og:description"
+          content={aboutMetadata.openGraph.description}
+        />
+        <meta property="og:url" content={aboutMetadata.openGraph.url} />
+        <meta property="og:type" content={aboutMetadata.openGraph.type} />
+      </Head>
 
       {/* ✅ Hero Section */}
       <section className="relative bg-gradient-to-r from-[#034a5e] to-[#004e67] text-white text-center py-20 px-4">
         <div className="absolute inset-0 bg-black opacity-40"></div>
         <div className="relative z-10 max-w-3xl mx-auto mt-20">
           <h1 className="text-3xl sm:text-4xl font-bold leading-tight drop-shadow-lg">
-            Embark on a Sacred Journey with tirthayatrik
+            Embark on a Sacred Journey with Tirthayatrik
           </h1>
           <p className="text-base sm:text-lg mt-3 opacity-90">
             Experience a seamless pilgrimage where faith, culture, and comfort
@@ -39,30 +44,35 @@ const About = () => {
             Who We Are
           </h2>
           <p className="text-sm sm:text-base text-gray-700 max-w-2xl mx-auto">
-            tirthayatrik is committed to making spiritual travel{" "}
-            <strong>meaningful, comfortable, and hassle-free</strong>. Our
-            carefully crafted pilgrimage packages ensure you focus on devotion
-            while we handle the logistics.
+            <strong>Tirthayatrik</strong> is your trusted platform for planning
+            Hindu pilgrimages and sacred pooja. We combine traditional devotion
+            with modern convenience to help you experience divine rituals,
+            whether at a temple or online.
           </p>
         </div>
 
         {/* ✅ Features */}
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {[
             {
-              icon: "🌍",
-              title: "Effortless Pilgrimage",
-              text: "We provide end-to-end services, from travel bookings to guided tours, ensuring a stress-free experience.",
-            },
-            {
-              icon: "🏨",
-              title: "Comfortable Stays",
-              text: "Enjoy serene and reliable accommodations that cater to your spiritual needs and comfort.",
+              icon: "✈️",
+              title: "Pilgrimage Packages",
+              text: "Customized travel plans to top religious destinations with complete support.",
             },
             {
               icon: "🛕",
-              title: "Spiritual Guidance",
-              text: "Gain deep insights into the sacred significance of every destination with our knowledgeable guides.",
+              title: "Special Pooja",
+              text: "Choose between online E-Pooja and in-temple Pooja.",
+            },
+            {
+              icon: "📹",
+              title: "Daily Live Darshan",
+              text: "Stream live temple rituals and Aartis from renowned temples.",
+            },
+            {
+              icon: "🧑‍⚖️",
+              title: "Ask Pandit-ji",
+              text: "Get free, one-on-one WhatsApp guidance from expert pandits.",
             },
           ].map((feature, index) => (
             <div
@@ -92,8 +102,9 @@ const About = () => {
                 🎯 Our Mission
               </h3>
               <p className="text-sm sm:text-base">
-                We strive to make spiritual travel accessible, enriching, and
-                deeply fulfilling for all devotees.
+                We empower devotees to connect with their spiritual heritage
+                through personalized pilgrimage packages, daily live darshan,
+                and specialized pooja services.
               </p>
             </div>
             <div className="bg-[#034a5e] text-white p-6 rounded-lg shadow-md hover:scale-105 transition flex-1">
@@ -101,8 +112,9 @@ const About = () => {
                 👁️ Our Vision
               </h3>
               <p className="text-sm sm:text-base">
-                We envision a world where spiritual seekers can journey with
-                peace of mind, convenience, and deep faith.
+                We strive to create a seamless spiritual journey for devotees
+                through accessible pilgrimage experiences, real-time darshan,
+                and sacred rituals.
               </p>
             </div>
           </div>
@@ -124,7 +136,7 @@ const About = () => {
           View Pilgrimage Packages
         </button>
       </section>
-      
+      <Footer />
     </>
   );
 };

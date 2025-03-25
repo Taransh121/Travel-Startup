@@ -81,7 +81,7 @@ const LiveDarshanPage = () => {
                 title={darshan.title}
                 imageUrl={darshan.imageUrl}
                 description={darshan.description}
-                price={darshan.price} // ✅ Added price prop
+                price={darshan.price} 
               />
             ))}
           </div>
