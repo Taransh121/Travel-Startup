@@ -63,6 +63,7 @@ const PoojaDetails = () => {
                 {pooja.description}
               </p>
             )}
+            <p>E-Pooja/Mandir Pooja available</p>
 
             <button
               onClick={handleWhatsAppBooking}

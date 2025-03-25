@@ -7,7 +7,7 @@ export const itineraries = {
       "/images/touritinerary/Varanasi/v5.jpg",
       "/images/touritinerary/Varanasi/v1.jpg",
     ],
-    price: "₹2,499",
+    price: "₹4,099",
     description:
       "Experience the divine aura of Kashi Vishwanath and the mesmerizing Ganga Aarti.",
     whyChooseThisYatra: [
@@ -101,7 +101,7 @@ export const itineraries = {
       "/images/touritinerary/Ayodhya/a5.jpg",
       "/images/touritinerary/Ayodhya/a1.jpg",
     ],
-    price: "₹2,599",
+    price: "₹3,799",
     description:
       "A soulful journey to the birthplace of Lord Ram, filled with devotion and history.",
     whyChooseThisYatra: [
@@ -190,7 +190,7 @@ export const itineraries = {
       "/images/touritinerary/Vindhyachal/vi2.jpg",
       "/images/touritinerary/Vindhyachal/vi1.jpg",
     ],
-    price: "₹1,799",
+    price: "₹3,799",
     description:
       "A spiritual journey to the sacred temples of Vindhyachal, with complete travel assistance.",
     whyChooseThisYatra: [
@@ -228,7 +228,7 @@ export const itineraries = {
       "/images/touritinerary/Prayagraj/p2.jpg",
       "/images/touritinerary/Prayagraj/p3.jpg",
     ],
-    price: "₹2,699",
+    price: "₹2,299",
     description:
       "A soul-soothing spiritual journey with comfortable travel, divine darshans, and a touch of local culture!",
     whyChooseThisYatra: [
@@ -327,7 +327,7 @@ export const itineraries = {
       "/images/touritinerary/Prayagraj-Varanasi/pv7.jpg",
       "/images/touritinerary/Prayagraj-Varanasi/pv2.jpg",
     ],
-    price: "₹4,499",
+    price: "₹1,999",
     description:
       "A spiritually enriching 2-day yatra covering the sacred sites of Prayagraj & Varanasi with seamless travel arrangements.",
     whyChooseThisYatra: [
@@ -419,7 +419,7 @@ export const itineraries = {
       "/images/touritinerary/Prayagraj-Ayodhya/pa2.jpg",
       "/images/touritinerary/Prayagraj-Ayodhya/pa3.jpg",
     ],
-    price: "₹4,499",
+    price: "₹1,899",
     description:
       "A divine pilgrimage covering the sacred sites of Prayagraj & Ayodhya with seamless travel arrangements.",
     whyChooseThisYatra: [
@@ -510,7 +510,7 @@ export const itineraries = {
       "/images/touritinerary/Prayagraj-Vindhyachal/pv7.jpg",
       "/images/touritinerary/Prayagraj-Vindhyachal/pv5.jpg",
     ],
-    price: "₹4,499",
+    price: "₹1,650",
     description:
       "An enriching spiritual journey covering the divine sites of Prayagraj & Vindhyanchal with seamless travel support.",
     whyChooseThisYatra: [
@@ -600,7 +600,7 @@ export const itineraries = {
       "/images/touritinerary/Prayagraj-Varanasi-Ayodhya/pav1.jpg",
       "/images/touritinerary/Prayagraj-Varanasi-Ayodhya/pav2.jpg",
     ],
-    price: "₹8,499",
+    price: "₹7,299",
     description:
       "A soulful journey through India’s most sacred cities, designed with care, comfort, and flexibility to meet your every need.",
     whyChooseThisYatra: [
@@ -792,7 +792,7 @@ export const itineraries = {
       "/images/touritinerary/Prayagraj-Vindhyachal-Ayodhya/pva3.jpg",
       "/images/touritinerary/Prayagraj-Vindhyachal-Ayodhya/pva4.jpg",
     ],
-    price: "₹6,499",
+    price: "₹5,999",
     description:
       "A soulful journey through India’s sacred cities, designed with comfort, flexibility, and a deep spiritual experience.",
     whyChooseThisYatra: [
@@ -955,7 +955,7 @@ export const itineraries = {
       "/images/touritinerary/Prayagraj-Vindhyachal-Varanasi/pvv2.jpg",
       "/images/touritinerary/Prayagraj-Vindhyachal-Varanasi/pvv3.jpg",
     ],
-    price: "₹6,499",
+    price: "₹5,799",
     description:
       "A sacred pilgrimage designed for a smooth and enriching experience.",
     whyChooseThisYatra: [
@@ -1109,7 +1109,7 @@ export const itineraries = {
       "/images/touritinerary/Prayagraj-Vindhyachal-Varanasi-Ayodhya/pvva3.jpg",
       "/images/touritinerary/Prayagraj-Vindhyachal-Varanasi-Ayodhya/pvva6.jpg",
     ],
-    price: "₹9,499",
+    price: "₹7,949",
     description:
       "A seamless pilgrimage covering four sacred cities with spiritual depth, comfort, and flexibility.",
     whyChooseThisYatra: [
