@@ -78,7 +78,7 @@ const TourDetails = () => {
             {tour.description}
           </p>
           <p className="text-gray-700 text-lg font-semibold mt-4">
-            Starting at: {tour.price}
+            Starting at: {tour.price}/person
           </p>
         </div>
 
@@ -105,6 +105,34 @@ const TourDetails = () => {
             <ul className="mt-3 space-y-2 text-gray-700 list-disc list-inside">
               {tour.routeOverview.map((route, index) => (
                 <li key={`route-${index}`}>{route}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {/* Not Included in the Package */}
+        {tour.whatsIncluded?.length > 0 && (
+          <div className="mt-8 bg-green-100 p-6 rounded-lg shadow-md">
+            <h2 className="text-2xl font-semibold text-red-700">
+              Whats Included in the Package
+            </h2>
+            <ul className="mt-3 space-y-2 text-gray-700 list-disc list-inside">
+              {tour.whatsIncluded?.map((item, index) => (
+                <li key={`whatsIncluded-${index}`}>{item}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {/* Not Included in the Package */}
+        {tour.notIncluded?.length > 0 && (
+          <div className="mt-8 bg-red-100 p-6 rounded-lg shadow-md">
+            <h2 className="text-2xl font-semibold text-red-700">
+              Not Included in the Package
+            </h2>
+            <ul className="mt-3 space-y-2 text-gray-700 list-disc list-inside">
+              {tour.notIncluded.map((item, index) => (
+                <li key={`notIncluded-${index}`}>{item}</li>
               ))}
             </ul>
           </div>
@@ -150,8 +178,7 @@ const TourDetails = () => {
             Pricing & Booking
           </h2>
           <p className="mt-2 text-gray-700 text-lg">
-            💵 <strong>Pay on Arrival</strong> – No advance payment needed, book
-            with confidence!
+            <strong>{tour.paymentPolicy.pricingAndBooking}</strong>
           </p>
           <button
             onClick={handleWhatsAppBooking}
@@ -160,6 +187,20 @@ const TourDetails = () => {
             Book Now <FaWhatsapp size={16} className="text-green-200" />
           </button>
         </div>
+
+        {/* Additional Travel Assistance */}
+        {tour.additionalTravelAssistance && (
+          <div className="mt-8 bg-gray-100 p-6 rounded-lg shadow-md">
+            <h2 className="text-2xl font-semibold text-orange-700">
+              Additional Travel Assistance
+            </h2>
+            <ul className="mt-3 space-y-2 text-gray-700 list-disc list-inside">
+              {tour.additionalTravelAssistance.map((info, index) => (
+                <li key={`assist-${index}`}>{info}</li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
       <Footer />
     </>
