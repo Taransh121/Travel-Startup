@@ -7,7 +7,7 @@ export const itineraries = {
       "/images/touritinerary/Varanasi/v5.jpg",
       "/images/touritinerary/Varanasi/v1.jpg",
     ],
-    price: "₹4,099",
+    price: "₹1,999",
     description:
       "Experience the divine aura of Kashi Vishwanath and the mesmerizing Ganga Aarti.",
     whyChooseThisYatra: [
@@ -101,7 +101,7 @@ export const itineraries = {
       "/images/touritinerary/Ayodhya/a5.jpg",
       "/images/touritinerary/Ayodhya/a1.jpg",
     ],
-    price: "₹3,799",
+    price: "₹1,899",
     description:
       "A soulful journey to the birthplace of Lord Ram, filled with devotion and history.",
     whyChooseThisYatra: [
@@ -190,7 +190,7 @@ export const itineraries = {
       "/images/touritinerary/Vindhyachal/vi2.jpg",
       "/images/touritinerary/Vindhyachal/vi1.jpg",
     ],
-    price: "₹3,799",
+    price: "₹1,650",
     description:
       "A spiritual journey to the sacred temples of Vindhyachal, with complete travel assistance.",
     whyChooseThisYatra: [
@@ -327,7 +327,7 @@ export const itineraries = {
       "/images/touritinerary/Prayagraj-Varanasi/pv7.jpg",
       "/images/touritinerary/Prayagraj-Varanasi/pv2.jpg",
     ],
-    price: "₹1,999",
+    price: "₹4,099",
     description:
       "A spiritually enriching 2-day yatra covering the sacred sites of Prayagraj & Varanasi with seamless travel arrangements.",
     whyChooseThisYatra: [
@@ -419,7 +419,7 @@ export const itineraries = {
       "/images/touritinerary/Prayagraj-Ayodhya/pa2.jpg",
       "/images/touritinerary/Prayagraj-Ayodhya/pa3.jpg",
     ],
-    price: "₹1,899",
+    price: "₹3,799",
     description:
       "A divine pilgrimage covering the sacred sites of Prayagraj & Ayodhya with seamless travel arrangements.",
     whyChooseThisYatra: [
@@ -510,7 +510,7 @@ export const itineraries = {
       "/images/touritinerary/Prayagraj-Vindhyachal/pv7.jpg",
       "/images/touritinerary/Prayagraj-Vindhyachal/pv5.jpg",
     ],
-    price: "₹1,650",
+    price: "₹3,799",
     description:
       "An enriching spiritual journey covering the divine sites of Prayagraj & Vindhyanchal with seamless travel support.",
     whyChooseThisYatra: [
