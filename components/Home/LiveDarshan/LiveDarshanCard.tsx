@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import Head from "next/head";
 import liveDarshanMetadata from "./metadata";
+import { FaWhatsapp } from "react-icons/fa";
 
 interface LiveDarshanCardProps {
   title: string;
@@ -76,9 +77,9 @@ const LiveDarshanCard: React.FC<LiveDarshanCardProps> = ({
             <div className="mt-auto pt-3">
               <button
                 onClick={handleWhatsAppBooking}
-                className="bg-white text-black font-bold px-4 py-2 rounded-sm w-full hover:bg-orange-600 hover:text-white transition text-sm"
+                className="bg-white text-black font-bold px-4 py-2 rounded-sm w-full hover:bg-orange-600 hover:text-white transition text-sm flex items-center justify-center gap-2"
               >
-                Book Now
+                Book Now <FaWhatsapp size={16} className="text-green-700" />
               </button>
             </div>
           </div>

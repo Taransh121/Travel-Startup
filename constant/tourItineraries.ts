@@ -1,6 +1,6 @@
 export const itineraries = {
   varanasi: {
-    title: "Varanasi 1-Day Yatra",
+    title: "Varanasi Yatra (1-Day)",
     slug: "varanasi",
     images: [
       "/images/touritinerary/Varanasi/v3.jpg",
@@ -94,7 +94,7 @@ export const itineraries = {
   },
 
   ayodhya: {
-    title: "Ayodhya 1-Day Yatra",
+    title: "Ayodhya Yatra (1-Day)",
     slug: "ayodhya",
     images: [
       "/images/touritinerary/Ayodhya/a4.jpg",
@@ -183,7 +183,7 @@ export const itineraries = {
   },
 
   vindhyachal: {
-    title: "Vindhyachal 1-Day Yatra",
+    title: "Vindhyachal Yatra (1-Day)",
     slug: "vindhyachal",
     images: [
       "/images/touritinerary/Vindhyachal/vi1.jpg",
@@ -221,7 +221,7 @@ export const itineraries = {
     ],
   },
   prayagraj: {
-    title: "Prayagraj 1-Day Yatra",
+    title: "Prayagraj Yatra (1-Day)",
     slug: "prayagraj",
     images: [
       "/images/touritinerary/Prayagraj/p1.jpg",

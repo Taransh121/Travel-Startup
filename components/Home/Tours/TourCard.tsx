@@ -48,7 +48,7 @@ const TourCard: React.FC<TourCardProps> = ({
 
         {/* Price */}
         <div className="absolute bottom-4 left-4 text-white">
-          <p className="text-sm font-bold">Starting from</p>
+          <p className="text-sm font-bold">Starting at</p>
           <p className="text-2xl font-bold">₹{price}</p>
         </div>
       </div>
