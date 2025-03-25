@@ -20,9 +20,9 @@ const LiveDarshanCard: React.FC<LiveDarshanCardProps> = ({
   price,
 }) => {
   const handleWhatsAppBooking = () => {
-    const whatsappUrl = `https://wa.me/919277341677?text=Experience%20daily%20live%20darshan%20of:%20${encodeURIComponent(
+    const whatsappUrl = `https://wa.me/919277341677?text=I%20am%20interested%20in%20live%20darshan%20of:%20${encodeURIComponent(
       title
-    )}%20right%20from%20your%20phone`;
+    )}`;
     window.open(whatsappUrl, "_blank");
   };
 

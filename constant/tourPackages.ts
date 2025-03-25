@@ -9,7 +9,7 @@ export const destinationCombinations: Destination[] = [
   {
     title: "Prayagraj → Vindhyachal → Varanasi → Ayodhya",
     slug: "prayagraj-vindhyachal-ayodhya-varanasi",
-    images: ["/images/tourCard/varanasi.jpg"],
+    images: ["/images/tourCard/Prayagraj-Vindhyachal-Varanasi-Ayodhya_.jpg"],
     price: "7,949",
   },
   {
@@ -63,7 +63,7 @@ export const destinationCombinations: Destination[] = [
   {
     title: "Varanasi",
     slug: "varanasi",
-    images: ["/images/tourCard/v1.jpg"],
+    images: ["/images/tourCard/varanasi.jpg"],
     price: "1,999",
   },
   {

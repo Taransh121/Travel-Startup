@@ -8,21 +8,19 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import Head from "next/head";
-import { Pagination, Autoplay } from "swiper/modules"; // Import Autoplay module
+import { Pagination, Autoplay } from "swiper/modules"; 
 import { livedarshanMetadata } from "./metadata";
 
 const LiveDarshanPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [isMounted, setIsMounted] = useState(false);
 
-  // ✅ Memoized filtered darshans
   const filteredDarshan = useMemo(() => {
     return livedarshan.filter((darshan) =>
       darshan.title.toLowerCase().includes(searchTerm.toLowerCase())
     );
   }, [searchTerm]);
 
-  // ✅ Fix hydration issue
   useEffect(() => {
     setIsMounted(true);
   }, []);

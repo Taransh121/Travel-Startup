@@ -42,7 +42,7 @@ export const poojaPackages: Pooja[] = [
   {
     title: "Satyanarayan Katha Pooja",
     slug: "satyanarayan-katha-pooja",
-    price: "6,100",
+    price: "₹6,100",
     description:
       "Invoke the blessings of Lord Vishnu with the sacred Satyanarayan Katha, ensuring prosperity, peace, and happiness in your life!",
     imageUrl: "/images/pooja/Satya Narayan Katha at prayagraj_.jpg",
