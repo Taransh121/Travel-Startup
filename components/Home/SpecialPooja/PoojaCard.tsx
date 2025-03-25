@@ -37,8 +37,10 @@ const PoojaCard: React.FC<PoojaCardProps> = ({ title, slug, price, description, 
 
         {/* Card Content */}
         <div className="p-6 text-center flex flex-col justify-between flex-grow">
-          <h3 className="text-lg sm:text-xl font-bold text-gray-800 line-clamp-2">{title}</h3>
-          <p className="text-lg font-semibold text-red-600">Starting at {price}</p>
+          <h3 className="text-lg sm:text-xl font-bold text-gray-800 line-clamp-2 mb-1">{title}</h3>
+          <p className="text-lg font-semibold text-red-600 mb-1">Starting at {price}</p>
+          <p>E-Pooja/Mandir Pooja</p>
+
           <p className="text-gray-600 text-base mt-3 line-clamp-2">{description}</p>
         </div>
       </div>

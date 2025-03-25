@@ -57,8 +57,8 @@ const Hero = () => {
               onClick={handleWhatsAppRedirect}
               className="mt-6 bg-yellow-300 text-black text-base font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-yellow-500 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
             >
-              Plan your pilgrimage now{" "}
               <FaWhatsapp size={18} className="text-green-700" />
+              Plan your pilgrimage now{" "}
             </button>
 
             <div className="mt-4 flex flex-col sm:flex-row gap-4">

@@ -45,14 +45,16 @@ const Nav = ({ openNav }: Props) => {
         <div className="flex items-center justify-between w-[90%] xl:w-[80%] mx-auto px-4 md:px-6 xl:px-8 py-2 md:py-3">
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 relative">
-              <Image
-                src="/images/logo/logo.jpg"
-                alt="tirthayatrik Logo"
-                width={40} // Explicit width
-                height={40} // Explicit height
-                className="object-cover rounded-full"
-                priority // Ensures the image loads fast without layout shift
-              />
+              <Link href="/" passHref>
+                <Image
+                  src="/images/logo/logo.jpg"
+                  alt="tirthayatrik Logo"
+                  width={40}
+                  height={40}
+                  className="object-cover rounded-full cursor-pointer"
+                  priority
+                />
+              </Link>
             </div>
             <Link
               href="/"

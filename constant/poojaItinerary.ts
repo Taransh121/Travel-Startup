@@ -25,7 +25,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     slug: "navgrah-shanti-path-at-prayagraj",
     imageUrl:
       "/images/poojaItinerary/Nav grah Shanti path at prayagraj_Vindhyanchal_.jpg",
-    price: "₹58,500",
+    price: "₹6,100",
     sections: [
       {
         title: "Pooja Overview",
@@ -177,7 +177,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     title: "Mahamrityunjay Jaap at Prayagraj",
     slug: "mahamrityunjay-jaap-at-prayagraj",
     imageUrl: "/images/poojaItinerary/Mahamrityunjay at prayagraj_.jpg",
-    price: "₹1,95,000",
+    price: "₹1,60,000",
     sections: [
       {
         title: "Pooja Overview",
@@ -336,7 +336,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     title: "Rudrabhishek at Triveni Sangam",
     slug: "rudrabhishek-at-triveni-sangam",
     imageUrl: "/images/poojaItinerary/Rudrabhishek at Triveni sangam_.jpg",
-    price: "₹7,800",
+    price: "₹4,100",
     description:
       "Rudrabhishek Pooja is a sacred Vedic ritual dedicated to Lord Shiva, performed with holy offerings and powerful mantras. Conducting this pooja at Triveni Sangam—the divine confluence of Ganga, Yamuna, and Saraswati—enhances its spiritual significance.",
     sections: [
@@ -466,7 +466,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     title: "Maa Vindhyavasini Devi Shringar Pooja at Vindhyachal",
     slug: "maa-vindhyavasini-devi-sahasra-archana-at-vindhyachal",
     imageUrl: "/images/poojaItinerary/Devi  shringar at Vindhyanchal_.jpg",
-    price: "₹19,500",
+    price: "₹12,000",
     description:
       "Adorn Maa Vindhyavasini with sacred offerings of shringar items and seek her divine blessings for prosperity, health, and protection.",
     sections: [
@@ -577,7 +577,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     title: "10 Mahavidya Pooja at Prayagraj",
     slug: "10-mahavidya-pooja-at-prayagraj",
     imageUrl: "/images/poojaItinerary/10 maha vidya at prayagraj_.jpg",
-    price: "₹2,27,500",
+    price: "₹1,95,000",
     description:
       "The Das Mahavidyas are the ten powerful forms of Goddess Shakti, each representing different cosmic forces and blessings. Performing a 7-day Mahavidya Anushthan with Patha (Chanting) and Homas under the guidance of 9 expert purohits ensures immense spiritual and material benefits.(7 Days | 9 Purohits)",
     sections: [
@@ -780,7 +780,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     slug: "10-mahavidya-pooja-at-vindhyachal",
     imageUrl:
       "/images/poojaItinerary/10 mahavidya Pooja at Vindhyanchal_prayagraj_.png",
-    price: "₹2,40,500",
+    price: "₹1,95,000",
     description:
       "The Das Mahavidyas are the ten powerful forms of Goddess Shakti, each representing different cosmic forces and blessings. Performing a 7-day Mahavidya Anushthan with Patha (Chanting) and Homas under the guidance of 9 expert purohits ensures immense spiritual and material benefits.(7 Days | 9 Purohits)",
     sections: [
@@ -983,7 +983,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     title: "Sat Chandi Pooja at Vindhyachal ",
     slug: "sat-chandi-pooja-at-vindhyachal",
     imageUrl: "/images/poojaItinerary/Sat chandi at Vindhyanchal_.jpg",
-    price: "₹1,95,000",
+    price: "₹1,60,000",
     description:
       "Experience the divine blessings of Maa Durga with the powerful Sat Chandi Pooja at the sacred Vindhyachal Dham, ensuring protection, prosperity, and spiritual upliftment(7 Days | 11 Purohits)",
     sections: [
@@ -1164,7 +1164,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     title: "Sat Chandi Pooja at Prayagraj ",
     slug: "sat-chandi-pooja-at-prayagraj",
     imageUrl: "/images/poojaItinerary/Sat chandi Pooja at prayagraj_.jpg",
-    price: "₹1,95,000",
+    price: "₹1,60,000",
     description:
       "Experience the divine blessings of Maa Durga with the powerful Sat Chandi Pooja at the sacred Vindhyachal Dham, ensuring protection, prosperity, and spiritual upliftment(7 Days | 11 Purohits)",
     sections: [
@@ -1346,7 +1346,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     title: "Baglamukhi Mata Jaap at Prayagraj",
     slug: "baglamukhi-mata-jaap-at-prayagraj",
     imageUrl: "/images/poojaItinerary/Baglamukhi Jaap at prayagraj_.jpg",
-    price: "₹2,27,500",
+    price: "₹1,95,000",
     description:
       "Attain victory over enemies, remove legal troubles, and gain divine protection with the supreme blessings of Maa Baglamukhi!",
     sections: [
@@ -1514,7 +1514,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     title: "Baglamukhi Mata Jaap at Vindhyachal",
     slug: "baglamukhi-mata-jaap-at-vindhyachal",
     imageUrl: "/images/poojaItinerary/Baglamukhi Jaap at Vindhyanchal_.jpg",
-    price: "₹2,40,500",
+    price: "₹1,95,000",
     description:
       "Attain victory over enemies, remove legal troubles, and gain divine protection with the supreme blessings of Maa Baglamukhi!",
     sections: [
@@ -1683,7 +1683,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     title: "Laghu Mritunjay Pooja at Prayagraj",
     slug: "laghu-mritunjay-pooja-at-prayagraj",
     imageUrl: "/images/poojaItinerary/Laghu mahamrityunjay_.jpg",
-    price: "₹1,04,000",
+    price: "₹90,000",
     description:
       "Seek divine protection, health, and longevity with the sacred Laghu Mritunjay Pooja!(5 Days | 7 Purohits)",
     sections: [
@@ -1827,7 +1827,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     title: "Nav Chandi Pooja at Prayagraj",
     slug: "nav-chandi-pooja-at-prayagraj",
     imageUrl: "/images/poojaItinerary/Nav chandi at prayagraj_.jpg",
-    price: "₹2,27,500",
+    price: "₹1,95,000",
     description:
       "Invoke the divine blessings of Maa Durga with the sacred Nav Chandi Yagya at Prayagraj!(9 Days | 108 Path & 11 Purohits)",
     sections: [
@@ -1971,7 +1971,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     title: "Mundan Sanskar at Vindhyachal",
     slug: "mundan-sanskar-at-vindhyachal",
     imageUrl: "/images/poojaItinerary/Mundan sanskar_.jpg",
-    price: "₹14,300",
+    price: "₹12,000",
     description:
       "Perform the sacred Mundan Sanskar at Maa Vindhyavasini Dham and seek divine blessings for your child’s well-being, prosperity, and protection.",
     sections: [
@@ -2135,7 +2135,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     title: "Satyanarayan Katha Pooja",
     slug: "satyanarayan-katha-pooja",
     imageUrl: "/images/poojaItinerary/Satya Narayan Katha at prayagraj_.jpg",
-    price: "₹7,800",
+    price: "₹6,100",
     description:
       "Invoke the blessings of Lord Vishnu with the sacred Satyanarayan Katha, ensuring prosperity, peace, and happiness in your life!(1-Day Divine Pooja | 1 Vedic Purohit)",
     sections: [
@@ -2282,7 +2282,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     slug: "kaal-sarp-dosh-nivaran-pooja-at-naag-vasuki-temple-prayagraj",
     imageUrl:
       "/images/poojaItinerary/Kaalsarp dosh nivaran Pooja at Nagvasuki prayagraj_.jpg",
-    price: "₹58,500",
+    price: "₹6,100",
     description:
       "Remove the negative effects of Kaal Sarp Dosh and bring peace, prosperity, and success into your life!(1-Day Special Pooja | 10 Vedic Pandits)",
     sections: [
@@ -2476,7 +2476,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     title: "Sahastra Archan at Vindhyachal",
     slug: "sahastra-archan-at-vindhyachal",
     imageUrl: "/images/poojaItinerary/Sahastra archan at Vindhyanchal_.jpg",
-    price: "₹66,300",
+    price: "₹56,000",
     description:
       "Experience the divine blessings of Maa Vindhyavasini through the powerful Sahastra Archan ritual.",
     sections: [
@@ -2576,7 +2576,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     slug: "rudrabhishek-pooja-at-nagvasuki-temple",
     imageUrl:
       "/images/poojaItinerary/Rudrabhishek at  Nagvasuki prayagraj_.png",
-    price: "₹7,800",
+    price: "₹4,100",
     description:
       "Experience the divine blessings of Lord Shiva through the sacred Rudrabhishek Pooja at Nagvasuki Temple, Prayagraj. (1-Day Special Ritual)",
     sections: [
@@ -2754,7 +2754,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     slug: "rudrabhishek-pooja-at-shultankeshwar-temple",
     imageUrl:
       "/images/poojaItinerary/Rudrabhishek at shooltankeshwar mahadev prayagraj_.jpg",
-    price: "₹7,800",
+    price: "₹4,100",
     description:
       "Experience the divine blessings of Lord Shiva through the sacred Rudrabhishek Pooja at Shultankeshwar Mahadev Temple, Prayagraj. (1-Day Special Ritual)",
     sections: [
