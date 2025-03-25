@@ -86,11 +86,25 @@ export const itineraries = {
           "• Departure to Prayagraj – Drive back home with divine blessings.",
       },
     ],
-    notIncluded: [
-      "• Pickup & drop services (Available on request)",
-      "• Breakfast & lunch (Enjoy self-paid meals at our recommended restaurants)",
-      "• Personal expenses & shopping",
+    whatsIncluded: [
+      "Comfortable AC travel with an experienced driver",
+      "All temple visits & sightseeing as per the itinerary",
+      "Assistance for darshan & local guidance",
+      "A flexible, customizable experience—your journey, your way",
+      "Hassle-free booking with pay-on-arrival option"
     ],
+    notIncluded: [
+      "Pickup & drop services (Available on request)",
+      "Breakfast & lunch (Enjoy self-paid meals at our recommended restaurants)",
+      "Personal expenses & shopping",
+    ],
+    additionalTravelAssistance: [
+      "Need help with train/flight bookings?",
+      "We recommend the best options (Absolutely Free!) or even book tickets on your behalf (just pay the ticket price in advance)."
+    ],
+    paymentPolicy: {
+      pricingAndBooking: "30% Advance Payment to confirm your booking. 70% Pay on Arrival before the journey begins."
+    }
   },
 
   ayodhya: {
@@ -175,11 +189,25 @@ export const itineraries = {
           "• Return to Prayagraj – Head back home carrying divine blessings.",
       },
     ],
-    notIncluded: [
-      "• Pickup & drop services (Available on request)",
-      "• Breakfast & lunch (Enjoy self-paid meals at our recommended restaurants)",
-      "• Personal expenses & shopping",
+    whatsIncluded: [
+      "Comfortable AC travel with an experienced driver",
+      "All temple visits & sightseeing as per the itinerary",
+      "Assistance for darshan & local guidance",
+      "A flexible, customizable experience—your journey, your way",
+      "Hassle-free booking with pay-on-arrival option"
     ],
+    notIncluded: [
+      "Pickup & drop services (Available on request)",
+      "Breakfast & lunch (Enjoy self-paid meals at our recommended restaurants)",
+      "Personal expenses & shopping",
+    ],
+    additionalTravelAssistance: [
+      "Need help with train/flight bookings?",
+      "We recommend the best options (Absolutely Free!) or even book tickets on your behalf (just pay the ticket price in advance)."
+    ],
+    paymentPolicy: {
+      pricingAndBooking: "30% Advance Payment to confirm your booking. 70% Pay on Arrival before the journey begins."
+    }
   },
 
   vindhyachal: {
@@ -215,10 +243,18 @@ export const itineraries = {
       { day: "Day 1", activity: "• Dinner Stop (Self-Paid)" },
       { day: "Day 1", activity: "• Return to Prayagraj (Late Night Arrival)" },
     ],
+    whatsIncluded: [],
     notIncluded: [
-      "• No Accommodation Provided",
-      "• Meals Not Included (Self-Paid Restaurant Stop)",
+      "No Accommodation Provided",
+      "Meals Not Included (Self-Paid Restaurant Stop)",
     ],
+    additionalTravelAssistance: [
+      "Need help with train/flight bookings?",
+      "We recommend the best options (Absolutely Free!) or even book tickets on your behalf (just pay the ticket price in advance)."
+    ],
+    paymentPolicy: {
+      pricingAndBooking: "30% Advance Payment to confirm your booking. 70% Pay on Arrival before the journey begins."
+    }
   },
   prayagraj: {
     title: "Prayagraj Yatra (1-Day)",
@@ -311,12 +347,27 @@ export const itineraries = {
           "• Drop-off at Prayagraj Airport/Railway Station – After a fulfilling spiritual journey, we’ll ensure a comfortable ride back",
       },
     ],
-    notIncluded: [
-      "• Lunch & Dinner (Self-Paid) – You can order as per your taste at recommended restaurants",
-      "• Entry fees or special pooja charges (if applicable) at temples",
-      "• Personal expenses like shopping or additional sightseeing",
-      "• Anything not explicitly mentioned in the inclusions",
+    whatsIncluded: [
+      "Well-rated hotel stay (well-rated property for a comfortable experience)",
+      "Complimentary Breakfast at the hotel",
+      "Pickup & Drop-off from Prayagraj Airport/Railway Station",
+      "Comfortable AC vehicle for the entire trip",
+      "Temple darshan assistance for a hassle-free experience",
+      "Friendly & experienced driver who knows the pilgrimage routes well"
     ],
+    notIncluded: [
+      "Lunch & Dinner (Self-Paid) – You can order as per your taste at recommended restaurants",
+      "Entry fees or special pooja charges (if applicable) at temples",
+      "Personal expenses like shopping or additional sightseeing",
+      "Anything not explicitly mentioned in the inclusions",
+    ],
+    additionalTravelAssistance: [
+      "Need help with train/flight bookings?",
+      "We recommend the best options (Absolutely Free!) or even book tickets on your behalf (just pay the ticket price in advance)."
+    ],
+    paymentPolicy: {
+      pricingAndBooking: "30% Advance Payment to confirm your booking. 70% Pay on Arrival before the journey begins."
+    }
   },
 
   "prayagraj-varanasi": {
@@ -405,11 +456,24 @@ export const itineraries = {
         activity: "• Return Journey to Prayagraj (Late Night Arrival).",
       },
     ],
-    notIncluded: [
-      "• No Accommodation in Varanasi (Only hotel stay in Prayagraj included)",
-      "• Meals Not Included (We take you to well-rated restaurants)",
-      "•  Flexible Itinerary – Customizable as per customer preference",
+    whatsIncluded: [
+      "Comfortable AC Travel with an experienced driver",
+      "1-Night Stay in Prayagraj at a Partner Hotel",
+      "Breakfast on Day 1 (Included)",
+      "All Temple Visits & Sightseeing as per Itinerary",
     ],
+    notIncluded: [
+      "No Accommodation in Varanasi (Only hotel stay in Prayagraj included)",
+      "Meals Not Included (We take you to well-rated restaurants)",
+      "Flexible Itinerary – Customizable as per customer preference",
+    ],
+    additionalTravelAssistance: [
+      "Need help with train/flight bookings?",
+      "We recommend the best options (Absolutely Free!) or even book tickets on your behalf (just pay the ticket price in advance)."
+    ],
+    paymentPolicy: {
+      pricingAndBooking: "30% Advance Payment to confirm your booking. 70% Pay on Arrival before the journey begins."
+    }
   },
   "prayagraj-ayodhya": {
     title: "2-Day Prayagraj & Ayodhya Yatra",
@@ -496,11 +560,27 @@ export const itineraries = {
         activity: "• Return Journey to Prayagraj (Late Night Arrival).",
       },
     ],
-    notIncluded: [
-      "• No Accommodation in Ayodhya (Only hotel stay in Prayagraj included)",
-      "• Meals Not Included (We take you to well-rated restaurants)",
-      "•  Flexible Itinerary – Customizable as per customer preference",
+    whatsIncluded: [
+      "Hotel Accommodation (Standard stay in a well-rated hotel)",
+      "Complimentary Breakfast at Hotel",
+      "Triveni Snan & Boat Ride at Sangam",
+      "Comfortable AC vehicle for the entire journey",
+      "Hassle-Free Darshans with special care for families & senior citizens",
+      "Visit to Newly Constructed Shivalay Park",
+      "Experienced driver with knowledge of pilgrimage route"
     ],
+    notIncluded: [
+      "No Accommodation in Ayodhya (Only hotel stay in Prayagraj included)",
+      "Meals Not Included (We take you to well-rated restaurants)",
+      "Flexible Itinerary – Customizable as per customer preference",
+    ],
+    additionalTravelAssistance: [
+      "Need help with train/flight bookings?",
+      "We recommend the best options (Absolutely Free!) or even book tickets on your behalf (just pay the ticket price in advance)."
+    ],
+    paymentPolicy: {
+      pricingAndBooking: "30% Advance Payment to confirm your booking. 70% Pay on Arrival before the journey begins."
+    }
   },
   "prayagraj-vindhyachal": {
     title: "2-Day Prayagraj & Vindhyanchal Yatra",
@@ -586,11 +666,19 @@ export const itineraries = {
         activity: "• Return to Prayagraj (Late Night Arrival).",
       },
     ],
+    whatsIncluded: [],
     notIncluded: [
-      "• No Accommodation in Vindhyanchal (Only hotel stay in Prayagraj included)",
-      "• Meals Not Included (We take you to well-rated restaurants)",
-      "•  Flexible Itinerary – Customizable as per customer preference",
+      "No Accommodation in Vindhyanchal (Only hotel stay in Prayagraj included)",
+      "Meals Not Included (We take you to well-rated restaurants)",
+      "Flexible Itinerary – Customizable as per customer preference",
     ],
+    additionalTravelAssistance: [
+      "Need help with train/flight bookings?",
+      "We recommend the best options (Absolutely Free!) or even book tickets on your behalf (just pay the ticket price in advance)."
+    ],
+    paymentPolicy: {
+      pricingAndBooking: "30% Advance Payment to confirm your booking. 70% Pay on Arrival before the journey begins."
+    }
   },
   "prayagraj-ayodhya-varanasi": {
     title: "Prayagraj, Ayodhya, and Varanasi 3-Day Yatra",
@@ -777,12 +865,27 @@ export const itineraries = {
           "• Drop-off: Choose between Varanasi Airport/Railway Station or return to Prayagraj (Chargeable).",
       },
     ],
-    notIncluded: [
-      "• Pickup & drop services (Available on request)",
-      "• Meals (Lunch & Dinner – Self-paid at recommended restaurants)",
-      "• Entry Fees or Special Pooja Charges (if applicable)",
-      "• Personal expenses & shopping",
+    whatsIncluded: [
+      "Hotel Accommodation: Standard stays in well-rated hotels in Prayagraj, Ayodhya, and Varanasi.",
+      "Complimentary Breakfast: Provided at all hotel locations.",
+      "Pickup & Drop-off Services: Available from designated points (chargeable upon request).",
+      "AC Travel: Comfortable travel throughout the journey with an experienced driver.",
+      "Triveni Sangam Snan & Boat Ride: Complete arrangements for a sacred dip and boat ride.",
+      "Assistance for Temple Darshans: Ensuring hassle-free visits with special care for families and senior citizens."
     ],
+    notIncluded: [
+      "Pickup & drop services (Available on request)",
+      "Meals (Lunch & Dinner – Self-paid at recommended restaurants)",
+      "Entry Fees or Special Pooja Charges (if applicable)",
+      "Personal expenses & shopping",
+    ],
+    additionalTravelAssistance: [
+      "Need help with train/flight bookings?",
+      "We recommend the best options (Absolutely Free!) or even book tickets on your behalf (just pay the ticket price in advance)."
+    ],
+    paymentPolicy: {
+      pricingAndBooking: "30% Advance Payment to confirm your booking. 70% Pay on Arrival before the journey begins."
+    }
   },
   "prayagraj-vindhyachal-ayodhya": {
     title: "Prayagraj, Vindhyanchal, and Ayodhya 3-Day Yatra",
@@ -803,7 +906,7 @@ export const itineraries = {
       "Personalized Spiritual Experience – Optional special poojas available.",
     ],
     routeOverview: [
-      "Day 1:Prayagraj Arrival, Darshan & Stay.",
+      "Day 1: Prayagraj Arrival, Darshan & Stay.",
       "Day 2: Prayagraj → Vindhyanchal",
       "Day 3: Ayodhya Darshan & Departure.",
     ],
@@ -940,12 +1043,26 @@ export const itineraries = {
           "• Hotel Checkout & Departure – Return to Prayagraj or drop-off at Ayodhya Railway Station (Chargeable).",
       },
     ],
-    notIncluded: [
-      "• Pickup & drop services (Available on request)",
-      "• Meals (Lunch & Dinner – Self-paid at recommended restaurants)",
-      "• Entry Fees or Special Pooja Charges (if applicable)",
-      "• Personal expenses & shopping",
+    whatsIncluded: [
+      "Hotel accommodation in Prayagraj & Ayodhya.",
+      "Complimentary breakfast at all hotels.",
+      "AC travel with an experienced driver in your choice of vehicle.",
+      "Flexible itinerary with customizable options.",
+      "Pickup & drop-off services (available at extra cost)."
     ],
+    notIncluded: [
+      "Pickup & drop services (Available on request)",
+      "Meals (Lunch & Dinner – Self-paid at recommended restaurants)",
+      "Entry Fees or Special Pooja Charges (if applicable)",
+      "Personal expenses & shopping",
+    ],
+    additionalTravelAssistance: [
+      "Need help with train/flight bookings?",
+      "We recommend the best options (Absolutely Free!) or even book tickets on your behalf (just pay the ticket price in advance)."
+    ],
+    paymentPolicy: {
+      pricingAndBooking: "30% Advance Payment to confirm your booking. 70% Pay on Arrival before the journey begins."
+    }
   },
   "prayagraj-vindhyachal-varanasi": {
     title: "Prayagraj, Vindhyanchal, and Kashi Yatra (2 Nights / 3 Days)",
@@ -1094,12 +1211,26 @@ export const itineraries = {
           "• Hotel Checkout & Departure – Drop-off at Prayagraj or Varanasi Railway Station (Chargeable).",
       },
     ],
-    notIncluded: [
-      "• Pickup & drop services (Available on request)",
-      "• Meals (Lunch & Dinner – Self-paid at recommended restaurants)",
-      "• Entry Fees or Special Pooja Charges (if applicable)",
-      "• Personal expenses & shopping",
+    whatsIncluded: [
+      "Hotel stay in Prayagraj & Varanasi.",
+      "Complimentary breakfast.",
+      "AC travel with an experienced driver.",
+      "Complimentary boat ride at Triveni Sangam.",
+      "Flexible itinerary with customization options."
     ],
+    notIncluded: [
+      "Pickup & drop services (Available on request)",
+      "Meals (Lunch & Dinner – Self-paid at recommended restaurants)",
+      "Entry Fees or Special Pooja Charges (if applicable)",
+      "Personal expenses & shopping",
+    ],
+    additionalTravelAssistance: [
+      "Need help with train/flight bookings?",
+      "We recommend the best options (Absolutely Free!) or even book tickets on your behalf (just pay the ticket price in advance)."
+    ],
+    paymentPolicy: {
+      pricingAndBooking: "30% Advance Payment to confirm your booking. 70% Pay on Arrival before the journey begins."
+    }
   },
   "prayagraj-vindhyachal-ayodhya-varanasi": {
     title: "Prayagraj – Vindhyanchal – Ayodhya – Varanasi (3 Nights / 4 Days)",
@@ -1164,12 +1295,26 @@ export const itineraries = {
       { day: "Day 4", activity: "• Ganga Aarti at Dashashwamedh Ghat." },
       { day: "Day 4", activity: "• Departure & Travel Assistance." },
     ],
-    notIncluded: [
-      "• Meals (Lunch & Dinner) – Self-paid at partner restaurants.",
-      "• Entry fees, special pooja charges (if applicable).",
-      "• Pickup & drop-off charges (if applicable).",
-      "• Personal expenses (shopping, tips, donations, porter charges).",
+    whatsIncluded: [
+      "Comfortable AC travel with an experienced driver",
+      "All temple visits & sightseeing as per the itinerary",
+      "Assistance for darshan & local guidance",
+      "A flexible, customizable experience—your journey, your way",
+      "Hassle-free booking with pay-on-arrival option"
     ],
+    notIncluded: [
+      "Meals (Lunch & Dinner) – Self-paid at partner restaurants.",
+      "Entry fees, special pooja charges (if applicable).",
+      "Pickup & drop-off charges (if applicable).",
+      "Personal expenses (shopping, tips, donations, porter charges).",
+    ],
+    additionalTravelAssistance: [
+      "Need help with train/flight bookings?",
+      "We recommend the best options (Absolutely Free!) or even book tickets on your behalf (just pay the ticket price in advance)."
+    ],
+    paymentPolicy: {
+      pricingAndBooking: "30% Advance Payment to confirm your booking. 70% Pay on Arrival before the journey begins."
+    }
   },
 
 };

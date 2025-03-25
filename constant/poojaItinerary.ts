@@ -30,7 +30,7 @@ export const poojaItineraries: Record<string, Pooja> = {
       {
         title: "Pooja Overview",
         content:
-          "Balance planetary energies and remove doshas with the powerful Nav Grah Shanti Pooja! (1 Day – 10 Purohit)",
+          "Balance planetary energies and remove doshas with the powerful Nav Grah Shanti Pooja! (1 Day – In temple / Online)",
         bulletPoints: [
           "Removes hurdles in career, marriage, and financial growth.",
           "Balances planetary energies for peace and prosperity.",
@@ -92,7 +92,7 @@ export const poojaItineraries: Record<string, Pooja> = {
           {
             title: "In-Person Pooja",
             content:
-              "Attend the Nav Grah Shanti Pooja at a sacred temple/ghat in Prayagraj with 10 expert purohits.",
+              "Attend the Nav Grah Shanti Pooja at a sacred temple/ghat in Prayagraj with expert purohits.",
             bulletPoints: [
               "One-day elaborate ritual.",
               "Nine separate Homas (Havans) for each planet.",
@@ -119,7 +119,7 @@ export const poojaItineraries: Record<string, Pooja> = {
         title: "Inclusions",
         content: "What is included in the package?",
         bulletPoints: [
-          "10 Expert Pandits performing sacred rituals.",
+          "Expert Pandits performing sacred rituals.",
           "Nine Separate Havans for Surya, Chandra, Mangal, Budh, Guru, Shukra, Shani, Rahu & Ketu.",
           "Pooja Samagri, Flowers, and Sacred Items.",
           "Personalized Sankalp.",
@@ -292,6 +292,14 @@ export const poojaItineraries: Record<string, Pooja> = {
         ],
       },
       {
+        title: "Travel Assistance",
+        content: "We offer travel support for your convenience.",
+        bulletPoints: [
+          "FREE Travel Recommendations – Best routes, timings & fares.",
+          "Train/Flight Ticket Booking – If required, we can book tickets (advance booking charge applicable).",
+        ],
+      },
+      {
         title: "Booking Policy",
         content: "Guidelines for booking the pooja.",
         bulletPoints: [
@@ -321,14 +329,7 @@ export const poojaItineraries: Record<string, Pooja> = {
           },
         ],
       },
-      {
-        title: "Travel Assistance",
-        content: "We offer travel support for your convenience.",
-        bulletPoints: [
-          "FREE Travel Recommendations – Best routes, timings & fares.",
-          "Train/Flight Ticket Booking – If required, we can book tickets (advance booking charge applicable).",
-        ],
-      },
+      
     ],
   },
 
@@ -2282,7 +2283,7 @@ export const poojaItineraries: Record<string, Pooja> = {
       "/images/poojaItinerary/Kaalsarp dosh nivaran Pooja at Nagvasuki prayagraj_.jpg",
     price: "₹6,100",
     description:
-      "Remove the negative effects of Kaal Sarp Dosh and bring peace, prosperity, and success into your life!(1-Day Special Pooja | 10 Vedic Pandits)",
+      "Remove the negative effects of Kaal Sarp Dosh and bring peace, prosperity, and success into your life!(1-Day Special Pooja- In temple / Online)",
     sections: [
       {
         title: "What is Kaal Sarp Dosh?",
@@ -2313,14 +2314,14 @@ export const poojaItineraries: Record<string, Pooja> = {
       {
         title: "Pooja Details",
         content:
-          "The Kaal Sarp Dosh Nivaran Pooja is a 1-day special ritual conducted by 10 Vedic Pandits at Naag Vasuki Temple, Prayagraj.",
+          "The Kaal Sarp Dosh Nivaran Pooja is a 1-day special ritual conducted by Vedic Pandits at Naag Vasuki Temple, Prayagraj.",
         subsections: [
           {
             title: "Main Rituals",
             bulletPoints: [
               "Ganapati Puja & Kalash Sthapana",
               "Navagraha Shanti Pooja",
-              "Rahu-Ketu Jaap (11,000 chants per devotee)",
+              "Rahu-Ketu Jaap",
               "Kaal Sarp Dosh Nivaran Homa (Havan)",
               "Naag Vasuki Abhishek with Milk, Ghee & Panchamrit",
               "Sarpa Shanti Pooja & Tarpan (Offerings to Naag Devta)",
@@ -2364,9 +2365,9 @@ export const poojaItineraries: Record<string, Pooja> = {
           {
             title: "In-Person Pooja at Naag Vasuki Temple, Prayagraj",
             content:
-              "Join us in Prayagraj for a full-day ritual with 10 expert Vedic Pandits.",
+              "Join us in Prayagraj for a full-day ritual with expert Vedic Pandits.",
             bulletPoints: [
-              "Conducted by 10 expert Vedic Pandits",
+              "Conducted by expert Vedic Pandits",
               "Personalized Sankalp (Your Name, Gotra & Wish)",
               "Rahu-Ketu Jaap & Havan at the temple",
               "Milk & Panchamrit Abhishek of Naag Vasuki Murti",
@@ -2399,7 +2400,7 @@ export const poojaItineraries: Record<string, Pooja> = {
               "Complete Kaal Sarp Dosh Nivaran rituals at Naag Vasuki Temple, Prayagraj.",
             bulletPoints: [
               "Full Kaal Sarp Dosh Nivaran rituals",
-              "10 Expert Pandits performing full-day rituals",
+              "Expert Pandits performing full-day rituals",
               "Personalized Sankalp with your name, Gotra & wish",
               "Milk & Panchamrit Abhishek, Naag Prasad & Sarpa Yantra",
               "Optional kundali analysis and special offerings",
