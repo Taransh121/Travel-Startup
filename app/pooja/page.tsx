@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { poojaMetadata } from "./metadata";
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import Head from "next/head";
 
 const PoojaPage = () => {
@@ -97,8 +97,9 @@ const PoojaPage = () => {
         <Swiper
           spaceBetween={16}
           slidesPerView={1}
-          pagination={{ clickable: false }}
-          modules={[Pagination]}
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 3000, disableOnInteraction: true }}
+          modules={[Pagination,Autoplay]}
           className="pb-1"
           >
           {filteredPoojas.map((pooja, index) => (

@@ -20,9 +20,9 @@ const LiveDarshanCard: React.FC<LiveDarshanCardProps> = ({
   price,
 }) => {
   const handleWhatsAppBooking = () => {
-    const whatsappUrl = `https://wa.me/919277341677?text=I'm%20interested%20in%20Live%20Darshan:%20${encodeURIComponent(
+    const whatsappUrl = `https://wa.me/919277341677?text=Experience%20daily%20live%20darshan%20of:%20${encodeURIComponent(
       title
-    )}`;
+    )}%20right%20from%20your%20phone`;
     window.open(whatsappUrl, "_blank");
   };
 
@@ -46,7 +46,7 @@ const LiveDarshanCard: React.FC<LiveDarshanCardProps> = ({
         <meta property="og:type" content={liveDarshanMetadata.og.type} />
       </Head>
       <div className="flex justify-center items-center w-full">
-        <div className="relative w-[300px] h-[460px] bg-white rounded-md shadow-md overflow-hidden flex flex-col border border-gray-300 hover:shadow-lg transition-transform duration-200 hover:scale-105 mb-8">
+        <div className="relative w-[300px] h-[460px] bg-white rounded-md shadow-md overflow-hidden flex flex-col border border-gray-300 hover:shadow-lg transition-transform duration-200 mb-8">
           {/* ✅ Image Section (55% height) */}
           <div className="h-[55%] w-full overflow-hidden">
             <Image
