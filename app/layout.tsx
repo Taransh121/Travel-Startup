@@ -21,14 +21,14 @@ export const metadata: Metadata = {
     url: "https://tirthayatrik.com",
     type: "website",
     siteName: "Tirthayatrik",
-    images: [
-      {
-        url: "https://www.tirthayatrik.com/images/logo/logo.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Tirthayatrik Logo",
-      },
-    ],
+    // images: [
+    //   {
+    //     url: "https://www.tirthayatrik.com/images/logo/logo.jpg",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Tirthayatrik Logo",
+    //   },
+    // ],
   },
   twitter: {
     card: "summary_large_image",
