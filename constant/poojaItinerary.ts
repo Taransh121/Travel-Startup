@@ -20,9 +20,9 @@ export type Pooja = {
 };
 
 export const poojaItineraries: Record<string, Pooja> = {
-  "navgrah-shanti-path-at-prayagraj": {
-    title: "Nav Grah Shanti Path at Prayagraj",
-    slug: "navgrah-shanti-path-at-prayagraj",
+  "navgrah-shanti-pooja-at-prayagraj": {
+    title: "Nav Grah Shanti Pooja at Prayagraj",
+    slug: "navgrah-shanti-pooja-at-prayagraj",
     imageUrl:
       "/images/poojaItinerary/Nav grah Shanti path at prayagraj_Vindhyanchal_.jpg",
     price: "₹6,100",
@@ -781,7 +781,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     slug: "10-mahavidya-pooja-at-vindhyachal",
     imageUrl:
       "/images/poojaItinerary/10 mahavidya Pooja at Vindhyanchal_prayagraj_.png",
-    price: "₹1,95,000",
+    price: "₹1,99,999",
     description:
       "The Das Mahavidyas are the ten powerful forms of Goddess Shakti, each representing different cosmic forces and blessings. Performing a 7-day Mahavidya Anushthan with Patha (Chanting) and Homas under the guidance of 9 expert purohits ensures immense spiritual and material benefits.(7 Days | 9 Purohits)",
     sections: [
@@ -984,7 +984,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     title: "Sat Chandi Pooja at Vindhyachal ",
     slug: "sat-chandi-pooja-at-vindhyachal",
     imageUrl: "/images/poojaItinerary/Sat chandi at Vindhyanchal_.jpg",
-    price: "₹1,60,000",
+    price: "₹1,75,000",
     description:
       "Experience the divine blessings of Maa Durga with the powerful Sat Chandi Pooja at the sacred Vindhyachal Dham, ensuring protection, prosperity, and spiritual upliftment(7 Days | 11 Purohits)",
     sections: [
@@ -1515,7 +1515,7 @@ export const poojaItineraries: Record<string, Pooja> = {
     title: "Baglamukhi Mata Jaap at Vindhyachal",
     slug: "baglamukhi-mata-jaap-at-vindhyachal",
     imageUrl: "/images/poojaItinerary/Baglamukhi Jaap at Vindhyanchal_.jpg",
-    price: "₹1,95,000",
+    price: "₹2,10,000",
     description:
       "Attain victory over enemies, remove legal troubles, and gain divine protection with the supreme blessings of Maa Baglamukhi!",
     sections: [

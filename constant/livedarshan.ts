@@ -59,7 +59,7 @@ export const livedarshan = [
     slug: "sarva-darshan",
     imageUrl: "/images/livedarshan/sarva_darshan.jpeg",
     description:
-      "Experience daily Live Darshan of Sarva Darshan right from your phone.",
+      "Experience daily live darshan of all the listed temples in one plan right from your phone.",
     price: "₹999",
   },
 ];

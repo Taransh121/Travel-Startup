@@ -18,7 +18,7 @@ export const poojaPackages: Pooja[] = [
   {
     title: "Baglamukhi Mata Jaap at Vindhyachal",
     slug: "baglamukhi-mata-jaap-at-vindhyachal",
-    price: "₹2,40,500",
+    price: "₹2,10,000",
     description:
       "Attain victory over enemies, remove legal troubles, and gain divine protection with the blessings of Maa Baglamukhi!",
     imageUrl: "/images/pooja/Baglamukhi Jaap at Vindhyanchal_.jpg",
@@ -26,7 +26,7 @@ export const poojaPackages: Pooja[] = [
   {
     title: "Sat Chandi Pooja at Vindhyachal",
     slug: "sat-chandi-pooja-at-vindhyachal",
-    price: "₹2,08,000",
+    price: "₹1,75,000",
     description:
       "A grand Chandi path for protection and fulfillment of desires.",
     imageUrl: "/images/pooja/Sat chandi at Vindhyanchal_.jpg",
@@ -57,7 +57,7 @@ export const poojaPackages: Pooja[] = [
   {
     title: "Rudrabhishek at Triveni Sangam",
     slug: "rudrabhishek-at-triveni-sangam",
-    price: "₹7,800",
+    price: "₹4,100",
     description:
       "A sacred Lord Shiva pooja at the holy confluence of three rivers.",
     imageUrl: "/images/pooja/Rudrabhishek at Triveni sangam_.jpg",
@@ -71,8 +71,8 @@ export const poojaPackages: Pooja[] = [
     imageUrl: "/images/pooja/10 maha vidya at prayagraj_.jpg",
   },
   {
-    title: "Nav Grah Shanti Path at Prayagraj",
-    slug: "navgrah-shanti-path-at-prayagraj",
+    title: "Nav Grah Shanti Pooja at Prayagraj",
+    slug: "navgrah-shanti-pooja-at-prayagraj",
     price: "₹6,100",
     description: "A special planetary pooja to balance cosmic influences.",
     imageUrl:
@@ -81,7 +81,7 @@ export const poojaPackages: Pooja[] = [
   {
     title: "10 Mahavidya Pooja at Vindhyachal",
     slug: "10-mahavidya-pooja-at-vindhyachal",
-    price: "₹1,95,000",
+    price: "₹1,99,999",
     description:
       "A special tantric pooja invoking the ten powerful Mahavidyas.",
     imageUrl: "/images/pooja/10 mahavidya Pooja at Vindhyanchal_prayagraj_.png",
