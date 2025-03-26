@@ -22,7 +22,8 @@ const TourSwiper = () => {
       slidesPerView={1}
       spaceBetween={20}
       navigation
-      loop={false}
+      loop={true} 
+      autoplay={{ delay: 3000, disableOnInteraction: false }}
       breakpoints={{
         640: { slidesPerView: 2 },
         768: { slidesPerView: 3 },

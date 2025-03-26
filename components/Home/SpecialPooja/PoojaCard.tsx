@@ -59,8 +59,11 @@ const PoojaCard: React.FC<PoojaCardProps> = ({
             Starting at {price}
           </p>
 
-          {/* Ensure consistent height */}
-          <div className="h-6">
+          <div
+            className={`h-6 px-2 rounded-md transition-all duration-300 ${
+              showEPoojaText ? "bg-yellow-300 text-black font-semibold" : ""
+            }`}
+          >
             {showEPoojaText ? <p>E-Pooja/Mandir Pooja</p> : <span>&nbsp;</span>}
           </div>
 

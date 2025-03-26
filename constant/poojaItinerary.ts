@@ -417,6 +417,15 @@ export const poojaItineraries: Record<string, Pooja> = {
         ],
       },
       {
+        title: "Booking Policy",
+        content: "Guidelines for booking the pooja.",
+        bulletPoints: [
+          "50% Advance Payment at the time of booking.",
+          "Remaining 50% Payment on Arrival before pooja begins.",
+          "Optional: Train/Flight ticket booking (advance booking charge applicable).",
+        ],
+      },
+      {
         title: "Booking Process",
         subsections: [
           {
@@ -519,17 +528,15 @@ export const poojaItineraries: Record<string, Pooja> = {
               "Optional: Additional Navgrah Shanti Pooja & Durga Saptashati Path",
             ],
           },
-          {
-            title: "Online Shringar Pooja",
-            content:
-              "For those unable to travel, the online Shringar Pooja allows you to receive blessings remotely while experiencing the rituals performed live from Vindhyachal.",
-            bulletPoints: [
-              "Live Streaming from Vindhyachal",
-              "Dedicated Purohit performing the Shringar Pooja for you",
-              "Personalized Sankalp & Name in Pooja",
-              "Receive Prasad & Sindoor from Maa Vindhyavasini at home",
-            ],
-          },
+        ],
+      },
+      {
+        title: "Booking Policy",
+        content: "Guidelines for booking the pooja.",
+        bulletPoints: [
+          "50% Advance Payment at the time of booking.",
+          "Remaining 50% Payment on Arrival before pooja begins.",
+          "Optional: Train/Flight ticket booking (advance booking charge applicable).",
         ],
       },
       {
@@ -547,16 +554,6 @@ export const poojaItineraries: Record<string, Pooja> = {
             title: "Can I customize the Shringar Pooja?",
             content:
               "Yes! The pooja can be personalized with your name, gotra, and wishes. Additionally, you can request specific shringar items to be offered in your name.",
-          },
-          {
-            title: "How does the Online Shringar Pooja work?",
-            content:
-              "Once you book the online pooja, you will receive a private live stream link. The pooja will be conducted by a dedicated purohit, and you can participate in the ritual remotely. Personalized Sankalp with your name will be included, and you will receive prasad after the pooja.",
-          },
-          {
-            title: "Is Prasad included in the Online Pooja?",
-            content:
-              "Prasad will not be included in the online pooja package, but you can request it to be sent to your address with additional courier charges based on your location.",
           },
           {
             title:
@@ -737,6 +734,15 @@ export const poojaItineraries: Record<string, Pooja> = {
         ],
       },
       {
+        title: "Booking Policy",
+        content: "Guidelines for booking the pooja.",
+        bulletPoints: [
+          "50% Advance Payment at the time of booking.",
+          "Remaining 50% Payment on Arrival before pooja begins.",
+          "Optional: Train/Flight ticket booking (advance booking charge applicable).",
+        ],
+      },
+      {
         title: "Booking Process",
         content:
           "To book your Das Mahavidya Pooja, follow the simple step-by-step process to finalize your experience, either in-person or virtual.",
@@ -850,7 +856,7 @@ export const poojaItineraries: Record<string, Pooja> = {
           "Chanting: Path of Das Mahavidya Mantras",
           "Havan: Special Das Mahavidya Homa each day",
           "Purohits: 9 experienced Vedic scholars",
-          "Location: Prayagraj (In-Person or Virtual)",
+          "Location: Vindhyachal (In-Person or Virtual)",
         ],
       },
       {
@@ -909,7 +915,7 @@ export const poojaItineraries: Record<string, Pooja> = {
             content:
               "This package includes all necessary aspects for a complete spiritual experience at Prayagraj, with expert purohits, daily havans, and yantra energization.",
             bulletPoints: [
-              "9 Expert Pandits performing Das Mahavidya Anushthan",
+              "Expert Pandits performing Das Mahavidya Anushthan",
               "Pathas of sacred mantras & stotras",
               "Daily Havan with powerful offerings",
               "Personalized Sankalp",
@@ -937,6 +943,15 @@ export const poojaItineraries: Record<string, Pooja> = {
         bulletPoints: [
           "FREE Travel Recommendations – Best routes, timings & fares",
           "Train/Flight Ticket Booking – If required, we can book tickets (booking charge applicable)",
+        ],
+      },
+      {
+        title: "Booking Policy",
+        content: "Guidelines for booking the pooja.",
+        bulletPoints: [
+          "50% Advance Payment at the time of booking.",
+          "Remaining 50% Payment on Arrival before pooja begins.",
+          "Optional: Train/Flight ticket booking (advance booking charge applicable).",
         ],
       },
       {
@@ -1125,6 +1140,15 @@ export const poojaItineraries: Record<string, Pooja> = {
         ],
       },
       {
+        title: "Booking Policy",
+        content: "Guidelines for booking the pooja.",
+        bulletPoints: [
+          "50% Advance Payment at the time of booking.",
+          "Remaining 50% Payment on Arrival before pooja begins.",
+          "Optional: Train/Flight ticket booking (advance booking charge applicable).",
+        ],
+      },
+      {
         title: "Booking Process",
         content: "Follow these steps to book your Sat Chandi Pooja.",
         bulletPoints: [
@@ -1167,77 +1191,18 @@ export const poojaItineraries: Record<string, Pooja> = {
     imageUrl: "/images/poojaItinerary/Sat chandi Pooja at prayagraj_.jpg",
     price: "₹1,60,000",
     description:
-      "Experience the divine blessings of Maa Durga with the powerful Sat Chandi Pooja at the sacred Vindhyachal Dham, ensuring protection, prosperity, and spiritual upliftment(7 Days | 11 Purohits)",
+      "Sat Chandi Pooja is one of the most powerful yagnas dedicated to Maa Durga, performed to invoke her blessings for protection, prosperity, and victory over obstacles. This elaborate ritual includes 108 Path of Durga Saptashati, ensuring immense spiritual benefits.",
     sections: [
       {
         title: "What is Sat Chandi Pooja?",
         content:
           "Sat Chandi Pooja is a highly auspicious and powerful Vedic ritual dedicated to Maa Durga, performed to invoke divine blessings for various aspects of life.",
         bulletPoints: [
-          "Victory over obstacles and enemies",
-          "Protection from negative energies and doshas",
-          "Health, wealth, and prosperity",
-          "Fulfillment of desires and success in endeavors",
-          "Spiritual growth and family well-being",
-        ],
-        subsections: [
-          {
-            title: "Location",
-            content:
-              "The pooja takes place at Vindhyachal Dham, Uttar Pradesh, one of the most sacred Shakti Peethas.",
-          },
-        ],
-      },
-      {
-        title: "Pooja Details",
-        subsections: [
-          {
-            title: "Duration and Rituals",
-            content:
-              "The pooja lasts for 7 days and includes various sacred rituals.",
-            bulletPoints: [
-              "Ganesh Pooja & Sankalp (Invocation & Intent)",
-              "Kalash Sthapana & Navagraha Shanti",
-              "Path of Durga Saptashati (Chandi Paath)",
-              "Maha Yagna with Ahutis (Sacred Fire Ritual)",
-              "Devi Mahatmya Recitation & Kumari Poojan",
-              "Aarti & Prasad Distribution",
-            ],
-          },
-          {
-            title: "Best Time for Pooja",
-            content:
-              "The pooja is most beneficial when performed during specific auspicious times.",
-            bulletPoints: [
-              "Navratri (Best Time)",
-              "Purnima",
-              "Amavasya",
-              "Any Auspicious Day",
-            ],
-          },
-        ],
-      },
-      {
-        title: "Key Benefits",
-        content: "Sat Chandi Pooja brings a wide array of blessings.",
-        bulletPoints: [
-          "Destroys all obstacles and removes negativity",
-          "Bestows divine protection & spiritual upliftment",
-          "Attracts prosperity, wealth, and happiness",
-          "Ensures health, longevity & family well-being",
-          "Blessings of Maa Durga for success & power",
-        ],
-      },
-      {
-        title: "Who Should Perform Sat Chandi Pooja?",
-        content:
-          "This pooja is best suited for people from various walks of life who are seeking divine blessings.",
-        bulletPoints: [
-          "Business owners",
-          "Leaders",
-          "Politicians",
-          "Spiritual seekers",
-          "Anyone facing financial, health, or spiritual challenges",
+          "Protection from negative energies & evil forces",
+          "Success in career, business, and personal life",
+          "Removal of planetary doshas & past karma obstacles",
+          "Blessings for wealth, health & prosperity",
+          "Divine grace for family harmony & spiritual growth",
         ],
       },
       {
@@ -1245,27 +1210,26 @@ export const poojaItineraries: Record<string, Pooja> = {
         subsections: [
           {
             title: "In-Person Sat Chandi Pooja",
-            content:
-              "For those who wish to experience the pooja in the presence of divine energy at Vindhyachal Temple.",
             bulletPoints: [
-              "Performed at the sacred Vindhyachal Temple",
-              "11 Purohits chanting Chandi Path",
-              "Grand Yagna & Maha Aarti at Maa Vindhyavasini Temple",
-              "Personalized Sankalp (Your Name, Gotra & Wish)",
-              "Offering of Panchamrit, Fruits & Prasadam",
-              "Accommodation can be arranged on request",
-              "Optional: Additional Havan & Special Offerings",
+              "Performed at a sacred temple/ghat in Prayagraj",
+              "7 Days of Rituals ",
+              "108 Path of Durga Saptashati for maximum blessings",
+              "Includes all pooja samagri, sacred setup & havan arrangements",
+              "Accommodations & meals arranged (as per preference)",
+              "Personalized support for your travel & stay",
             ],
           },
           {
-            title: "Online Sat Chandi Pooja",
+            title: "Virtual Sat Chandi Pooja",
             content:
-              "Experience the blessings of Maa Durga through a live-streamed pooja from Vindhyachal.",
+              "Join from anywhere in the world.",
             bulletPoints: [
-              "Live Streaming from Vindhyachal",
-              "Dedicated Purohit chanting for you",
-              "Personalized Sankalp & Name in Pooja",
-              "Receive Prasad at home",
+              "Full HD Live Streaming of the complete 7-day pooja",
+              "Dedicated purohit will perform Sankalp (name, gotra & wishes mentioned)",
+              "Option to participate in live chanting & havan remotely",
+              "Prasad & blessed Durga Yantra delivery (optional)",
+              "Flexible Timings for international devotees",
+              "Best for: Those who cannot travel but still want to experience the divine blessings remotely.              "
             ],
           },
         ],
@@ -1276,17 +1240,15 @@ export const poojaItineraries: Record<string, Pooja> = {
           {
             title: "In-Person Package",
             content:
-              "The in-person package offers a full spiritual experience at the Vindhyachal Temple.",
+              "The in-person package offers a full spiritual experience",
             bulletPoints: [
-              "11 Vedic Purohits conducting Chandi Path",
-              "Sacred Maha Yagna & Havan with Ahutis",
-              "Personalized Sankalp at Vindhyachal Temple",
-              "Prasad & Divine Blessings from Maa Durga",
-            ],
-            bulletPoints2: [
-              "Optional: Additional Navgrah Shanti Pooja",
-              "Optional: Rudra Abhishek",
-              "Optional: Gau Daan",
+              "Complete Ritual Setup – Temple/ghat arrangement",
+              "Pooja Samagri – All necessary sacred items",
+              "Accommodation & Meals (Optional – customized as per requirement)",
+              "108 Path Durga Saptashati & Havan as per Vedic rituals",
+              "Personalized Sankalp for devotees & family",
+              "Travel Assistance – Free guidance on the best trains/flights",
+              "Optional: Train/flight ticket booking (advance booking charge applicable).",
             ],
           },
           {
@@ -1294,15 +1256,32 @@ export const poojaItineraries: Record<string, Pooja> = {
             content:
               "Join the pooja from the comfort of your home through live streaming.",
             bulletPoints: [
-              "Live Streaming from Vindhyachal Dham",
-              "Dedicated Purohit for Your Sankalp",
-              "Pooja Recording Available on Request",
-            ],
-            bulletPoints2: [
-              "Optional: Prasad Delivery",
-              "Bonus: Free consultation with our Purohit after the Pooja!",
+              "Live Streaming in Full HD from Prayagraj",
+              "Dedicated Purohit for Sankalp (Your name, gotra & wishes mentioned)",
+              "Live Participation in Chanting & Havan via Zoom/WhatsApp",
+              "Prasad Delivery (optional, sent to your home)",
+              "Recording of Pooja available upon request",
+              "Special: Exclusive post-pooja consultation with purohits for guidance!",
             ],
           },
+        ],
+      },
+      {
+        title: "Travel Assistance for In-Person Pooja",
+        content: "We help yatris choose the best train & flight options for reaching Prayagraj.",
+        bulletPoints: [
+          "FREE Travel Recommendations – Best routes, timings & fares",
+          "Train/Flight Ticket Booking – If required, we can book tickets (booking charge applicable)",
+
+        ],
+      },
+      {
+        title: "Booking Policy",
+        content: "Guidelines for booking the pooja.",
+        bulletPoints: [
+          "50% Advance Payment at the time of booking.",
+          "Remaining 50% Payment on Arrival before pooja begins.",
+          "Optional: Train/Flight ticket booking (advance booking charge applicable).",
         ],
       },
       {
@@ -1310,29 +1289,21 @@ export const poojaItineraries: Record<string, Pooja> = {
         content: "Follow these steps to book your Sat Chandi Pooja.",
         bulletPoints: [
           "Step 1: Click the 'Book Now' button.",
-          "Step 2: Choose In-Person or Virtual Sat Chandi Pooja.",
+          "Step 2: Choose between In-Person or Virtual Pooja.",
           "Step 3: Share your preferred date & additional requirements.",
           "Step 4: Get a customized pooja plan.",
           "Step 5: Confirm your booking & receive details.",
+          "Step 6: Confirm your booking with 50% advance payment.",
+          "Step 7: Join the pooja physically in Prayagraj or virtually from home"
         ],
       },
       {
         title: "FAQs",
         subsections: [
           {
-            title: "Who should perform Sat Chandi Pooja?",
+            title: "Can I customize the Sat Chandi Pooja?",
             content:
-              "Anyone seeking Maa Durga’s blessings for protection, prosperity, and success can perform this pooja.",
-          },
-          {
-            title: "Can I customize the Pooja?",
-            content:
-              "Yes! You can add Navgrah Shanti, Rudrabhishek, or other special rituals.",
-          },
-          {
-            title: "How does the Virtual Pooja work?",
-            content:
-              "You will receive a private live stream link and can participate in real-time.",
+              "Yes! Our purohits will personalize the rituals based on your specific needs.",
           },
           {
             title: "Can I get Prasad after Virtual Pooja?",
@@ -1469,6 +1440,15 @@ export const poojaItineraries: Record<string, Pooja> = {
         ],
       },
       {
+        title: "Booking Policy",
+        content: "Guidelines for booking the pooja.",
+        bulletPoints: [
+          "50% Advance Payment at the time of booking.",
+          "Remaining 50% Payment on Arrival before pooja begins.",
+          "Optional: Train/Flight ticket booking (advance booking charge applicable).",
+        ],
+      },
+      {
         title: "Booking Process",
         subsections: [
           {
@@ -1556,6 +1536,7 @@ export const poojaItineraries: Record<string, Pooja> = {
           },
           {
             title: "Key Benefits",
+            
             bulletPoints: [
               "Victory in legal matters & disputes",
               "Neutralization of enemies & negative influences",
@@ -1563,6 +1544,7 @@ export const poojaItineraries: Record<string, Pooja> = {
               "Success in politics, business & professional life",
               "Enhanced confidence, willpower & speech control",
               "Removal of financial hurdles & prosperity growth",
+              "Best for: Ideal for business owners, politicians, lawyers, government officials, and individuals facing obstacles in life!",
             ],
           },
         ],
@@ -1573,14 +1555,15 @@ export const poojaItineraries: Record<string, Pooja> = {
           {
             title: "In-Person Experience",
             content:
-              "Perform the pooja in Prayagraj at a Shakti Peetha or temple with 9 Pandits chanting for 7 days. Experience a deep spiritual connection with Maa Baglamukhi.",
+              "Perform the pooja in Prayagraj at a Shakti Peetha or temple with Pandits chanting for 7 days. Experience a deep spiritual connection with Maa Baglamukhi.",
             bulletPoints: [
-              "9 Pandits chanting for 7 days",
+              "Pandits chanting for 7 days",
               "1,25,000 Mantra Jaap of Maa Baglamukhi",
               "Grand Havan on the final day",
               "Yantra Energization & Prasad Distribution",
               "Personalized Sankalp (Your Name, Gotra & Wishes)",
               "Accommodation & Travel Assistance Available",
+              "Those who want an immersive spiritual experience in Vindhyanchal.",
             ],
           },
           {
@@ -1593,6 +1576,7 @@ export const poojaItineraries: Record<string, Pooja> = {
               "Dedicated live feed of the final Baglamukhi Havan",
               "Option to receive Prasad & Baglamukhi Yantra at home",
               "Pooja recording available on request",
+              "Devotees who want to experience the benefits of Baglamukhi Pooja remotely.",
             ],
           },
         ],
@@ -1603,10 +1587,10 @@ export const poojaItineraries: Record<string, Pooja> = {
           {
             title: "In-Person Package",
             bulletPoints: [
-              "9 Expert Pandits performing 1,25,000 Beej Mantra Jaap",
+              "Expert Pandits performing Beej Mantra Jaap",
               "Daily offerings & havan preparations",
               "Baglamukhi Yantra Energization",
-              "Personalized Sankalp & Kundali Analysis (optional)",
+              "Personalized Sankalp",
               "Accommodation assistance (Budget to premium stays)",
             ],
           },
@@ -1618,6 +1602,7 @@ export const poojaItineraries: Record<string, Pooja> = {
               "Live Participation in Havan via Zoom/WhatsApp",
               "Prasad & Baglamukhi Yantra Delivery (optional)",
               "Recording of Pooja available on request",
+              "Bonus: Free post-pooja consultation with our purohits!"
             ],
           },
         ],
@@ -1632,6 +1617,15 @@ export const poojaItineraries: Record<string, Pooja> = {
               "Train/Flight Ticket Booking – If required, we can book tickets (booking charge applicable)",
             ],
           },
+        ],
+      },
+      {
+        title: "Booking Policy",
+        content: "Guidelines for booking the pooja.",
+        bulletPoints: [
+          "50% Advance Payment at the time of booking.",
+          "Remaining 50% Payment on Arrival before pooja begins.",
+          "Optional: Train/Flight ticket booking (advance booking charge applicable).",
         ],
       },
       {
@@ -1783,6 +1777,15 @@ export const poojaItineraries: Record<string, Pooja> = {
         ],
       },
       {
+        title: "Booking Policy",
+        content: "Guidelines for booking the pooja.",
+        bulletPoints: [
+          "50% Advance Payment at the time of booking.",
+          "Remaining 50% Payment on Arrival before pooja begins.",
+          "Optional: Train/Flight ticket booking (advance booking charge applicable).",
+        ],
+      },
+      {
         title: "Booking Steps",
         bulletPoints: [
           "Click the 'Book Now' button.",
@@ -1928,6 +1931,15 @@ export const poojaItineraries: Record<string, Pooja> = {
         ],
       },
       {
+        title: "Booking Policy",
+        content: "Guidelines for booking the pooja.",
+        bulletPoints: [
+          "50% Advance Payment at the time of booking.",
+          "Remaining 50% Payment on Arrival before pooja begins.",
+          "Optional: Train/Flight ticket booking (advance booking charge applicable).",
+        ],
+      },
+      {
         title: "Booking Steps",
         bulletPoints: [
           "Click the 'Book Now' button.",
@@ -2029,18 +2041,6 @@ export const poojaItineraries: Record<string, Pooja> = {
               "Photography & Videography available on request",
             ],
           },
-          {
-            title: "Virtual Assistance",
-            content:
-              "For families unable to travel, virtual assistance is available, offering live guidance and customized rituals performed remotely.",
-            bulletPoints: [
-              "Expert guidance for an at-home Mundan Sanskar",
-              "Customized Sankalp for your child & family",
-              "Live video consultation for ritual performance",
-              "Sacred items list provided for the ceremony",
-              "Blessings & Prasad delivery (optional)",
-            ],
-          },
         ],
       },
       {
@@ -2055,16 +2055,6 @@ export const poojaItineraries: Record<string, Pooja> = {
               "Sankalp: Personalized Sankalp with child's name & family details",
               "Additional Pooja: Optional Navgrah Shanti Pooja for planetary blessings",
               "Travel Assistance: Free guidance on best routes & stays",
-            ],
-          },
-          {
-            title: "Virtual",
-            bulletPoints: [
-              "Live Guidance: Expert purohit consultation via Zoom/WhatsApp",
-              "Sankalp: Personalized Sankalp (Child’s name, Gotra, & family details)",
-              "Ritual Guidance: Step-by-step instructions for performing the ceremony at home",
-              "Prasad Delivery: Optional, can be arranged upon request",
-              "Recording: Available upon request",
             ],
           },
         ],
@@ -2085,10 +2075,18 @@ export const poojaItineraries: Record<string, Pooja> = {
         ],
       },
       {
+        title: "Booking Policy",
+        content: "Guidelines for booking the pooja.",
+        bulletPoints: [
+          "50% Advance Payment at the time of booking.",
+          "Remaining 50% Payment on Arrival before pooja begins.",
+          "Optional: Train/Flight ticket booking (advance booking charge applicable).",
+        ],
+      },
+      {
         title: "Booking Steps",
         bulletPoints: [
           "Click the 'Book Now' button.",
-          "Choose between In-Person or Virtual Assistance.",
           "Share your preferred dates & additional requirements.",
           "Receive personalized guidance for the ritual.",
           "Confirm your booking with 50% advance payment.",
@@ -2118,12 +2116,6 @@ export const poojaItineraries: Record<string, Pooja> = {
               "Is accommodation available for families traveling to Vindhyachal?",
             content:
               "Yes, we can assist in arranging comfortable stays near the temple.",
-          },
-          {
-            title:
-              "Can I get prasad delivered if I opt for the Virtual Assistance?",
-            content:
-              "Yes, we can arrange for Prasad & blessings to be delivered to your home upon request.",
           },
         ],
       },
@@ -2234,6 +2226,15 @@ export const poojaItineraries: Record<string, Pooja> = {
               "Prasad Delivery (optional)",
             ],
           },
+        ],
+      },
+      {
+        title: "Booking Policy",
+        content: "Guidelines for booking the pooja.",
+        bulletPoints: [
+          "50% Advance Payment at the time of booking.",
+          "Remaining 50% Payment on Arrival before pooja begins.",
+          "Optional: Train/Flight ticket booking (advance booking charge applicable).",
         ],
       },
       {
@@ -2434,6 +2435,15 @@ export const poojaItineraries: Record<string, Pooja> = {
         ],
       },
       {
+        title: "Booking Policy",
+        content: "Guidelines for booking the pooja.",
+        bulletPoints: [
+          "50% Advance Payment at the time of booking.",
+          "Remaining 50% Payment on Arrival before pooja begins.",
+          "Optional: Train/Flight ticket booking (advance booking charge applicable).",
+        ],
+      },
+      {
         title: "Booking Steps",
         bulletPoints: [
           "Click the 'Book Now' button.",
@@ -2541,6 +2551,15 @@ export const poojaItineraries: Record<string, Pooja> = {
               "Optional kundali analysis & special offerings",
             ],
           }
+        ],
+      },
+      {
+        title: "Booking Policy",
+        content: "Guidelines for booking the pooja.",
+        bulletPoints: [
+          "50% Advance Payment at the time of booking.",
+          "Remaining 50% Payment on Arrival before pooja begins.",
+          "Optional: Train/Flight ticket booking (advance booking charge applicable).",
         ],
       },
       {
@@ -2711,6 +2730,15 @@ export const poojaItineraries: Record<string, Pooja> = {
         ],
       },
       {
+        title: "Booking Policy",
+        content: "Guidelines for booking the pooja.",
+        bulletPoints: [
+          "50% Advance Payment at the time of booking.",
+          "Remaining 50% Payment on Arrival before pooja begins.",
+          "Optional: Train/Flight ticket booking (advance booking charge applicable).",
+        ],
+      },
+      {
         title: "Booking Steps",
         bulletPoints: [
           "Click the 'Book Now' button.",
@@ -2868,6 +2896,15 @@ export const poojaItineraries: Record<string, Pooja> = {
               "Train/Flight Ticket Booking – On request (charges apply)",
             ],
           },
+        ],
+      },
+      {
+        title: "Booking Policy",
+        content: "Guidelines for booking the pooja.",
+        bulletPoints: [
+          "50% Advance Payment at the time of booking.",
+          "Remaining 50% Payment on Arrival before pooja begins.",
+          "Optional: Train/Flight ticket booking (advance booking charge applicable).",
         ],
       },
       {

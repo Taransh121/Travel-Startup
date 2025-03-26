@@ -981,15 +981,6 @@ export const itineraries = {
         activity:
           "• Vindhyanchal Mata Mandir Darshan – Seek blessings at this revered temple.",
       },
-      {
-        day: "Day 2",
-        activity:
-          "• Ashtabhuja Devi Darshan – Visit the temple of Goddess Ashtabhuja.",
-      },
-      {
-        day: "Day 2",
-        activity: "• Kali Khoh Temple Visit – Explore this sacred cave temple.",
-      },
       { day: "Day 2", activity: "• Dinner Break (Self-Paid)." },
       {
         day: "Day 2",

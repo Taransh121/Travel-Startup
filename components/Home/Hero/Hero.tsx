@@ -19,7 +19,7 @@ const Hero = () => {
 
   const handlePanditjiRedirect = () => {
     if (typeof window !== "undefined") {
-      window.open("https://wa.me/+919277341677", "_blank");
+      window.open("https://wa.me/+919277341677?text=Hi%20I%20am%20interested%20in%20booking", "_blank");
     }
   };
 
