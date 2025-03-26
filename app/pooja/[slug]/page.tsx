@@ -148,6 +148,15 @@ const PoojaDetails = () => {
             </div>
           </div>
         ))}
+        <div className="flex justify-center">
+          <button
+            onClick={handleWhatsAppBooking}
+            className="bg-[#035064] text-white px-6 py-2 rounded-lg mt-4 hover:bg-[#024050] 
+               font-semibold transition shadow-md flex items-center justify-center gap-2"
+          >
+            Book Now <FaWhatsapp size={18} className="text-green-300" />
+          </button>
+        </div>
       </div>
       <Footer />
     </>
