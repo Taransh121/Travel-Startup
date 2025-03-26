@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { footerMetadata } from "./metadata";
 import Head from "next/head";
+import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -100,30 +101,45 @@ const Footer = () => {
             </div>
 
             {/* Contact Us Section */}
-            <div>
-              <h3 className="text-lg font-semibold text-white">Contact Us</h3>
+            <div className="text-white">
+              <h3 className="text-lg font-semibold">Contact Us</h3>
               <p className="mt-2">
                 <strong>Phone:</strong> +91-9277341677
               </p>
               <p className="mt-2">
-                <strong>Email:</strong> tirthayatrik@gmail.com
+                <strong>Email:</strong>{" "}
+                <Link
+                  href="mailto:tirthayatrik@gmail.com"
+                  className="text-white hover:underline"
+                >
+                  tirthayatrik@gmail.com
+                </Link>
               </p>
-              <p className="mt-2">
-                <strong>Instagram:</strong>{" "}
+              <div className="mt-2 flex items-center space-x-4">
                 <Link
                   href="https://www.instagram.com/tirthayatrik"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white hover:underline"
                 >
-                  @tirthayatrik
+                  <FaInstagram className="w-6 h-6 text-white hover:text-pink-500" />
                 </Link>
-              </p>
+                <Link
+                  href="https://www.facebook.com/share/1L6tpqcm6n/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaFacebook className="w-6 h-6 text-white hover:text-blue-500" />
+                </Link>
+                <Link
+                  href="https://www.youtube.com/@tirthayatrik"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaYoutube className="w-6 h-6 text-white hover:text-red-500" />
+                </Link>
+              </div>
 
               <div className="mt-3">
-                {/* <p>
-                <strong>Scan to Chat on WhatsApp:</strong>
-              </p> */}
                 <div className="w-24 h-24 relative mt-2">
                   <Image
                     src="/images/footer/footer-qr.png"
