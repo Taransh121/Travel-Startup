@@ -67,7 +67,7 @@ export const destinationCombinations: Destination[] = [
     price: "1,999",
   },
   {
-    title: "1-Day Ayodhya tour",
+    title: "1-Day Ayodhya yatra",
     slug: "ayodhya",
     images: ["/images/tourCard/ayodhya_card.jpg"],
     price: "1,899",
