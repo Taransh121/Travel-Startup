@@ -1531,7 +1531,7 @@ export const poojaItineraries: Record<string, Pooja> = {
             bulletPoints: [
               "Jaap: 1,25,000 Baglamukhi Beej Mantras",
               "Havan: Baglamukhi Maha Homa on Final Day",
-              "Location: Prayagraj (In-Person or Virtual)",
+              "Location: Vindhyachal (In-Person or Virtual)",
             ],
           },
           {
@@ -1555,7 +1555,7 @@ export const poojaItineraries: Record<string, Pooja> = {
           {
             title: "In-Person Experience",
             content:
-              "Perform the pooja in Prayagraj at a Shakti Peetha or temple with Pandits chanting for 7 days. Experience a deep spiritual connection with Maa Baglamukhi.",
+              "Perform the pooja in Vindhyachal at a Shakti Peetha or temple with Pandits chanting for 7 days. Experience a deep spiritual connection with Maa Baglamukhi.",
             bulletPoints: [
               "Pandits chanting for 7 days",
               "1,25,000 Mantra Jaap of Maa Baglamukhi",
@@ -1597,7 +1597,7 @@ export const poojaItineraries: Record<string, Pooja> = {
           {
             title: "Virtual Package",
             bulletPoints: [
-              "Live Streaming in Full HD from Prayagraj",
+              "Live Streaming in Full HD from Vindhyachal",
               "Dedicated Purohit for Your Sankalp",
               "Live Participation in Havan via Zoom/WhatsApp",
               "Prasad & Baglamukhi Yantra Delivery (optional)",
@@ -1639,7 +1639,7 @@ export const poojaItineraries: Record<string, Pooja> = {
               "Share your preferred dates & additional requirements.",
               "Get a customized pooja plan based on your needs.",
               "Confirm your booking with 50% advance payment.",
-              "Join the pooja physically in Prayagraj or virtually from home!",
+              "Join the pooja physically in Vindhyachal or virtually from home!",
             ],
           },
         ],
