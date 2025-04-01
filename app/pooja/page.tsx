@@ -9,7 +9,18 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { poojaMetadata } from "./metadata";
 import { Autoplay, Pagination } from "swiper/modules";
-import Head from "next/head";
+
+export const metadata = {
+  title: poojaMetadata.title,
+  description: poojaMetadata.description,
+  keywords: poojaMetadata.keywords.join(", "),
+  openGraph: {
+    title: poojaMetadata.openGraph.title,
+    description: poojaMetadata.openGraph.description,
+    url: poojaMetadata.openGraph.url,
+    type: poojaMetadata.openGraph.type,
+  },
+};
 
 const PoojaPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -31,18 +42,6 @@ const PoojaPage = () => {
 
   return (
     <>
-    <Head>
-        <title>{poojaMetadata.title}</title>
-        <meta name="description" content={poojaMetadata.description} />
-        <meta name="keywords" content={poojaMetadata.keywords.join(", ")} />
-        <meta property="og:title" content={poojaMetadata.openGraph.title} />
-        <meta
-          property="og:description"
-          content={poojaMetadata.openGraph.description}
-        />
-        <meta property="og:url" content={poojaMetadata.openGraph.url} />
-        <meta property="og:type" content={poojaMetadata.openGraph.type} />
-      </Head>
     <div className="min-h-screen bg-gray-100">
       {/* Page Header */}
       <div className="text-center py-8 pt-[60px]">
