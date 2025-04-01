@@ -10,17 +10,17 @@ import "swiper/css/pagination";
 import { poojaMetadata } from "./metadata";
 import { Autoplay, Pagination } from "swiper/modules";
 
-export const metadata = {
-  title: poojaMetadata.title,
-  description: poojaMetadata.description,
-  keywords: poojaMetadata.keywords.join(", "),
-  openGraph: {
-    title: poojaMetadata.openGraph.title,
-    description: poojaMetadata.openGraph.description,
-    url: poojaMetadata.openGraph.url,
-    type: poojaMetadata.openGraph.type,
-  },
-};
+// export const metadata = {
+//   title: poojaMetadata.title,
+//   description: poojaMetadata.description,
+//   keywords: poojaMetadata.keywords.join(", "),
+//   openGraph: {
+//     title: poojaMetadata.openGraph.title,
+//     description: poojaMetadata.openGraph.description,
+//     url: poojaMetadata.openGraph.url,
+//     type: poojaMetadata.openGraph.type,
+//   },
+// };
 
 const PoojaPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
