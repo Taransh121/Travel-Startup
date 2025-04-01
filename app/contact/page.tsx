@@ -6,21 +6,11 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { contactMetadata } from "./metadata";
 import Head from "next/head";
+
 const Footer = dynamic(() => import("@/components/Home/Footer/Footer"), {
   ssr: false,
 });
 
-// export const metadata = {
-//   title: contactMetadata.title,
-//   description: contactMetadata.description,
-//   keywords: contactMetadata.keywords.join(", "),
-//   openGraph: {
-//     title: contactMetadata.openGraph.title,
-//     description: contactMetadata.openGraph.description,
-//     url: contactMetadata.openGraph.url,
-//     type: contactMetadata.openGraph.type,
-//   },
-// };
 
 const ContactPage = () => {
   const router = useRouter();
@@ -36,17 +26,17 @@ const ContactPage = () => {
   return (
     <>
     <Head>
-         <title>{contactMetadata.title}</title>
-         <meta name="description" content={contactMetadata.description} />
-         <meta name="keywords" content={contactMetadata.keywords.join(", ")} />
-         <meta property="og:title" content={contactMetadata.openGraph.title} />
-         <meta
-           property="og:description"
-           content={contactMetadata.openGraph.description}
-         />
-         <meta property="og:url" content={contactMetadata.openGraph.url} />
-         <meta property="og:type" content={contactMetadata.openGraph.type} />
-       </Head>
+        <title>{contactMetadata.title}</title>
+        <meta name="description" content={contactMetadata.description} />
+        <meta name="keywords" content={contactMetadata.keywords.join(", ")} />
+        <meta property="og:title" content={contactMetadata.openGraph.title} />
+        <meta
+          property="og:description"
+          content={contactMetadata.openGraph.description}
+        />
+        <meta property="og:url" content={contactMetadata.openGraph.url} />
+        <meta property="og:type" content={contactMetadata.openGraph.type} />
+      </Head>
       <div className="min-h-screen">
         {/* Hero Section */}
         <div
