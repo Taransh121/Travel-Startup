@@ -7,10 +7,20 @@ import LiveDarshanCard from "@/components/Home/LiveDarshan/LiveDarshanCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import Head from "next/head";
 import { Pagination, Autoplay } from "swiper/modules"; 
 import { livedarshanMetadata } from "./metadata";
 
+export const metadata = {
+  title: livedarshanMetadata.title,
+  description: livedarshanMetadata.description,
+  keywords: livedarshanMetadata.keywords.join(", "),
+  openGraph: {
+    title: livedarshanMetadata.openGraph.title,
+    description: livedarshanMetadata.openGraph.description,
+    url: livedarshanMetadata.openGraph.url,
+    type: livedarshanMetadata.openGraph.type,
+  },
+};
 const LiveDarshanPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [isMounted, setIsMounted] = useState(false);
@@ -27,24 +37,6 @@ const LiveDarshanPage = () => {
 
   return (
     <>
-      <Head>
-        <title>{livedarshanMetadata.title}</title>
-        <meta name="description" content={livedarshanMetadata.description} />
-        <meta
-          name="keywords"
-          content={livedarshanMetadata.keywords.join(", ")}
-        />
-        <meta
-          property="og:title"
-          content={livedarshanMetadata.openGraph.title}
-        />
-        <meta
-          property="og:description"
-          content={livedarshanMetadata.openGraph.description}
-        />
-        <meta property="og:url" content={livedarshanMetadata.openGraph.url} />
-        <meta property="og:type" content={livedarshanMetadata.openGraph.type} />
-      </Head>
       <div className="min-h-screen bg-[#fef9f5]">
         {/* Page Header */}
         <div className="text-center py-8 pt-[60px]">

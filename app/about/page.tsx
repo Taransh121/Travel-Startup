@@ -2,27 +2,25 @@
 
 import { aboutMetadata } from "./metadata";
 import { useRouter } from "next/navigation";
-import Head from "next/head";
 import Footer from "@/components/Home/Footer/Footer";
+
+export const metadata = {
+  title: aboutMetadata.title,
+  description: aboutMetadata.description,
+  keywords: aboutMetadata.keywords.join(", "),
+  openGraph: {
+    title: aboutMetadata.openGraph.title,
+    description: aboutMetadata.openGraph.description,
+    url: aboutMetadata.openGraph.url,
+    type: aboutMetadata.openGraph.type,
+  },
+};
 
 const About = () => {
   const router = useRouter();
 
   return (
     <>
-      <Head>
-        <title>{aboutMetadata.title}</title>
-        <meta name="description" content={aboutMetadata.description} />
-        <meta name="keywords" content={aboutMetadata.keywords.join(", ")} />
-        <meta property="og:title" content={aboutMetadata.openGraph.title} />
-        <meta
-          property="og:description"
-          content={aboutMetadata.openGraph.description}
-        />
-        <meta property="og:url" content={aboutMetadata.openGraph.url} />
-        <meta property="og:type" content={aboutMetadata.openGraph.type} />
-      </Head>
-
       {/* ✅ Hero Section */}
       <section className="relative bg-gradient-to-r from-[#034a5e] to-[#004e67] text-white text-center py-20 px-4">
         <div className="absolute inset-0 bg-black opacity-40"></div>
