@@ -13,17 +13,17 @@ import { Navigation } from "swiper/modules";
 
 const TourCard = dynamic(() => import("@/components/Home/Tours/TourCard"));
 
-export const metadata = {
-  title: toursMetadata.title,
-  description: toursMetadata.description,
-  keywords: toursMetadata.keywords.join(", "),
-  openGraph: {
-    title: toursMetadata.openGraph.title,
-    description: toursMetadata.openGraph.description,
-    url: toursMetadata.openGraph.url,
-    type: toursMetadata.openGraph.type,
-  },
-};
+// export const metadata = {
+//   title: toursMetadata.title,
+//   description: toursMetadata.description,
+//   keywords: toursMetadata.keywords.join(", "),
+//   openGraph: {
+//     title: toursMetadata.openGraph.title,
+//     description: toursMetadata.openGraph.description,
+//     url: toursMetadata.openGraph.url,
+//     type: toursMetadata.openGraph.type,
+//   },
+// };
 
 const AllTours = () => {
   const [isMounted, setIsMounted] = useState(false);
