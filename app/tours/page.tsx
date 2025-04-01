@@ -10,20 +10,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
+import Head from "next/head";
 
 const TourCard = dynamic(() => import("@/components/Home/Tours/TourCard"));
-
-// export const metadata = {
-//   title: toursMetadata.title,
-//   description: toursMetadata.description,
-//   keywords: toursMetadata.keywords.join(", "),
-//   openGraph: {
-//     title: toursMetadata.openGraph.title,
-//     description: toursMetadata.openGraph.description,
-//     url: toursMetadata.openGraph.url,
-//     type: toursMetadata.openGraph.type,
-//   },
-// };
 
 const AllTours = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -70,6 +59,19 @@ const AllTours = () => {
 
   return (
     <>
+    <Head>
+        <title>{toursMetadata.title}</title>
+        <meta name="description" content={toursMetadata.description} />
+        <meta name="keywords" content={toursMetadata.keywords.join(", ")} />
+        <meta property="og:title" content={toursMetadata.openGraph.title} />
+        <meta
+          property="og:description"
+          content={toursMetadata.openGraph.description}
+        />
+        <meta property="og:url" content={toursMetadata.openGraph.url} />
+        <meta property="og:type" content={toursMetadata.openGraph.type} />
+      </Head>
+
       <div className="min-h-screen bg-gray-50">
         {/* Page Header */}
         <div className="text-center py-8 pt-[60px]">
